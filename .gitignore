@@ -13,5 +13,5 @@ pubspec.lock
 doc/api/
 
 # Created by Editor
-.idea
-.vscode
+.idea/
+.vscode/
