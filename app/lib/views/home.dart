@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:app/strings/home_strings.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -12,11 +11,11 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(HomeString.title),
+        title: Text("Tuyen sinh CTU"),
       ),
       body: Center(
         child: Center(
-          child: Text(HomeString.message),
+          child: Text("hi"),
         ),
       ),
     );

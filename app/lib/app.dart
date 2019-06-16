@@ -1,15 +1,24 @@
 import 'package:flutter/material.dart';
-import './víews/home.dart';
+import './views/home.dart';
+import './views/welcome.dart';
+import 'theme.dart';
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatelessWidget { 
+
+  List<String> groups;
+  List<String> subjects;
+  List<String> jobs;
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: MyHomePage(),
+      title: 'Tuyển Sinh CTU',
+      theme: appTheme,
+      routes: {
+        '/': (context) => MyHomePage(),
+        '/welcome': (context) => Welcome()
+      },
+      initialRoute: '/welcome',
     );
   }
 }
