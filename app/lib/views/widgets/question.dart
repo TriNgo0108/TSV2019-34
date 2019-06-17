@@ -17,10 +17,22 @@ class Question extends StatefulWidget {
 }
 
 class _QuestionState extends State<Question> {
+  List<bool> selected = List();
+  Color primaryColor;
+
+  @override
+  void initState() {
+    super.initState();
+    selected.length = widget.answers.length;
+    selected.fillRange(0, widget.answers.length, false);
+    primaryColor = Color.fromRGBO(Random().nextInt(128), Random().nextInt(128),
+        Random().nextInt(128), 0.9);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Color.fromRGBO(Random().nextInt(128), Random().nextInt(128), Random().nextInt(128), 0.9),
+      color: primaryColor,
       child: SafeArea(
         child: Column(
           children: <Widget>[
@@ -34,20 +46,45 @@ class _QuestionState extends State<Question> {
             Container(
               height: 280.0,
               margin: EdgeInsets.all(18.0),
+              padding: EdgeInsets.fromLTRB(24.0, 0, 24.0, 0),
               child: ListView.builder(
                 itemCount: widget.answers.length,
                 itemBuilder: (context, index) => FlatButton(
-                      color: Colors.greenAccent,
+                      color: Colors.white70,
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(50.0)),
-                      child: Text(widget.answers[index]),
-                      onPressed: () => print("selected"),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: <Widget>[
+                          selected[index]
+                              ? Icon(
+                                  Icons.check_box,
+                                  color: primaryColor,
+                                )
+                              : Icon(
+                                  Icons.check_box_outline_blank,
+                                  color: primaryColor,
+                                ),
+                          SizedBox(
+                            width: 20.0,
+                          ),
+                          Text(
+                            widget.answers[index],
+                            style: TextStyle(color: primaryColor),
+                          ),
+                        ],
+                      ),
+                      onPressed: () => {
+                            setState(() => {selected[index] = !selected[index]})
+                          },
                     ),
               ),
             ),
             RaisedButton(
-              child: Text('OK'),
-              onPressed: widget.onComplete ?? () => {},
+              shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(50.0)),
+              child: Text('OK', style: TextStyle(color: primaryColor)),
+              onPressed: () => {widget.onComplete(selected)},
             )
           ],
         ),
