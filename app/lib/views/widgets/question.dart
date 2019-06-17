@@ -25,8 +25,7 @@ class _QuestionState extends State<Question> {
     super.initState();
     selected.length = widget.answers.length;
     selected.fillRange(0, widget.answers.length, false);
-    primaryColor = Color.fromRGBO(Random().nextInt(128), Random().nextInt(128),
-        Random().nextInt(128), 0.9);
+    primaryColor = Color.fromRGBO(Random().nextInt(128), Random().nextInt(128),Random().nextInt(128), 0.9);
   }
 
   @override
