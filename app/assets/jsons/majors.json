@@ -1,0 +1,47 @@
+[
+    {
+        "majorCode": "7480201",
+        "majorName": "Công nghệ thông tin",
+        "videoURL": "http://youtube.com/",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
+        "collegeImage": "cntt.png",
+        "combinations": ["A00", "A01"],
+        "quantity": 250,
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 18.25
+            },
+            {
+                "year": 2017,
+                "points": 20.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Công nghệ thông tin",
+                "objectives": [
+                    "Cung cấp cho sinh viên kỹ năng và kiến thức để đảm nhận vị trí nghề nghiệp trong lĩnh vực CNTT, thăng tiến đến vị trí lãnh đạo, khả hành nghiên cứu  hoặc tiếp tục học cao hơn trong lĩnh vực này. Các mục tiêu cụ thể bao gồm:",
+                    "Đào tạo kỹ sư CNTT có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc;",
+                    "Trang bị cho người học kiến thức chuyên sâu và các giải pháp về sản phẩm CNTT đương đại;",
+                    "Trang bị các kiến thức nền tảng cơ bản về cơ sở lý thuyết, toán và khoa học được sử dụng trong lĩnh vực CNTT cho sinh viên;",
+                    "Tạo khả năng giải thích và vận dụng kiến thức nền tảng, các giải pháp và sản phẩm CNTT thích hợp đáp ứng nhu cầu của một tổ chức hay cá nhân;",
+                    "Có khả năng giao tiếp cơ bản bằng tiếng Anh hoặc tiếng Pháp, và đọc hiểu các tài liệu bằng tiếng Anh hoặc tiếng Pháp."
+                ],
+                "jobs": [
+                    "Nhà tư vấn, giám sát, nhà lãnh đạo lĩnh vực công nghệ thông tin cho các tổ chức, doanh nghiệp hay cá nhân.",
+                    "Lập trình viên, kỹ thuật viên, quản trị viên hệ thống công nghệ thông tin cho các tổ chức, doanh nghiệp hay cá nhân.",
+                    "Cán bộ nghiên cứu, phân tích trong lĩnh vực công nghệ thông tin tại các viện nghiên cứu hay các trường đại học.",
+                    "Giảng viên giảng dạy ở các trường đại học, cao đẳng, trung học chuyên nghiệp, trung học phổ thông."
+                ],
+                "developAbilities": [
+                    "Hình thành kỹ năng tự học, thói quen học tập suốt đời, có khả năng cập nhật kiến thức và sự thay đổi của công nghệ thông tin.",
+                    "Khả năng tiếp tục học tập nâng cao trình độ ở các trường đào tạo trong và ngoài nước trong lĩnh vực CNTT."
+                ],
+                "standardOutput": "http://link chuan dau ra"
+            }
+        ]
+    }
+]
