@@ -9,8 +9,8 @@ class Welcome extends StatefulWidget {
 
 class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
   TabController _tabController;
-  bool _isDone = false;
   bool _isFirstPage = true;
+  bool _isLastPage = false;
 
   List<dynamic> _questions = [
     {
@@ -22,29 +22,26 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
         "A1 (Toán, Lý, AV)",
         "A1 (Toán, Lý, AV)",
         "A1 (Toán, Lý, AV)"
-      ],
-      "color": Colors.indigo
+      ]
     },
     {
       "question": "Chọn 2 môn mà bạn giỏi nhất?",
-      "answers": ["Toán", "Lý", "Hóa", "Văn", "Anh Văn"],
-      "color": Colors.purple
+      "answers": ["Toán", "Lý", "Hóa", "Văn", "Anh Văn"]
     },
     {
       "question": "Bạn thích nhóm ngành nào?",
       "answers": [
-        "Sản xuất và chế biến",
-        "Kiến trúc và xây dựng",
-        "Kinh doanh",
+        "Nông - lâm - ngư nghiệp",
+        "Sư phạm",
         "Công nghệ thông tin",
+        "Khoa học tự nhiên",
+        "Kinh doanh",
         "Luật - nhân văn",
+        "Sản xuất và chế biến",
         "Nghệ thuật - thẩm mỹ",
         "Báo chí - khoa học xã hội",
-        "Khoa học tự nhiên",
-        "Sư phạm",
-        "Nông - lâm - ngư nghiệp"
-      ],
-      "color": Colors.green
+        "Kiến trúc và xây dựng"
+      ]
     }
   ];
 
@@ -52,8 +49,8 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
   void initState() {
     super.initState();
     _tabController = TabController(vsync: this, length: _questions.length);
-    _isDone = false;
     _isFirstPage = true;
+    _isLastPage = false;
   }
 
   @override
@@ -68,18 +65,18 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
     _tabController.animateTo(newIndex);
     if (_tabController.index == _tabController.length - 1)
       setState(() {
-        _isDone = true;
         _isFirstPage = false;
+        _isLastPage = true;
       });
     else if (_tabController.index == 0)
       setState(() {
-        _isDone = false;
         _isFirstPage = true;
+        _isLastPage = false;
       });
     else
       setState(() {
-        _isDone = false;
         _isFirstPage = false;
+        _isLastPage = false;
       });
   }
 
@@ -95,7 +92,13 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
               (index) => Question(
                     question: _questions[index]["question"],
                     answers: _questions[index]["answers"],
-                    onComplete: () => print('Complete'),
+                    onComplete: (selected) {
+                      print(selected);
+                      if (_isLastPage) 
+                        Navigator.pop(context);
+                      else
+                        _nextPage(1);
+                    },
                   ),
             )),
         SafeArea(
@@ -152,7 +155,7 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
                       fontSize: 12.0,
                       fontWeight: FontWeight.w400,
                       fontStyle: FontStyle.italic)),
-              onPressed: () => _nextPage(1),
+              onPressed: () => _isLastPage ? Navigator.pop(context) : _nextPage(1),
             ),
           ),
         )

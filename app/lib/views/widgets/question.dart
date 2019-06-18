@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 
 class Question extends StatefulWidget {
@@ -47,37 +46,37 @@ class _QuestionState extends State<Question> {
               margin: EdgeInsets.all(18.0),
               padding: EdgeInsets.fromLTRB(24.0, 0, 24.0, 0),
               child: ListView.builder(
-                itemCount: widget.answers.length,
-                itemBuilder: (context, index) => FlatButton(
-                      color: Colors.white70,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(50.0)),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: <Widget>[
-                          selected[index]
-                              ? Icon(
-                                  Icons.check_box,
-                                  color: primaryColor,
-                                )
-                              : Icon(
-                                  Icons.check_box_outline_blank,
-                                  color: primaryColor,
-                                ),
-                          SizedBox(
-                            width: 20.0,
-                          ),
-                          Text(
-                            widget.answers[index],
-                            style: TextStyle(color: primaryColor),
-                          ),
-                        ],
+                  itemCount: widget.answers.length,
+                  itemBuilder: (context, index) => FlatButton(
+                        color: Colors.white70,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(50.0)),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: <Widget>[
+                            selected[index]
+                ? Icon(
+                    Icons.check_box,
+                    color: primaryColor,
+                  )
+                : Icon(
+                    Icons.check_box_outline_blank,
+                    color: primaryColor,
+                  ),
+                            SizedBox(
+              width: 20.0,
+                            ),
+                            Text(
+              widget.answers[index],
+              style: TextStyle(color: primaryColor),
+                            ),
+                          ],
+                        ),
+                        onPressed: () => {
+              setState(() => {selected[index] = !selected[index]})
+                            },
                       ),
-                      onPressed: () => {
-                            setState(() => {selected[index] = !selected[index]})
-                          },
-                    ),
-              ),
+                ),
             ),
             RaisedButton(
               shape: RoundedRectangleBorder(
