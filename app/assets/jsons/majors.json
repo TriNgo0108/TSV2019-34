@@ -8,6 +8,8 @@
         "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
         "collegeImage": "cntt.png",
         "combinations": ["A00", "A01"],
+        "mainSubjects": ["Toán", "Anh Văn"],
+        "majorGroup": "Công nghệ thông tin",
         "quantity": 250,
         "seasons": [
             {

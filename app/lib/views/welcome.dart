@@ -31,11 +31,18 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
       "color": Colors.purple
     },
     {
-      "question": "Bạn thích làm công việc gì?",
+      "question": "Bạn thích nhóm ngành nào?",
       "answers": [
-        "Làm việc văn phòng",
-        "Giao tiếp với mọi người",
-        "Được đi nhiều nơi"
+        "Sản xuất và chế biến",
+        "Kiến trúc và xây dựng",
+        "Kinh doanh",
+        "Công nghệ thông tin",
+        "Luật - nhân văn",
+        "Nghệ thuật - thẩm mỹ",
+        "Báo chí - khoa học xã hội",
+        "Khoa học tự nhiên",
+        "Sư phạm",
+        "Nông - lâm - ngư nghiệp"
       ],
       "color": Colors.green
     }
