@@ -7,10 +7,15 @@
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
         "collegeImage": "cntt.png",
-        "combinations": ["A00", "A01"],
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01"],
+                "quantity": 250
+            }   
+        ],
         "mainSubjects": ["Toán", "Anh Văn"],
         "majorGroup": "Công nghệ thông tin",
-        "quantity": 250,
         "seasons": [
             {
                 "year": 2018,
