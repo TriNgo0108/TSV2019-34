@@ -50,5 +50,57 @@
                 "standardOutput": "http://link chuan dau ra"
             }
         ]
+    },
+    {
+        "majorCode": "7520201",
+        "majorName": "Kỹ thuật điện",
+        "videoURL": "http://youtube.com/",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ",
+        "collegeImage": "kcn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01","D07"],
+                "quantity": 140
+            }   
+        ],
+        "mainSubjects": ["Toán", "Lý"],
+        "majorGroup": "Kỹ thuật",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 16.50
+            },
+            {
+                "year": 2017,
+                "points": 20.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật điện",
+                "objectives": [
+                    "Cung cấp cho sinh viên các kiến thức căn bản chuyên ngành trong lĩnh vực Kỹ thuật điện, điện tử cần thiết cho nghề nghiệp hoặc phục vụ cho việc học ở bậc cao hơn. Kiến thức được xây dựng trên các nguyên lý khoa học, lập luận phân tích chặt chẽ và  kích thích khả năng sáng tạo của sinh viên.",
+                    "Cung cấp cho sinh viên các kiến thức nền tảng rộng nhằm phát huy tính sáng tạo trong hoạt động nghề nghiệp, khả năng tự học và tự nghiên cứu của sinh viên. Cung cấp các kỹ năng cơ bản cần thiết để thiết kế và thực hiện các đề án thực tế của ngành Kỹ thuật điện.",
+                    "Phát triển các kỹ năng giúp cho sinh viên có khả năng giao tiếp, tinh thần làm việc tập thể, rèn luyện thái độ chuyên nghiệp và đạo đức nghề nghiệp, chuẩn bị khả năng làm việc trong môi trường hiện đại, phức tạp và học tập suốt đời.",
+                    "Rèn luyện kỹ năng về tiếng Anh trong học tập, nghiên cứu và giao tiếp."
+                ],
+                "jobs": [
+                    "Các cơ quan quản lý nhà nước về ngành điện: Sở Công Thương, Sở Khoa học Công nghệ,....",
+                    "Các trường đại học, Cao đẳng, Viện nghiên cứu, Cơ sở đào tạo kỹ thuật,....",
+                    "Các nhà máy điện, Công ty điện lực, Công ty xây lắp điện, Công ty truyền tải cao áp, Trạm biến áp, Ban quản lý dự án nhà máy điện, Ban quản lý các khu công nghiệp,….",
+                    "Các nhà máy sản xuất, Dây chuyền sản xuất, Công ty liên quan đến công nghệ tự động hoá trong các Khu, Cụm Công Nghiệp,....",
+					"Các công ty tư vấn, thiết kế, thi công các công trình điện, Công ty thương mại, dịch vụ về lĩnh vực điện,..."
+                ],
+                "developAbilities": [
+                    "Hình thành thói quen học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu, tự học và nghiên cứu suốt đời..",
+                    "Học bằng hai các lĩnh vực điện tử; kỹ thuật điều khiển và tự động hóa.",
+					"Đáp ứng được với yêu cầu học tập ở các trình độ sau đại học trong lĩnh vực kỹ thuật điện, điện tử; kỹ thuật điều khiển và tự động hóa."
+                ],
+                "standardOutput": "http://link chuan dau ra"
+            }
+        ]
     }
 ]

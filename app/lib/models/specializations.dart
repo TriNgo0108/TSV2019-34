@@ -23,6 +23,6 @@ class Specializations {
       jobs: jobsList,
       developAbilities: developAbilitiesList,
       standardOutput: json["standardOutput"]
-    )
+    );
   }
 }

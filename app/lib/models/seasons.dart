@@ -1,8 +1,7 @@
-import 'dart:ffi';
 
 class Seasons {
   final int year;
-  final Float points;
+  final double points;
 
   Seasons({this.year, this.points});
 

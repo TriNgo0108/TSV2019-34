@@ -4,7 +4,12 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 import './../models/majors.dart';
 
-class TestPage extends StatefulWidget {
+class Test extends StatefulWidget {
+  @override
+  _TestState createState() => _TestState();
+}
+
+class _TestState extends State<Test> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -17,17 +22,30 @@ class TestPage extends StatefulWidget {
               return ListView.builder(
                 itemCount: snapshot.data.length,
                 itemBuilder: (context, index){
-                  return ListTitle(
-                    title: Text(snapshot.data[index].name),
+                  return ListTile(
+                    title: Text(snapshot.data[index].majorName),
                     subtitle: Column(
                       children: <Widget>[
-                        Text("college: ${snapshot.data[index].majorCode}"),
-                        Text("${snapshot.data[index].videoURL}"),
-                        Text("${snapshot.data[index].intendTime}"),
-                        Text("${snapshot.data[index].title}"),
-                        Text("${snapshot.data[index].collegeName}"),
-                        Text("${snapshot.data[index].collegeImage}"),
-                        Text("${snapshot.data[index].majorGroup}"),
+                        Text("Ma nganh: ${snapshot.data[index].majorCode}"),
+                        Text("Video: ${snapshot.data[index].videoURL}"),
+                        Text("Thoi gian dao tao: ${snapshot.data[index].intendTime}"),
+                        Text("Danh hieu: ${snapshot.data[index].title}"),
+                        Text("Khoa: ${snapshot.data[index].collegeName}"),
+                        Text("Anh minh hoa: ${snapshot.data[index].collegeImage}"),
+                        Text("Nhom nganh: ${snapshot.data[index].majorGroup}"),
+                        Text("Phuong thuc tuyen sinh: ${snapshot.data[index].inputRequest[0].testMethod}"),
+                        ListView.builder(
+                          itemCount: snapshot.data[index].inputRequest[0].combinations.length,
+                          itemBuilder: (context, index){
+                            return ListTile(
+                              subtitle: Column(
+                                children: <Widget>[
+                                  Text("${snapshot.data[index].inputRequest[0]..combinations[index]}")
+                                ],
+                              ),
+                            );
+                          },
+                        )
                       ],
                     ),
                   );
@@ -41,7 +59,7 @@ class TestPage extends StatefulWidget {
   }
 
   Future<String> _loadMajorAsset() async {
-    return await rootBundle.loadString('assets/majors.json');
+    return await rootBundle.loadString('assets/jsons/majors.json');
   }
 
   Future loadMajors() async {

@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => MyHomePage(),
         '/welcome': (context) => Welcome(),
-        '/test': (context) => TestPage()
+        '/test': (context) => Test()
       },
-      initialRoute: '/welcome',
+      initialRoute: '/test',
     );
   }
 }
