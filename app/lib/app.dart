@@ -5,8 +5,12 @@ import './views/welcome.dart';
 import './views/test.dart';
 import 'theme.dart';
 
-class MyApp extends StatelessWidget { 
+class MyApp extends StatefulWidget { 
+  @override
+  _MyAppState createState() => _MyAppState();
+}
 
+class _MyAppState extends State<MyApp> {
   List<String> groups;
   List<String> subjects;
   List<String> jobs;
@@ -21,7 +25,7 @@ class MyApp extends StatelessWidget {
         '/welcome': (context) => Welcome(),
         '/test': (context) => Test()
       },
-      initialRoute: '/welcome',
+      //initialRoute: '/welcome',
     );
   }
 }
