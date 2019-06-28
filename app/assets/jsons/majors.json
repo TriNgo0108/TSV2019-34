@@ -1,8 +1,762 @@
 [
+    {   
+        "number": 1,
+        "majorCode": "7140202",
+        "majorName": "Giáo dục Tiểu học",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Sư Phạm",
+        "collegeImage": "ksp.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "D01", "C01", "D03"],
+                "quantity": 50
+            }   
+        ],
+        "mainSubjects": ["Văn", "Toán"],
+        "majorGroup": "Sư phạm",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 19.75
+
+
+            },
+            {
+                "year": 2017,
+                "points": 22.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Giáo dục Tiểu học",
+                "videoURL": "https://www.youtube.com/watch?v=foz7NjerUes",
+                "objectives": [
+                    "Chương trình đào tạo ngành Giáo dục tiểu học đào tạo giáo viên tiểu học có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái, khoan dung, tận tụy vì sự nghiệp giáo dục; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
+                    "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
+                ],
+                "jobs": [
+                    "Có thể làm công tác giảng dạy tại các trường tiểu học, các trường cao đẳng sư phạm, Khoa Sư phạm và đại học sư phạm có đào tạo ngành Giáo dục Tiểu học.",
+                    "Có thể làm công tác nghiên cứu tại các trung tâm, viện nghiên cứu.",
+                    "Có thể làm công tác chuyên viên và quản lý ở các trường học, các phòng giáo dục, các cơ sở giáo dục."
+                ],
+                "developAbilities": [
+                   "Có năng lực học tập suốt đời; có đủ kiến thức để học lên bậc thạc sĩ ngành lý luận và phương pháp dạy học Tiểu học, ngành giáo dục Tiểu học, quản lý giáo dục ở trong và ngoài nước và các ngành có liên quan đến chuyên ngành được đào tạo.",
+                   "Có thể thực hiện được các đề tài nghiên cứu khoa học cấp sơ sở hoặc tham gia đề tài nghiên cứu khoa học ở các cấp khác nhau trong lĩnh vực giảng dạy và giáo dục Tiểu học."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/597-giao-duc-tieu-hoc.html"
+            }
+        ]
+    },      
+    {   
+        "number": 2,
+        "majorCode": "7140204",
+        "majorName": "Giáo dục Công dân",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa khoa học Chính trị",
+        "collegeImage": "kkhct.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["C00", "D14", "D15", "D19"],
+                "quantity": 40
+            }   
+        ],
+        "mainSubjects": ["Văn", "Giáo dục công dân"],
+        "majorGroup": "Sư phạm",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 21.50
+
+
+            },
+            {
+                "year": 2017,
+                "points": 22.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Giáo dục Công dân",
+                "videoURL": "https://www.youtube.com/watch?v=MOP_vmN9N4A",
+                "objectives": [
+                    "Chương trình đào tạo ngành Giáo dục công dân đào tạo cử nhân ngành Giáo dục công dân có phẩm chất chính trị và đạo đức nghề nghiệp; có tinh thần yêu nước, yêu chủ nghĩa xã hội; sống và làm việc theo pháp luật; có kỹ năng sư phạm đáp ứng yêu cầu đổi mới giáo dục phổ thông hiện nay; trang bị cho người học một hệ thống kiến thức giáo dục đại cương, kiến thức cơ sở ngành, kiến thức chuyên sâu chuyên ngành Giáo dục công dân.",
+                    "Cử nhân Giáo dục công dân ngoài giảng dạy có thể làm việc ở các tổ chức xã hội – chính trị, các cơ quan nghiên cứu."
+                ],
+                "jobs": [
+                    "Cử nhân Giáo dục công dân có khả năng giảng dạy ở các trường phổ thông, trường trung cấp, trường cao đẳng, đại học, trường chính trị và làm việc ở các tổ chức xã hội - chính trị, các cơ quan nghiên cứu."
+                ],
+                "developAbilities": [
+                   "Có khả năng học tập, nghiên cứu ở trình độ cao hơn trong lĩnh vực khoa học giáo dục và khoa học chính trị."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/598-giao-duc-cong-dan.html"
+            }
+        ]
+    },
+    {   
+        "number": 3,
+        "majorCode": "7140206",
+        "majorName": "Giáo dục thể chất",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Bộ môn Giáo dục thể chất",
+        "collegeImage": "gdtc.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["T00", "T01"],
+                "quantity": 40
+            }   
+        ],
+        "mainSubjects": ["Năng khiếu TDTT"],
+        "majorGroup": "Sư phạm",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 17.75
+
+
+            },
+            {
+                "year": 2017,
+                "points": 17.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Giáo dục Thể chất",
+                "videoURL": "https://www.youtube.com/watch?v=48H_iYdn8nM",
+                "objectives": [
+                    "Đào tạo giáo viên Giáo dục thể chất có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khỏe, góp phần vào sự nghiệp giáo dục và đào tạo, phát triển toàn diện con người, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                    "Đào tạo giáo viên Giáo dục thể chất có kiến thức và năng lực thực hành nghề nghiệp tương ứng với trình độ đào tạo.",
+                    "Đào tạo giáo viên Giáo dục thể chất có đủ kiến thức và khả năng tiếp tục theo học các chương trình đào tạo sau đại học và phát triển nghiên cứu khoa học.",
+                    "Sinh viên tốt nghiệp ngành Giáo dục thể chất có đủ năng lực để làm công tác giảng dạy môn học Giáo dục thể chất ở các bậc học thuộc hệ thống Giáo dục quốc dân; tham gia làm việc trong các cơ quan quản lý nhà nước hoặc cơ quan quản lý xã hội về TDTT; tổ chức hướng dẫn hoạt động thể dục thể thao cho mọi người tại các đơn vị TDTT cơ sở, các câu lạc bộ TDTT."
+                ],
+                "jobs": [
+                    "Sau khi tốt nghiệp sinh viên có khả năng làm công tác giảng dạy môn học Giáo dục thể chất ở các bậc học thuộc hệ thống Giáo dục quốc dân; tham gia làm việc trong các cơ quan quản lý nhà nước hoặc cơ quan quản lý xã hội về TDTT; hoặc tổ chức hướng dẫn hoạt động thể dục thể thao cho mọi người tại các đơn vị TDTT cơ sở, các câu lạc bộ TDTT…"
+                ],
+                "developAbilities": [
+                  "Sinh viên sau khi tốt nghiệp có thể tiếp tục học sau đại học (thạc sĩ, tiến sĩ) thuộc đúng chuyên ngành hoặc học chuyển đổi một số học phần để học chuyên ngành khác thuộc khối ngành thể dục thể thao tại các trường."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/599-giao-duc-the-chat.html"
+            }
+        ]
+    },
+    {   
+        "number": 4,
+        "majorCode": "7140209",
+        "majorName": "Sư phạm Toán học",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Sư Phạm",
+        "collegeImage": "ksp.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01", "D07", "D08"],
+                "quantity": 40
+            }   
+        ],
+        "mainSubjects": ["Toán"],
+        "majorGroup": "Sư phạm",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 20.75
+
+
+            },
+            {
+                "year": 2017,
+                "points": 23.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Sư phạm Toán học",
+                "videoURL": "https://youtu.be/sEcMHnOTdaM",
+                "objectives": [
+                   "Chương trình đào tạo ngành Sư phạm Toán học đào tạo sinh viên trở thành giáo viên Toán học có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam,  người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
+                   "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
+                ],
+                "jobs": [
+                    "Có thể làm công tác giảng dạy tại các trường tiểu học, các trường trung học, các trường trung học chuyên nghiệp và dạy nghề, các trường cao đẳng và đại học.",
+                    "Có thể làm công tác nghiên cứu tại các trung tâm, viện nghiên cứu.",
+                    "Có thể làm công tác chuyên viên và quản lý ở các trường học, các phòng giáo dục, các cơ sở giáo dục và các cơ sở sản xuất, kinh doanh."
+                ],
+                "developAbilities": [
+                  "Có năng lực học tập suốt đời; có đủ kiến thức để học lên bậc thạc sĩ ngành lý luận và phương pháp dạy học Toán học, ngành giáo dục, quản lý giáo dục ở trong và ngoài nước và các ngành có liên quan đến chuyên ngành được đào tạo.",
+                  "Có thể thực hiện được các đề tài nghiên cứu khoa học cấp sơ sở hoặc tham gia đề tài nghiên cứu khoa học ở các cấp khác nhau trong lĩnh vực giảng dạy và giáo dục."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/600-su-pham-toan-hoc.html"
+            }
+        ]
+    },
+    {   
+        "number": 5,
+        "majorCode": "7140210",
+        "majorName": "Sư phạm Tin học",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Sư Phạm",
+        "collegeImage": "ksp.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01", "D07", "D01"],
+                "quantity": 40
+            }   
+        ],
+        "mainSubjects": ["Toán", "Tiếng Anh"],
+        "majorGroup": "Sư phạm",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 17.25
+
+
+            },
+            {
+                "year": 2017,
+                "points": 16.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Sư phạm Tin học",
+                "videoURL": "https://www.youtube.com/watch?v=PkemmBPQR5M",
+                "objectives": [
+                   "Chương trình đào tạo ngành Sư phạm Tin học đào tạo sinh viên trở thành giáo viên Tin học có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
+                   "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
+                ],
+                "jobs": [
+                   "Có thể làm công tác giảng dạy tại các trường tiểu học, các trường trung học, các trường trung học chuyên nghiệp và dạy nghề, các trường cao đẳng và đại học.",
+                   "Có thể làm công tác nghiên cứu tại các trung tâm, viện nghiên cứu.",
+                   "Có thể làm công tác chuyên viên và quản lý  ở các trường học, các phòng giáo dục, các cơ sở giáo dục và các cơ sở sản xuất, kinh doanh."
+                ],
+                "developAbilities": [
+                  "Có năng lực học tập suốt đời; có đủ kiến thức để học lên bậc thạc sĩ ngành lý luận và phương pháp dạy học, ngành giáo dục, quản lý giáo dục ở trong và ngoài nước và các ngành có liên quan đến chuyên ngành được đào tạo.",
+                  "Học bổ sung kiến thức công nghệ thông tin để tham gia học ở bậc cao hơn trong lĩnh vực công nghệ thông tin.",
+                  "Có thể thực hiện được các đề tài nghiên cứu khoa học cấp sơ sở hoặc tham gia đề tài nghiên cứu khoa học ở các cấp khác nhau trong lĩnh vực giảng dạy và giáo dục."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/786-su-pham-tin-hoc.html"
+            }
+        ]
+    },
+    {   
+        "number": 6,
+        "majorCode": "7140211",
+        "majorName": "Sư phạm Vật lý",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Sư Phạm",
+        "collegeImage": "ksp.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01", "A02", "D29"],
+                "quantity": 40
+            }   
+        ],
+        "mainSubjects": ["Lý"],
+        "majorGroup": "Sư phạm",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 18.75
+
+
+            },
+            {
+                "year": 2017,
+                "points": 21.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Sư phạm Vật lý",
+                "videoURL": "https://www.youtube.com/watch?v=w5cCBD3yvUQ",
+                "objectives": [
+                  "Chương trình đào tạo ngành Sư phạm Vật lý đào tạo sinh viên trở thành giáo viên Vật lý THPT có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
+                  "Sinh viên tốt nghiệp có thể làm công tác giảng dạy Vật lý, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
+                ],
+                "jobs": [
+                    "Có thể làm công tác giảng dạy Vật lý tại các trường trung học, các trường trung học chuyên nghiệp và dạy nghề, các trường cao đẳng và đại học.",
+                    "Có thể làm công tác nghiên cứu tại các trung tâm, viện nghiên cứu.",
+                    "Có thể làm công tác chuyên viên và quản lý ở các trường học, các phòng giáo dục, các cơ sở giáo dục và các cơ sở sản xuất, kinh doanh."
+                ],
+                "developAbilities": [
+                  "Có năng lực học tập suốt đời; có đủ kiến thức để học lên bậc thạc sĩ ngành lý luận và phương pháp dạy học, ngành giáo dục, quản lý giáo dục ở trong và ngoài nước và các ngành có liên quan đến chuyên ngành được đào tạo.",
+                  "Có thể thực hiện được các đề tài nghiên cứu khoa học cấp sơ sở hoặc tham gia đề tài nghiên cứu khoa học ở các cấp khác nhau trong lĩnh vực giảng dạy và giáo dục."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/601-su-pham-vat-ly.html"
+            }
+        ]
+    },
+    {   
+        "number": 7,
+        "majorCode": "7140212",
+        "majorName": "Sư phạm Hóa học",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Sư Phạm",
+        "collegeImage": "ksp.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "B0", "D07", "D24"],
+                "quantity": 40
+            }   
+        ],
+        "mainSubjects": ["THóa"],
+        "majorGroup": "Sư phạm",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 19.75
+
+
+            },
+            {
+                "year": 2017,
+                "points": 23.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Sư phạm Hóa học",
+                "videoURL": "https://www.youtube.com/watch?v=u4TwgE764cM",
+                "objectives": [
+                  "Chương trình đào tạo ngành Sư phạm Hóa học đào tạo sinh viên trở thành giáo viên chuyên ngành hóa học có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, , tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
+                  "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
+                ],
+                "jobs": [
+                    "Có thể làm công tác giảng dạy tại các trường tiểu học, các trường trung học, các trường trung học chuyên nghiệp và dạy nghề, các trường cao đẳng và đại học.",
+                    "Có thể làm công tác nghiên cứu tại các trung tâm, viện nghiên cứu.",
+                    "Có thể làm công tác chuyên viên và quản lý  ở các trường học, các phòng giáo dục, các cơ sở giáo dục và các cơ sở sản xuất, kinh doanh."
+                ],
+                "developAbilities": [
+                    "Có năng lực học tập suốt đời; có đủ kiến thức để học lên bậc thạc sĩ ngành lý luận và phương pháp dạy học, ngành giáo dục, quản lý giáo dục ở trong và ngoài nước và các ngành có liên quan đến chuyên ngành được đào tạo.",
+                    "Có thể thực hiện được các đề tài nghiên cứu khoa học cấp sơ sở hoặc tham gia đề tài nghiên cứu khoa học ở các cấp khác nhau trong lĩnh vực giảng dạy và giáo dục."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/602-su-pham-hoa-hoc.html"
+            }
+        ]
+    },
+    {   
+        "number": 8,
+        "majorCode": "7140213",
+        "majorName": "Sư phạm Sinh học",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Sư Phạm",
+        "collegeImage": "ksp.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["B00", "D08"],
+                "quantity": 40
+            }   
+        ],
+        "mainSubjects": ["Sinh"],
+        "majorGroup": "Sư phạm",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 17.00
+
+
+            },
+            {
+                "year": 2017,
+                "points": 21.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Sư phạm Sinh học",
+                "videoURL": "https://www.youtube.com/watch?v=bRgqtpTL3_Y",
+                "objectives": [
+                   "Chương trình đào tạo ngành Sư phạm Sinh học đào tạo sinh viên trở thành giáo viên chuyên ngành Sinh học có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
+                   "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
+                ],
+                "jobs": [
+                    "Có thể làm công tác giảng dạy tại các trường tiểu học, các trường trung học, các trường trung học chuyên nghiệp và dạy nghề, các trường cao đẳng và đại học.",
+                    "Có thể làm công tác nghiên cứu tại các trung tâm, viện nghiên cứu.",
+                    "Có thể làm công tác chuyên viên và quản lý  ở các trường học, các phòng giáo dục, các cơ sở giáo dục và các cơ sở sản xuất, kinh doanh."
+                ],
+                "developAbilities": [
+                    "Có năng lực học tập suốt đời; có đủ kiến thức để học lên bậc thạc sĩ ngành lý luận và phương pháp dạy học, ngành giáo dục, quản lý giáo dục ở trong và ngoài nước và các ngành có liên quan đến chuyên ngành được đào tạo.",
+                    "Có thể thực hiện được các đề tài nghiên cứu khoa học cấp sơ sở hoặc tham gia đề tài nghiên cứu khoa học ở các cấp khác nhau trong lĩnh vực giảng dạy và giáo dục."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/603-su-pham-sinh-hoc.html"
+            }
+        ]
+    },
+    {   
+        "number": 9,
+        "majorCode": "7140217",
+        "majorName": "Sư phạm Ngữ văn",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Sư Phạm",
+        "collegeImage": "ksp.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["C00", "D14", "D15"],
+                "quantity": 40
+            }   
+        ],
+        "mainSubjects": ["Toán"],
+        "majorGroup": "Sư phạm",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 22.25
+
+
+            },
+            {
+                "year": 2017,
+                "points": 25.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Sư phạm Ngữ văn",
+                "videoURL": "https://www.youtube.com/watch?v=mwziOUJhxWI",
+                "objectives": [
+                  "Chương trình đào tạo ngành Sư phạm Ngữ văn đào tạo sinh viên trở thành giáo viên ngành ngữ văn có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam, người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
+                  "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
+                ],
+                "jobs": [
+                  "Có thể làm công tác giảng dạy tại các trường tiểu học, các trường trung học, các trường trung học chuyên nghiệp và dạy nghề, các trường cao đẳng và đại học.",
+                  "Có thể làm công tác nghiên cứu tại các trung tâm, viện nghiên cứu.",
+                  "Có thể làm công tác chuyên viên và quản lý ở các trường học, các phòng giáo dục, các cơ sở giáo dục và các cơ sở sản xuất, kinh doanh."
+                ],
+                "developAbilities": [
+                  "Có năng lực học tập suốt đời; có đủ kiến thức để học lên bậc thạc sĩ ngành lý luận và phương pháp dạy học, ngành giáo dục, quản lý giáo dục ở trong và ngoài nước và các ngành có liên quan đến chuyên ngành được đào tạo.",
+                  "Có thể thực hiện được các đề tài nghiên cứu khoa học cấp sơ sở hoặc tham gia đề tài nghiên cứu khoa học ở các cấp khác nhau trong lĩnh vực giảng dạy và giáo dục."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/604-su-pham-ngu-van.html"
+            }
+        ]
+    },
+    {   
+        "number": 10,
+        "majorCode": "7140218",
+        "majorName": "Sư phạm Lịch sử",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Sư Phạm",
+        "collegeImage": "ksp.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["C00", "D14", "D64"],
+                "quantity": 40
+            }   
+        ],
+        "mainSubjects": ["Sử"],
+        "majorGroup": "Sư phạm",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 21.00
+
+
+            },
+            {
+                "year": 2017,
+                "points": 23.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Sư phạm Lịch sử",
+                "videoURL": "https://www.youtube.com/watch?v=J18qLDVJfRQ",
+                "objectives": [
+                    "Chương trình đào tạo ngành Sư phạm Lịch sử đào tạo sinh viên trở thành giáo viên ngành lịch sử có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
+                    "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
+                ],
+                "jobs": [
+                    "Có thể làm công tác giảng dạy lịch sử tại các trường tiểu học, các trường trung học, các trường trung học chuyên nghiệp và dạy nghề, các trường cao đẳng và đại học.",
+                    "Có thể làm công tác chuyên viên và quản lý ở các trường học, các phòng giáo dục, các cơ sở giáo dục",
+                    "Có thể làm công tác nghiên cứu lịch sử tại các trung tâm, viện nghiên cứu.",
+                    "Có thể các công việc khác thuộc khối khoa học xã hội và nhân văn."
+                ],
+                "developAbilities": [
+                    "Có năng lực học tập suốt đời; có đủ kiến thức để học lên bậc thạc sĩ ngành lịch sử dân tộc, lịch sử thế giới, dân tộc học, lịch sử địa phương, lý luận và phương pháp dạy học, ngành quản lý giáo dục ở trong và ngoài nước, và các ngành có liên quan đến chuyên ngành được đào tạo.",
+                    "Có thể thực hiện được các đề tài nghiên cứu khoa học cấp sơ sở hoặc tham gia đề tài nghiên cứu khoa học ở các cấp khác nhau về khoa học lịch sử và khoa học giáo dục."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/605-su-pham-lich-su.html"
+            }
+        ]
+    },
+    {   
+        "number": 11,
+        "majorCode": "7140219",
+        "majorName": "Sư phạm Địa lý",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Sư Phạm",
+        "collegeImage": "ksp.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["C00", "C04", "D15", "D44"],
+                "quantity": 40
+            }   
+        ],
+        "mainSubjects": ["Địa"],
+        "majorGroup": "Sư phạm",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 21.25
+
+
+            },
+            {
+                "year": 2017,
+                "points": 24.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Sư phạm Địa lý",
+                "videoURL": "https://www.youtube.com/watch?v=fR-692MqsiY",
+                "objectives": [
+                   "Chương trình đào tạo ngành Sư phạm Địa lý đào tạo sinh viên trở thành giáo viên ngành địa lý có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
+                   "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
+                ],
+                "jobs": [
+                    "Có thể làm công tác giảng dạy tại các các trường trung học cơ sở, trung học phổ thông, các trường trung học chuyên nghiệp và dạy nghề, các trường cao đẳng và đại học.",
+                    "Có thể làm công tác nghiên cứu tại các trung tâm, viện nghiên cứu.",
+                    "Có thể làm công tác chuyên viên và quản lý  ở các trường học, các phòng giáo dục, các cơ sở giáo dục và các cơ sở sản xuất, kinh doanh."
+                ],
+                "developAbilities": [
+                    "Có năng lực học tập suốt đời; có đủ kiến thức để học lên bậc thạc sĩ, tiến sĩ ngành lý luận và phương pháp dạy học Địa lí; ngành Địa lí tự nhiên; Địa lí học, ngành giáo dục, quản lý giáo dục ở trong và ngoài nước và các ngành có liên quan đến chuyên ngành được đào tạo.",
+                    "Có thể thực hiện được các đề tài nghiên cứu khoa học cấp sơ sở hoặc tham gia đề tài nghiên cứu khoa học ở các cấp khác nhau trong lĩnh vực giảng dạy và giáo dục."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/785-su-pham-dia-ly.html"
+            }
+        ]
+    },
+    {   
+        "number": 12,
+        "majorCode": "7140231",
+        "majorName": "Sư phạm tiếng Anh",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Ngoại ngữ",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["D01", "D14", "D15"],
+                "quantity": 50
+            }   
+        ],
+        "mainSubjects": ["Tiếng Anh"],
+        "majorGroup": "Sư phạm",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 21.75
+
+
+            },
+            {
+                "year": 2017,
+                "points": 24.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Sư phạm tiếng Anh",
+                "videoURL": "https://www.youtube.com/watch?v=J18qLDVJfRQ",
+                "objectives": [
+                    "Chương trình đào tạo ngành Sư phạm Tiếng Anh đào tạo sinh viên trở thành giáo viên ngành Tiếng Anh có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
+                    "Sinh viên tốt nghiệp có năng lực học tập và nghiên cứu khoa học suốt đời ở các cấp khác nhau trong lĩnh vực chuyên môn và các lĩnh vực có liên quan; có đủ kiến thức để học lên bậc thạc sĩ ngành lý luận và phương pháp dạy học, ngành giáo dục, quản lý giáo dục ở trong và ngoài nước và các ngành khác có liên quan đến chuyên ngành được đào tạo."
+                ],
+                "jobs": [
+                    "Có thể làm công tác giảng dạy tại các trường tiểu học, các trường trung học, các trường trung học chuyên nghiệp và dạy nghề, các trường cao đẳng và đại học.",
+                    "Có thể làm công tác nghiên cứu tại các trung tâm, viện nghiên cứu.",
+                    "Có thể làm công tác chuyên viên và quản lý ở các trường học, các phòng giáo dục, các cơ sở giáo dục công và tư."
+                ],
+                "developAbilities": [
+                    "Có năng lực học tập suốt đời; có đủ kiến thức để học sau đại học ngành lý luận và phương pháp dạy học, ngành giáo dục, quản lý giáo dục ở trong và ngoài nước và các ngành có liên quan đến chuyên ngành được đào tạo.",
+                    "Có thể thực hiện được các đề tài nghiên cứu khoa học các cấp khác nhau trong lĩnh vực giảng dạy và giáo dục."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/607-su-pham-tieng-anh.html"
+            }
+        ]
+    },
+    {   
+        "number": 13,
+        "majorCode": "7140233",
+        "majorName": "Sư phạm tiếng Pháp",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Ngoại ngữ",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["D03", "D01", "D14", "D64"],
+                "quantity": 40
+            }   
+        ],
+        "mainSubjects": ["Tiếng Pháp"],
+        "majorGroup": "Sư phạm",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 17.00
+
+
+            },
+            {
+                "year": 2017,
+                "points": 16.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Sư phạm tiếng Pháp",
+                "videoURL": "https://www.youtube.com/watch?v=u8pp680yTL8",
+                "objectives": [
+                    "Chương trình đào tạo ngành Sư phạm Tiếng Pháp đào tạo sinh viên trở thành giáo viên ngành tiếng Pháp có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
+                    "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu; làm việc trong các ngành nghề sử dụng tiếng Pháp như biên - phiên dịch, du lịch, nhà hàng, khách sạn, ngoại giao, truyền thông."
+                ],
+                "jobs": [
+                    "Có thể làm công tác giảng dạy tại các trường tiểu học, các trường trung học, các trường trung học chuyên nghiệp và dạy nghề, các trường cao đẳng và đại học.",
+                    "Có thể làm công tác nghiên cứu tại các trung tâm, viện nghiên cứu.",
+                    "Có thể làm công tác chuyên viên và quản lý ở các trường học, các phòng giáo dục, các cơ sở giáo dục và các cơ sở sản xuất, kinh doanh.",
+                    "Có thể làm việc trong các ngành nghề sử dụng tiếng Pháp như biên - phiên dịch, du lịch, nhà hàng, khách sạn, ngoại giao, truyền thông…"
+                ],
+                "developAbilities": [
+                    "Có năng lực học tập suốt đời; có đủ kiến thức để học lên bậc thạc sĩ ngành lý luận và phương pháp dạy học tiếng Pháp, ngành giáo dục, quản lý giáo dục ở trong và ngoài nước và các ngành có liên quan đến chuyên ngành được đào tạo.",
+                    "Có thể thực hiện được các đề tài nghiên cứu khoa học cấp sơ sở hoặc tham gia đề tài nghiên cứu khoa học ở các cấp khác nhau trong lĩnh vực giảng dạy và giáo dục."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/608-su-pham-tieng-phap.html"
+            }
+        ]
+    },
+    {   
+        "number": 14,
+        "majorCode": "7310630",
+        "majorName": "Việt Nam học",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Khoa học Xã hội và Nhân văn",
+        "collegeImage": "kkhxhvnv.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["C00", "D01", "D14", "D15"],
+                "quantity": 140
+            }   
+        ],
+        "mainSubjects": ["Văn", "Sử", "Địa"],
+        "majorGroup": "Luật - nhân văn",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 21.00
+
+
+            },
+            {
+                "year": 2017,
+                "points": 24.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Hướng dẫn viên du lịch",
+                "videoURL": "https://www.youtube.com/watch?v=iHeZ4f5foGs",
+                "objectives": [
+                    "Chương trình đào tạo ngành Việt Nam học - chuyên ngành Hướng dẫn viên du lịch -  đào tạo những cử nhân khoa học có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                    "Trang bị cho người học các kiến thức cơ sở ngành và chuyên ngành du lịch, nắm vững kiến thức chuyên sâu về nghiệp vụ hướng dẫn du lịch; có khả năng giao tiếp bằng tiếng Anh hoặc tiếng Pháp thông thường và chuyên ngành khá tốt.",
+                    "Sinh viên tốt nghiệp chuyên ngành Hướng dẫn viên du lịch ngoài việc thích ứng với vị trí hướng dẫn viên còn có thể làm việc ở những lĩnh vực khác liên quan đến du lịch như điều hành, tiếp thị, văn phòng du lịch."
+                ],
+                "jobs": [
+                    "Hướng dẫn viên du lịch tại các công ty du lịch, các trung tâm dịch vụ lữ hành.",
+                    "Thuyết minh viên tại các khu du lịch, bảo tàng, di tích lịch sử-văn hoá, danh lam thắng cảnh,...",
+                    "Làm việc trong các bộ phận nghiên cứu và phát triển du lịch, điều hành, kinh doanh lữ hành, tiếp thị du lịch.",
+                    "Làm việc trong những lĩnh vực nhà hàng, khách sạn, văn phòng du lịch hoặc các lĩnh vực liên quan: tổ chức sự kiện, quảng cáo, tiếp thị,...",
+                    "Làm việc tại các cơ sở nghiên cứu, giảng dạy về du lịch như các viện nghiên cứu, các trường đại học, cao đẳng, trung cấp chuyên nghiệp, dạy nghề du lịch,…"
+                ],
+                "developAbilities": [
+                    "Cử nhân ngành Việt Nam học, chuyên ngành Hướng dẫn viên du lịch có thể học tiếp chương trình đào tạo sau đại học (thạc sĩ, tiến sĩ) theo các chuyên ngành trong lĩnh vực du lịch hoặc các chuyên ngành gần."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/609-viet-nam-hoc.html"
+            }
+        ]
+    },
+    {   
+        "number": 15,
+        "majorCode": "7229030",
+        "majorName": "Văn học",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa học xã hội và nhân văn",
+        "collegeImage": "kkhxhvnv.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["C00", "D14", "D15"],
+                "quantity": 140
+            }   
+        ],
+        "mainSubjects": ["Văn"],
+        "majorGroup": "Luật - nhân văn",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 18.50
+
+
+            },
+            {
+                "year": 2017,
+                "points": 22.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Văn học",
+                "videoURL": "https://www.youtube.com/watch?v=hgiHNf7xArg",
+                "objectives": [
+                    "Có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                    "Có kiến thức chuyên môn thuộc lĩnh vực văn học và ngôn ngữ.",
+                    "Có kiến thức chuyên ngành rộng, có kỹ năng nghề nghiệp, có khả năng tự học, tự nghiên cứu, có khả năng học lên các bậc học cao hơn ở các chuyên ngành phù hợp.",
+                    "Sinh viên tốt nghiệp ngành Văn học có thể làm việc tại các cơ quan, tổ chức hoạt động trên lĩnh vực văn hóa; tham gia công tác giảng dạy môn Văn bậc trung học ở các trường THPT (nếu có thêm chứng chỉ sư phạm); làm việc tại các cơ quan quản lý giáo dục, các cơ quan hành chính, sự nghiệp, quản lý giáo dục ở địa phương."
+                ],
+                "jobs": [
+                   "Nghiên cứu văn học tại các Viện, Trung tâm nghiên cứu khoa học xã hội và nhân văn.",
+                   "Giảng dạy môn Ngữ văn ở bậc THPT, cao đẳng, đại học.",
+                   "Làm phóng viên, biên tập viên, cộng tác viên cho các cơ quan thông tấn báo chí, xuất bản, các đài phát thanh và truyền hình...",
+                   "Làm công tác văn phòng ở các cơ quan văn hoá như: Sở văn hóa và thông tin, thư viện, bảo tàng, cơ quan quản lý giáo dục, cơ quan hành chính sự nghiệp..."
+                ],
+                "developAbilities": [
+                    "Có thể học tiếp lên Thạc sĩ ở các ngành: Lý luận văn học, Văn học Việt Nam, Ngôn ngữ học, Văn học nước ngoài, Lý luận và phương pháp dạy học Văn và tiếng Việt… và một số ngành gần với khoa học xã hội và nhân văn như Văn hoá học, Xã hội học, Việt Nam học, Nhân học.",
+                    "Có thể tham gia các khóa đào tạo ngắn hạn chuyên sâu về lĩnh vực báo chí, xuất bản, quản lý văn phòng… để phục vụ trực tiếp cho chuyên môn theo yêu cầu của cơ quan quản lý và sử dụng lao động."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/614-van-hoc.html"
+            }
+        ]
+    },
     {
+        "number": 44,
         "majorCode": "7480201",
         "majorName": "Công nghệ thông tin",
-        "videoURL": "http://youtube.com/",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
@@ -14,7 +768,7 @@
                 "quantity": 250
             }   
         ],
-        "mainSubjects": ["Toán", "Anh Văn"],
+        "mainSubjects": ["Toán", "Tiếng Anh"],
         "majorGroup": "Công nghệ thông tin",
         "seasons": [
             {
@@ -29,6 +783,7 @@
         "specializations": [
             {
                 "specializationName": "Công nghệ thông tin",
+                "videoURL": "https://www.youtube.com/watch?v=LD7HYVmMLZg",
                 "objectives": [
                     "Cung cấp cho sinh viên kỹ năng và kiến thức để đảm nhận vị trí nghề nghiệp trong lĩnh vực CNTT, thăng tiến đến vị trí lãnh đạo, khả hành nghiên cứu  hoặc tiếp tục học cao hơn trong lĩnh vực này. Các mục tiêu cụ thể bao gồm:",
                     "Đào tạo kỹ sư CNTT có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc;",
@@ -47,14 +802,35 @@
                     "Hình thành kỹ năng tự học, thói quen học tập suốt đời, có khả năng cập nhật kiến thức và sự thay đổi của công nghệ thông tin.",
                     "Khả năng tiếp tục học tập nâng cao trình độ ở các trường đào tạo trong và ngoài nước trong lĩnh vực CNTT."
                 ],
-                "standardOutput": "http://link chuan dau ra"
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/643-cong-nghe-thong-tin.html"
+            },
+            {
+                "specializationName": "Tin học ứng dụng",
+                "videoURL": "https://www.youtube.com/watch?v=iaT9gzXgfuo",
+                "objectives": [
+                   "Đào tạo kỹ sư Công nghệ Thông tin chuyên ngành Tin học ứng dụng có năng lực chuyên môn vững vàng; có phẩm chất chính trị, lòng yêu nước, yêu ngành ngề; có đạo đức nghề nghiệp, ý thức tổ chức kỹ luật, tinh thần trách nhiệm, tác phong văn minh để phục vụ ngành nghề và đáp ứng nhu cầu của xã hội.",
+                   "Ngoài các kiến thức đại cương về khoa học tự nhiên và khoa học xã hội, người học được trang bị trọn vẹn khối kiến thức cơ sở nền tảng của ngành Công nghệ thông tin. Đặc biệt, chuyên ngành Tin học ứng dụng tập trung phát triển ứng dụng hệ thống thông tin trong lĩnh vực đa ngành. Theo đó, người học có khả năng sử dụng thành thạo các kỹ thuật và công cụ tin học hiện đại để phát triển các phần mềm chuyên nghiệp; có khả năng phân tích, thiết kế, cài đặt và đánh giá hệ thống thông tin; có khả năng xây dựng, phát triển và quản lý các hệ thống hỗ trợ quyết định, đa phương tiện truyền thông, thương mại điện tử và hành chính điện tử; có khả năng khai thác và vận dụng thế mạnh của các nguyên lý tính toán thông minh để phát triển các trình ứng dụng thông minh, nhằm giải quyết các vấn đề then chốt trong thực tiễn. Bên cạnh đó, sinh viên được trải nghiệm thực tế tại công ty có bộ phận tin học; được cung cấp các kiến thức thực tiễn chuyên sâu thông qua các báo cáo của các chuyên gia tin học trong và ngoài nước.",
+                   "Sinh viên tốt nghiệp có khả năng làm chủ được nhiều kỹ thuật và công nghệ then chốt trong tin học; có khả năng vận dụng kiến thức và kỹ năng đã học để tin học hóa một cách hiệu quả các vấn đề thực tiễn nhằm đáp ứng nhu cầu tin học hóa của các cơ quan và công ty.Sinh viên tốt nghiệp có đủ kiến thức nền tảng để học sau đại học các ngành liên quan đến công nghệ thông tin."
+                ],
+                "jobs": [
+                   "Các công ty liên quan đến tin học (IT) như: phát triển hệ thống thông tin ứng dụng trong nhiều lĩnh vực khác nhau, gia công phần mềm, kiểm thử phần mềm, thiết kế Web, viễn thông, bảo trì và sửa chữa hệ thống máy tính, giải pháp tin học cho doanh nghiệp. Ngoài việc đảm nhiệm vị trí là Chuyên viên tin học, sinh viên sau khi tốt nghiệp được tiếp tục nâng cao trình độ để đảm nhận những chức vụ cao hơn trong quản lý như Giám đốc quản lý dự án (Project Manager), Giám đốc phụ trách công nghệ thông tin (CIO),…",
+                   "Các cơ quan, doanh nghiệp có hệ thống thông tin và nhu cầu khai thác thông tin hiệu quả, như: cơ quan quản lý nhà nước, doanh nghiệp nước ngoài, ngân hàng, bưu điện, bảo hiểm, đài truyền hình, xí nghiệp, nhà máy.",
+                   "Các cơ quan thống kê và dự báo trong nhiều lĩnh vực khác nhau (như kinh kế, xã hội, môi trường, nông nghiệp, thủy sản,...).",
+                   "Các đơn vị cần đội ngũ làm tin học để tập hợp và phân tích dữ liệu nhằm hỗ trợ lãnh đạo trong đơn vị.",
+                   "Các viện nghiên cứu và làm giảng viên để giảng dạy ở các trường đại học, cao đẳng, trung học chuyên nghiệp."
+                ],
+                "developAbilities": [
+                   "Có khả năng sáng tạo, tự nghiên cứu và học tập chuyên sâu về các công nghệ tin học mới để đáp ứng các yêu cầu của công việc.",
+                   "Đáp ứng được với yêu cầu học tập ở các chương trình đào tạo về công nghệ thông tin ở trình độ thạc sĩ và tiến sĩ."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/902-tin-hoc-ung-dung.html"
             }
         ]
     },
     {
+        "number": 50,
         "majorCode": "7520201",
         "majorName": "Kỹ thuật điện",
-        "videoURL": "http://youtube.com/",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ",
@@ -81,6 +857,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật điện",
+                "videoURL": "https://www.youtube.com/watch?v=GHkeT_kEgPU",
                 "objectives": [
                     "Cung cấp cho sinh viên các kiến thức căn bản chuyên ngành trong lĩnh vực Kỹ thuật điện, điện tử cần thiết cho nghề nghiệp hoặc phục vụ cho việc học ở bậc cao hơn. Kiến thức được xây dựng trên các nguyên lý khoa học, lập luận phân tích chặt chẽ và  kích thích khả năng sáng tạo của sinh viên.",
                     "Cung cấp cho sinh viên các kiến thức nền tảng rộng nhằm phát huy tính sáng tạo trong hoạt động nghề nghiệp, khả năng tự học và tự nghiên cứu của sinh viên. Cung cấp các kỹ năng cơ bản cần thiết để thiết kế và thực hiện các đề án thực tế của ngành Kỹ thuật điện.",
@@ -99,7 +876,359 @@
                     "Học bằng hai các lĩnh vực điện tử; kỹ thuật điều khiển và tự động hóa.",
 					"Đáp ứng được với yêu cầu học tập ở các trình độ sau đại học trong lĩnh vực kỹ thuật điện, điện tử; kỹ thuật điều khiển và tự động hóa."
                 ],
-                "standardOutput": "http://link chuan dau ra"
+                "standardOutput": null
+            }
+        ]
+    },
+    {
+        "number": 51,
+        "majorCode": "7520207",
+        "majorName": "Kỹ thuật điện tử - viễn thông",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ",
+        "collegeImage": "kcn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01"],
+                "quantity": 120
+            }   
+        ],
+        "mainSubjects": ["Toán", "Lý"],
+        "majorGroup": "Kỹ thuật",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.00
+            },
+            {
+                "year": 2017,
+                "points": 18.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật điện tử - viễn thông",
+                "videoURL": "https://www.youtube.com/watch?v=YLleklS4BEA",
+                "objectives": [
+                    "Cung cấp cho sinh viên các kiến thức căn bản chuyên ngành trong lĩnh vực điện tử, viễn thông, cần thiết cho nghề nghiệp hoặc phục vụ cho việc học ở bậc cao hơn. Kiến thức được xây dựng trên các nguyên lý khoa học, lập luận phân tích chặt chẽ và kích thích khả năng sáng tạo của sinh viên.",
+                    "Cung cấp các kiến thức nền tảng rộng, có thể áp dụng vào các vấn đề liên quan đến kỹ thuật và điện tử nói chung.., là điều kiện cần thiết để sinh viên phát huy tính sáng tạo trong hoạt động nghề nghiệp, khả năng tự học và tự nghiên cứu.",
+                    " Phát triển các kỹ năng giúp cho sinh viên có khả năng: giao tiếp, làm việc trong nhóm, giải quyết vấn đề. Rèn luyện thái độ chuyên nghiệp và đạo đức nghề nghiệp; sẳn sàng làm việc trong môi trường hiện đại, phức tạp và học tập suốt đời.",
+                    "Rèn luyện kỹ năng về tiếng Anh trong học tập, nghiên cứu và giao tiếp."
+                ],
+                "jobs": [
+                    "Nghiên cứu viên, giảng viên trong lĩnh vực điện tử, viễn thông/truyền thông ở các Viện, Trung tâm nghiên cứu và các trường đại học, cao đẳng, nghề.",
+                    "Kỹ sư nghiên cứu, thiết kế, tư vấn kỹ thuật trong lĩnh vực điện tử ứng dụng, viễn thông/truyền thông ở các công ty, xí nghiệp, …",
+					"Kỹ sư khai thác vận hành, triển khai và quản lý các dự án điện tử, công nghệ viễn thông ở các cơ quan, công ty, xí nghiệp, trường học."
+                ],
+                "developAbilities": [
+                    "Tự học và nghiên cứu suốt đời ",
+                    "Học sau đại học (thạc sĩ, tiến sĩ) trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/596-ky-thuat-dien-tu-vien-thong.html"
+            }
+        ]
+    },
+    {
+        "number": 52,
+        "majorCode": "7480106",
+        "majorName": "Kỹ thuật máy tính",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ",
+        "collegeImage": "kcn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01"],
+                "quantity": 120
+            }   
+        ],
+        "mainSubjects": ["Toán", "Lý"],
+        "majorGroup": "Kỹ thuật",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.25
+            },
+            {
+                "year": 2017,
+                "points": 16.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật máy tính",
+                "videoURL": "https://www.youtube.com/watch?v=OeBDO2JIJD8",
+                "objectives": [
+                    "Cung cấp cho sinh viên các kiến thức căn bản chuyên ngành trong lĩnh vực điện tử và máy tính, cần thiết cho nghề nghiệp hoặc phục vụ cho việc học ở bậc cao hơn. Kiến thức được xây dựng trên các nguyên lý khoa học, lập luận phân tích chặt chẽ và kích thích khả năng sáng tạo của sinh viên.",
+					"Cung cấp các kiến thức nền tảng rộng, có thể áp dụng vào các vấn đề liên quan đến điện tử và máy tính nói chung.., là điều kiện cần thiết để sinh viên phát huy tính sáng tạo trong hoạt động nghề nghiệp, khả năng tự học và nghiên cứu.",
+					"Phát triển các kỹ năng giúp cho sinh viên có khả năng: giao tiếp, làm việc trong nhóm, kỹ năng giải quyết vấn đề, rèn luyện thái độ chuyên nghiệp và đạo đức nghề nghiệp; sẳn sàng làm việc trong môi trường phức tạp và học tập suốt đời.",
+					"Rèn luyện kỹ năng về tiếng Anh trong học tập, nghiên cứu và giao tiếp."
+                ],
+                "jobs": [
+                    "Nghiên cứu viên, giảng viên trong lĩnh vực kỹ thuật điện tử, kỹ thuật máy tính ở các Viện, Trung tâm nghiên cứu và các trường đại học, cao đẳng, nghề.",
+					"Kỹ sư nghiên cứu, thiết kế, tư vấn kỹ thuật trong lĩnh vực điện tử ứng dụng, kỹ thuật máy tính ở các công ty, xí nghiệp, …",
+					"Kỹ sư khai thác vận hành, triển khai và quản lý các dự án điện tử, kỹ thuật máy tính ở các cơ quan, công ty, xí nghiệp, trường học."
+                ],
+                "developAbilities": [
+				"Tự học và nghiên cứu suốt đời ",
+				"Học sau đại học (thạc sĩ, tiến sĩ) trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/652-ky-thuat-may-tinh.html"
+            }
+        ]
+    },
+    {
+        "number": 53,
+        "majorCode": "7520216",
+        "majorName": "Kỹ thuật điều khiển và tự động hóa",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ",
+        "collegeImage": "kcn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01"],
+                "quantity": 120
+            }   
+        ],
+        "mainSubjects": ["Toán", "Lý"],
+        "majorGroup": "Kỹ thuật",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 16.50
+            },
+            {
+                "year": 2017,
+                "points": 19.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật điều khiển và tự động hóa",
+                "videoURL": "https://www.youtube.com/watch?v=yajWfBHFMio",
+                "objectives": [
+                    "Có phẩm chất chính trị và đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                    "Có kiến thức tổng hợp về khoa học cơ bản, cơ khí, điện-điện tử, điều khiển tự động và hệ thống tích hợp.",
+                    "Có kỹ năng giải quyết các vấn đề thuộc các lĩnh vực tự động hóa.",
+                    "Có khả năng nghiên cứu, thiết kế, chế tạo, cài đặt các hệ thống tích hợp cơ khí, điện-điện tử và điều khiển tự động.",
+					"Có khả năng làm việc hiệu quả trong nhóm chuyên ngành cũng như đa ngành; có khả năng đọc hiểu tài liệu chuyên ngành và giao tiếp bằng tiếng Anh (hoặc tiếng Pháp); có ý thức và khả năng học tập suốt đời."
+                ],
+                "jobs": [
+                    "Nghiên cứu viên, giảng viên trong lĩnh vực tự động hóa ở các Viện, Trung tâm nghiên cứu và các Trường đại học, cao đẳng, nghề.",
+                    "Kỹ sư nghiên cứu, thiết kế, tư vấn kỹ thuật trong lĩnh vực tự động hóa ở các công ty, xí nghiệp, …",
+					"Kỹ sư quản lý, khai thác vận hành và triển khai các dự án thuộc lĩnh vực tự động hóa ở các cơ quan, công ty, xí nghiệp, trường học."
+                ],
+                "developAbilities": [
+                    "Tự học và nghiên cứu suốt đời ",
+                    "Học sau đại học (thạc sĩ, tiến sĩ) trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/653-ky-thuat-dieu-khien-va-tu-dong-hoa.html"
+            }
+        ]
+    },
+    {
+        "number": 53,
+        "majorCode": "7520320",
+        "majorName": "Kỹ thuật môi trường",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Môi trường & TNTN",
+        "collegeImage": "kmt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01","B00","D07"],
+                "quantity": 130
+            }   
+        ],
+        "mainSubjects": ["Hóa", "Sinh"],
+        "majorGroup": "Kỹ thuật",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.00
+            },
+            {
+                "year": 2017,
+                "points": 16.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật môi trường",
+                "videoURL": "https://www.youtube.com/watch?v=wasuyghM4k4",
+                "objectives": [
+                    "Có phẩm chất chính trị và đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                    "Có năng lực thực hành nghề nghiệp, vận dụng các kiến thức về kỹ thuật môi trường để đáp ứng các nhu cầu công việc thực tế tại các nhà máy, xí nghiệp, các đơn vị tư vấn thiết kế về các dự án và dịch vụ môi trường, các trường đại học, cao đẳng, viện nghiên cứu và cơ quan quản lý nhà nước.",
+                    "Có năng lực phân tích, đánh giá, thiết kế kỹ thuật và vận hành các hệ thống xử lý chất thải, kiểm soát ô nhiễm và quản lý môi trường đô thị và công nghiệp theo cách tiếp cận đúng chức năng, thẩm mỹ, an toàn, hiệu quả kinh tế và bền vững thân thiện môi trường.",
+                    "Có phương pháp làm việc độc lập, có khả năng tự học hay học tập nâng cao trình độ ở bậc sau đại học trong lĩnh vực chuyên ngành kỹ thuật môi trường hoặc các lĩnh vực khác có liên quan.",
+					"Có kỹ năng giao tiếp, làm việc theo nhóm, hiểu biết các kiến thức về quản lý để có thể đảm nhận các vị trí và chức vụ cao."
+                ],
+                "jobs": [
+                    "Kỹ sư Kỹ thuật Môi trường sẽ đảm trách công tác môi trường tại các nhà máy, xí nghiệp, trang trại..., làm việc tại các viện, trường, các trung tâm ứng dụng và triển khai công nghệ môi trường, các cơ quan quản lý nhà nước về môi trường hoặc giảng dạy ngành Kỹ thuật Môi trường tại các cơ sở đào tạo."
+                ],
+                "developAbilities": [
+                    "Kỹ sư Kỹ thuật Môi trường sẽ đảm trách công tác môi trường tại các nhà máy, xí nghiệp, trang trại..., làm việc tại các viện, trường, các trung tâm ứng dụng và triển khai công nghệ môi trường, các cơ quan quản lý nhà nước về môi trường hoặc giảng dạy ngành Kỹ thuật Môi trường tại các cơ sở đào tạo.",
+                    "Ðáp ứng được yêu cầu học tập ở trình độ sau đại học như thạc sỹ các ngành Khoa học Môi trường, Quản lý Môi trường và Công nghệ Kỹ thuật Môi trường.",
+					"Hình thành thói quen học tập suốt đời."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/654-ky-thuat-moi-truong.html"
+            }
+        ]
+    },
+    {
+        "number": 55,
+        "majorCode": "7520401",
+        "majorName": "Vật lý kỹ thuật",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Khoa học Tự nhiên",
+        "collegeImage": "kkhtn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01","A02"],
+                "quantity": 60
+            }   
+        ],
+        "mainSubjects": ["Toán", "Lý"],
+        "majorGroup": "Kỹ thuật",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.00
+            },
+            {
+                "year": 2017,
+                "points": 15.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Vật lý kỹ thuật",
+                "videoURL": "https://www.youtube.com/watch?v=mPI4e8TbU3A",
+                "objectives": [
+                    "Chương trình đào tạo ngành Vật lý kỹ thuật trình độ đại học góp phần đào tạo cử nhân Vật lý kỹ thuật có năng lực chuyên môn, phẩm chất chính trị, đạo đức nghề nghiệp với tư duy năng động, sáng tạo, có lòng yêu nước, yêu ngành nghề, ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                    "Trang bị cho người học kiến thức chuyên sâu của ngành đào tạo; khả năng giao tiếp bằng Anh ngữ thông thường và khả năng đọc hiểu tài liệu chuyên ngành.",
+                    "Trang bị cho người học kiến thức chuyên sâu của ngành đào tạo; khả năng giao tiếp bằng Anh ngữ thông thường và khả năng đọc hiểu tài liệu chuyên ngành."
+                ],
+                "jobs": [
+                    " Kỹ thuật viên cho các công việc liên quan đến phân tích và quản lý chất lượng sản phẩm, nghiên cứu và phát triển sản phẩm mới ở các doanh nghiệp, công ty, các trung tâm nghiên cứu.",
+					"Nhân viên phụ trách kỹ thuật có thể sử dụng, vận hành, bảo trì, bảo dưỡng các thiết bị công nghệ cao.",
+					"Nhân viên phụ trách kỹ thuật trong các đơn vị cung cấp các thiết bị khoa học kĩ thuật liên quan đến Vật lý như các máy đo, máy phân tích trong các nhà máy sản xuất, các thiết bị y tế, các thiết bị chiếu sáng.",
+					" Kỹ thuật viên nghiên cứu, chế tạo các vật liệu liên quan đến công nghệ nano như nano từ, nano quang điện tử, kỹ thuật màng mỏng.",
+					"Nghiên cứu viên về tính toán và phân tích số liệu; mô phỏng các quá trình vật lý.",
+					"Cán bộ giảng dạy Đại học, Cao đẳng, Trung học chuyên nghiệp và dạy nghề."
+                ],
+                "developAbilities": [
+                    " Sau khi tốt nghiệp sinh viên có khả năng tự học, tự nghiên cứu và tiếp thu các thành tựu khoa học kỹ thuật mới nhằm tự nâng cao trình độ và thích nghi với sự phát triển của xã hội.",
+					"Có khả năng tự học, tự nghiên cứu và học sau đại học."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/655-vat-ly-ky-thuat.html"
+            }
+        ]
+    },
+    {
+        "number": 56,
+        "majorCode": "7540101",
+        "majorName": "Công nghệ thực phẩm",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Nông nghiệp và SHƯD",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01","B00","D07"],
+                "quantity": 200
+            }   
+        ],
+        "mainSubjects": ["Hóa","Sinh"],
+        "majorGroup": "Sản xuất và chế biến",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.25
+            },
+            {
+                "year": 2017,
+                "points": 18.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Công nghệ thực phẩm",
+                "videoURL": "https://www.youtube.com/watch?v=xRmfdr2PcSo",
+                "objectives": [
+                    "Có đủ tri thức, năng lực thực hành, tận tuỵ với nghề nghiệp, có khả năng tiếp tục phát triển trong chuyên môn và đóng góp vào sự phát triển bền vững của chế biến, bảo quản và quản lý chất lượng  thực phẩm theo hướng hiện đại, an toàn và  hiệu quả.",
+                    "Được trang bị các kiến thức và kỹ năng cần thiết để xác định đúng và giải quyết được yêu cầu cơ bản của nhà máy, xí nghiệp. ",
+                    "Có khả năng làm việc theo nhóm một cách hiệu quả; đạt hiệu năng cao trong học tập và rèn luyện kỹ năng thực hành.",
+					"Có khả năng phát triển năng lực nghiên cứu và ứng dụng sáng tạo các thành tựu khoa học, công nghệ mới về CNTP để có thể giải quyết được các vấn đề được giao hoặc phát triển sản phẩm mới.",
+					"Sinh viên tốt nghiệp ngành CNTP có thể đảm đương công việc của cán bộ kỹ thuật, quản lý, nghiên cứu trong lĩnh vực chế biến, bảo quản và quản lý chất lượng trong CNTP tại các đơn vị sản xuất kinh doanh, cơ quan hành chính quản lý chuyên ngành, Viện nghiên cứu, hoặc giảng dạy tại các trường Trung cấp, cao đẳng hoặc đại học."
+                ],
+                "jobs": [
+                    "Cán bộ kỹ thuật, quản lý, nghiên cứu và giảng dạy trong lĩnh vực chế biến, bảo quản và quản lý chất lượng trong công nghiệp thực phẩm.",
+					"Làm việc tại các đơn vị sản xuất, kinh doanh như: nhà máy, xí nghiệp chế biến thực phẩm",
+					"Làm việc tại các cơ quan hành chính, quản lý chuyên ngành như Cục quản lý chất lượng nông lâm và thủy sản, Chi cục an toàn vệ sinh thực phẩm, Trung tâm y tế dự phòng.",
+					"Làm việc tại các Viện nghiên cứu thuộc lĩnh vực công nghệ thực phẩm.",
+					"Giảng dạy về Công nghệ thực phẩm trong các trường Trung cấp, Cao đẳng hoặc công tác tại  Đại học có chuyên ngành thực phẩm."
+                ],
+                "developAbilities": [
+                    "Hình thành thói quen học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về  Công nghệ thực phẩm, sáng tạo trong công việc.",
+					"Đáp ứng được với yêu cầu học tập ở các trình độ cao hơn (thạc sĩ, tiến sĩ) trong lĩnh vực Công nghệ thực phẩm."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/656-cong-nghe-thuc-pham.html"
+            }
+        ]
+    },
+    {
+        "number": 57,
+        "majorCode": "7540104",
+        "majorName": "Công nghệ sau thu hoạch",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Nông nghiệp và SHƯD",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01","B00","D07"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Hóa","Sinh"],
+        "majorGroup": "Sản xuất và chế biến",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.25
+            },
+            {
+                "year": 2017,
+                "points": 18.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Công nghệ sau thu hoạch",
+                "videoURL": "https://www.youtube.com/watch?v=9Oqy5sj6bXU",
+                "objectives": [
+				"Có phẩm chất chính trị, đạo đức, có lòng yêu nước, yêu ngành yêu nghề, có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc. Có thái độ lao động nghiêm túc và có đạo đức nghề nghiệp, có sức khoẻ; có khả năng hợp tác và quản lý nguồn lực; khả năng thích ứng với công việc đa dạng ở các cơ quan khoa học, quản lý sản xuất, doanh nghiệp hoặc tự tạo lập công việc sản xuất và dịch vụ trong bảo quản chế biến nông sản. Có trình độ chuyên môn để góp phần đào tạo nguồn nhân lực cho địa phương, khu vực ĐBSCL và cả nước.",
+				"Được trang bị kiến thức cơ bản rộng, có kiến thức chuyên môn sâu, có khả năng tự nghiên cứu, xây dựng, tổ chức và thực hiện công nghệ chế biến và bảo quản nông sản thực phẩm. Người học có khả năng phân tích và đánh giá các hao hụt sau thu hoạch, đưa ra các biện pháp tối ưu giảm tổn thất trong bảo quản nông sản, có khả năng nghiên cứu và phát triển sản phẩm mới từ các nông sản, chế biến ra các sản phẩm đảm bảo chất lượng theo tiêu chuẩn quốc tế, chủ động và thích ứng tốt trong quá trình hội nhập vào nền kinh tế quốc tế của cả nước nói chung và ở ĐBSCL nói riêng.",
+				"Có khả năng làm việc tại các cơ quan quản lý nhà nước; cơ quan nghiên cứu khoa học và đào tạo có liên quan đến chế biến và bảo quản sau thu hoạch; và có khả năng làm việc ở tất cả các đơn vị sản xuất, siêu thị. Ngoài ra, kỹ sư Công nghệ sau thu hoạch còn khả năng tự kinh doanh chế biến và bảo quản nông sản thực phẩm, cơ sở thu mua và bảo quản thủy hải sản và rau quả ở các chợ đầu mối."
+                ],
+                "jobs": [
+				"Kỹ sư Công nghệ sau thu hoạch làm tốt nhiệm vụ là nhân viên phòng quản lý chất lượng, phòng kỹ trong các công ty/doanh nghiệp sản xuất và kinh doanh nông sản, thủy sản, súc sản, lương thực, thực phẩm; có thể làm công chức, viên chức ở các cơ quan quản lý nhà nước (sở Nông nghiệp, sở Công thương, Sở Khoa học Công nghệ, trung tâm y tế dự phòng của các tỉnh thành); có thể làm nhà nghiên cứu ở cơ quan nghiên cứu khoa học và có thể làm giảng viên ở các cơ sở đào tạo có liên quan đến kinh doanh nông nghiệp. Kỹ sư có khả năng làm chủ cơ sở chế biến và bảo quản nông sản thực phẩm, cơ sở thu mua và kinh doanh rau quả, thủy hải sản."
+                ],
+                "developAbilities": [
+				"Kỹ sư Công nghệ sau thu hoạch sau khi tốt nghiệp có thể học thêm một bằng đại học khác cùng nhóm ngành hoặc học tiếp cao học (Thạc sĩ) hoặc nghiên cứu sinh (Tiến sĩ) ở các trường đại học trong và ngoài nước. Kỹ sư ngành Công nghệ sau thu hoạch sẽ được đào tạo để có kỹ năng học tập suốt đời."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/617-cong-nghe-sau-thu-hoach.html"
             }
         ]
     }

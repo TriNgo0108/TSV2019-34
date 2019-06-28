@@ -26,7 +26,6 @@ class _TestState extends State<Test> {
                     children: <Widget>[
                       Text(majors[index].majorName),
                       Text("Ma nganh: ${majors[index].majorCode}"),
-                      Text("Video: ${majors[index].videoURL}"),
                       Text("Thoi gian dao tao: ${majors[index].intendTime}"),
                       Text("Danh hieu: ${majors[index].title}"),
                       Text("Khoa: ${majors[index].collegeName}"),
