@@ -753,6 +753,803 @@
             }
         ]
     },
+    {   
+        "number": 16,
+        "majorCode": "7220201",
+        "majorName": "Ngôn ngữ Anh",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Ngoại ngữ",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["D01", "D14", "D15"],
+                "quantity": 180
+            }   
+        ],
+        "mainSubjects": ["Tiếng Anh"],
+        "majorGroup": "Luật - nhân văn",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 21.25
+
+
+            },
+            {
+                "year": 2017,
+                "points": 23.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Ngôn ngữ Anh",
+                "videoURL": "https://www.youtube.com/watch?v=2YFxD1BAl_I",
+                "objectives": [
+                   "Chương trình đào tạo ngành Ngôn ngữ Anh đào tạo cử nhân có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                   "Trang bị cho sinh viên 03 khối kiến thức và kỹ năng chuyên môn: (1) tiếng Anh định hướng nghề nghiệp, (2) văn hóa xã hội và (3) khối kiến thức chuyên môn sâu.",
+                   "Sinh viên tốt nghiệp chuyên ngành Ngôn ngữ Anh có thể thích ứng làm việc tại các đơn vị, cơ quan, dự án của nhà nước và tư nhân trong và ngoài nước thuộc các lĩnh vực: đối ngoại, thương mại (xuất nhập khẩu), du lịch, dịch vụ, truyền thông, báo chí, dịch thuật, biên tập, viện bảo tàng, thư viện, và hành chính sự nghiệp. Ngoài ra, nếu trang bị thêm chứng chỉ nghiệp vụ sư phạm thì sinh viên tốt nghiệp sẽ có khả năng giảng dạy tiếng Anh và nghiên cứu tại các cơ sở đào tạo tiếng Anh như trường trung học và đại học, trung tâm ngoại ngữ và các trường quốc tế."
+                ],
+                "jobs": [
+                   "Làm hướng dẫn viên du lịch, Dịch thuật tiếng Anh, thư tín văn phòng, tiếp tân khách sạn, ... cho các công ty, khách sạn và  các dự  án.",
+                   "Làm các công tác đối ngoại, văn thư cho các cơ quan ngoại vụ (Sở Ngoại vụ, các phòng Đối ngoại...) các tỉnh, thành; các đơn vị, cơ quan nhà nước và tư nhân thuộc các lĩnh vực đối ngoại, thương mại (xuất nhập khẩu) trong và ngoài nước.",
+                   "Làm các công tác hướng dẫn trong viện bảo tàng, thư viện, trung tâm tư vấn du học, xuất nhập cảnh.",
+                   "Làm biên tập viên, phát thanh viên, cộng tác viên cho các cơ quan thông tấn báo chí, các đài phát thanh và truyền hình.",
+                   "Tham gia giảng dạy tiếng Anh ở các trường cao đẳng, đại học và các trung tâm ngoại ngữ (nếu có thêm chứng chỉ Sư phạm)."
+                ],
+                "developAbilities": [
+                    "Có khả năng học tập suốt đời.",
+                    "Học tập nâng cao trình độ ở các bậc cao học các chuyên ngành: Lý luận và Phương pháp dạy học tiếng Anh; ngành Ngôn ngữ học Ứng dụng và các chuyên ngành gần tại các cơ sở đào tạo trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/611-ngon-ngu-anh.html"
+            },
+            {
+                "specializationName": "Phiên dịch-Biên dịch tiếng Anh",
+                "videoURL": "https://www.youtube.com/watch?v=nHzdLlAOsn4",
+                "objectives": [
+                  "Chương trình đào tạo ngành Ngôn ngữ Anh – chuyên ngành Biên dịch-Phiên dịch tiếng Anh - đào tạo cử nhân khoa học xã hội nhân văn (Bachelor of Arts) có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc; nắm vững kiến thức và kỹ năng cơ sở ngành và chuyên ngành về phiên dịch và biên dịch Anh-Việt và Việt-Anh; có thái độ làm việc chuyên nghiệp, tự tin, chủ động, sáng tạo và có tinh thần trách nhiệm trong công việc; có kỹ năng học tập suốt đời một cách hiệu quả; bước đầu nghiên cứu khoa học và có khả năng tiếp tục nâng cao trình độ ở bậc Thạc sĩ.",
+                  "Sinh viên tốt nghiệp chuyên ngành Biên dịch-Phiên dịch có khả năng vận dụng kiến thức và kỹ năng về ngôn ngữ, văn hóa, xã hội trong công tác biên phiên dịch trong trong môi trường làm việc đa văn hóa. Sinh viên tốt nghiệp có thể thích ứng đảm nhận vị trí phiên dịch viên và biên dịch viên phục vụ nhu cầu dịch thuật của các loại hình tổ chức, đơn vị kinh doanh và cá nhân trong và ngoài nước trong nhiều lĩnh vực như công chứng, tòa án, đối ngoại, thương mại (xuất nhập khẩu), du lịch, dịch vụ, viện bảo tàng, nhà xuất bản, hành chính sự nghiệp"
+                ],
+                "jobs": [
+                   "Làm biên dịch viên, phiên dịch viên tại các đơn vị, cơ quan nhà nước và tư nhân thuộc các lĩnh vực công chứng, tòa án, đối ngoại, thương mại (xuất nhập khẩu), du lịch, dịch vụ, viện bảo tàng, nhà xuất bản, hành chính sự nghiệp.",
+                    "Tham gia làm công tác dịch thuật từ tiếng Anh sang tiếng Việt và ngược lại cho các dự án phát triển của địa phương hoặc chính phủ.",
+                    "Hành nghề tự do cung cấp dịch vụ biên dịch và phiên dịch chuyên nghiệp cho các cá nhân, tổ chức trong và ngoài nước.",
+                    "Tham gia công tác giảng dạy tiếng Anh tại các trường trung học và đại học, các trung tâm ngoại ngữ, và các trường quốc tế (khi có thêm chứng chỉ nghiệp vụ sư phạm)."
+                ],
+                "developAbilities": [
+                   "Có đủ kiến thức và kỹ năng để có thể học lên bậc Thạc sĩ ngành Biên dịch - Phiên dịch,  ngành Ngôn ngữ học Ứng dụng; Lý luận và Phương pháp dạy học tiếng Anh và các chuyên ngành gần tại các cơ sở đào tạo trong và ngoài nước.",
+                   "Có khả năng học tập suốt đời, tự cập nhật kiến thức, tiếp tục học tập và nghiên cứu chuyên sâu về dịch thuật."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/610-phien-bien-dich-tieng-anh.html"
+            }
+        ]
+    },
+    {   
+        "number": 17,
+        "majorCode": "7220203",
+        "majorName": "Ngôn ngữ Pháp",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Ngoại ngữ",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["D03", "D01", "D14", "D64"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Tiếng Pháp"],
+        "majorGroup": "Luật - nhân văn",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 16.25
+
+
+            },
+            {
+                "year": 2017,
+                "points": 18.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Ngôn ngữ Pháp",
+                "videoURL": "https://www.youtube.com/watch?v=YoPUdt4zL04",
+                "objectives": [
+                   "Chương trình đào tạo ngành Ngôn Ngữ Pháp đào tạo trình độ cử nhân chuyên ngành tiếng Pháp nhằm trang bị cho sinh viên có đủ kiến thức và kỹ năng nghề nghiệp đáp ứng được yêu cầu của xã hội trong quá trình hội nhập kinh tế:",
+                   "Đủ năng lực về kỹ năng ngôn ngữ để giao tiếp hiệu quả bằng tiếng Pháp trong môi trường đa văn hóa.",
+                   "Am hiểu sâu về ngôn ngữ, văn hóa và xã hội Pháp.",
+                   "Nắm vững những kỹ năng nghề nghiệp trong các lĩnh vực có sử dụng tiếng Pháp như du lịch, biên dịch, phiên dịch, thư tín văn phòng, ngoại thương…",
+                   "Phát triển những kỹ năng mềm cần thiết trong môi trường làm việc tương lai.",
+                   "Sinh viên tốt nghiệp ngành Ngôn ngữ Pháp có thể làm các công tác hướng dẫn du lịch, biên dịch – phiên dịch tiếng Pháp, thư ký văn phòng, văn thư cho các Sở Ngoại vụ các tỉnh hay các công ty, khách sạn và các dự án; làm biên tập viên, phát ngôn viên cho các cơ quan thông tấn báo chí, các đài phát thanh và truyền hình; Tham gia công tác giảng dạy tiếng Pháp tại các trường Phổ thông và các trung tâm ngoại ngữ (sau khi bổ sung thêm chứng chỉ Sư phạm)."
+                ],
+                "jobs": [
+                   "Làm các công tác hướng dẫn viên du lịch, Phiên dịch-biên dịch tiếng Pháp, thư tín văn phòng, tiếp tân khách sạn, ... cho các công ty, khách sạn và  các dự  án.",
+                   "Làm các công tác đối ngoại, văn thư cho các cơ quan ngoại vụ (Sở Ngoại vụ, các phòng Đối ngoại...) các tỉnh, thành phố.",
+                   "Làm biên tập viên, phát ngôn viên, cộng tác viên cho các cơ quan thông tấn báo chí, các đài phát thanh và truyền hình.",
+                   "Tham gia công tác giảng dạy tiếng Pháp ở các trường phổ thông và các trung tâm ngoại ngữ (nếu có thêm chứng chỉ Sư phạm)." 
+                ],
+                "developAbilities": [
+                    "Học tập nâng cao trình độ ở các bậc cao học các chuyên ngành Ngôn ngữ Pháp, Văn chương Pháp, Quản lý giáo dục, Phương pháp giảng dạy tiếng Pháp (sau khi có chứng chỉ sư phạm.)... tại các trường Đại học trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/612-ngon-ngu-phap.html"
+            }
+        ]
+    },
+    {   
+        "number": 18,
+        "majorCode": "7229001",
+        "majorName": "Triết học",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Khoa học chính trị",
+        "collegeImage": "kkhct.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["C00", "D14", "D15", "C19"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Văn"],
+        "majorGroup": "Luật - nhân văn",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 19.25
+
+
+            },
+            {
+                "year": 2017,
+                "points": 21.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Triết học",
+                "videoURL": "https://www.youtube.com/watch?v=aUlsyNBPZbA",
+                "objectives": [
+                    "Đào tạo cử nhân triết học có phẩm chất chính trị tốt, yêu nước, yêu nghề; có đạo đức nghề nghiệp với tư duy năng động, sáng tạo; có tinh  thần trách nhiệm, ý thức tổ chức kỷ luật; có sức khỏe để phục vụ ngành nghề.",
+                    "Trang bị cho người học có kiến thức chuyên sâu về triết học giúp sinh viên nắm vững lập trường, quan điểm, phương pháp tư duy khoa học duy vật biện chứng. Trên cơ sở đó, sinh viên vận dụng tốt những kiến thức triết học vào lý giải các vấn đề lý luận và thực tiễn của thời đại, đất nước và của khu vực Đồng bằng sông Cửu Long.",
+                    "Sau khi tốt nghiệp, sinh viên có thể làm việc trong các tổ chức xã hội – chính trị; trong các lĩnh vực nghiên cứu, giảng dạy triết học, các môn lý luận chính trị tại các trường đại học, cao đẳng, trung học chuyên nghiệp và dạy nghề, các trường Chính trị ở Trung ương và khu vực Đồng bằng sông Cửu Long.",
+                    "Có thể học tập lên trình độ thạc sĩ, tiến sĩ triết học hoặc có thể chuyển đổi sang những ngành học gắn liền với triết học theo yêu cầu của thực tiễn xã hội."
+                ],
+                "jobs": [
+                    "Là cử nhân triết học có thể làm việc trong các tổ chức xã hội – chính trị, trong các cơ quan của Đảng và Nhà nước ở các cấp; nghiên cứu và giảng dạy tại các Viện, Trung tâm nghiên cứu, các trường đại học, cao đẳng, trung học chuyên nghiệp và dạy nghề hoặc các trường phổ thông trong cả nước."
+                ],
+                "developAbilities": [
+                    "Hình thành thói quen học tập suốt đời, có khả năng cập nhật kiến thức, nghiên cứu và học tập chuyên sâu về kiến thức chuyên ngành và nâng cao trình độ ngoại ngữ, tin học để đáp ứng yêu cầu học tập ở trình độ sau đại học trong lĩnh vực triết học hoặc chuyển đổi sang những ngành học gắn liền với triết học theo yêu cầu của thực tiễn xã hội."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/613-triet-hoc.html"
+            }
+        ]
+    },
+    {   
+        "number": 19,
+        "majorCode": "7310201",
+        "majorName": "Chính trị học",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Khoa học chính trị",
+        "collegeImage": "kkhct.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["C00", "D14", "D15", "C19"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Văn", "Sử"],
+        "majorGroup": "Luật - nhân văn",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 20.25
+
+
+            },
+            {
+                "year": 2017,
+                "points": 23.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Chính trị học",
+                "videoURL": "https://www.youtube.com/watch?v=KUnpOCszCMM",
+                "objectives": [
+                   "Đào tạo cử nhân Chính trị học có phẩm chất chính trị tốt, yêu nước, yêu nghề; có đạo đức nghề nghiệp với tư duy năng động, sáng tạo; có tinh thần trách nhiệm, ý thức tổ chức kỷ luật; có sức khỏe để phục vụ ngành nghề.",
+                   "Trang bị cho người học có kiến thức chuyên sâu về chính trị học, nắm vững lập trường, quan điểm, phương pháp tư duy khoa học. Trên cơ sở đó, sinh viên vận dụng tốt những kiến thức chính trị học để lý giải các vấn đề lý luận và thực tiễn của thời đại, đất nước và của khu vực đồng bằng sông Cửu Long.",
+                   "Sau khi tốt nghiệp, sinh viên có thể làm việc trong các tổ chức chính trị-xã hội; trong các lĩnh vực nghiên cứu, giảng dạy các môn khoa học chính trị, chính trị học tại các trường đại học, cao đẳng, trung học chuyên nghiệp và dạy nghề, các trường chính trị.",
+                   "Có thể học tập lên trình độ thạc sĩ, tiến sĩ Chính trị học hoặc có thể chuyển đổi sang những ngành học gắn liền với Chính trị học theo yêu cầu của thực tiễn xã hội."
+                ],
+                "jobs": [
+                   "Giảng dạy, nghiên cứu chính trị và Chính trị học tại các trường chính trị khu vực, tỉnh, thành phố, trung tâm giáo dục chính trị ở các địa phương; các trường đại học, cao đẳng và các trường trung học chuyên nghiệp, dạy nghề; làm việc tại các cơ quan Đảng, Nhà nước và các tổ chức chính trị - xã hội."
+                ],
+                "developAbilities": [
+                   "Hình thành thói quen học tập suốt đời, có khả năng cập nhật kiến thức, nghiên cứu và học tập chuyên sâu về kiến thức chuyên ngành và nâng cao trình độ ngoại ngữ, tin học để đáp ứng yêu cầu học tập ở trình độ sau đại học trong lĩnh vực chính trị học hoặc chuyển đổi sang những ngành học gắn liền với chính trị học theo yêu cầu của thực tiễn xã hội."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/778-chinh-tri-hoc.html"
+            }
+        ]
+    },
+    {   
+        "number": 20,
+        "majorCode": "7310301",
+        "majorName": "Xã hội học",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa học xã hội và nhân văn",
+        "collegeImage": "kkhxhvnv.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A01", "C00", "D01", "C19"],
+                "quantity": 100
+            }   
+        ],
+        "mainSubjects": ["Văn"],
+        "majorGroup": "Luật - nhân văn",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 20.25
+
+
+            },
+            {
+                "year": 2017,
+                "points": 22.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Xã hội học",
+                "videoURL": "https://www.youtube.com/watch?v=3JowFc1RiEw",
+                "objectives": [
+                    "Chương trình đào tạo cử nhân ngành Xã hội học có mục tiêu chung là đào tạo nguồn nhân lực có kiến thức rộng về các vấn đề xã hội, có các kĩ năng phân tích sự kiện, hiện tượng xã hội, hành vi con người, có năng lực tư vấn xây dựng các chính sách xã hội đáp ứng các nhu cầu phát triển. Đặc biệt là đào tạo nguồn nhân lực có trình độ chuyên môn sâu về xã hội học cho khu vực Đồng bằng Sông Cửu Long (ĐBSCL)  nói riêng và cả nước nói chung.",
+                    "Đồng thời, cử nhân Xã hội học được đào tạo có đầy đủ phẩm chất đạo đức nghề nghiệp, đạo đức cá nhân, đạo đức xã hội với tinh thần trách nhiệm, tác phong văn minh, ý thức tổ chức kỹ luật, rèn luyện sức khoẻ và tư duy năng động, sáng tạo để thực hành nghề trong các cơ quan Nhà nước, doanh nghiệp, tổ chức xã hội, chính trị, và tổ chức có yếu tố nước ngoài góp phần xây dựng khu vực Đồng bằng Sông Cửu Long  nói riêng và cả nước nói chung  ngày càng giàu mạnh, công bằng, dân chủ, hội nhập và văn minh."
+                ],
+                "jobs": [
+                   "Tốt nghiệp ngành XHH, sinh viên (SV) có thể công tác ở những vị trí sau:",
+                   "Chuyên viên nghiên cứu của các tổ chức Nhà nước, tổ chức phi chính phủ trong nước và quốc tế, các công ty và doanh nghiệp.",
+                   "Chuyên viên tư vấn cho các tổ chức kinh tế, xã hội, cho dự án, các tổ chức phi chính phủ",
+                   "Cán bộ công tác xã hội.",
+                   "Cộng tác viên phát triển cộng đồng.",
+                   "Tham gia hoạt động  trong các cơ quan truyền thông báo chí, truyền thanh, truyền hình.",
+                   "Cơ hội học lên trình độ cao hơn: Tốt nghiệp cử nhân ngành XHH, SV có thể học tiếp ở bậc Thạc sĩ, Tiến sĩ thuộc các chuyên ngành XHH, Công tác xã hội, và các ngành gần."
+                ],
+                "developAbilities": [
+                    "Cử nhân ngành Xã hội học có thể học tiếp chương trình đào tạo sau đại học (thạc sĩ, tiến sĩ) theo các chuyên ngành trong lĩnh phát triển nông thôn, dân tộc học và các chuyên ngành gần."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/779-xa-hoi-hoc"
+            }
+        ]
+    },
+    {   
+        "number": 21,
+        "majorCode": "7320201",
+        "majorName": "Thông tin - thư viện",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa học xã hội và nhân văn",
+        "collegeImage": "kkhxhvnv.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A01", "D01", "D29", "D03"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Văn", "Toán"],
+        "majorGroup": "Luật - nhân văn",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.00
+
+
+            },
+            {
+                "year": 2017,
+                "points": 17.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Thông tin - thư viện",
+                "videoURL": "https://www.youtube.com/watch?v=COw7NVfLUUc",
+                "objectives": [
+                   "Có phẩm chất chính trị và  đạo đức nghề nghiệp tốt, có bản lĩnh nghề nghiệp, có năng lực giải quyết các công việc thuộc lĩnh vực chuyên môn phục vụ cho sự nghiệp xây dựng đất nước, đáp ứng yêu cầu hội nhập khu vực và quốc tế.",
+                   "Có khả năng tự học, tự nghiên cứu, vận dụng kiến thức chuyên môn nghiệp vụ vào thực tiễn một cách chủ động và sáng tạo, biết cách tiếp cận các thành tựu khoa học kỹ thuật mới; có thể học tiếp chương trình đào tạo sau đại học theo chuyên ngành đã đào  tạo hoặc các ngành liên quan.",
+                   "Sinh viên tốt nghiệp có đủ trình độ chuyên môn và năng lực để làm công tác nghiên cứu, giảng dạy trong lĩnh vực thư viện - thông tin học hoặc đảm nhận công việc trong các thư viện, cơ quan thông tin, tổ chức kinh tế, cơ sở giáo dục, đào tạo và các tổ chức khác có liên quan đến công tác thông tin tư liệu."
+                ],
+                "jobs": [
+                  "Là chuyên gia tìm kiếm và phân tích thông tin.",
+                  "Trực tiếp tham gia giới thiệu, tư vấn và triển khai cài đặt cho khách hàng các sản phẩm phần mềm quản trị thông tin – thư viện.",
+                  "Làm việc ở: trung tâm thông tin các Bộ, ngành; các cơ quan thông tin – thư viện; các công ty, doanh nghiệp trong lĩnh vực ứng dụng tin học, phần mềm; phòng tin học, phòng mạng máy tính, phòng xây dựng cơ sở dữ liệu tại các cơ quan thông tin – thư viện; và các trường học có đào tạo Thông tin – thư viện."
+                ],
+                "developAbilities": [
+                  "Học thạc sỹ, trong và ngoài nước trong lĩnh vực thông tin học, khoa học thư viện, và quản lý hệ thống thông tin, hệ thống thông tin kinh tế.",
+                  "Tham gia nghiên cứu khoa học về thông tin học và quản trị thông tin.",
+                  "Hình thành thói quen học tập suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về thông tin – thư viện."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/616-thong-tin-hoc.html"
+            }
+        ]
+    },
+    {   
+        "number": 22,
+        "majorCode": "7340101",
+        "majorName": "Quản trị kinh doanh",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Kinh tế",
+        "collegeImage": "kkt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01", "D01", "C02"],
+                "quantity": 140
+            }   
+        ],
+        "mainSubjects": ["Toán"],
+        "majorGroup": "Kinh doanh",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 20.00
+
+
+            },
+            {
+                "year": 2017,
+                "points": 22.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Quản trị kinh doanh",
+                "videoURL": "https://www.youtube.com/watch?v=EcqQAIHQNZg",
+                "objectives": [
+                    "Chương trình đào tạo cử nhân ngành Quản trị kinh doanh được thiết kế nhằm trang bị cho những nhà quản trị tương lai một nền tảng kiến thức vững chắc để có thể điều hành/quản trị các doanh nghiệp. Sinh viên sẽ có được những kỹ năng cần thiết trong việc tích hợp kiến thức nền tảng về quản trị, marketing, kế toán và tài chính để hình thành nên các chiến lược khả thi giúp cho các công ty/doanh nghiệp dễ dàng đạt được những mục tiêu hoạt động trong ngắn hạn, trung hạn và dài hạn. Sau khi hoàn thành chương trình đào tạo cử nhân ngành Quản trị kinh doanh, sinh viên có:",
+                    "Bản lĩnh chính trị vững vàng, hiểu biết các chuẩn mực đạo đức kinh doanh; có trách nhiệm đối với xã hội.",
+                    "Thể lực và tinh thần mạnh mẽ để hoạt động tốt trong môi trường làm việc áp lực.",
+                    "Hiểu biết và có khả năng vận dụng các kiến thức đã được trang bị vào việc giải quyết các vấn đề trong quản trị kinh doanh với tư duy chiến lược và sáng tạo.",
+                    "Hình thành và phát triển những kỹ năng lãnh đạo, quản trị và điều hành các công ty/doanh nghiệp.",
+                    "Phát triển được kỹ năng làm việc chuyên nghiệp, kỹ năng làm việc nhóm và hình thành kỹ năng tự học, tự nghiên cứu trong lĩnh vực chuyên ngành, và có khả năng thích ứng cao với môi trường làm việc liên tục thay đổi."
+                ],
+                "jobs": [
+                    "Nhân viên/Trưởng, Phó phòng chức năng trong các công ty/doanh nghiệp sản xuất kinh doanh.",
+                    "Tự tạo lập doanh nghiệp hoặc tự tìm kiếm cơ hội kinh doanh riêng cho bản thân.",
+                    "Nghiên cứu viên, giảng viên ngành quản trị kinh doanh tại các viện, trung tâm nghiên cứu, các cơ sở đào tạo hoặc cơ quan hoạch định chính sách kinh doanh."
+                ],
+                "developAbilities": [
+                    "Có khả năng tự học tập, nghiên cứu khoa học độc lập, tiếp tục học tập nâng cao trình độ sau đại học ngành Quản trị kinh doanh và các ngành kinh tế khác tại các cơ sở đào tạo trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/617-quan-tri-kinh-doanh.html"
+            }
+        ]
+    },
+    {   
+        "number": 23,
+        "majorCode": "7310101",
+        "majorName": "Kinh tế",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Kinh tế",
+        "collegeImage": "kkt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01", "D01", "C02"],
+                "quantity": 120
+            }   
+        ],
+        "mainSubjects": ["Toán"],
+        "majorGroup": "Kinh doanh",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 19.00
+
+
+            },
+            {
+                "year": 2017,
+                "points": 19.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kinh tế",
+                "videoURL": "https://www.youtube.com/watch?v=1qwqcyNBglI",
+                "objectives": [
+                    "Chương trình đào tạo cử nhân ngành Kinh tế nhằm đào tạo nguồn nhân lực có chất lượng trong lĩnh vực kinh tế học theo định hướng chuyên nghiệp. Sau khi hoàn thành chương trình, sinh viên đạt được: (1) Phẩm chất chính trị, tư cách đạo đức và có trách nhiệm với xã hội; (2) Kiến thức cơ bản về kinh tế – xã hội, kiến thức chuyên sâu về cơ sở ngành và chuyên ngành; (3) Kiến thức trong các lĩnh vực tài chính học, quản lý kinh tế và cách thức sử dụng nguồn tài nguyên ở phạm vi vĩ mô cũng như vi mô; và (4) Khả năng tự học, tự nghiên cứu và tiếp thu các thành tựu khoa học – kỹ thuật mới nhằm tự nâng cao trình độ và thích nghi với sự phát triển của xã hội."
+                ],
+                "jobs": [
+                   "Nhân viên/ cán bộ quản lý kinh tế: có đủ năng lực làm việc tại các doanh nghiệp, tổ chức kinh tế, đơn vị hành chính sự nghiệp, các tổ chức khác và các chương trình/dự án kinh tế - xã hội.",
+                   "Chuyên viên phân tích và tư vấn kinh tế: có khả năng làm việc tại các công ty cung cấp các dịch vụ tư vấn kinh tế và chính sách kinh tế cho các doanh nghiệp; có thể đảm nhận công việc phân tích và tư vấn về chính sách tiền tệ, tài chính, ngoại thương; có triển vọng trở thành chuyên gia phân tích, tư vấn về chính sách kinh tế.",
+                   "Nghiên cứu viên và giảng viên: có khả năng nghiên cứu và giảng dạy tại các cơ sở giáo dục Cao đẳng, Đại học, và các cơ sở nghiên cứu; có thể đảm nhận công việc như tham gia nghiên cứu và giảng dạy các học phần liên quan đến kinh tế học, kinh tế phát triển và kinh tế học ứng dụng."
+                ],
+                "developAbilities": [
+                    "Hình thành thói quen học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về kinh tế học, kinh tế phát triển, kinh tế học hành vị, và kinh tế ứng dụng trong hoạt động sản xuất và kinh doanh.",
+                    "Đáp ứng được với các yêu cầu học tập ở các trình độ sau đại học trong lĩnh kinh tế học, kinh tế phát triển, kinh tế học hành vi, kinh tế ứng dụng, chính sách công và quản lý kinh tế."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/780-kinh-te.html"
+            }
+        ]
+    },
+    {   
+        "number": 24,
+        "majorCode": "7810103",
+        "majorName": "Quản trị dịch vụ du lịch và lữ hành",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Kinh tế",
+        "collegeImage": "kkt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01", "D01", "C02"],
+                "quantity": 140
+            }   
+        ],
+        "mainSubjects": ["Toán", "Tiếng Anh"],
+        "majorGroup": "Kinh doanh",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 19.75
+
+
+            },
+            {
+                "year": 2017,
+                "points": 22.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Quản trị dịch vụ du lịch và lữ hành",
+                "videoURL": "https://www.youtube.com/watch?v=xmjYeO_BRrg",
+                "objectives": [
+                    "Chương trình đào tạo cử nhân ngành Quản trị dịch vụ du lịch và lữ hành được xây dựng dựa trên đánh giá nhu cầu đào tạo và điều kiện nguồn lực của cơ sở đào tạo nhằm hướng đến đào tạo nguồn nhân lực có chất lượng trong lĩnh vực quản trị dịch vụ du lịch và lữ hành. Sau khi hoàn thành chương trình này, sinh viên: có phẩm chất chính trị tư tưởng tốt, hiểu biết về pháp luật và các luật về hoạt động kinh tế, có kiến thức cơ bản về kinh tế-xã hội và có khả năng quản lý và tổ chức thực hiện các hoạt động tại các đơn vị kinh doanh thuộc lĩnh vực dịch vụ du lịch và lữ hành cũng như tại các cơ quan quản lý Nhà nước trong lĩnh vực này."
+                ],
+                "jobs": [
+                    "Chuyên viên tại các Trung tâm xúc tiến đầu tư thương mại và du lịch: sinh viên tốt nghiệp có khả năng làm việc tại các trung tâm trên phụ trách các hoạt động liên quan đến công tác xúc tiến đầu tư thương mại du lịch cho địa phương nói chung và các đơn vị kinh tế trong lĩnh vực đầu tư và thương mại du lịch nói riêng.",
+                    "Nhân viên, giám sát, quản lý tại các bộ phận trong các đơn vị kinh doanh lưu trú, nhà hàng, lữ hành, và giải trí.",
+                    "Nghiên cứu viên, giảng viên tại các cơ sở nghiên cứu, viện trường có hoạt động nghiên cứu và đào tạo liên quan đến lĩnh vực dịch vụ du lịch."
+                ],
+                "developAbilities": [
+                    "Có năng lực cập nhật kiến thức chuyên ngành và tham gia thực hiện các dự án nghiên cứu về lĩnh vực dịch vụ du lịch.",
+                    "Đáp ứng các yêu cầu dự tuyển và học tập ở bậc sau đại học ngành quản lý kinh tế, quản trị kinh doanh, và quản trị dịch vụ du lịch trong nước và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/618-quan-tri-dich-vu-du-lich-va-lu-hanh.html"
+            }
+        ]
+    },
+    {   
+        "number": 25,
+        "majorCode": "7340115",
+        "majorName": "Marketing",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Kinh tế",
+        "collegeImage": "kkt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01", "D01", "C02"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Toán", "Tiếng Anh"],
+        "majorGroup": "Kinh doanh",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 19.75
+
+
+            },
+            {
+                "year": 2017,
+                "points": 22.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Marketing",
+                "videoURL": "https://www.youtube.com/watch?v=O9A-IyAN0Us",
+                "objectives": [
+                  "Chương trình đào tạo ngành Marketing được xây dựng nhằm phục vụ cho mục tiêu đào tạo cử nhân kinh tế ngành Marketing. Sau khi hoàn thành chương trình này, người học có được phẩm chất chính trị, có lòng yêu nước và yêu ngành nghề. Người học sẽ có khả năng và ý chí lập thân, lập nghiệp, có đạo đức nghề nghiệp với tư duy năng động, sáng tạo trong các hoạt động chuyên môn. Người học sẽ có được tinh thần trách nhiệm, tác phong (nếp sống) văn minh, ý thức tổ chức kỹ luật, rèn luyện sức khoẻ để phục vụ ngành nghề. Ngoài ra, người học sẽ có được năng lực chuyên môn, kiến thức quản lý và thực hiện nghiên cứu, phân tích các hoạt động liên quan đến lĩnh vực marketing tại các doanh nghiệp và địa phương, góp phần đóng góp phát triển địa phương, khu vực Đồng Bằng Sông Cửu Long và cả nước."
+                ],
+                "jobs": [
+                   "Có thể công tác ở các vị trí quản lý hoặc nhân viên tại các bộ phận quản lý trong doanh nghiệp như bộ phận marketing, bán hàng, kinh doanh, quản lý chăm sóc khách hàng, tổ chức, v.v.; các cơ quan hành chính như Ủy ban nhân dân các tỉnh, Sở Kế hoạch và Đầu tư, Sở Nông nghiệp và Phát triển Nông thôn, Sở Công thương, Sở Văn hóa và Thể thao Du lịch ở các quận, huyện, tỉnh và thành phố.",
+                   "Có thể làm việc ở các doanh nghiệp để xây dựng và hoạch định nên chiến lược phát triển dài hạn cho các doanh nghiệp, đặc biệt ở lĩnh vực marketing."
+                ],
+                "developAbilities": [
+                    "Có khả năng tự học, tự nghiên cứu và tiếp thu các thành tựu khoa học – kỹ thuật mới nhằm tự nâng cao trình độ và thích nghi với sự phát triển của xã hội.",
+                    "Có khả năng học sau đại học trong nước lẫn ngoài nước thuộc các chuyên ngành kinh tế khác như quản trị kinh doanh, tài chính, nông nghiệp, v.v...",
+                    "Có khả năng thực hiện các nghiên cứu chuyên sâu về marketing, nghiên cứu thị trường, nghiên cứu khách hàng."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/619-marketing.html"
+            }
+        ]
+    },
+    {   
+        "number": 26,
+        "majorCode": "7340120",
+        "majorName": "Kinh doanh quốc tế",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Kinh tế",
+        "collegeImage": "kkt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01", "D01", "C02"],
+                "quantity": 130
+            }   
+        ],
+        "mainSubjects": ["Toán", "Tiếng Anh"],
+        "majorGroup": "Kinh doanh",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 20.25
+
+
+            },
+            {
+                "year": 2017,
+                "points": 22.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kinh doanh quốc tế",
+                "videoURL": "https://www.youtube.com/watch?v=0MwuTYEBMvg",
+                "objectives": [
+                  "Mục tiêu chung: Đào tạo cử nhân ngành Kinh doanh quốc tế có kiến thức, kỹ năng, và thái độ chuyên nghiệp nhằm đáp ứng cho nhu cầu xã hội nói chung và cho doanh nghiệp nói riêng trong bối cảnh toàn cầu hóa.",
+                  "Có lòng yêu nước và yêu nghề. Có ý chí lập thân, lập nghiệp, có đạo đức nghề nghiệp với tư duy năng động, sáng tạo. Có tinh thần trách nhiệm, ý thức tổ chức kỷ luật, lối sống văn minh, và tác phong công nghiệp,  và có ý thức rèn luyện sức khỏe để phục vụ ngành nghề.",
+                  "Có kiến thức cơ bản về cơ chế vận hành của nền kinh tế, hiểu biết luật pháp và chính sách đối ngoại của Đảng và nhà nước.",
+                  "Có hiểu biết cơ bản về chính sách ngoại thương, hoạt động kinh doanh xuất nhập khẩu của tất cả các loại hình doanh nghiệp trong xu thế toàn cầu hóa.",
+                  "Có khả năng tự học, tự nghiên cứu và khả năng tiếp thu các kiến thức mới để nâng cao kiến thức, kỹ năng, và nghề nghiệp chuyên môn. Quan trọng hơn, có khả năng thích nghi với sự thay đổi của môi trường sống và làm việc."
+                ],
+                "jobs": [
+                   "Nhân viên/trưởng phòng kinh doanh xuất nhập khẩu/thương mại trong tất cả các loại hình doanh nghiệp, đặc biệt là doanh nghiệp có vốn đầu tư nước ngoài.",
+                   "Quản lý và giám sát bán hàng trong các công ty đa quốc gia/doanh nghiệp có vốn đầu tư nước ngoài.",
+                   "Nhân viên/trưởng phòng thanh toán quốc tế trong các ngân hàng thương mại.",
+                   "Chuyên viên các Sở, Ban, Ngành của nhà nước: chẳng hạn như, Sở công thương, Sở kế hoạch và đầu tư, Ban quản lý khu chế xuất khu công nghiệp, Phòng thương mại công nghiệp Việt Nam, Hải quan và cảng vụ, bộ phận/cơ quan quản lý đầu tư trực tiếp nước ngoài, các bộ phận thực hiện nghiệp vụ xuất nhập khẩu, bảo hiểm xuất khẩu, tiếp thị quốc tế, tại các phòng kinh doanh xuất nhập khẩu của các loại hình doanh nghiệp, bộ phận thanh toán quốc tế thuộc mọi thành phần kinh tế và ngân hàng, công ty vận tải biển, các công ty giao nhận hàng hóa (logistic), bộ phận nghiên cứu và phát triển (R&D) cho mọi thành phần kinh tế.",
+                   "Nghiên cứu viên và giảng viên tại các cơ sở giáo dục Cao đẳng, Đại học, Trung học chuyên nghiệp, và các cơ sở nghiên cứu; có thể đảm nhận công việc như tham gia nghiên cứu về lĩnh vực kinh doanh quốc tế và kinh tế quốc tế.",
+                   "Nhân viên cho các tổ chức chính phủ và phi chính phủ như: Ngân hàng thế giới (WB), Quỹ tiền tệ quốc tế (IMF), tổ chức hợp tác và phát triển kinh tế (OECD), tổ chức phi chính phủ (NGO)."
+                ],
+                "developAbilities": [
+                    "Hình thành thói quen học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về kinh doanh thương mại, kinh tế và quản trị kinh doanh.",
+                    "Đáp ứng được với các yêu cầu học tập ở các trình độ thạc sĩ, tiến sỹ trong lĩnh vực kinh doanh quốc tế và kinh tế quốc tế."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/620-kinh-doanh-quoc-te.html"
+            }
+        ]
+    },
+    {   
+        "number": 27,
+        "majorCode": "7340121",
+        "majorName": "Kinh doanh thương mại",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Kinh tế",
+        "collegeImage": "kkt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01", "D01", "C02"],
+                "quantity": 110
+            }   
+        ],
+        "mainSubjects": ["Toán", "Tiếng Anh"],
+        "majorGroup": "Kinh doanh",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 19.25
+
+
+            },
+            {
+                "year": 2017,
+                "points": 21.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kinh doanh thương mại",
+                "videoURL": "https://www.youtube.com/watch?v=M7gAhwsSLnI",
+                "objectives": [
+                  "Chương trình đào tạo cử nhân ngành Kinh doanh thương mại được xây dựng nhằm giúp sinh viên lĩnh hội được nền tảng kiến thức sâu rộng để có đủ năng lực điều hành/quản trị các doanh nghiệp hoạt động trong lĩnh vực thương mại. Sinh viên sẽ có được khả năng tổng hợp các kiến thức về quản trị kinh doanh thương mại để vận hành hiệu quả các doanh nghiệp thương mại trong môi trường toàn cầu hóa. Sau khi hoàn thành chương trình cử nhân Kinh doanh thương mại, sinh viên đạt được:",
+                  "Bản lĩnh chính trị vững vàng, hiểu biết các chuẩn mực đạo đức kinh doanh; có trách nhiệm đối với xã hội.",
+                  "Thể lực và tinh thần mạnh mẽ để hoạt động tốt trong môi trường làm việc áp lực.",
+                  "Hiểu biết và có khả năng vận dụng các kiến thức đã tiếp thu vào việc đề xuất các giải pháp sáng tạo nhằm giải quyết các vấn đề về thương mại/kinh doanh.",
+                  "Hình thành và phát triển những kỹ năng lãnh đạo, quản trị và điều hành hoạt động kinh doanh trong các công ty nói chung và các doanh nghiệp thương mại nói riêng.",
+                  "Phát triển được kỹ năng làm việc chuyên nghiệp, kỹ năng làm việc nhóm và hình thành kỹ năng tự học, tự nghiên cứu trong lĩnh vực chuyên ngành, và có khả năng thích ứng cao với môi trường làm việc liên tục thay đổi."
+                ],
+                "jobs": [
+                   "Nhân viên/trưởng phòng kinh doanh trong các công ty sản xuất, kinh doanh thương mại, kinh doanh xuất nhập khẩu.",
+                   "Quản lý và giám sát bán hàng trong các doanh nghiệp.",
+                   "Quản trị viên/tổng quản trị các bộ phận chức năng trong doanh nghiệp thương mại, siêu thị.",
+                   "Chuyên viên sở công thương, phòng thương mại và công nghiệp Việt Nam, trung tâm xúc tiến thương mại.",
+                   "Nghiên cứu viên và giảng viên tại các cơ sở giáo dục Cao đẳng, Đại học, Trung học chuyên nghiệp, và các cơ sở nghiên cứu; có thể đảm nhận công việc như tham gia nghiên cứu về lĩnh vực thương mại/kinh doanh."
+                ],
+                "developAbilities": [
+                    "Hình thành thói quen học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về kinh doanh thương mại, kinh tế và quản trị kinh doanh.",
+                    "Đáp ứng được với các yêu cầu học tập ở các trình độ thạc sĩ trong lĩnh vực kinh doanh thương mại, kinh tế và quản trị kinh doanh."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/621-kinh-doanh-thuong-mai.html"
+            }
+        ]
+    },
+    {   
+        "number": 28,
+        "majorCode": "7340201",
+        "majorName": "Tài chính - Ngân hàng",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Kinh tế",
+        "collegeImage": "kkt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01", "D01", "C02"],
+                "quantity": 130
+            }   
+        ],
+        "mainSubjects": ["Toán", "Tiếng Anh"],
+        "majorGroup": "Kinh doanh",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 19.25
+
+
+            },
+            {
+                "year": 2017,
+                "points": 21.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Tài chính - Ngân hàng",
+                "videoURL": "https://www.youtube.com/watch?v=ln-RpPrUuMY",
+                "objectives": [
+                   "Chương trình cử nhân Tài chính ngân hàng đào tạo nguồn nhân lực có chất lượng trong lĩnh vực tài chính ngân hàng nhằm đáp ứng nhu cầu của thị trường lao động. Sinh viên sẽ được trang bị những kiến thức chuyên ngành ngân hàng và những kỹ năng cần thiết để làm việc trong môi trường hội nhập kinh tế khu vực và thế giới. Sau khi hoàn thành chương trình cử nhân Tài chính ngân hàng, sinh viên đạt được:",
+                   "Phẩm chất chính trị vững vàng, tư cách đạo đức các nhân và có trách nhiệm đối với xã hội.",
+                   "Kiến thức cơ bản về kinh tế – xã hội và kiến thức chuyên môn trong lĩnh vực tài chính ngân hàng.",
+                   "Năng lực tổ chức thực hiện và quản lý các hoạt động trong lĩnh vực tài chính ngân hàng và các tổ chức tài chính khác như công ty tài chính, công ty cho thuê tài chính, các quỹ đầu tư tài chính, và dự án đầu tư.",
+                   "Kỹ năng làm việc chuyên nghiệp trong nhóm cũng như làm việc độc lập trong môi trường hội nhập kinh tế quốc tế.",
+                   "Có khả năng phát triển những kỹ năng cần thiết để tiếp tục tự học, tự nghiên cứu nhằm nâng cao kiến thức và kỹ năng nghề nghiệp trong lĩnh vực chuyên ngành, và có khả năng thích nghi với sự thay đổi của môi trường làm việc."
+                ],
+                "jobs": [
+                   "Chuyên viên ngân hàng làm việc ở các vị trí giao dịch, kiểm soát, kế toán, chuyên viên tín dụng, chuyên viên thanh toán quốc tế, chuyên viên kinh doanh ngoại hối, chuyên viên tư vấn đầu tư tài chính tại các ngân hàng thương mại.",
+                   "Chuyên viên phân tích và tư vấn làm việc tại các tổ chức cung cấp dịch vụ tài chính.",
+                   "Tự tìm kiếm cơ hội kinh doanh để tạo lập doanh nghiệp cho bản thân",
+                   "Nghiên cứu viên và giảng viên làm việc tại các Viện nghiên cứu về kinh tế - xã hội, các Trường Trung học chuyên nghiệp, Cao đẳng, Đại học, và các đơn vị nghiên cứu."
+                ],
+                "developAbilities": [
+                    "Hình thành thói quen học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu trong lĩnh vực tài chính, ngân hàng, kế toán, kinh tế và kinh doanh.",
+                    "Có khả năng học tiếp các chương trình đào tạo sau đại học trong các chuyên ngành tài chính, ngân hàng, kế toán, kinh tế và kinh doanh."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/622-tai-chinh-ngan-hang.html"
+            }
+        ]
+    },
+    {   
+        "number": 29,
+        "majorCode": "7340301",
+        "majorName": "Kế toán",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Kinh tế",
+        "collegeImage": "kkt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01", "D01", "C02"],
+                "quantity": 140
+            }   
+        ],
+        "mainSubjects": ["Toán"],
+        "majorGroup": "Kinh doanh",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 19.50
+
+
+            },
+            {
+                "year": 2017,
+                "points": 22.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kế toán",
+                "videoURL": "https://www.youtube.com/watch?v=iCCg00OPvRk",
+                "objectives": [
+                   "Chương trình đào tạo cử nhân Kế toán nhằm đào tạo nguồn nhân lực có chất lượng trong lĩnh vực kế toán theo hướng chuyên nghiệp. Sau khi tốt nghiệp, người học có phẩm chất chính trị, tư cách đạo đức, sức khoẻ tốt, và có trách nhiệm với xã hội; có kiến thức cơ bản về kinh tế, chính trị, xã hội; nắm vững kiến thức và kỹ năng chuyên sâu về cơ sở ngành và chuyên ngành; thiết kế và điều hành hệ thống kế toán trong các đơn vị kế toán; có tư duy độc lập; có năng lực nghiên cứu tự bổ sung kiến thức theo yêu cầu công việc và có khả năng thích nghi với sự thay đổi của môi trường làm việc."
+                ],
+                "jobs": [
+                   "Nhân viên kế toán: có đủ năng lực làm việc tại các doanh nghiệp, tổ chức tài chính, đơn vị HCSN, các tổ chức khác và các chương trình/dự án kinh tế - xã hội; có thể đảm nhiệm các vị trí kế toán như: kế toán chi tiết, kế toán tổng hợp, kế toán phân tích, kiểm toán nội bộ và triển vọng trở thành kế toán trưởng.",
+                   "Chuyên viên phân tích và tư vấn: có khả năng làm việc tại các công ty cung cấp các dịch vụ tư vấn tài chính cho các doanh nghiệp; có thể đảm nhận công việc phân tích và tư vấn về kế toán, thuế, tài chính; có triển vọng trở thành chuyên gia phân tích, tư vấn về kế toán, thuế, tài chính.",
+                   "Trợ lý kiểm toán: có khả năng làm việc tại các công ty kiểm toán; có thể đảm nhận công việc cung cấp dịch vụ kế toán, kiểm toán cho các loại hình doanh nghiệp; Triển vọng trong tương lai có thể trở thành trưởng nhóm kiểm toán, kiểm toán viên cao cấp.",
+                   "Nghiên cứu viên và giảng viên: có khả năng nghiên cứu và giảng dạy tại các cơ sở giáo dục Cao đẳng, Đại học, Trung học chuyên nghiệp, và các cơ sở nghiên cứu; có thể đảm nhận công việc như tham gia nghiên cứu các vấn đề có liên quan đến kế toán, kiểm toán; giảng dạy."
+                ],
+                "developAbilities": [
+                    "Hình thành thói quen học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về kế toán, tài chính, kinh tế và kinh doanh.",
+                    "Đáp ứng được với các yêu cầu học tập ở các trình độ thạc sĩ trong lĩnh vực kế toán, tài chính, kinh tế, và kinh doanh."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/623-ke-toan.html"
+            }
+        ]
+    },
+    {   
+        "number": 30,
+        "majorCode": "7340302",
+        "majorName": "Kiểm toán",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Kinh tế",
+        "collegeImage": "kkt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01", "D01", "C02"],
+                "quantity": 100
+            }   
+        ],
+        "mainSubjects": ["Toán"],
+        "majorGroup": "Kinh doanh",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 18.50
+
+
+            },
+            {
+                "year": 2017,
+                "points": 21.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kiểm toán",
+                "videoURL": "https://www.youtube.com/watch?v=rrvF3HQSLKA",
+                "objectives": [
+                   "Chương trình đào tạo cử nhân Kiểm toán nhằm đào tạo nguồn nhân lực có chất lượng trong lĩnh vực kiểm toán theo hướng chuyên nghiệp. Sau khi tốt nghiệp, người học có phẩm chất chính trị, tư cách đạo đức, sức khoẻ tốt, và có trách nhiệm với xã hội; có kiến thức cơ bản về kinh tế, chính trị, xã hội; nắm vững kiến thức và kỹ năng chuyên sâu về cơ sở ngành và chuyên ngành; tổ chức, thiết kế và điều hành công tác kiểm toán tại các đơn vị kiểm toán; có tư duy độc lập; có năng lực nghiên cứu tự bổ sung kiến thức theo yêu cầu công việc và có khả năng thích nghi với sự thay đổi của môi trường làm việc."
+                ],
+                "jobs": [
+                   "Trợ lý kiểm toán viên độc lập: có đủ năng lực  làm việc tại các công ty kiểm toán; có thể đảm nhận công việc cung cấp dịch vụ kế toán, kiểm toán cho các loại hình doanh nghiệp; Triển vọng trong tương lai có thể trở thành trưởng nhóm kiểm toán, kiểm toán viên chính, kiểm toán viên cao cấp.",
+                   "Kiểm toán viên nội bộ: Có đủ năng lực làm việc tại các doanh nghiệp, tổ chức tài chính, đơn vị HCSN, các tổ chức khác; có thể thực hiện kiểm toán hoạt động, kiểm toán tuân thủ trong nội bộ đơn vị, thực hiện kiểm tra tài chính, đánh giá kiểm soát nội bộ, tư vấn độc lập trong nội bộ đơn vị, đề xuất các biện pháp cải tiến làm tăng giá trị hoạt động của đơn vị. Triển vọng nghề nghiệp là trưởng nhóm kiểm toán nội bộ hoặc kế toán trưởng trong đơn vị.",
+                   "Nhân viên kế toán: có đủ năng lực làm việc tại các doanh nghiệp, tổ chức tài chính, đơn vị HCSN, các tổ chức khác và các chương trình/dự án kinh tế - xã hội; có thể đảm nhiệm các vị trí kế toán như: kế toán chi tiết, kế toán tổng hợp, kế toán phân tích, kiểm toán nội bộ và triển vọng trở thành kế toán trưởng.",
+                   "Chuyên viên phân tích và tư vấn: có khả năng làm việc tại các công ty cung cấp các dịch vụ tư vấn tài chính cho các doanh nghiệp; có thể đảm nhận công việc phân tích và tư vấn về kế toán, thuế, tài chính; có triển vọng trở thành chuyên gia phân tích, tư vấn về kế toán, thuế, tài chính.",
+                   "Nghiên cứu viên và giảng viên: có khả năng nghiên cứu và giảng dạy tại các cơ sở giáo dục Cao đẳng, Đại học, Trung học chuyên nghiệp, và các cơ sở nghiên cứu; có thể đảm nhận công việc như tham gia nghiên cứu các vấn đề có liên quan đến kế toán, kiểm toán; giảng dạy."
+                ],
+                "developAbilities": [
+                    "Hình thành thói quen học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về kế toán, tài chính, kinh tế và kinh doanh.",
+                    "Đáp ứng được với các yêu cầu học tập ở các trình độ thạc sĩ trong lĩnh vực kế toán, tài chính, kinh tế, và kinh doanh."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/624-kiem-toan.html"
+            }
+        ]
+    },
     {
         "number": 44,
         "majorCode": "7480201",
@@ -876,7 +1673,7 @@
                     "Học bằng hai các lĩnh vực điện tử; kỹ thuật điều khiển và tự động hóa.",
 					"Đáp ứng được với yêu cầu học tập ở các trình độ sau đại học trong lĩnh vực kỹ thuật điện, điện tử; kỹ thuật điều khiển và tự động hóa."
                 ],
-                "standardOutput": null
+                "standardOutput": ""
             }
         ]
     },
