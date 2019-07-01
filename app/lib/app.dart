@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
         '/welcome': (context) => Welcome(),
         '/test': (context) => Test()
       },
-      //initialRoute: '/welcome',
+      initialRoute: '/welcome',
     );
   }
 }
