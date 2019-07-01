@@ -11,7 +11,6 @@ List<Major> majorsList(List<dynamic> json) {
 class Major {
   final String majorCode;
   final String majorName;
-  final String videoURL;
   final String intendTime;
   final String title;
   final String collegeName;
@@ -22,7 +21,7 @@ class Major {
   final List<Seasons> seasons;
   final List<Specializations> specializations;
 
-  Major({this.majorCode, this.majorName, this.videoURL, this.intendTime, this.title, this.collegeName, this.collegeImage, this.inputRequest, this.mainSubjects, this.majorGroup, this.seasons, this.specializations});
+  Major({this.majorCode, this.majorName, this.intendTime, this.title, this.collegeName, this.collegeImage, this.inputRequest, this.mainSubjects, this.majorGroup, this.seasons, this.specializations});
 
   factory Major.fromJson(Map<String,dynamic> json){
     var list = json["inputRequest"] as List;                                     // tao list specialized
@@ -43,7 +42,6 @@ class Major {
     return new Major(
       majorCode: json["majorCode"],
       majorName: json["majorName"],
-      videoURL: json["videoURL"],
       intendTime: json["intendTime"],
       title: json["title"],
       collegeName: json["collegeName"],
