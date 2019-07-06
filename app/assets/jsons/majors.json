@@ -706,7 +706,7 @@
         "majorName": "Văn học",
         "intendTime": "4",
         "title": "Cử nhân",
-        "collegeName": "Khoa học xã hội và nhân văn",
+        "collegeName": "Khoa Khoa học Xã hội và Nhân văn",
         "collegeImage": "kkhxhvnv.png",
         "inputRequest": [
             {
@@ -983,7 +983,7 @@
         "majorName": "Xã hội học",
         "intendTime": "4",
         "title": "Cử nhân",
-        "collegeName": "Khoa học xã hội và nhân văn",
+        "collegeName": "Khoa Khoa học Xã hội và Nhân văn",
         "collegeImage": "kkhxhvnv.png",
         "inputRequest": [
             {
@@ -1036,7 +1036,7 @@
         "majorName": "Thông tin - thư viện",
         "intendTime": "4",
         "title": "Cử nhân",
-        "collegeName": "Khoa học xã hội và nhân văn",
+        "collegeName": "Khoa Khoa học Xã hội và Nhân văn",
         "collegeImage": "kkhxhvnv.png",
         "inputRequest": [
             {
@@ -1550,6 +1550,717 @@
             }
         ]
     },
+    {   
+        "number":31,
+        "majorCode": "7380101",
+        "majorName": "Luật",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Luật",
+        "collegeImage": "L.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "D01","C00","D03"],
+                "quantity": 300
+            }   
+        ],
+        "mainSubjects": ["Toán", "Ngữ văn"],
+        "majorGroup": "Nhóm ngành luật - nhân văn",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 20.75
+            },
+            {
+                "year": 2017,
+                "points": 25.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Luật hành chính",
+                "videoURL": "https://www.youtube.com/watch?v=hsFDFIS4S24",
+                "objectives": [
+                "Chương trình đào tạo ngành Luật hành chính trình độ đại học đào tạo cử nhân Luật, chuyên ngành Hành chính, có ý thức trách nhiệm công dân, có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, có tác phong công nghiệp, khả năng làm việc nhóm, khả năng tự học và làm việc độc lập, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                "Trang bị cho người học nắm vững kiến thức chuyên sâu của chuyên ngành; có khả năng giao tiếp bằng Anh ngữ hoặc Pháp ngữ thông thường và chuyên ngành khá tốt; được trang bị các kiến thức cơ sở ngành và chuyên ngành Luật hành chính, nhất là kiến thức về quản lý hành chính trên các lĩnh vực đất đai và xây dựng.",
+                "Sinh viên tốt nghiệp chuyên ngành Luật hành chính có thể đáp ứng và thích nghi nhanh với yêu cầu của công việc pháp lý tại các cơ quan quản lý nhà nước, các cơ quan tư pháp, các cơ quan bổ trợ tư pháp, các đơn vị sự nghiệp, các doanh nghiệp và các cơ quan, tổ chức khác."
+                ],
+                "jobs": [
+                   "Sinh viên tốt nghiệp ngành Luật Hành chính của Trường Đại học Cần Thơ có thể đáp ứng và thích nghi nhanh với yêu cầu của vị trí chuyên viên tại các cơ quan quản lý nhà nước như Ủy ban nhân dân các cấp, Sở, Phòng chuyên môn thuộc Ủy ban nhân dân; Thư ký và Thẩm phán tại Tòa án; Kiểm sát viên tại Viện kiểm sát; Công an, luật sư, công chứng viên hoặc chuyên viên tại các ngân hàng và doanh nghiệp."
+                ],
+                "developAbilities": [
+                    "Có thể học tiếp ở trình độ sau đại học (cao học Luật, nghiên cứu sinh Luật) tại các viện, trường đại học trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/626-luat-hanh-chinh.html"
+            },
+            {
+                "specializationName": "Luật Thương mại",
+                "videoURL": "https://www.youtube.com/watch?v=oWFPCZQWpF0",
+                "objectives": [
+                "Đào tạo cử nhân Luật Thương mại có phẩm chất chính trị và sức khỏe tốt, có trình độ năng lực chuyên môn pháp lý tốt nhằm đáp ứng nhu cầu phát triển nguồn nhân lực và kinh tế - xã hội của đất nước nói chung và của khu vực đồng bằng sông Cửu Long nói riêng. Đó là những con người có giá trị xã hội cần thiết, có tri thức hiện đại, có phương pháp tự học và tự đổi mới suốt đời.",
+                "Sau khi tốt nghiệp sinh viên có thể làm việc trong các lĩnh vực nghiên cứu, giảng dạy các môn khoa học luật tại các trường đại học, cao đẳng, các trường chuyên nghiệp và dạy nghề, các cơ sở hoạch định chính sách kinh tế, cơ quan nhà nước trong lĩnh vực kinh tế, các doanh nghiệp.",
+                "Đào tạo cử nhân luật có năng lực chuyên môn, phẩm chất chính trị, có lòng yêu nước, yêu ngành nghề. Có ý chí lập thân, lập nghiệp, có đạo đức nghề nghiệp với tư duy năng động, sáng tạo. Có tinh thần trách nhiệm, tác phong văn minh, ý thức tổ chức kỹ luật, rèn luyện sức khỏe để phục vụ ngành nghề, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc."
+                ],
+                "jobs": [
+                   "Sinh viên tốt nghiệp ngành Luật Thương mại của Trường Đại học Cần Thơ có thể đáp ứng và thích nghi nhiều vị trí công việc liên quan đến pháp luật tại các cơ quan tư pháp, các cơ quan bổ trợ tư pháp, các cơ quan nhà nước khác, các tổ chức chính trị, tổ chức chính trị - xã hội, tổ chức xã hội - nghề nghiệp, đơn vị sự nghiệp, các tổ chức kinh tế (bộ phận pháp lý và tổ chức nhân sự),các viện, trung tâm nghiên cứu khoa học pháp lý và các cơ sở đào tạo về luật."
+                ],
+                "developAbilities": [
+                   "Hình thành thói quen học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về lĩnh vực pháp luật, có khả năng sáng tạo trong công việc.",
+                   "Đáp ứng được với yêu cầu học tập ở trình độ sau đại học trong lĩnh vực pháp luật. "
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/625-luat-thuong-mai.html"
+            },
+            {
+                "specializationName": "Luật Tư pháp",
+                "videoURL": "https://www.youtube.com/watch?v=gT1MKRN_0gY",
+                "objectives": [
+                "Chương trình đào tạo ngành Luật tư pháp trình độ đại học đào tạo cử nhân Luật, chuyên ngành Tư pháp, có ý thức trách nhiệm công dân, có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, có tác phong công nghiệp, khả năng làm việc nhóm, khả năng tự học và làm việc độc lập, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                "Trang bị cho người học nắm vững kiến thức chuyên sâu của chuyên ngành; có khả năng giao tiếp bằng Anh ngữ hoặc Pháp ngữ thông thường và chuyên ngành khá tốt; được trang bị các kiến thức cơ sở ngành và chuyên ngành Luật Tư pháp, nhất là kiến thức về luật hình sự và tố tụng hình sự, luật dân sự và tố tụng dân sự. ",
+                "Sinh viên tốt nghiệp chuyên ngành Luật tư pháp có thể đáp ứng và thích nghi nhanh với yêu cầu của công việc pháp lý tại các cơ quan tư pháp, các cơ quan bổ trợ tư pháp, các cơ quan quản lý nhà nước, các đơn vị sự nghiệp, các doanh nghiệp và các cơ quan, tổ chức khác."
+            ],
+                "jobs": [
+                    "Sinh viên tốt nghiệp ngành Luật Tư pháp của Trường Đại học Cần Thơ có thể đáp ứng và thích nghi nhiều vị trí công việc liên quan đến pháp luật tại các cơ quan tư pháp, các cơ quan bổ trợ tư pháp, các cơ quan nhà nước khác, các tổ chức chính trị, tổ chức chính trị - xã hội, tổ chức xã hội - nghề nghiệp, đơn vị sự nghiệp, các doanh nghiệp (bộ phận pháp lý và tổ chức nhân sự), các viện, trung tâm nghiên cứu khoa học pháp lý và các cơ sở đào tạo về luật."
+                ],
+                "developAbilities": [
+                   "Hình thành thói quen học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về  luật, đặc biệt là hai lĩnh vực hình sự và dân sự, biết vận dụng kiến thức pháp lý trong công việc.",
+                   "Có thể học tiếp ở trình độ sau đại học (cao học Luật, nghiên cứu sinh Luật) tại các viện, trường đại học trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/627-luat-tu-phap.html"
+            }
+
+        ]
+    },
+    {   
+        "number":32,
+        "majorCode": "7420101",
+        "majorName": "Sinh học",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Khoa học tự nhiên",
+        "collegeImage": "kkhtm.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["B00", "D08"],
+                "quantity": 140
+            }   
+        ],
+        "mainSubjects": ["Hóa", "Sinh"],
+        "majorGroup": " Nhóm ngành khoa học tự nhiên",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.00
+            },
+            {
+                "year": 2017,
+                "points": 17.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Sinh học",
+                "videoURL": "https://www.youtube.com/watch?v=gwbmvzgm-1M",
+                "objectives": [
+                "Có kiến thức cơ sở và chuyên sâu của chuyên ngành Sinh học, có khả năng nghiên cứu, ứng dụng các thành tựu khoa học về sinh học; có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân; có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                "Trang bị cho người học các kỹ năng chuyên sâu về lĩnh vực sinh học; có khả năng truy cập các tài liệu trên mạng và đọc hiểu các sách báo chuyên ngành bằng tiếng Anh; có khả năng tự cập nhật các kiến thức chuyên ngành, tự nghiên cứu và áp dụng các kết quả nghiên cứu vào thực tiễn trong nông nghiệp, thủy sản, y học, dược liệu học",
+                "Sinh viên tốt nghiệp có thể vận dụng kiến thức đã học để phục vụ cho các nhà máy, công ty, xí nghiệp có liên quan đến lĩnh vực sinh học và sinh học ứng dụng như các ngành nông nghiệp, thủy sản, môi trường, y học, dược liệu học và thực phẩm; có khả năng tham gia giảng dạy các môn trong chuyên ngành Sinh học ở các trường đại học, cao đẳng, trung học dạy nghề, trung học phổ thông."
+            ],
+                "jobs": [
+                "Giảng viên tại các trường đại học, cao đẳng và trung cấp.",
+                "Nghiên cứu viên ở các trường đại học, cao đẳng, hoặc Viện/trung tâm nghiên cứu.",
+                "Chuyên viên tại các sở như Sở KH&CN, Sở Nông nghiệp & PTNN, Sở Tài nguyên Môi trường.",
+                "Nhân viên kiểm soát và đảm bảo chất lượng sản phẩm (QC&QA), nhân viên sản xuất tại các công ty thực phẩm, dược phẩm, nông nghiệp, công nghiệp, y tế, …",
+                "Nhân viên hỗ trợ, tư vấn tại các công ty; nhân viên ứng dụng sản phẩm.",
+                "Kỹ thuật viên phòng thí nghiệm tại các công ty, trung tâm đo lường, kiểm chuẩn, …",
+                "Kỹ thuật viên xét nghiệm tại các bệnh viện, phòng khám, trung tâm xét nghiệm ở các khâu như xét nghiệm di truyền-sinh học phân tử, xét nghiệm vi sinh-sinh hóa, hỗ trợ sinh sản, tế bào gốc, …",
+                "Khởi nghiệp: tự lập trang trại, công ty liên quan đến lĩnh vực nông nghiệp như trại nấm, giống cây trồng, trồng rau sạch, trồng rau tự động, …"
+                ],
+                "developAbilities": [
+                    "Có phương pháp làm việc khoa học, có khả năng cập nhật kiến thức, có ý thức học tập và học tập suốt đời.",
+                    "Có đủ năng lực để tiếp tục học tập các chuyên ngành ở các trình độ sau đại học trong lĩnh vực sinh học như động vật học, thực vật học, sinh thái học, vi sinh vật học, công nghệ sinh học, sinh học phân tử, sinh học ứng dụng..."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/631-sinh-hoc.html"
+            },
+            {
+                "specializationName": "Vi sinh vật học",
+                "videoURL": "https://www.youtube.com/watch?v=EwUSrwgrdpk",
+                "objectives": [
+                "Chương trình đào tạo trình độ cử nhân Sinh học, chuyên ngành Vi sinh vật học cung cấp cho người học môi trường và những hoạt động giáo dục để họ hình thành và phát triển nhân cách, đạo đức, sức khỏe; đào tạo nguồn nhân lực có kiến thức chuyên môn cơ bản và chuyên môn sâu, kỹ năng thực hành thành thạo và có khả năng giải quyết những vấn đề đặt ra trong ngành Vi sinh vật học và ứng dụng trong các lĩnh vực liên quan.",
+                "Người học sau khi tốt nghiệp có thể làm việc ở cơ quan quản lý nhà nước, cơ quan kiểm tra chất lượng, các trường đại học, cao đẳng, xí nghiệp, nhà máy có liên quan đến lĩnh vực vi sinh vật."
+                ],
+                "jobs": [
+                    "Hoạt động trên các lĩnh vực chuyên môn về Vi sinh vật học và Công nghệ sinh học trong các cơ quan như Sở Khoa học-Công nghệ, Tài nguyên-Môi trường, Nông nghiệp và PTNT; Các cơ quan kiểm tra chất lượng và vệ sinh an toàn thực phẩm.",
+                    "Các cơ quan, xí nghiệp chế biến và bảo quản nông-thủy sản, sản xuất thực phẩm và dược phẩm, giống vi sinh vật. Các công ty tư vấn đầu tư về Vi sinh vật học và Công nghệ sinh học.",
+                    "Các trường đại học, cao đẳng, trung học chuyên nghiệp, các viện nghiên cứu và chuyển giao công nghệ thuộc lĩnh vực Vi sinh vật học và Công nghệ sinh học.",
+                    "Các doanh nghiệp trong và ngoài nước liên quan đến ngành Vi sinh vật học và Công nghệ sinh học."
+                ],
+                "developAbilities": [
+                   "Có khả năng học tập, nghiên cứu ở các trình độ sau đại học, trong cũng như ngoài nước.",
+                   "Có khả năng tích lũy kinh nghiệm, chủ động nghiên cứu và ứng dụng các tiến bộ khoa học Vi sinh vật học và Công nghệ sinh học vào sản xuất",
+                   "Có khả năng học tập nâng cao trình độ để đảm nhận các nhiệm vụ về quản lý chuyên môn nghiệp vụ trong lĩnh vực Vi sinh vật học và Công nghệ sinh học và lĩnh vực có liên quan."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/632-vi-sinh-vat-hoc.html"
+            }
+        ]
+    },
+    {   
+        "number":33,
+        "majorCode": "7420201",
+        "majorName": "Công nghệ sinh học",
+        "videoURL": "https://www.youtube.com/watch?v=aYMvZnGYOTs",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Viện NC&PT Công nghệ Sinh học",
+        "collegeImage": "vnc.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "B00","D07","D08"],
+                "quantity": 160
+            }   
+        ],
+        "mainSubjects": ["Hóa", "Sinh"],
+        "majorGroup": "Khoa học tự nhiên",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 18.25
+            },
+            {
+                "year": 2017,
+                "points": 22.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Công nghệ sinh học",
+                "objectives": [
+                 "Chương trình đào tạo trình độ cử nhân Công nghệ sinh học cung cấp cho người học môi trường và những hoạt động giáo dục để họ hình thành và phát triển nhân cách, đạo đức, sức khỏe, có kiến thức chuyên môn cơ bản và chuyên môn sâu, kỹ năng thực hành thành thạo và có khả năng giải quyết những vấn đề đặt ra trong ngành Công nghệ sinh học và ứng dụng trong các lĩnh vực liên quan.",
+                 "Người học sau khi tốt nghiệp có thể làm việc ở cơ quan quản lý nhà nước, cơ quan kiểm tra chất lượng, các trường đại học, cao đẳng, xí nghiệp, nhà máy có liên quan đến lĩnh vực CNSH."
+                ],
+                "jobs": [
+                    "Hoạt động trên các lĩnh vực chuyên môn về CNSH trong các cơ quan như Sở Khoa học-Công nghệ, Tài nguyên-Môi trường, Nông nghiệp và PTNT; Các cơ quan kiểm tra chất lượng và vệ sinh an toàn thực phẩm.",
+                    "Các cơ quan, xí nghiệp chế biến và bảo quản nông-thủy sản, sản xuất thực phẩm và dược phẩm, giống cây trồng và vật nuôi. Các công ty tư vấn đầu tư về công nghệ sinh học.",
+                    "Các trường đại học, cao đẳng, trung học chuyên nghiệp, các viện nghiên cứu và chuyển giao công nghệ thuộc lĩnh vực công nghệ sinh học.",
+                    "Các doanh nghiệp trong và ngoài nước liên quan đến ngành công nghệ sinh học"
+                ],
+                "developAbilities": [
+                    "Có khả năng học tập, nghiên cứu ở các trình độ sau đại học, trong cũng như ngoài nước.",
+                    "Có khả năng tích lũy kinh nghiệm, chủ động nghiên cứu và ứng dụng các tiến bộ khoa học công nghệ sinh học vào sản xuất ",
+					"Có khả năng học tập nâng cao trình độ để đảm nhận các nhiệm vụ về quản lý chuyên môn nghiệp vụ trong lĩnh vực công nghệ sinh học và lĩnh vực có liên quan."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/633-cong-nghe-sinh-hoc.html"
+            }
+        ]
+    },
+    {   
+        "number":34,
+        "majorCode": "7420203",
+        "majorName": "Sinh học ứng dụng",
+        "videoURL": "https://www.youtube.com/watch?v=Snwi9vejCXU",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "B00","A01","D08"],
+                "quantity": 90
+            }   
+        ],
+        "mainSubjects": ["Hóa", "Sinh"],
+        "majorGroup": "Khoa học tự nhiên",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.25
+            },
+            {
+                "year": 2017,
+                "points": 18.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Sinh học ứng dụng",
+                "objectives": [
+                 "Chương trình đào tạo ngành Sinh học ứng dụng trình độ đại học nhằm đào tạo kỹ sư có phẩm chất chính trị, đạo đức và sức khỏe tốt, có năng lực thực hành, tận tụy với nghề nghiệp, có khả năng tiếp tục phát triển trong chuyên môn và ý thức phục vụ nhân dân, đáp ứng nhu cầu phát triển nguồn nhân lực và kinh tế của đất nước.",
+                 "Trang bị các kiến thức cơ bản trong lĩnh vực khoa học xã hội và nhân văn, có khả năng sử dụng các phần mềm tin học ứng dụng và khả năng giao tiếp bằng Anh ngữ thông thường. Người học được trang bị những kiến thức cơ bản về sinh học, hóa học và sinh hóa giúp hiểu rõ các nguyên lý của các quá trình sinh học liên quan đến cây trồng.",
+                "Đào tạo kỹ sư có kiến thức chuyên sâu về quản lý cây trồng để đạt được năng suất và hiệu quả cao bao gồm kỹ thuật trồng; chăm sóc; biết nhận diện, phòng trừ sâu bệnh và cỏ dại hại cây trồng; quản lý dinh dưỡng; điều khiển ra hoa và bảo quản sau thu hoạch. Bên cạnh đó có khả năng làm việc theo nhóm, tính tự chủ trong phương pháp làm việc và nghiên cứu khoa học, biết phân tích các vấn đề nảy sinh trong thực tiễn ngành Sinh học ứng dụng, đúc kết và hình thành kỹ năng tư duy sáng tạo.",
+                "Đào tạo kỹ sư làm việc được ở Viện, Trường, các Cơ quan nghiên cứu và giảng dạy. Bên cạnh đó, làm việc tốt ở các sở ban ngành và công ty liên quan đến nông nghiệp. Đủ trình độ để học ở những bậc học cao hơn trong và ngoài nước."
+                ],
+                "jobs": [
+                    "Cán bộ kỹ thuật, quản lý, nghiên cứu và giảng dạy trong lĩnh vực Sinh học ứng dụng trong các trường, viện, sở ban ngành, trung tâm, các tổ chức xã hội, tổ chức phi chính phủ, doanh nghiệp, công ty,…"
+                ],
+                "developAbilities": [
+                    "Có khả năng tự học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về Sinh học ứng dụng, sáng tạo trong công việc. ",
+					"Đáp ứng được với yêu cầu học tập ở các trình độ sau đại học trong lĩnh vực ứng dụng sinh học."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/782-sinh-hoc-ung-dung.html"
+            }
+        ]
+    },
+    {   
+        "number":35,
+        "majorCode": "7440112",
+        "majorName": "Hóa học",
+        "videoURL": "https://www.youtube.com/watch?v=uBs9-IYxrgg",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Khoa Học Tự Nhiên",
+        "collegeImage": "kkhtn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "B00","D07"],
+                "quantity": 100
+            }   
+        ],
+        "mainSubjects": ["Hóa"],
+        "majorGroup": "Khoa học tự nhiên",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.50
+            },
+            {
+                "year": 2017,
+                "points": 19.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Hóa học",
+                "objectives": [
+                "Có lòng yêu nước, yêu chủ nghĩa xã hội, có ý chí lập thân, lập nghiệp, có đạo đức nghề nghiệp, có tư duy năng động sáng tạo, có tinh thần trách nhiệm, có ý thức kỷ luật tốt, tác phong sinh hoạt văn minh, có ý thức rèn luyện sức khỏe.",
+                "Có kiến thức nền tảng cả về lý thuyết và thực hành hóa học, có khả năng tự học, tự nghiên cứu để tiếp tục nâng cao và mở rộng kiến thức nhằm thích nghi với sự phát triển của xã hội.",
+                "Sinh viên tốt nghiệp đủ năng lực để làm việc trong các cơ quan, tổ chức, công ty liên quan đến hóa học như: quản lý chất lượng sản phẩm; phân tích chất lượng sản phẩm; sản xuất hóa chất, thực phẩm, dược phẩm; cung ứng và phân phối các thiết bị hóa học; đồng thời đủ năng lực giảng dạy môn hóa học trung học phổ thông nếu bổ sung thêm các kiến thức về khoa học giáo dục."
+                ],
+                "jobs": [
+                "Cán bộ nghiên cứu trong các Viện, Trung tâm nghiên cứu, cơ sở có ứng dụng Hóa học.",
+                "Kiểm nghiệm viên, kỹ thuật viên trong các trung tâm phân tích, chi cục tiêu chuẩn đo lường chất lượng.",
+                "Nghiên cứu viên, kiểm nghiệm viên trong các Sở Khoa học và Công nghệ, sở Môi trường và Tài nguyên, các Công ty, xí nghiệp, nhà máy sản xuất và chế biến thuốc bảo vệ thực vật, phân bón, thuốc thú y, thuốc thủy sản, phẩm nhuộm, giày da, …",
+                "Nhân viên kinh doanh hóa chất và thiết bị hóa học trong các Công ty mua bán và kinh doanh hóa chất và thiết bị hóa học.",
+                "Giảng viên, giáo viên giảng dạy các môn Hóa học trong các trường đại học, trường cao đẳng, trung học phổ thông (cần tích lũy thêm các học phần nghiệp vụ sư phạm)."
+                ],
+                "developAbilities": [
+                    "Có đủ kiến thức để tham dự các bậc học cao hơn ở trong nước cũng như nước ngoài. ",
+					"Đủ năng lực để tự học, tự nghiên cứu thêm."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/634-hoa-hoc.html"
+            }
+        ]
+    },
+    {   
+        "number":36,
+        "majorCode": "7720203",
+        "majorName": "Hóa dược",
+        "videoURL": "https://www.youtube.com/watch?v=_FMhSKK6ulw",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Khoa Học Tự Nhiên",
+        "collegeImage": "kkhtn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "B00","D07"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Hóa"],
+        "majorGroup": "Khoa học tự nhiên",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 20.00
+            },
+            {
+                "year": 2017,
+                "points": 24.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Hóa dược",
+                "objectives": [
+                "Chương trình đào tạo Cử Nhân Hóa Dược nhằm mục tiêu đào tạo Cử Nhân Hóa dược chuyên nghiên cứu các vấn đề về thiết kế, tổng hợp dược. Sinh viên tốt nghiệp chương trình Cử Nhân Hóa Dược sẽ có đủ kiến thức và kỹ năng thực hành cơ bản để có thể làm việc trong các ngành công nghiệp dược phẩm hoặc có thể học văn bằng 2 Dược sĩ.",
+                "Chương trình đào tạo được xây dựng nhằm cung cấp cho người học những kiến thức cơ bản về dược lý học và cách tác động của thuốc trong cơ thể; Quá trình phát hiện, sàng lọc, tổng hợp dược phẩm; Các phương pháp tách chiết và cô lập các hợp chất tự nhiên có hoạt tính sinh học. Bên cạnh đó chương trình cũng cung cấp cho sinh viên những kiến thức nền tảng thuộc lĩnh vực Hóa Vô cơ, Hóa lý, Hóa Phân tích, Sinh học và Sinh hóa. "
+                ],
+                "jobs": [
+                "Cán bộ nghiên cứu trong các viện và trung tâm nghiên cứu, các phòng thí nghiệm trong và ngoài nước về lĩnh vực hóa dược.",
+                "Kiểm nghiệm viên mỹ phẩm, dược phẩm trong các trung tâm phân tích kiểm nghiệm mỹ phẩm, dược phẩm.",
+                "Nhân viên kinh doanh hóa chất và thiết bị hóa học trong công ty mua bán và kinh doanh hóa chất và thiết bị hóa học",
+                "Cán bộ quản lý sản xuất và kinh doanh hóa chất cho ngành dược trong các công ty, xí nghiệp dược phẩm; Các công ty, xí nghiệp, nhà máy sản xuất và chế biến thuốc thú y, thuốc thủy sản,…",
+                "Giảng viên giảng dạy các môn liên quan đến Hóa học và Hóa Dược trong các Viện và trường đại học, trường cao đẳng (cần tích lũy thêm các học phần nghiệp vụ sư phạm)."
+                ],
+                "developAbilities": [
+                    "Có khả năng tự học, tự nghiên cứu để tiếp tục nâng cao và mở rộng kiến thức nhằm thích nghi với sự phát triển của xã hội.",
+					"Có năng lực học tập nghiên cứu ở bậc học cao hơn tại các cơ sở đào tạo cả trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/635-hoa-duoc.html"
+            }
+        ]
+    },
+    {   
+        "number":37,
+        "majorCode": "7440301",
+        "majorName": "Khoa học môi trường",
+        "videoURL": "https://www.youtube.com/watch?v=Bcl9QDV5qIo",
+        "intendTime": "4",
+        "title": "kỹ sư",
+        "collegeName": "Khoa Môi trường & TNTN ",
+        "collegeImage": "kmt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "B00","D07"],
+                "quantity": 140
+            }   
+        ],
+        "mainSubjects": ["Hóa"],
+        "majorGroup": "Khoa học tự nhiên",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.25
+            },
+            {
+                "year": 2017,
+                "points": 17.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Khoa học môi trường",
+                "objectives": [
+                "Chương trình đào tạo chuyên ngành Khoa học Môi trường trình độ đại học đào tạo Kỹ sư Khoa học Môi trường có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc",
+                " Trang bị cho người học nắm vững kiến thức cơ sở ngành, kiến thức chuyên ngành Khoa học Môi trường",
+                "Sinh viên tốt nghiệp chuyên ngành Khoa học Môi trường có khả năng nghiên cứu khoa học, làm việc tại các Sở Ban ngành liên quan đến Môi trường, tư vấn các tổ chức khai thác và sử dụng bền vững các nguồn tài nguyên, tham gia đánh giá rủi ro và tác động môi trường, giải quyết các vấn đề suy thoái môi trường đất, nước, không khí. Ngoài ra, sau khi tốt nghiệp sinh viên có khả năng làm việc tại các trường đại học, cơ sở đào tạo các ngành liên quan đến Môi trường."
+
+
+                ],
+                "jobs": [
+                "Giảng viên, nghiên cứu viên tại các Trường Đại học, Cao đẳng, Viện nghiên cứu hoặc Trung tâm đào tạo các ngành liên quan đến Môi trường",
+                "Chuyên viên tư vấn cho các tổ chức hoạt động kinh tế - xã hội, các cơ quan chính phủ và phi chính phủ liên quan đến môi trường, công ty tư vấn môi trường",
+                "Thanh tra môi trường, công an môi trường, viên chức tại các Sở Ban ngành có liên quan đến môi trường và sử dụng tài nguyên thiên nhiên, quốc phòng và công an",
+                "Kỹ sư làm việc tại các công ty, xí nghiệp, nhà máy có hoạt động liên quan đến môi trường."
+                ],
+                "developAbilities": [
+                    "Hình thành thói quen học tập suốt đời, có khả năng cập nhật kiến thức, nghiên cứu khoa học về lĩnh vực Môi trường, sáng tạo và có khả năng thích ứng với các lĩnh vực chuyên môn khác trong môi trường làm việc thực tế",
+                    "Có khả năng học tập các chuyên ngành ở các trình độ sau đại học trong và ngoài nước",
+                    "Thực hiện các nghiên cứu chuyên sâu về khoa học và quản lý môi trường như chất lượng môi trường, độc học môi trường, bảo tồn tài nguyên thiên nhiên, xử lý và kiểm soát ô nhiễm môi trường."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/636-khoa-hoc-moi-truong.html"
+            }
+        ]
+    },
+    {   
+        "number":38,
+        "majorCode": "7620103",
+        "majorName": "Khoa học đất",
+        "videoURL": "https://www.youtube.com/watch?v=WLwY7V4BSXU",
+        "intendTime": "4",
+        "title": "kỹ sư",
+        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "B00","D07","D08"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Hóa","sinh"],
+        "majorGroup": "Khoa học tự nhiên",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.00
+            },
+            {
+                "year": 2017,
+                "points": 15.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Quản lý đất và CN phân bón",
+                "objectives": [
+                "Chuyên ngành Quản lý đất và công nghệ phân bón trình độ đại học đào tạo kỹ sư Khoa học đất, chuyên ngành Quản lý đất và công nghệ phân bón có kiến thức chuyên môn toàn diện, có khả năng làm việc độc lập, sáng tạo, có năng lực cạnh tranh cao trên thị trường lao động, có tinh thần trách nhiệm cao trong giải quyết những vấn đề khoa học và kỹ thuật liên quan đến lĩnh vực quản lý đất và công nghệ phân bón phục vụ cho phát triển nông nghiệp bền vững thích ứng với biến đổi khí hậu.",
+                "Sau khi ra trường, kỹ sư chuyên ngành Quản lý đất và công nghệ phân bón sẽ có kiến thức chuyên môn vững chắc về lĩnh vực quản lý đất, công nghệ phân bón, quản lý quy trình sản xuất phân bón, nông nghiệp và môi trường nhằm đáp ứng nhu cầu công việc có tính cạnh tranh cao như nghiên cứu, phát triển, tư vấn, quản lý và sản xuất nông nghiệp, phục vụ phát triển nông nghiệp bền vững, nông nghiệp hữu cơ và nông nghiệp công nghệ cao. Có kỹ năng chuyên nghiệp, khoa học, năng lực nghiên cứu và kỹ năng giao tiếp xã hội cần thiết đáp ứng nhu cầu công việc có tính cạnh tranh cao trong nước và quốc tế, có khả năng lập luận, tư duy phân tích và giải quyết vấn đề. Đồng thời, kỹ sư có đủ khả năng ứng dụng công nghệ thông tin trong công tác đánh giá, quản lý đất; áp dụng công nghệ tiên tiến trong sản xuất, sử dụng phân bón phục vụ cho việc canh tác cây trồng có hiệu quả."
+                ],
+                "jobs": [
+                "Cán bộ kỹ thuật hoặc quản lý công ty hoạt động về công nghệ sản xuất, sử dụng và kinh doanh phân bón và vật tư nông nghiệp.",
+                "Giảng viên các trường Đại học, Cao đẳng và Trung cấp đào tạo chuyên môn về nông nghiệp.",
+                "Chuyên gia tư vấn cho các tổ chức chính phủ và phi chính phủ về lĩnh vực nghiên cứu, quản lý, sử dụng đất và phân bón.",
+                "Chuyên viên quản lý dự án khoa học và công nghệ liên quan đến quản lý đất, sản xuất và sử dụng phân bón.",
+                "Chuyên viên tư vấn, phụ trách kỹ thuật, chỉ đạo sản xuất nông nghiệp.",
+                "Kỹ thuật viên phụ trách kỹ thuật phân tích đất, thực vật và phân bón.",
+                "Doanh nghiệp và công ty hoạt động trong lĩnh vực phân bón, nông nghiệp và môi trường",
+                "Sở Khoa học và Công nghệ; Sở Tài nguyên và Môi trường; Sở Nông nghiệp & PTNT; Trung tâm Khuyến nông; Phòng ban Nông nghiệp ở tỉnh và huyện.",
+                "Viện nghiên cứu chuyên sâu, Trường Đại học về lĩnh vực nông nghiệp và môi trường",
+                "Cơ sở giáo dục đào tạo về nông nghiệp",
+                "Tổ chức, dự án hoạt động liên quan đến sử dụng đất, canh tác nông nghiệp bền vững và bảo vệ tài nguyên môi trường."
+
+                ],
+                "developAbilities": [
+                    "Có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu.",
+                    "Có khả năng tiếp tục học tập nâng cao trình độ ở bậc Thạc sĩ và Tiến sĩ tại Đại học Cần Thơ hoặc các trường đại học khác trong và ngoài nước."
+                ],
+                "standardOutput": ""
+            }
+            ]
+
+    },
+    {   
+        "number":39,
+        "majorCode": "7460112",
+        "majorName": "Toán ứng dụng",
+        "videoURL": "https://www.youtube.com/watch?v=OTmKa3Q2DY4",
+        "intendTime": "4",
+        "title": "cử nhân",
+        "collegeName": "Khoa Khoa học Tự nhiên ",
+        "collegeImage": "khtn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "B00","A01"],
+                "quantity": 60
+            }   
+        ],
+        "mainSubjects": ["Toán"],
+        "majorGroup": "Khoa học tự nhiên",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.25
+            },
+            {
+                "year": 2017,
+                "points": 15.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Toán ứng dụng",
+                "objectives": [
+                "Đào tạo Cử nhânToán ứng dụng có kiến thức chuyên môn vững vàng, có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ tổ quốc.",
+                "Trang bị cho người học kiến thức cơ sở và kiến thức chuyên sâu về Toán ứng dụng, đặc biệt là Toán Thống kê. Khả năng giao tiếp thông thường bằng ngoại ngữ.",
+                "Sinh viên tốt nghiệp ngành Toán ứng dụng có khả năng vận dụng được kiến thức toán học để giải quyết bài toán thực tế thông qua việc mô hình hóa, thu thập và phân tích số liệu, xây dựng thuật toán và thực hiện tính toán, giải quyết bài toán dự báo, nhằm đáp ứng yêu cầu nghiên cứu  tại các Viện, giảng dạy tại các Trường và làm việc tại các Sở Khoa học và Công nghệ, Cục Thống kê, Công ty bảo hiểm, Ngân hàng, Cơ quan quản lý nhà nước cũng như các Cơ sở sản xuất và kinh doanh khác."
+
+                ],
+                "jobs": [
+                "Chuyên viên phân tích và xử lý thống kê tại các Cục thống kê, ngân hàng, công ty bảo hiểm, công ty xử lý số liệu.",
+                "Chuyên viên phụ trách mảng tổng hợp, thống kê và nghiên cứ khoa học trong các cơ quan nhà nước.",
+                "Nghiên cứu viên tại các trung tâm và viện nghiên cứu về Toán.",
+                "Giảng viên tại các trường cao đẳng và đại học."
+                ],
+                "developAbilities": [
+                    "Đáp ứng được với yêu cầu học tập ở các trình độ sau đại học trong lĩnh vực Toán Thống kê, Giải tích, Phương pháp giảng dạy toán và Toán kinh tế. ",
+                    "Thực hiện các nghiên cứu chuyên ngành sâu về xác suất và thống kê."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/638-toan-ung-dung.html"
+            }
+        ]
+    },
+    {   
+        "number":40,
+        "majorCode": "7480101",
+        "majorName": "Khoa học máy tính",
+        "videoURL": "https://www.youtube.com/watch?v=T7HkV19e-TE",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Khoa học Tự nhiên ",
+        "collegeImage": "khtn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","A01"],
+                "quantity": 120
+            }   
+        ],
+        "mainSubjects": ["Toán"],
+        "majorGroup": "công nghệ - thông tin",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.75
+            },
+            {
+                "year": 2017,
+                "points": 16.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Khoa học máy tính",
+                "objectives": [
+                "Đào tạo kỹ sư khoa học máy tính có kiến thức tổng quát về khoa học máy tính và kỹ năng vận dụng chúng vào các vấn đề thực tiễn. Sinh viên sau khi ra trường sẽ có kiến thức vững chắc về một trong các hướng chuyên ngành: Hệ thống thông minh, Máy học & khai khoáng dữ liệu,  Đồ hoạ & thị giác máy tính, An toàn & bảo mật thông tin và Mô phỏng & đánh giá hệ thống. Sinh viên có khả năng tư duy phát triển từ lý thuyết đến việc xây dựng hệ thống thông minh, có khả năng ứng dụng các kết quả nghiên cứu vào thực tiễn cũng như khả năng tham gia vào các dự án nghiên cứu và phát triển trong lĩnh vực khoa học máy tính."
+                ],
+                "jobs": [
+                "Sinh viên có cơ hội nghề nghiệp trong: các công ty tư vấn - thiết kế các giải pháp công nghệ thông tin; các công ty sản xuất, gia công hoặc bảo trì phần mềm; các trường đại học, cao đẳng, các viện nghiên cứu và chuyển giao công nghệ thuộc lĩnh vực khoa học máy tính.",
+                "Sinh viên sau khi ra trường có thể làm việc ở các vị trí như: lập trình viên, phân tích thiết kế, kiểm thử phần mềm."
+                ],
+                "developAbilities": [
+                    "Có khả năng tự học, khả năng cập nhật kiến thức, sáng tạo trong công việc, và có thói quen học tập suốt đời.",
+                    "Có khả năng nghiên cứu chuyên sâu trong lĩnh vực khoa học máy tính và các lĩnh vực khác có liên quan. ",
+                    "Đáp ứng được yêu cầu học tập ở các trình độ sau đại học trong lĩnh vực khoa học máy tính và một số lĩnh vực có liên quan."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/639-khoa-hoc-may-tinh.html"
+            }
+        ]
+    },
+    {   
+        "number":41,
+        "majorCode": "7480102",
+        "majorName": "Mạng máy tính và truyền thông dữ liệu",
+        "videoURL": "https://www.youtube.com/watch?v=9V1mW4_w-g0",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
+        "collegeImage": "kcntt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","A01"],
+                "quantity": 120
+            }   
+        ],
+        "mainSubjects": ["Toán"],
+        "majorGroup": "công nghệ - thông tin",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.75
+            },
+            {
+                "year": 2017,
+                "points": 18.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Mạng máy tính và truyền thông dữ liệu",
+                "objectives": [
+                "Chương trình đào tạo trình độ đại học ngành Mạng máy tính và Truyền thông dữ liệu đào tạo kỹ sư Truyền thông và mạng máy tính có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                "Trang bị cho người học nắm vững kiến thức chuyên sâu của chuyên ngành; có khả năng giao tiếp bằng Anh ngữ thông thường và chuyên ngành; được trang bị các kiến thức cơ sở ngành Mạng máy tính và Truyền thông dữ liệu.",
+                "Sinh viên tốt nghiệp ngành Mạng máy tính và Truyền thông dữ liệu ngoài việc thích hợp với vị trí nhân viên công nghệ thông tin tại các loại hình doanh nghiệp, tổ chức,… còn là chuyên gia ở lĩnh vực mạng máy tính và truyền thông tại các cơ quan, xí nghiệp, công ty phần mềm."
+                ],
+                "jobs": [
+                "Nhân viên quản trị, chuyên trách về mạng máy tính ở các cơ quan quản lý hành chính nhà nước, công ty, xí nghiệp, doanh nghiệp, ngân hàng, ...",
+                "Cán bộ nghiên cứu và ứng dụng công nghệ thông tin ở các viện, trung tâm nghiên cứu và các trường đại học, cao đẳng, …",
+                "Giảng viên công nghệ thông tin ở các trường đại học, cao đẳng, trung học phổ thông, trung học chuyên nghiệp và dạy nghề.",
+                "Chuyên viên tư vấn, phân tích, thiết kế, xây dựng, bảo trì các hệ thống mạng máy tính, lập trình viên trong các công ty sản xuất, gia công phần mềm."
+
+                ],
+                "developAbilities": [
+                    "Hình thành thói quen học suốt đời, có khả năng tự nghiên cứu, cập nhật kiến thức, công nghệ mới về công nghệ thông tin và mạng máy tính. ",
+                    "Đáp ứng được với yêu cầu học tập ở các trình độ sau đại học trong lĩnh vực công nghệ thông tin và truyền thông."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/640-truyen-thong-va-mang-may-tinh.html"
+            }
+        ]
+    },
+    {   
+        "number":42,
+        "majorCode": "7480103",
+        "majorName": "Kỹ thuật phần mềm",
+        "videoURL": "https://www.youtube.com/watch?v=fC0rpSVfTL8",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
+        "collegeImage": "kcntt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","A01"],
+                "quantity": 140
+            }   
+        ],
+        "mainSubjects": ["Toán"],
+        "majorGroup": "công nghệ - thông tin",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 17.75
+            },
+            {
+                "year": 2017,
+                "points": 20.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật phần mềm",
+                "objectives": [
+                "Đào tạo kỹ sư ngành Kỹ thuật phần mềm có kiến thức, kỹ năng về kỹ thuật phần mềm đủ để xây dựng mô hình và áp dụng các nguyên tắc của công nghệ phần mềm vào thực tiễn cũng như tự học nhằm thích ứng các yêu cầu về nghiên cứu phát triển và ứng dụng công nghệ thông tin của xã hội. Người tốt nghiệp sẽ có khả năng làm việc trong lĩnh vực phần mềm trong và ngoài nước."
+                ],
+                "jobs": [
+                "Kỹ sư phần mềm với các vai trò: phân tích viên, thiết kế viên, lập trình viên, kiểm thử viên, bảo trì viên, trưởng nhóm lập trình, trưởng dự án trong các công ty phần mềm, các công ty tư vấn – thiết kế giải pháp công nghệ thông tin cho doanh nghiệp, các bộ phận vận hành và phát triển CNTT của các cơ quan, tổ chức.",
+                "Cán bộ nghiên cứu và ứng dụng CNTT ở các viện nghiên cứu và chuyển giao công nghệ thuộc lĩnh vực CNTT và các trường học.",
+                "Giảng viên CNTT ở trường đại học, cao đẳng, trung học phổ thông, trung học chuyên nghiệp và dạy nghề."
+
+                ],
+                "developAbilities": [
+                    "Hình thành thói quen học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về Kỹ thuật phần mềm, sáng tạo trong công việc. ",
+                    "Đáp ứng được với yêu cầu học tập ở các trình độ sau đại học trong lĩnh vực Kỹ thuật phần mềm"
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/641-ky-thuat-phan-mem.html"
+            }
+        ]
+    },
+    {   
+        "number":43,
+        "majorCode": "7480104",
+        "majorName": "Hệ thống thông tin",
+        "videoURL": "https://www.youtube.com/watch?v=DWRkcW45UcI",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
+        "collegeImage": "kcntt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","A01"],
+                "quantity": 100
+            }   
+        ],
+        "mainSubjects": ["Toán"],
+        "majorGroup": "công nghệ - thông tin",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.00
+            },
+            {
+                "year": 2017,
+                "points": 16.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Hệ thống thông tin",
+                "objectives": [
+                "Đào tạo kỹ sư có phẩm chất đạo đức, tư duy, kiến thức chuyên môn cần thiết về CNTT và các lĩnh vực liên quan như kinh tế, quản lý để thành công trong vị trí chuyên gia về Hệ thống thông tin ở các cơ quan, tổ chức thuộc hoạt động trong các môi trường khác nhau như giáo dục, hành chính sự nghiệp, doanh nghiệp."
+                ],
+                "jobs": [
+                "Lập trình viên trong các công ty sản xuất phần mềm",
+                "Chuyên viên tư vấn, thiết kế giải pháp CNTT trong các công ty tư vấn, thiết kế giải pháp về CNTT cho doanh nghiệp, tổ chức.",
+                "Chuyên gia phân tích thiết kế hệ thống trong các công ty sản xuất pần mềm.",
+                "Giảng viên CNTT tại các trường Cao đẳng, Đại học."
+
+                ],
+                "developAbilities": [
+                    "Có khả năng nghiên cứu chuyên sâu trong lĩnh vực Hệ thống thông tin và các lĩnh vực khác có liên quan. ",
+                    "Đáp ứng được yêu cầu học tập ở các trình độ sau đại học trong lĩnh vực Hệ thống thông tin và một số lĩnh vực có liên quan."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/642-he-thong-thong-tin.html"
+            }
+        ]
+    },
     {
         "number": 44,
         "majorCode": "7480201",
@@ -1621,6 +2332,312 @@
                    "Đáp ứng được với yêu cầu học tập ở các chương trình đào tạo về công nghệ thông tin ở trình độ thạc sĩ và tiến sĩ."
                 ],
                 "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/902-tin-hoc-ung-dung.html"
+            }
+        ]
+    },
+    {   
+        "number":45,
+        "majorCode": "7510401",
+        "majorName": "Công nghệ kỹ thuật hóa học",
+        "videoURL": "https://www.youtube.com/watch?v=-1OYJU2z3oI",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ",
+        "collegeImage": "kcn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","A01","B00","D07"],
+                "quantity": 160
+            }   
+        ],
+        "mainSubjects": ["Hóa"],
+        "majorGroup": "Kỹ thuật",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 17.25
+            },
+            {
+                "year": 2017,
+                "points": 21.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Công nghệ kỹ thuật hóa học",
+                "objectives": [
+                "Tính toán, thiết kế, chế tạo, vận hành, sửa chữa và bảo trì các thiết bị công nghệ hoá học. Thiết bị công nghệ hóa học thuộc các quá trình cơ bản của công nghệ hóa học: cơ học lưu chất và vật liệu rời, truyền nhiệt, truyền khối, kỹ thuật phản ứng.",
+                "Hiểu và ứng dụng các vấn đề về công nghệ hóa học, hóa học vào các lĩnh vực chuyên ngành hẹp như vật liệu polymer & composite; công nghệ trích ly, chiết tách chất; hoá hương liệu mỹ phẩm; kỹ thuật nhuộm in; chất kích thích và bảo vệ thực vật; kỹ thuật gốm sứ và vật liệu ceramic; công nghệ điện hoá và chống ăn mòn kim loại; phân tích hóa học; kỹ thuật môi trường ...",
+                "Quản lý kỹ thuật, quản lý chất lượng tại các cơ sở sản xuất, các nhà máy, công ty hoạt động liên quan đến vấn đề hóa học và công nghệ hóa học.",
+                "Giao tiếp chuyên môn và xã hội, làm việc nhóm, tự học và nghiên cứu để nâng cao kiến thức (chuyên môn, ngoại ngữ, tin học ...), trao dồi các kỹ năng phục vụ nghề nghiệp.",
+                "Tham gia nghiên cứu, giảng dạy (Trường cao đẳng và đại học, viện nghiên cứu...) và làm việc (ở các công ty, nhà máy, phân xưởng,... liên quan đến công nghệ hóa học, hóa học, môi trường)"
+
+                ],
+                "jobs": [
+                "Cán bộ nghiên cứu: nghiên cứu viên, giảng viên trong lĩnh vực Công nghệ hóa học ở các Viện, Trung tâm nghiên cứu và các trường đại học, cao đẳng, nghề.",
+                "Cán bộ vận hành: tính toán, thiết kế, vận hành sửa chữa, tư vấn kỹ thuật trong lĩnh vực công nghệ hóa học, vật liệu và môi trường ở các nhà máy, công ty, xí nghiệp, ...",
+                "Cán bộ quản lý: khai thác vận hành và triển khai các dự án Công nghệ hóa học ở các cơ quan, công ty, xí nghiệp, trường học."
+
+                ],
+                "developAbilities": [
+                    "Tự học và nghiên cứu suốt đời ",
+                    "Học sau đại học (thạc sĩ, tiến sĩ) trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/645-cong-nghe-ky-thuat-hoa-hoc.html"
+            }
+        ]
+    },
+    {   
+        "number":46,
+        "majorCode": "7520309",
+        "majorName": "Kỹ thuật vật liệu",
+        "videoURL": "https://www.youtube.com/watch?v=Q0yOWKFphXU",
+        "intendTime": "4.5",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Công nghệ",
+        "collegeImage": "kcn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","A01","B00","D07"],
+                "quantity": 60
+            }   
+        ],
+        "mainSubjects": ["Toán","Lý"],
+        "majorGroup": "Kỹ thuật",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.00
+            },
+            {
+                "year": 2017,
+                "points": 14.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật vật liệu",
+                "objectives": [
+               "Đào tạo kỹ sư ngành Kỹ thuật vật liệu (KTVL) có năng lực chuyên môn, phẩm chất chính trị, có lòng yêu nước, yêu ngành nghề. Có ý chí lập thân, lập nghiệp, có đạo đức nghề nghiệp với tư duy năng động, sáng tạo. Có tinh thần trách nhiệm, tác phong văn minh, ý thức tổ chức kỹ luật, rèn luyện sức khoẻ để phục vụ ngành nghề. Có trình độ chuyên môn để góp phần đào tạo nguồn nhân lực cho địa phương, khu vực ĐBSCL và cả nước.",
+               "Kỹ sư Kỹ thuật vật liệu được trang bị kiến thức cơ bản rộng, có kiến thức chuyên  sâu về tính toán, có khả năng tự nghiên cứu, xây dựng, tổ chức và thiết kế, chế tạo, vận hành, sửa chữa và bảo trì các thiết bị KTVL trong các nhà máy liên quan. Có kiến thức nền tảng và triển khai ứng dụng trong các lĩnh vực như vật liệu Kim loại - Hợp kim, Silicate - Ceramic, và Polymer – Composite. Ngoài ra, còn có các vật liệu tiên tiến như vật liệu bán dẫn, vật liệu siêu dẫn, vật liệu y sinh, vật liệu nano…từ đó có thể nắm bắt được mối quan hệ giữa cấu trúc và tính chất của vật liệu. Đây là nền tảng khoa học mà người kỹ sư KTVL cần có. Có khả năng quản lý kỹ thuật, quản lý chất lượng tại các cơ sở sản xuất, các nhà máy, công ty hoạt động liên quan đến vấn đề KTVL.",
+               "Kỹ sư Kỹ thuật vật liệu có khả năng tham gia nghiên cứu và làm việc (ở các công ty, nhà máy, phân xưởng … liên quan đến vật liệu, hóa học, môi trường, y sinh, năng lượng...). Có khả năng tư vấn, đề xuất, chủ trì, triển khai các dự án Kỹ thuật vật liệu, phục vụ công cuộc phát triển kinh tế của vùng ĐBSCL." 
+                ],
+                "jobs": [
+                "Trong các Công ty sản xuất, gia công vật liệu như các Công ty luyện cán kim loại, gốm sứ, nhựa, cao su…",
+                "Trong các Công ty chế tạo vật tư và thiết bị dân dụng, thiết bị công nghiệp như các Công ty cơ khí, gốm sứ, nhựa…",
+                "Trong các Công ty Cơ khí sản xuất phụ tùng thay thế cho các thiết bị công nông ngư nghiệp.",
+                "Trong các Công ty sản xuất các cấu kiện, thiết bị điện, thiết bị-vật liệu bán dẫn, năng lượng, vật liệu nano, vật liệu xây dựng, VL trang trí nội thất.",
+                "Trong các Công ty xuất nhập khẩu nguyên vật liệu: kim loại, gốm, nhựa …",
+                "Trong các Công ty, Hãng sản xuất và kinh doanh vật liệu của nước ngoài có chi nhánh, VP đại diện tại VN.",
+                "Trong các cơ quan đào tạo và nghiên cứu khoa học như Trường, Viện về lãnh vực khoa học và kỹ thuật vật liệu.",
+                "Trong các Cơ quan, Viện nghiên cứu thiết kế thiết bị, cải tiến công nghệ.",
+                "Trong các Cơ quan quản lý và kiểm định chất lượng nguyên vật liệu như Hải quan, Trung Tâm tiêu chuẩn đo lường chất lượng."
+                ],
+                "developAbilities": [
+                    "Kỹ sư Kỹ thuật vật liệu sau khi tốt nghiệp có thể học thêm một bằng đại học khác cùng nhóm ngành hoặc học tiếp cao học (Thạc sĩ) hoặc nghiên cứu sinh (Tiến sĩ) ở các trường đại học trong và ngoài nước. Kỹ sư ngành Kỹ thuật vật liệu sẽ được đào tạo để có kỹ năng học tập suốt đời."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/792-ky-thuat-vat-lieu.html"
+            }
+        ]
+    },
+    {   
+        "number":47,
+        "majorCode": "7510601",
+        "majorName": "Quản lý công nghiệp",
+        "videoURL": "https://www.youtube.com/watch?v=NQIrBO8CJmg",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ",
+        "collegeImage": "kcn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","A01","B00","D07"],
+                "quantity": 120
+            }   
+        ],
+        "mainSubjects": ["Toán","Lý"],
+        "majorGroup": "Kỹ thuật",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 17.50
+            },
+            {
+                "year": 2017,
+                "points": 18.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Quản lý công nghiệp",
+                "objectives": [
+                "Cung cấp cho sinh viên các kiến thức tổng hợp về khoa học cơ bản, kỹ thuật, kinh tế và tối ưu hóa mô hình sản xuất và dịch vụ, là điều kiện cần thiết để sinh viên phát huy tính sáng tạo trong hoạt động nghề nghiệp, khả năng tự học và tự nghiên cứu.",
+                "Phát triển các kỹ năng giúp cho sinh viên có khả năng: giao tiếp, làm việc trong nhóm, kỹ năng giải quyết vấn đề, rèn luyện thái độ chuyên nghiệp và đạo đức nghề nghiệp; sẵn sàng làm việc trong môi trường hiện đại, phức tạp và học tập suốt đời.",
+                "Rèn luyện kỹ năng về tiếng Anh trong học tập, nghiên cứu và giao tiếp."
+                ],
+                "jobs": [
+                "Trở thành nghiên cứu viên, giảng viên trong lĩnh vực quản lý công nghiệp ở các Viện, Trung tâm nghiên cứu và các trường đại học, cao đẳng, nghề",
+                "Kỹ sư kế hoạch, kỹ sư quản lý kho, kỹ sư bảo trì, kỹ sư kiểm soát/quản lý chất lượng,… trong các doanh nghiệp sản xuất và dịch vụ",
+                "Quản đốc phân xưởng, giám sát sản xuất, quản lý dự án, quản lý nhân sự,…trong các cơ quan, công ty, xí nghiệp"
+               
+                ],
+                "developAbilities": [
+                "Tự học và nghiên cứu suốt đời ",
+                "Học sau đại học (thạc sĩ, tiến sĩ) trong và ngoài nước."
+            ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/646-quan-ly-cong-nghiep.html"
+            }
+        ]
+    },
+    {   
+        "number":48,
+        "majorCode": "7520103",
+        "majorName": "Kỹ thuật cơ khí",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01"],
+                "quantity": 260
+            }   
+        ],
+        "mainSubjects": ["Hóa", "Sinh"],
+        "majorGroup": " Nhóm ngành khoa học tự nhiên",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 17.50
+            },
+            {
+                "year": 2017,
+                "points": 20.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Cơ khí chế tạo máy",
+                "videoURL": "https://www.youtube.com/watch?v=KA2cRSqmVU4",
+                "objectives": [
+                    "Trang bị những kiến thức căn bản cơ sở ngành của ngành cơ khí nói chung và chuyên sâu hơn về chuyên ngành Cơ khí Chế tạo máy, cần thiết cho nghề nghiệp và phục vụ cho việc học tập ở bậc cao hơn. Các kiến thức được xây dựng trên nền tảng khoa học, lập luận phân tích chặc chẽ, kích thích khả năng sáng tạo và tự học.",
+                    "Cung cấp những kiến thức nền tảng cơ bản, rộng của các chuyên ngành gần như Kỹ thuật Cơ điện tử, Cơ khí Chế biến, Cơ khí giao thông. Do đó, người học có thể áp dụng vào việc giải quyết các vấn đề liên quan, tạo điều kiện cho việc tự nghiên cứu, sáng tạo trong hoạt động nghề nghiệp và khả năng tự học nâng cao.",
+                    "Phát triển các kỹ năng, giúp người học có khả năng giao tiếp, kỹ năng và tinh thần làm việc nhóm, kỹ năng giải quyết vấn đề, rèn luyện thái độ chuyên nghiệp và đạo đức nghề nghiệp, làm việc trong môi trường hiện đại và học tập suốt đời.",
+                    "Rèn luyện kỹ năng giao tiếp bằng tiếng Anh trong học tập, nghiên cứu và giao tiếp; các kỹ năng mềm cần thiết cho kỹ sư Cơ khí."
+                ],
+                "jobs": [
+                    "Các Sở, Phòng, Ban quản lý liên quan đến lĩnh vực Cơ khí như: Sở Công Thương, Sở Nông nghiệp & Phát triển nông thông, Sở Xây dựng, Ban quản lý dự án công trình xây dựng, Phòng kinh tế - kỹ thuật - hạ tầng của các Huyện,.v.v...",
+                    "Các công ty doanh nghiệp liên quan đến lĩnh vực Cơ khí, Cơ khí Chế tạo máy",
+                    "Các Viện Nghiên cứu, trường Đại học, Cao Đẳng và Trung học chuyên nghiệp liên quan đến ngành nghề kỹ thuật cơ khí.",
+                    "Các Trung tâm, phòng thí nghiệm chuyên ngành kỹ thuật cơ khí.",
+                    "Làm chủ công ty, doanh nghiệp tư nhân."
+                ],
+                "developAbilities": [
+                    "Tự học và nghiên cứu suốt đời",
+                    "Học sau đại học (thạc sĩ, tiến sĩ) trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/648-co-khi-che-tao-may.html"
+            },
+            {
+                "specializationName": "Cơ khí chế biến",
+                "videoURL": "https://www.youtube.com/watch?v=T9B67_x8SH0",
+                "objectives": [
+                    "Trang bị những kiến thức căn bản cơ sở ngành của ngành cơ khí và kiến thức chuyên ngành Cơ khí chế biến, cần thiết cho nghề nghiệp và phục vụ cho việc học tập ở bậc cao hơn. Các kiến thức được xây dựng trên nền tảng khoa học, lập luận phân tích chặc chẽ, kích thích khả năng sáng tạo và tự học của sinh viên.",
+                    "Cung cấp những kiến thức nền tảng cơ bản, rộng của các chuyên ngành gần như Cơ khí chế tạo máy, Cơ khí giao thông, Công nghệ sau thu hoạch. Có thể áp dụng vào việc giải quyết các vấn đề liên quan, tạo điều kiện cho việc tự nghiên cứu, sáng tạo trong hoạt động nghề nghiệp và khả năng tự học nâng cao.",
+                    "Phát triển các kỹ năng mềm cần thiết giúp sinh viên có khả năng giao tiếp, kỹ năng và tinh thần làm việc nhóm, kỹ năng giải quyết vấn đề, rèn luyện thái độ chuyên nghiệp và đạo đức nghề nghiệp, sẵn sàng làm việc trong môi trường hiện đại và học tập suốt đời.",
+                    "Rèn luyện các kỹ năng giao tiếp bằng tiếng Anh thông thường và chuyên ngành kỹ thuật trong học tập, nghiên cứu và giao tiếp; các kỹ năng mềm cần thiết cho kỹ sư Cơ khí."
+
+                ],
+                "jobs": [
+                    "Các Sở, Phòng, Ban quản lý liên quan đến lĩnh vực Cơ khí như: Sở Công Thương, Sở Nông nghiệp & Phát triển nông thông, Sở Xây dựng, Ban quản lý dự án công trình xây dựng, Phòng kinh tế và các cơ quan nhà nước cấp thành phố, tỉnh, huyện.",
+                    "Các Viện Nghiên cứu, trường Đại học, Cao Đẳng và Trung học chuyên nghiệp liên quan đến ngành nghề kỹ thuật cơ khí.",
+                    "Các công ty doanh nghiệp liên quan đến lĩnh vực cơ khí, cơ khí chế biến lương thực – thực phẩm, thức ăn gia súc.",
+                    "Các Trung tâm, phòng thí nghiệm chuyên ngành kỹ thuật cơ khí.",
+                    "Làm chủ công ty, doanh nghiệp tư nhân."
+
+                ],
+                "developAbilities": [
+                   "Có khả năng học tiếp lên trình độ cao hơn (Thạc sĩ, Tiến sĩ) thuộc chuyên ngành Kỹ thuật Cơ khí hoặc các ngành gần khác ở các trường trong và ngoài nước.",
+                   "Có khả năng tham gia các khóa bồi dưỡng ngắn hạnphục vụ chuyên môn công tác."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/647-co-khi-che-bien.html"
+            },
+            {
+                "specializationName": "Cơ khí ôtô",
+                "videoURL": "https://www.youtube.com/watch?v=T9B67_x8SH0",
+                "objectives": [
+                    "Trang bị những kiến thức căn bản cơ sở ngành của ngành cơ khí và chuyên sâu của chuyên ngành Cơ khí ôtô, cần thiết cho nghề nghiệp và phục vụ cho việc học tập ở bậc cao hơn. Các kiến thức được xây dựng trên nền tảng khoa học, lập luận phân tích chặt chẽ, kích thích khả năng sáng tạo và tự học.",
+                    "Cung cấp những kiến thức nền tảng cơ bản, rộng của các chuyên ngành gần như Kỹ thuật điều khiển & tự động hóa, Công nghệ chế tạo máy, Cơ khí chế tạo máy, Cơ khí chế biến. Có thể áp dụng vào việc giải quyết các vấn đề liên quan, tạo điều kiện cho việc tự nghiên cứu, sáng tạo trong hoạt động nghề nghiệp và khả năng tự học nâng cao.",
+                    "Phát triển các kỹ năng giúp sinh viên có khả năng giao tiếp, kỹ năng và tinh thần làm việc nhóm, kỹ năng giải quyết vấn đề, rèn luyện thái độ chuyên nghiệp và đạo đức nghề nghiệp, làm việc trong môi trường hiện đại và học tập suốt đời.",
+                    "CTĐT rèn luyện cho sinh viên các kỹ năng giao tiếp bằng tiếng Anh thông thường và chuyên ngành kỹ thuật trong học tập, nghiên cứu và giao tiếp; các kỹ năng mềm cần thiết cho kỹ sư Cơ khí."
+                ],
+                "jobs": [
+                    "Các nhà máy sản xuất phụ tùng, phụ kiện, lắp ráp ô tô, xe gắn máy và máy động lực. Các cơ sở sửa chữa ô tô, máy động lực. Các doanh nghiệp kinh doanh ô tô, máy động lực, phụ tùng,...",
+                    "Các trạm đăng kiểm ô tô, máy động lực và tàu thuyền. Viện nghiên cứu và chuyển giao công nghệ thuộc lĩnh vực ô tô, máy động lực và tàu thuyền.",
+                    "Các đơn vị hành chính quản lý về kỹ thuật ô tô, máy động lực.",
+                    "Các cảng sông, cảng biển và các lĩnh vực liên quan đến tàu thuyền.",
+                    " Có khả năng tự mở gara bảo trì và sửa chữa xe gắn máy và ô tô.",
+                    "Các trường đại học, cao đẳng, trung học chuyên nghiệp, dạy nghề,…"
+                ],
+                "developAbilities": [
+                   "Có khả năng tự học tập, nghiên cứu và tiếp thu nhanh các công nghệ mới vể lĩnh vực cơ khí ôtô.",
+                   "Có khả năng học đại học văn bằng hai. Tiếp tục học ở trình độ sau đại học trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/649-co-khi-oto.html"
+            }
+        ]
+    },
+    {   
+        "number":49,
+        "majorCode": "7520114",
+        "majorName": "Kỹ thuật cơ điện tử",
+        "videoURL": "https://www.youtube.com/watch?v=os9hkEXlpOs",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ",
+        "collegeImage": "kcn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01"],
+                "quantity": 120
+            }   
+        ],
+        "mainSubjects": ["Toán", "Lý"],
+        "majorGroup": "Kỹ thuật",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 17.00
+            },
+            {
+                "year": 2017,
+                "points": 20.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật cơ điện tử",
+                "objectives": [
+                   "Có phẩm chất chính trị và đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                   "Vận dụng các kiến thức về cơ khí, điện tử, điều khiển, lập trình và các kỹ năng để giải quyết các vấn đề trong lĩnh vực cơ điện tử.",
+                   "Có khả năng tích hợp và sử dụng các hệ thống hoặc các công cụ kỹ thuật hiện đại để thiết kế, phát triển và chế tạo sản phẩm.",
+                   "Có khả năng làm việc hiệu quả trong nhóm chuyên ngành cũng như đa ngành; có khả năng đọc hiểu tài liệu chuyên ngành và giao tiếp bằng tiếng Anh; có ý thức và khả năng học tập suốt đời."
+                ],
+                "jobs": [
+                    "Trở thành nghiên cứu viên, giảng viên trong lĩnh vực Cơ điện tử ở các Viện, Trung tâm nghiên cứu và các trường đại học, cao đẳng, nghề.",
+                    "Kỹ sư nghiên cứu, thiết kế, tư vấn kỹ thuật và bảo trì trong lĩnh vực cơ điện tử ở các công ty, xí nghiệp, …",
+					"Kỹ sư quản lý, khai thác vận hành và triển khai các dự án thuộc lĩnh vực cơ điện tử, kỹ thuật điều khiển ở các cơ quan, nhà máy sản xuất."
+                ],
+                "developAbilities": [
+                    "Tự học và nghiên cứu suốt đời ",
+                    "Học sau đại học (thạc sĩ, tiến sĩ) trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/650-ky-thuat-co-dien-tu.html"
             }
         ]
     },
@@ -1829,7 +2846,7 @@
         ]
     },
     {
-        "number": 53,
+        "number": 54,
         "majorCode": "7520320",
         "majorName": "Kỹ thuật môi trường",
         "intendTime": "4",
@@ -2026,6 +3043,2072 @@
 				"Kỹ sư Công nghệ sau thu hoạch sau khi tốt nghiệp có thể học thêm một bằng đại học khác cùng nhóm ngành hoặc học tiếp cao học (Thạc sĩ) hoặc nghiên cứu sinh (Tiến sĩ) ở các trường đại học trong và ngoài nước. Kỹ sư ngành Công nghệ sau thu hoạch sẽ được đào tạo để có kỹ năng học tập suốt đời."
                 ],
                 "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/617-cong-nghe-sau-thu-hoach.html"
+            }
+        ]
+    },
+    {   
+        "number":58,
+        "majorCode": "7540105",
+        "majorName": "Công nghệ chế biến thủy sản",
+        "videoURL": "https://www.youtube.com/watch?v=cVuwCqMSZOc",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Thủy sản",
+        "collegeImage": "kts.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","B00","A01","D07"],
+                "quantity": 120
+            }   
+        ],
+        "mainSubjects": ["Hóa","Sinh"],
+        "majorGroup": "sản xuất và chế biến",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 16.75
+            },
+            {
+                "year": 2017,
+                "points": 19.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Công nghệ chế biến thủy sản",
+                "objectives": [
+                "Chương trình đào tạo ngành Công nghệ chế biến thủy sản đào tạo nguồn nhân lực kỹ thuật chuyên ngành Công nghệ chế biến thủy sản có trình độ đại học có phẩm chất chính trị, có đạo đức nghề nghiệp, có sức khoẻ tốt, có kiến thức cơ bản vững vàng, kiến thức chuyên môn và kỹ năng thực tiễn về kỹ thuật phân tích, bảo quản và chế biến thủy sản.",
+                "Sinh viên tốt nghiệp ngành Công nghệ Chế biến Thủy sản có thể đảm nhận việc giám sát, điều hành, quản lý trong các cơ quan quản lý về chế biến thủy sản, cơ sở đào tạo và nghiên cứu về chế biến thủy sản; các dự án chế biến thủy sản trong nước và quốc tế; các doanh nghiệp/cơ sở chế biến thủy sản; tự tổ chức sản xuất và kinh doanh chế biến thủy sản."
+                ],
+                "jobs": [
+                "Các cơ quan quản lý về chế biến thủy sản,",
+                "Các cơ sở đào tạo và nghiên cứu về chế biến thủy sản; các dự án chế biến thủy sản trong nước và quốc tế;",
+                "Các doanh nghiệp/cơ sở chế biến thủy sản;",
+                "Tự tổ chức sản xuất và kinh doanh chế biến thủy sản."
+                ],
+                "developAbilities": [
+                "Có khả năng tự học tập, nghiên cứu và ứng dụng khoa học công nghệ vào thực tế sản xuất. ",
+                "Có khả năng học tập bậc sau đại học liên quan lĩnh vực công nghệ thực phẩm, công nghệ sinh học."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/657-cong-nghe-che-bien-thuy-san.html"
+            }
+        ]
+    },
+    {   
+        "number":59,
+        "majorCode": "7580201",
+        "majorName": "Kỹ thuật xây dựng",
+        "videoURL": "https://www.youtube.com/watch?v=AqlazoOeDYQ",
+        "intendTime": "4,5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ",
+        "collegeImage": "kcn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01"],
+                "quantity": 180
+            }   
+        ],
+        "mainSubjects": ["Toán","Lý"],
+        "majorGroup": "kiến trúc và xây dựng",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 16.00
+            },
+            {
+                "year": 2017,
+                "points": 19.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật xây dựng",
+                "objectives": [
+				"Chương trình đào tạo (CTĐT) đáp ứng mục tiêu đào tạo kỹ sư chuyên ngành Xây dựng dân dụng và công nghiệp (XDDD&CN), có phẩm chất chính trị vững vàng, có đạo đức tốt, có ý thức phục vụ nhân dân, có sức khỏe tốt, đáp ứng yêu cầu xây dựng và bảo vệ tổ quốc.",
+                "CTĐT trang bị cho người học những kiến thức chuyên sâu của chuyên ngành XDDD&CN, có khả năng Khảo sát, Thiết kế, Thi công, Quản lý dự án các công trình XDDD&CN; Có khả năng giao tiếp thông thường, đọc tài liệu chuyên ngành bằng Anh ngữ.",
+                "CTĐT còn trang bị cho người học những kiến thức cơ bản thuộc chuyên ngành gần, chuyên ngành rộng, như: Qui hoạch, Xây dựng công trình Giao thông, Xây dựng công trình Thủy lợi, kỹ thuật Môi trường."
+            ],
+                "jobs": [
+                "Các Sở, Phòng, Ban quản lý về xây dựng cơ bản, như: Sở xây dựng, Ban quản lý dự án công trình xây dựng các cấp, Phòng kinh tế - kỹ thuật - hạ tầng của các Huyện,...",
+                "Các công ty tư vấn khảo sát, thiết kế, thi công và quản lý dự án xây dựng.",
+                "Quản lý xây dựng cơ bản ở các cơ quan, xí nghiệp sản xuất.",
+                "Các trung tâm, phòng thí nghiệm chuyên ngành xây dựng.",
+                "Các Viện nghiên cứu, trường Đại học, Cao Đẳng và Trung học chuyên nghiệp về lĩnh vực xây dựng.",
+                "Làm thầu xây dựng tư nhân."
+            ],
+                "developAbilities": [
+                "Có khả năng học tiếp lên trình độ cao hơn (Thạc sĩ, Tiến sĩ) thuộc chuyên ngành XDDD&CN hoặc các ngành gần khác. ",
+                "Học thêm các khóa bồi dưỡng ngắn hạn (cấp chứng chỉ) phục vụ chuyên ngành như: kỹ sư định giá, giám sát công trình, chỉ huy trưởng công trình, quản lý phòng thí nghiệm chuyên ngành xây dựng, quản lý dự án xây dựng, nghiệp vụ đấu thầu,..."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/777-ky-thuat-xay-dung.html"
+            }
+        ]
+    },
+    {   "number":60,
+        "majorCode": "7580202",
+        "majorName": "Kỹ thuật xây dựng công trình thủy",
+        "videoURL": "https://www.youtube.com/watch?v=o3BrY5HzUDI",
+        "intendTime": "4,5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ",
+        "collegeImage": "kcn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01"],
+                "quantity": 60
+            }   
+        ],
+        "mainSubjects": ["Toán","Lý"],
+        "majorGroup": "kiến trúc và xây dựng",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.00
+            },
+            {
+                "year": 2017,
+                "points": 15.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật xây dựng công trình thủy",
+                "objectives": [
+				"Trang bị cho người học kiến thức chuyên môn của ngành KTXDCTT, có khả năng khảo sát, thiết kế, thi công, quản lý và vận hành các công trình thủy lợi",
+                "Cung cấp cho người học những kiến thức cơ bản thuộc chuyên ngành gần, chuyên ngành rộng, như: Qui hoạch, Kỹ thuật xây dựng công trình giao thông, Xây dựng công trình dân dụng và công nghiệp, Kỹ thuật môi trường;",
+                "Phát triển các kỹ năng giúp cho sinh viên có khả năng: giao tiếp, làm việc trong nhóm, kỹ năng giải quyết vấn đề, rèn luyện thái độ chuyên nghiệp và đạo đức nghề nghiệp; sẵn sàng làm việc trong môi trường hiện đại, phức tạp và học tập suốt đời;, Xây dựng công trình Thủy lợi, kỹ thuật Môi trường.",
+                "Rèn luyện kỹ năng về tiếng Anh trong học tập, nghiên cứu và giao tiếp."
+            ],
+                "jobs": [
+                "Các Sở, Phòng, Ban quản lý về xây dựng cơ bản, như: Sở xây dựng, Ban quản lý dự án công trình xây dựng các cấp, Phòng kinh tế - kỹ thuật - hạ tầng của các Huyện, ...",
+                "Các công ty tư vấn khảo sát, thiết kế, thi công và quản lý dự án xây dựng",
+                "Quản lý xây dựng cơ bản ở các cơ quan, xí nghiệp sản xuất",
+                "Các trung tâm, phòng thí nghiệm chuyên ngành xây dựng",
+                "Các Viện nghiên cứu, trường Đại học, Cao Đẳng và Trung học chuyên nghiệp về lĩnh vực xây dựng",
+                "Làm thầu xây dựng tư nhân."
+            ],
+                "developAbilities": [
+                "Học tiếp sau đại học trong và ngoài nước thuộc ngành Xây dựng công trình thủy hoặc các ngành gần khác",
+                "Học các khóa bồi dưỡng ngắn hạn phục vụ chuyên ngành như: kỹ sư định giá, giám sát công trình, chỉ huy trưởng công trình, quản lý phòng thí nghiệm chuyên ngành xây dựng, quản lý dự án xây dựng, nghiệp vụ đấu thầu,.."
+            ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/659-ky-thuat-xay-dung-cong-trinh-thuy.html"
+            }
+        ]
+    },
+    {   
+        "number":61,
+        "majorCode": "7580205",
+        "majorName": "Kỹ thuật xây dựng công trình giao thông",
+        "videoURL": "https://www.youtube.com/watch?v=ggwRXrOEGrw",
+        "intendTime": "4,5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ",
+        "collegeImage": "kcn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Toán","Lý"],
+        "majorGroup": "kiến trúc và xây dựng",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.00
+            },
+            {
+                "year": 2017,
+                "points": 18.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật xây dựng công trình giao thông",
+                "objectives": [
+				"Trang bị cho người học kiến thức chuyên môn của ngành KTXDCTT, có khả năng khảo sát, thiết kế, thi công, quản lý và vận hành các công trình thủy lợi",
+                "Cung cấp cho người học những kiến thức cơ bản thuộc chuyên ngành gần, chuyên ngành rộng, như: Qui hoạch, Kỹ thuật xây dựng công trình giao thông, Xây dựng công trình dân dụng và công nghiệp, Kỹ thuật môi trường;",
+                "Phát triển các kỹ năng giúp cho sinh viên có khả năng: giao tiếp, làm việc trong nhóm, kỹ năng giải quyết vấn đề, rèn luyện thái độ chuyên nghiệp và đạo đức nghề nghiệp; sẵn sàng làm việc trong môi trường hiện đại, phức tạp và học tập suốt đời;, Xây dựng công trình Thủy lợi, kỹ thuật Môi trường.",
+                "Rèn luyện kỹ năng về tiếng Anh trong học tập, nghiên cứu và giao tiếp."
+            ],
+                "jobs": [
+                "Các Sở, Phòng, Ban quản lý về xây dựng cơ bản, như: Sở xây dựng, Ban quản lý dự án công trình xây dựng các cấp, Phòng kinh tế - kỹ thuật - hạ tầng của các Huyện, ...",
+                "Các công ty tư vấn khảo sát, thiết kế, thi công và quản lý dự án xây dựng",
+                "Quản lý xây dựng cơ bản ở các cơ quan, xí nghiệp sản xuất",
+                "Các trung tâm, phòng thí nghiệm chuyên ngành xây dựng",
+                "Các Viện nghiên cứu, trường Đại học, Cao Đẳng và Trung học chuyên nghiệp về lĩnh vực xây dựng",
+                "Làm thầu xây dựng tư nhân."
+            ],
+                "developAbilities": [
+                "Học tiếp sau đại học trong và ngoài nước thuộc ngành Xây dựng công trình thủy hoặc các ngành gần khác",
+                "Học các khóa bồi dưỡng ngắn hạn phục vụ chuyên ngành như: kỹ sư định giá, giám sát công trình, chỉ huy trưởng công trình, quản lý phòng thí nghiệm chuyên ngành xây dựng, quản lý dự án xây dựng, nghiệp vụ đấu thầu,.."
+            ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/776-ky-thuat-cong-trinh-giao-thong.html"
+            }
+        ]
+    },
+    {   
+        "number":62,
+        "majorCode": "7580212",
+        "majorName": "Kỹ thuật tài nguyên nước",
+        "videoURL": "https://www.youtube.com/watch?v=8z4-mzyTFYE",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Môi trường và Tài nguyên Thiên nhiên",
+        "collegeImage": "kmt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01","D07"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Hóa","Lý"],
+        "majorGroup": "Kỹ thuật",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.00
+            },
+            {
+                "year": 2017,
+                "points": 15.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật tài nguyên nước",
+                "objectives": [
+                "Đánh giá hiện trạng và dự báo sự thay đổi của nguồn tài nguyên nước mặt và nước dưới đất phục vụ cho công tác quản lý và qui hoạch sử dụng hợp lý nguồn tài nguyên thiên nhiên dưới tác động của sự phát triển của điều kiện kinh tế - xã hội ở ĐBSCL cũng như dưới tác động của biến đổi khí hậu.",
+                "Thực hiện công tác quan trắc và đánh giá chất lượng nước cũng như đánh giá tác động môi trường liên quan đến nguồn tài nguyên nước.",
+                "Đánh giá tính hiệu quả cũng như đề xuất giải pháp nhằm nâng cao hiệu quả hoạt động của các hệ thống cấp – thoát nước ở đô thị và nông thôn.",
+                "Giám sát thiết kế và thi công một số công trình thủy lợi phục vụ cho hoạt động sản xuất nông nghiệp và nuôi trồng thủy sản.",
+                "Đánh giá và qui hoạch nguồn tài nguyên nước, đặc biệt là những vấn đề liên quan đến nguồn tài nguyên nước phục vụ cho sinh hoạt và các hoạt động sản xuất nông nghiệp và nuôi trồng thủy sản."
+            ],
+                "jobs": [
+                "Nhân viên kỹ thuật tại các công ty tư vấn, giám sát, quy hoạch và quản lý hệ thống công trình và các hạng mục công trình tài nguyên nước",
+                "Nhân viên kỹ thuật tại các khu công nghiệp và tiểu thủ công nghiệp",
+                "Nhân viên kỹ thuật tại các công ty Cấp thoát nước, công ty Công trình đô thị và Trung tâm dự báo Khí tượng - Thủy văn.",
+                "Chuyên viên thuộc Sở/ Phòng Tài nguyên và Môi trường của các tỉnh, thành",
+                "Chuyên viên thuộc Sở/ Phòng Nông nghiệp và Phát triển Nông thôn của các tỉnh/ thành/ huyện"
+            ],
+                "developAbilities": [
+                "Có khả năng tự học tập để nâng cao kiến thức, rèn luyện kỹ năng chuyên môn, đủ điều kiện về chuyên môn để học tiếp ở các bậc cao hơn (Thạc sĩ chuyên ngành Kỹ thuật Tài nguyên nước, Quản lý Tài nguyên và Môi trường...)."
+            ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/661-ky-thuat-tai-nguyen-nuoc.html"
+            }
+        ]
+    },
+    {   
+        "number":63,
+        "majorCode": "7620105",
+        "majorName": "Chăn nuôi",
+        "videoURL": "https://www.youtube.com/watch?v=tyMTRXPXhO0",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","B00","D08","A02"],
+                "quantity": 140
+            }   
+        ],
+        "mainSubjects": ["Hóa","Sinh"],
+        "majorGroup": "nông - lâm - ngư nghiệp",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.50
+            },
+            {
+                "year": 2017,
+                "points": 16.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Chăn nuôi",
+                "objectives": [
+                "Chương trình đạo tạo ngành Chăn nuôi chuyên ngành Chăn nuôi - Thú y đào tạo kỹ sư Chăn nuôi - Thú y có phẩm chất chính trị, đạo đức và sức khoẻ tốt; có trình độ năng lực đáp ứng nhu cầu nguồn nhân lực và phát triển kinh tế đất nước; có kiến thức và kỹ năng của hai ngành Chăn nuôi và Thú y",
+                "Chương trình đào tạo giúp cho sinh viên hiểu rõ các nguyên lý của quá trình sinh học liên quan đến nuôi dưỡng và bảo vệ vật nuôi; có kiến thức cơ bản về khoa học tự nhiên và xã hội; có khả năng tổ chức và công tác trong lĩnh vực chăn nuôi và thú y; có khả năng tự học, nghiên cứu và nâng cao trình độ; tham gia quản lý sản xuất các lĩnh vực có liên quan; biết ứng dụng các công nghệ mới trong phát triển chăn nuôi trong và ngoài nước.",
+                "Sinh viên tốt nghiệp tạo ngành Chăn nuôi chuyên ngành Chăn nuôi - Thú y có thể làm việc tại  các công ty, xí nghiệp nông nghiệp; nhà máy chế biến thức ăn chăn nuôi và sản xuất thuốc thú y, các cơ quan nông nghiệp,  các viện nghiên cứu, trường học"
+                ],
+                "jobs": [
+                "Các công ty, xí nghiệp nông nghiệp; nhà máy chế biến thức ăn chăn nuôi và sản xuất thuốc thú y",
+                "Các cơ quan nông nghiệp và các ngành có liên quan như Trung tâm giống vật nuôi, Trung tâm khuyến nông, Chi cục thú y,…",
+                "Các viện nghiên cứu, trường học",
+                "Các công ty tư vấn, chuyển giao công nghệ, thiết kế và xây lắp nông nghiệp,…"
+            ],
+                "developAbilities": [
+                "Tiếp tục học tập chương trình đào tạo bậc cao trong lĩnh vực chăn nuôi, thú y, công nghệ sinh học và các ngành khác.",
+                " Thực hiện các nghiên cứu chuyên sâu về chăn nuôi, thú y, công nghệ sinh học,..."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/662-chan-nuoi.html"
+            }
+        ]
+    },
+    {   
+        "number":64,
+        "majorCode": "7620109",
+        "majorName": "Nông học",
+        "videoURL": "https://www.youtube.com/watch?v=8Pao63FwLEQ",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["B00","D08","D07"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Hóa","Sinh"],
+        "majorGroup": "nông - lâm - ngư nghiệp",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.50
+            },
+            {
+                "year": 2017,
+                "points": 20.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Chăn nuôi",
+                "objectives": [
+                "Chương trình đào tạo ngành Nông học đào tạo đội ngũ kỹ sư Nông học có kiến thức về ba chuyên ngành cây trồng, vật nuôi và thủy sản, có phẩm chất chính trị, đạo đức và sức khoẻ tốt; có trình độ năng lực đáp ứng nhu cầu phát triển nguồn nhân lực và kinh tế của đất nước và vùng Đồng bằng sông Cửu Long.",
+                "Trang bị cho sinh viên các nguyên lý của các quá trình sinh học liên quan tới cây trồng, vật nuôi và thủy sản; kiến thức cơ bản về sinh học, hóa học, sinh hoá, thống kê sinh học và tin học; khả năng tổ chức, thực hành và huấn luyện các kỹ thuật canh tác cây trồng, nuôi trồng thủy sản cũng như các kỹ thuật căn bản về chăn nuôi thú y; kỹ năng dụng các công nghệ mới trong sản xuất cây trồng, vật nuôi và thủy sản.",
+                "Sinh viên tốt nghiệp ngành Nông học đủ năng lực để làm việc tại các cơ sở nông nghiệp của nhà nước, các Viện, Trường học."
+                ],
+                "jobs": [
+                "Kỹ sư Nông học có khả năng tìm được cơ hội làm việc rộng rãi trong nhiều lĩnh vực khác nhau tại các cơ sở nông nghiệp của nhà nước như các Sở Nông nghiệp, các trung tâm Khuyến Nông, các Trạm Bảo vệ thực vật, các Trạm trại chăn nuôi và thủy sản, các Viện, Trường."
+            ],
+                "developAbilities": [
+                "Có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu. ",
+                "Đáp ứng được yêu cầu học tập ở các bậc học sau đại học trong và ngoài nước trong các lĩnh vực về cây trồng và chọn giống cây trồng."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/663-nong-hoc.html"
+            }
+        ]
+    },
+    {   
+        "number":65,
+        "majorCode": "7620110",
+        "majorName": "Khoa học cây trồng",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01"],
+                "quantity": 160
+            }   
+        ],
+        "mainSubjects": ["Hóa", "Sinh"],
+        "majorGroup": " Nhóm ngành khoa học tự nhiên",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.50
+            },
+            {
+                "year": 2017,
+                "points": 17.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Khoa học cây trồng",
+                "videoURL": "https://www.youtube.com/watch?v=Uj9qOUaeSLI",
+                "objectives": [
+                    "Chương trình đào tạo ngành Khoa học cây trồng (KHCT) nhằm đào tạo kỹ sư có phẩm chất chính trị, đạo đức và sức khỏe tốt, có năng lực thực hành, tận tụy với nghề nghiệp, có khả năng tiếp tục phát triển trong chuyên môn và ý thức phục vụ nhân dân, đáp ứng nhu cầu phát triển nguồn nhân lực và kinh tế của đất nước.",
+                    "Trang bị cho người học các kiến thức cơ bản trong lĩnh vực khoa học XH&NV, có khả năng sử dụng các phần mềm tin học ứng dụng và khả năng giao tiếp bằng Anh ngữ thông thường. Được trang bị những kiến thức cơ bản về sinh học, hóa học và sinh hóa giúp hiểu rõ các nguyên lý của các quá trình sinh học liên quan đến cây trồng.",
+                    "Đào tạo kỹ sư có kiến thức chuyên sâu về quản lý cây trồng để đạt được năng suất và hiệu quả cao bao gồm kỹ thuật trồng; chăm sóc; biết nhận diện, phòng trừ sâu bệnh và cỏ dại hại cây trồng; quản lý dinh dưỡng; điều khiển ra hoa và bảo quản sau thu hoạch. Bên cạnh đó có khả năng làm việc theo nhóm, tính tự chủ trong phương pháp làm việc và nghiên cứu khoa học, biết phân tích các vấn đề nảy sinh trong thực tiễn ngành Khoa học cây trồng, đúc kết và hình thành kỹ năng tư duy sáng tạo.",
+                    "Đào tạo kỹ sư làm việc được ở Viện, Trường, các Cơ quan nghiên cứu và giảng dạy. Bên cạnh đó, làm việc tốt ở các sở ban ngành và công ty liên quan đến nông nghiệp. Đủ trình độ để theo học ở những bậc học cao hơn trong và ngoài nước."
+                ],
+                "jobs": [
+                   "Cán bộ kỹ thuật, quản lý, nghiên cứu và giảng dạy trong lĩnh vực Khoa học cây trồng trong các trường, viện, sở ban ngành, trung tâm, các tổ chức xã hội, tổ chức phi chính phủ, doanh nghiệp, công ty,…"
+                ],
+                "developAbilities": [
+                    "Có khả năng tự học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về khoa học cây trồng, sáng tạo trong công việc.",
+                    "Đáp ứng được với yêu cầu học tập ở các trình độ sau đại học trong lĩnh vực cây trồng."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/666-khoa-hoc-cay-trong.html"
+            },
+            {
+                "specializationName": "Công nghệ giống cây trồng.",
+                "videoURL": "https://www.youtube.com/watch?v=Oit-fcqLTBg",
+                "objectives": [
+                    "Chương trình đào tạo trang bị các kiến thức và kỹ năng chuyên sâu về công tác chọn tạo giống cây trồng. Sinh viên tốt nghiệp chuyên ngành Công nghệ giống cây trồng hiểu rõ các nguyên lý của các quá trình sinh học liên quan tới giống cây trồng; có kiến thức cơ bản về sinh học, hóa học, sinh hoá, thống kê sinh học và tin học để hỗ trợ việc học tập; có khả năng chọn tạo và quản lý giống cây trồng; có khả năng tự học và nghiên cứu; có khả năng tham gia, quản lý việc sản xuất và ứng dụng các công nghệ mới trong chọn tạo giống cây trồng; tự tin trong nghề nghiệp nhằm phục vụ cho sản xuất giống nông nghiệp ở ĐBSCL và đủ trình độ để theo học sau đại học trong và ngoài nước."
+                ],
+                "jobs": [
+                   "Kỹ sư ngành Khoa học cây trồng chuyên ngành Công nghệ giống cây trồng có khả năng tìm được cơ hội làm việc rộng rãi trong nhiều lĩnh vực về giống cây trồng, kỹ thuật chọn tạo, canh tác các loại cây trồng tại các cơ sở nông nghiệp như Sở Nông nghiệp, Trung tâm Khuyến Nông, Trung tâm giống, Công ty sản xuất hạt giống và các Viện, Trường."
+                ],
+                "developAbilities": [
+                   "Có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu.",
+                   "Đáp ứng được yêu cầu học tập sau đại học trong và ngoài nước trong các lĩnh vực về cây trồng và chọn giống cây trồng."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/665-cong-nghe-giong-cay-trong.htmll"
+            },
+            {
+                "specializationName": "Nông nghiệp công nghệ cao",
+                "videoURL": "https://www.youtube.com/watch?v=Uid9z49MVlo",
+                "objectives": [
+                    "Chuyên ngành Nông nghiệp công nghệ cao đào tạo kỹ sư có khả năng ứng dụng và vận hành các kỹ thuật và công nghệ cao trong lĩnh vực sản xuất nông nghiệp; có khả năng làm việc tại các cơ quan công lập, doanh nghiệp trong và ngoài nước; có khả năng tự tổ chức và sản xuất kinh doanh trong lĩnh vực nông nghiệp.",
+                    "Chuyên ngành Nông nghiệp công nghệ cao trang bị cho người học những kiến thức và kỹ năng chung của người kỹ sư nông nghiệp như kỹ thuật canh tác, quản lý và sử dụng đất, biện pháp phòng trừ bệnh hại cây trồng, kỹ thuật nuôi cấy in vitro và nhân giống cây trồng, quản trị sản xuất nông nghiệp,..; những kiến thức và tay nghề chuyên sâu dành cho người kỹ sư chuyên về nông nghiệp công nghệ cao như công nghệ sinh học, công nghệ vật liệu mới, cơ giới hóa, tự động hóa, công nghệ thông tin, quản trị doanh nghiệp."
+                ],
+                "jobs": [
+                    "Kỹ sư phụ trách kỹ thuật, chỉ đạo sản xuất nông nghiệp ứng dụng công nghệ cao.",
+                    "Kỹ sư quản lý, giám sát tiến trình sản xuất nông nghiệp công nghệ cao.",
+                    "Kỹ sư vận hành hoạt động sản xuất trong các hệ thống nông nghiệp sạch, nông nghiệp hữu cơ và nông nghiệp công nghệ cao.",
+                    "Giảng viên ở các trường đại học, cao đẳng, trung cấp đào tạo về nông nghiệp.",
+                    "Học tập trình độ sau đại học các chuyên ngành thuộc lĩnh vực nông nghiệp."
+                ],
+                "developAbilities": [
+                   "Sở Nông nghiệp và Phát triển Nông thôn, Sở Khoa học và Công nghệ, Phòng Nông nghiệp, Chi Cục Bảo vệ Thực Vật, Trung tâm Khuyến nông, các cơ quan ban ngành thuộc lĩnh vực nông nghiệp.",
+                   "Trung tâm Nông nghiệp công nghệ cao; Các trang trại sản xuất nông nghiệp.",
+                   "Các công ty hoặc các doanh nghiệp trong và ngoài nước sản xuất và kinh doanh trong lĩnh vực nông nghiệp",
+                   "Các dự án phát triển nông nghiệp ứng dụng công nghệ cao.",
+                   "Trường đại học, cao đẳng, trung cấp,… đào tạo về nông nghiệp."
+                ],
+                "standardOutput": ""
+            }
+        ]
+    },
+    {   
+        "number":66,
+        "majorCode": "7620112",
+        "majorName": "Bảo vệ thực vật",
+        "videoURL": "https://www.youtube.com/watch?v=84XhlZiv46E",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa NN & SHƯD",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["B00","D08","D07"],
+                "quantity": 160
+            }   
+        ],
+        "mainSubjects": ["Hóa","Sinh"],
+        "majorGroup": "nông - lâm - ngư nghiệp",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 16.00
+            },
+            {
+                "year": 2017,
+                "points": 20.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Bảo vệ thực vật",
+                "objectives": [
+                "Chương trình đào tạo ngành Bảo vệ thực vật (BVTV) có mục tiêu đào tạo kỹ sư có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ đáp ứng yêu cầu xây dựng và bảo vệ tổ quốc; đào tạo người học có năng lực chuyên môn cao cả lý thuyết và thực hành, tận tụy với nghề nghiệp, có khả năng đáp ứng được nhu cầu nhân lực cho đất nước và đóng góp vào sự phát triển bền vững của sản xuất nông nghiệp theo hướng hiện đại, an toàn và  hiệu quả.",
+                "Sinh viên tốt nghiệp có đủ năng lực làm việc tại các cơ quan hành chính, quản lý chuyên ngành Kiểm dịch và BVTV, các Viện nghiên cứu thuộc lĩnh vực BVTV, Môi trường, nông nghiệp, các đơn vị sản xuất, kinh doanh; làm công tác giảng dạy và nghiên cứu khoa học chuyên ngành BVTV trong các trường Trung cấp, Cao đẳng và Đại học."
+                ],
+                "jobs": [
+                "Các cơ quan hành chính, quản lý chuyên ngành Kiểm dịch và Bảo vệ thực vật: Cục, Chi cục, Trạm BVTV-KDTV; Sở, Phòng nông nghiệp, Trung tâm khuyến nông, ....",
+                "Làm việc tại các Viện nghiên cứu thuộc lĩnh vực Bảo vệ thực vật, Môi trường, nông nghiệp.",
+                "Công tác giảng dạy và nghiên cứu khoa học chuyên ngành Bảo vệ thực vật trong các trường Trung cấp, Cao đẳng và Đại học; giảng dạy môn kỹ thuật nông nghiệp tại các trường PTTH.",
+                "Các đơn vị sản xuất, kinh doanh như: Trang trại, Công ty sản xuất và kinh doanh thuốc Bảo vệ thực vật, về sản xuất nông nghiệp, rau quả, hoa cây cảnh,...."
+                ],
+                "developAbilities": [
+                "Có kỹ năng tự học, tự phát triển nghề nghiệp trong lĩnh vực bảo vệ thực vật theo hướng phát triển chung của nông nghiệp Việt Nam. Hình thành thói quen học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về  bảo vệ thực vật, sáng tạo trong công việc. Đáp ứng được với yêu cầu học tập ở các trình độ cao hơn (thạc sỹ, tiến sỹ) trong lĩnh vực bảo vệ thực vật.",
+                "Có kỹ năng tự học, tự phát triển nghề nghiệp trong lĩnh vực bảo vệ thực vật theo hướng phát triển chung của nông nghiệp Việt Nam. Hình thành thói quen học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về  bảo vệ thực vật, sáng tạo trong công việc. Đáp ứng được với yêu cầu học tập ở các trình độ cao hơn (thạc sỹ, tiến sỹ) trong lĩnh vực bảo vệ thực vật."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/680-bao-ve-thuc-vat.html"
+            }
+        ]
+    },
+    {   
+        "number":67,
+        "majorCode": "7620113",
+        "majorName": "Công nghệ rau hoa quả và cảnh quan",
+        "videoURL": "https://www.youtube.com/watch?v=NToc060vo10",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa NN & SHƯD",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["B00","D08","D07","A00"],
+                "quantity": 60
+            }   
+        ],
+        "mainSubjects": ["Hóa","Sinh"],
+        "majorGroup": "nông - lâm - ngư nghiệp",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.00
+            },
+            {
+                "year": 2017,
+                "points": 15.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Công nghệ rau hoa quả và cảnh quan",
+                "objectives": [
+                "Chương trình đào tạo ngành Rau hoa quả và cảnh quan đào tạo những kỹ sư có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc; có kiến thức về kỹ thuật quản lý rau hoa quả, bảo dưỡng hoa viên, cây cảnh, cảnh quan môi trường và thực hành thiết kế, thi công các công trình cảnh quan…",
+                "Sinh viên tốt nghiệp ngành Rau hoa quả và cảnh quan có đủ năng lực để làm việc tại các công ty sản xuất giống cây trồng, dịch vụ khoa học nông nghiệp; các Viện, Trường có liên quan đến lĩnh vực rau hoa quả và cảnh quan; thành lập trang trại hoặc mở công ty kinh doanh rau hoa quả và cây cảnh."
+                ],
+                "jobs": [
+                "Làm việc trong các công ty nhà nước hoặc công ty tư nhân kinh doanh về cơ sở hạ tầng và cảnh quan",
+                "Có khả năng làm việc trong các công ty sản xuất giống cây trồng, dịch vụ khoa học nông nghiệp",
+                "Thành lập trang trại hoặc mở công ty kinh doanh rau hoa quả và cây cảnh",
+                "Có thể làm việc ở các Viện, Trường có liên quan đến lĩnh vực rau hoa quả và cảnh quan."
+                ],
+                "developAbilities": [
+                "Sinh viên sau khi tốt nghiệp đại học khả năng tự học tập, nghiên cứu. Ngoài ra sinh viên sau khi tốt nghiệp đại học có thể học nâng cao trình độ với ngành khoa học cây trồng, công nghệ rau hoa quả và cảnh quan trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/667-cong-nghe-rau-hoa-qua-va-canh-quan.html"
+            }
+        ]
+    },
+    {   
+        "number":68,
+        "majorCode": "7620115",
+        "majorName": "Kinh tế nông nghiệp",
+        "videoURL": "https://www.youtube.com/watch?v=_L_rIlYHopE",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Kinh tế",
+        "collegeImage": "kkt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","A01","D01","C02"],
+                "quantity": 140
+            }   
+        ],
+        "mainSubjects": ["Hóa","Toán"],
+        "majorGroup": "nông - lâm - ngư nghiệp",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 17.50
+            },
+            {
+                "year": 2017,
+                "points": 18.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kinh tế nông nghiệp",
+                "objectives": [
+                "Phẩm chất chính trị, đạo đức và sức khoẻ tốt, nghiêm túc và có tinh thần trách nhiệm",
+                "Kiến thức nền tảng vững chắc về các lĩnh vực KT-CT-XH và môi trường.",
+                "Hiểu biết sâu về kiến thức cơ sở ngành và chuyên ngành để thực hiện các nghiên cứu kinh tế và giải quyết các vấn đề khó khăn phát sinh trong hoạt động kinh doanh nông nghiệp và nghiên cứu kinh tế nông nghiệp",
+                "Kiến thức đủ rộng, khả năng nghiên cứu chuyên sâu và năng lực tự học để tiếp tục nâng cao và mở rộng kiến thức nhằm thích ứng với nhu cầu phát triển kinh tế vùng ĐBSCL."
+                ],
+                "jobs": [
+                "Nhân viên/ Cán bộ quản lý kinh tế/Chuyên viên nghiên cứu: ở các cơ quan ban ngành các cấp; làm việc trong các tổ chức, các chương trình/dự án kinh tế - xã hội trong khu vực nông nghiệp, nông thôn",
+                "Nghiên cứu viên và giảng viên: nghiên cứu và giảng dạy tại các trường Cao đẳng, Đại học, và các cơ sở nghiên cứu; có thể đảm nhận công việc như tham gia nghiên cứu và giảng dạy các học phần liên quan đến phân tích định lượng, kinh tế học và kinh tế học ứng dụng trong nông nghiệp",
+                "Nhân viên/ Quản lý trong các tổ chức kinh tế: tại các tổ chức kinh tế nhất là các doanh nghiệp và các tổ chức sản xuất, kinh doanh các mặt hàng nông nghiệp",
+                "Chuyên viên tư vấn trong các dự án về nông nghiệp và phát triển nông thôn và xóa đói giảm nghèo.",
+                "Ngoài ra, Cử nhân ngành kinh tế nông nghiệp có thể tự tổ chức các hoạt động sản xuất kinh doanh nông nghiệp."
+                ],
+                "developAbilities": [
+                "Hình thành thói quen và khả năng tự học, học suốt đời, có đủ kiến thức và khả năng cập nhật kiến thức để phục vụ cho công việc, học tập và nghiên cứu. ",
+                "Có khả năng học tiếp các chương trình đào tạo bằng 2 cũng như nâng cao trình độ ở các bậc sau đại học."
+            ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/668-kinh-te-nong-nghiep.html"
+            }
+        ]
+    },
+    {   
+        "number":69,
+        "majorCode": "7620116",
+        "majorName": "Phát triển nông thôn",
+        "videoURL": "https://www.youtube.com/watch?v=WzVxYT_rWFY",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Viện Nghiên cứu phát triển ĐBSCL",
+        "collegeImage": "vncpt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","A01","B00","D07"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Hóa","Toán"],
+        "majorGroup": "nông - lâm - ngư nghiệp",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.00
+            },
+            {
+                "year": 2017,
+                "points": 15.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kinh tế nông nghiệp",
+                "objectives": [
+                "Chương trình đào tạo ngành Phát triển nông thôn (PTNT) đào tạo kỹ sư PTNT nhằm đáp ứng nhu cầu phát triển nguồn nhân lực trong lĩnh vực phát triển nông thôn cả về nghiên cứu, quản lý và chuyển giao khoa học kỹ thuật, góp phần phát triển nông nghiệp và nông thôn bền vững.",
+                "Chương trình đào tạo trang bị cho người học kiến thức cơ bản về nguyên lý phát triển nông thôn; kiến thức chuyên sâu, kỹ năng và ứng dụng trong tổ chức sản xuất, quản lý, kinh doanh trong nông nghiệp và nông thôn.",
+                "Sinh viên tốt nghiệp có đủ năng lực làm việc tại các cơ quan nghiên cứu, quản lý nhà nước và chuyên ngành nông nghiệp, nông thôn các cấp."
+                ],
+                "jobs": [
+                "Người tốt nghiệp chuyên ngành Phát triển Nông thôn có khả năng và cơ hội làm việc trong các cơ quan nghiên cứu, quản lý nhà nước và chuyên ngành nông nghiệp, nông thôn các cấp."
+                ],
+                "developAbilities": [
+                "Tiếp tục học tập trình độ sau đại học các chuyên ngành Phát triển Nông thôn, Hệ thống Nông nghiệp, Kinh tế nông nghiệp, Quản trị Kinh doanh... tại các cơ sở đào tạo trong và ngoài nước ",
+                "Thực hiện các nghiên cứu chuyên sâu về kỹ thuật nông nghiệp, kinh tế-xã hội, nông nghiệp và nông thôn."
+            ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/669-phat-trien-nong-thon.html"
+            }
+        ]
+    },
+    {   
+        "number":70,
+        "majorCode": "7620301",
+        "majorName": "Nuôi trồng thủy sản",
+        "videoURL": "https://www.youtube.com/watch?v=S0YovhsYZcU",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Thủy sản",
+        "collegeImage": "kts.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","D08","B00","D07"],
+                "quantity": 180
+            }   
+        ],
+        "mainSubjects": ["Hóa","Sinh"],
+        "majorGroup": "nông - lâm - ngư nghiệp",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.50
+            },
+            {
+                "year": 2017,
+                "points": 17.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Nuôi trồng thủy sản",
+                "objectives": [
+                "Đào tạo kỹ sư Nuôi trồng thủy sản (NTTS) có hệ thống kiến thức khoa học cơ bản, có kiến thức chuyên môn sâu về NTTS và kỹ năng nghiệp vụ thành thạo, có khả năng làm việc độc lập, đảm nhận trực tiếp công tác kỹ thuật và quản lý tại các cơ sở sản xuất, nghiên cứu, đào tạo có liên quan đến thủy sản; có nhận thức chính trị và phẩm chất đạo đức tốt; có sức khỏe; tôn trọng nghề nghiệp; có khả năng tiếp tục học tập ở các bậc học sau đại học nhằm đáp ứng nhu cầu của xã hội trong sự nghiệp phát triển khoa học công nghệ về lĩnh vực NTTS."
+                ],
+                "jobs": [
+                "Các cơ quan quản lý ngành thủy sản",
+                "Các cơ sở đào tạo và nghiên cứu về thủy sản; các dự án thủy sản trong nước và quốc tế",
+                "Các doanh nghiệp/cơ sở sản xuất và cung cấp dịch vụ thủy sản",
+                "Tự tổ chức sản xuất và kinh doanh thủy sản."
+                ],
+                "developAbilities": [
+                "Có khả năng tự học tập, nghiên cứu và ứng dụng khoa học công nghệ vào thực tế sản xuất",
+                "Có khả năng học tập bậc sau đại học liên quan lĩnh vực thủy sản."
+            ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/672-nuoi-trong-thuy-san.html"
+            }
+        ]
+    },
+    {   
+        "number":71,
+        "majorCode": "7620302",
+        "majorName": "Bệnh học thủy sản",
+        "videoURL": "https://www.youtube.com/watch?v=8xym2NsQJa4",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Thủy sản",
+        "collegeImage": "kts.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","D08","B00","D07"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Hóa","Sinh"],
+        "majorGroup": "nông - lâm - ngư nghiệp",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.00
+            },
+            {
+                "year": 2017,
+                "points": 16.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Bệnh học thủy sản",
+                "objectives": [
+                "Đào tạo Kỹ sư chuyên ngành bệnh học thủy có kiến thức cơ bản về nuôi trồng thuỷ sản, kiến thức chuyên môn và kỹ năng thực tiễn về quản lý dịch bệnh thủy sản phục vụ cho nuôi trồng thủy sản bền vững; có khả năng làm việc độc lập và kỹ năng làm việc tập thể trong nghiên cứu khoa học và thực tiễn liên quan đến thuỷ sản; có nhận thức chính trị và phẩm chất đạo đức tốt; có sức khỏe; tôn trọng nghề nghiệp; và có khả năng tiếp tục học tập ở các bậc học sau đại học nhằm đáp ứng nhu cầu của xã hội trong sự nghiệp phát triển khoa học công nghệ về lĩnh vực bệnh thủy sản."
+                ],
+                "jobs": [
+                "Chuyên viên các cơ quan quản lý ngành thủy sản",
+                "Giảng viên các cơ sở đào tạo và nghiên cứu về thủy sản; các dự án thủy sản trong nước và quốc tế",
+                "Chuyên viên các doanh nghiệp/cơ sở sản xuất cung cấp dịch vụ thủy sản",
+                "Tự tổ chức sản xuất và kinh doanh thủy sản."
+                ],
+                "developAbilities": [
+                "Có khả năng tự học tập, nghiên cứu và ứng dụng khoa học công nghệ vào thực tế sản xuất",
+                "Có khả năng học tập bậc sau đại học liên quan lĩnh vực thủy sản."
+            ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/673-benh-hoc-thuy-san.html"
+            }
+        ]
+    },
+   
+    {   
+        "number":72,
+        "majorCode": "7620305",
+        "majorName": "Quản lý thủy sản",
+        "videoURL": "https://www.youtube.com/watch?v=pfStVcC9upE",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Thủy sản",
+        "collegeImage": "kts.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","D08","B00","D07"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Toán","Hóa","Sinh"],
+        "majorGroup": "nông - lâm - ngư nghiệp",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.50
+            },
+            {
+                "year": 2017,
+                "points": 15.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Quản lý thủy sản",
+                "objectives": [
+                "Đào tạo kỹ sư Quản lý thủy sản có hệ thống kiến thức khoa học cơ bản, có kiến thức chuyên môn sâu về Quản lý thủy sản và kỹ năng nghiệp vụ thành thạo, có khả năng làm việc độc lập, đảm nhận trực tiếp công tác kỹ thuật và quản lý tại các cơ sở dịch vụ, nghiên cứu, đào tạo có liên quan đến thủy sản; có nhận thức chính trị và phẩm chất đạo đức tốt; có sức khỏe; tôn trọng nghề nghiệp; có khả năng tiếp tục học tập ở các bậc học sau đại học nhằm đáp ứng nhu cầu của xã hội trong sự nghiệp phát triển khoa học công nghệ về lĩnh vực thủy sản."
+                ],
+                "jobs": [
+                "Cơ quan quản lý ngành thủy sản",
+                "Cơ sở đào tạo và nghiên cứu về thủy sản; các dự án thủy sản trong nước và quốc tế",
+                "Doanh nghiệp/cơ sở sản xuất và cung cấp dịch vụ thủy sản",
+                "Khu bảo tồn nguồn lợi thủy sản, các công ty dịch vụ phát triển du lịch."
+                ],
+                "developAbilities": [
+                "Có khả năng tự học tập, nghiên cứu và ứng dụng khoa học công nghệ vào thực tế sản xuất. ",
+                "Có khả năng học tập bậc sau đại học liên quan lĩnh vực thủy sản."
+            ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/674-quan-ly-thuy-san.html"
+            }
+        ]
+    },
+    {   "number":73,
+        "majorCode": "7640101",
+        "majorName": "Thú y",
+        "intendTime": "5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["B00", "A02","D08","D08"],
+                "quantity": 160
+            }   
+        ],
+        "mainSubjects": ["Hóa", "Sinh"],
+        "majorGroup": "nông - lâm - ngư nghiệp",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 18.00
+            },
+            {
+                "year": 2017,
+                "points": 21.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Thú y",
+                "videoURL": "https://www.youtube.com/watch?v=7D7P_7Mtm4U",
+                "objectives": [
+                "Chương trình đào tạo ngành Thú y nhằm đào tạo Bác sỹ Thú y có phẩm chất chính trị, đạo đúc tốt, đáp ứng nhu cầu của xã hội trong sự nghiệp phát triển khoa học kỹ thuật về lĩnh vực chuyên ngành Thú y; cung cấp nguồn nhân lực có trình độ chuyên môn cao, kỹ năng tay nghề thành thạo, và có sức khoẻ tốt, tôn trọng nghề nghiệp; có khả năng tiếp tục học tập, tham gia học tập ở các bậc học cao hơn trong và ngoài nước.",
+                "Sinh viên tốt nghiệp ngành Thú y có đủ năng lực đảm nhiệm công tác quản lý và điều hành: cán bộ nghiên cứu, cán bộ quản lý, cán bộ kỹ thuật tại các cơ quan, doanh nghiệp, xí nghiệp... các Cục, viện, trung tâm nghiên cứu, khuyến nông, các chương trình dự án phát triển thuộc lĩnh vực Thú y, các cơ quan hành chính sự nghiệp từ cấp xã, phường trở lên, các cơ sở giáo dục, đào tạo: trung tâm dạy nghề, trường trung học chuyên nghiệp, Cao đẳng, Đại học có liên quan đến ngành Thú y. Có thể tham gia quản lý sản xuất liên quan ứng dụng các công nghệ mới và thích hợp trong phát triển gia súc gia cầm."
+                ],
+                "jobs": [
+                "Cán bộ kỹ thuật hoặc lãnh đạo tại các đơn vị khuyến nông, Cục thú y, Viện thú y, Chi cục thú y, Trạm thú y, Trung tâm chẩn đoán thú y Thủy Sản, Viện nghiên cứu, Sở Nông nghiệp và phát triển nông thôn, Sở Khoa học công nghệ tại các huyện, tỉnh hay trung ương",
+                "Cán bộ kỹ thuật hoặc lãnh đạo tại các công ty xí nghiệp kinh doanh như các cơ sở sản xuất thuốc thú y, Văc-xin thú y, Dịch vụ thú Y và chăn nuôi….",    
+                "Cán bộ nghiên cứu và giảng dạy tại các viện nghiên cứu, các trường đại học cao đẳng",
+                "Cán bộ kỹ thuật, quản lý hay điều hành các doanh nghiệp, cơ sở sản xuất thuốc thú y và các sinh phẩnm thú y."
+                ],
+                "developAbilities": [
+                    "Tiếp tục học tập các chuyên ngành ở các trình độ sau đại học trong lĩnh vực chăn nuôi, thú y, công nghệ sinh học.",
+                    "Thực hiện các nghiên cứu các chuyên ngành sâu về khoa học Bệnh lý học và chữa bệnh vật nuôi. "
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/676-thu-y.html"
+            },
+            {
+                "specializationName": "Dược Thú y",
+                "videoURL": "https://www.youtube.com/watch?v=6y2d4Az1UUk",
+                "objectives": [
+                " Chương trình đào tạo ngành Thú y chuyên ngành Dược Thú y nhằm đào tạo Bác sỹ Thú y chuyên ngành Dược Thú y có phẩm chất chính trị, đạo đức tốt, đáp ứng nhu cầu của xã hội trong sự nghiệp phát triển khoa học kỹ thuật về lĩnh vực chuyên ngành Thú y; cung cấp nguồn nhân lực có trình độ chuyên môn cao, kỹ năng tay nghề thành thạo; có sức khoẻ tốt, tôn trọng nghề nghiệp; có khả năng tiếp tục học tập, tham gia học tập ở các bậc học cao hơn trong và ngoài nước.",
+                "Sinh viên tốt nghiệp có đủ năng lực để đảm nhiệm công tác quản lý và điều hành: cán bộ nghiên cứu, cán bộ quản lý, cán bộ kỹ thuật tại các cơ quan, doanh nghiệp, xí nghiệp..., các Cục, viện, trung tâm nghiên cứu, khuyến nông, các chương trình dự án phát triển thuộc lĩnh vực Thú y, các cơ quan hành chính sự nghiệp từ cấp xã, phường trở lên, các cơ sở giáo dục, đào tạo: trung tâm dạy nghề, trường trung học chuyên nghiệp, Cao đẳng, Đại học có liên quan đến ngành Thú y. Có thể tham gia quản lý sản xuất liên quan ứng dụng các công nghệ mới và thích hợp trong phát triển gia súc gia cầm."
+                ],
+                "jobs": [
+                "Cán bộ kỹ thuật hoặc lãnh đạo tại các đơn vị khuyến nông, Cục Thú y, Viện Thú y, Chi cục thú y, Trạm thú y, Trung tâm chẩn đoán Thú y Thủy sản, Viện nghiên cứu, Sở Nông Nghiệp và phát triển nông thôn, Sở khoa học công nghệ tại các Thành phố, tỉnh hay tuyến huyện.",
+                "Cán bộ kỹ thuật hoặc lãnh đạo tại các công ty xí nghiệp kinh doanh như các cơ sở sản xuất thuốc thú y, văc-xin thú y, dịch vụ thú y và chăn nuôi...",
+                "Cán bộ nghiên cứu và giảng dạy tại các viện nghiên cứu, các trường đại học cao đẳng",
+                "Cán bộ kỹ thuật, quản lý hay điều hành các doanh nghiệp, cơ sở sản xuất thuốc thú y và các sinh phẩm thú y."
+                ],
+                "developAbilities": [
+                   "Tiếp tục học tập các chuyên ngành ở các trình độ sau đại học trong lĩnh vực chăn nuôi, Thú y, Công nghệ sinh học",
+                   "Thực hiện các nghiên cứu các chuyên ngành sâu về các khoa học: Dược lý học thú y, Bệnh lý học và chữa bệnh vật nuôi."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/675-duoc-thu-y.html"
+            }
+        ]
+    },
+    {   "number":74,
+        "majorCode": "7850101",
+        "majorName": "Quản lý tài nguyên và môi trường",
+        "videoURL": "https://www.youtube.com/watch?v=c4CNjcf-X_s",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Môi trường & TNTN",
+        "collegeImage": "kmt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","A01","B00","D07"],
+                "quantity": 120
+            }   
+        ],
+        "mainSubjects": ["Hóa","Sinh"],
+        "majorGroup": "nông - lâm - ngư nghiệp",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 16.50
+            },
+            {
+                "year": 2017,
+                "points": 21.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Quản lý tài nguyên và môi trường",
+                "objectives": [
+                "Xây dựng và thực hiện dự án bảo tồn đa dạng sinh học",                
+                "Đánh giá chất lượng môi trường",
+                "Quản lý và xử lý nước thải, rác thải đô thị, nông thôn…",
+                "Đánh giá tác động môi trường",
+                "Quy hoạch sử dụng tài nguyên bền vững",
+                "Quản lý và khai thác tổng hợp tài nguyên môi trường…"
+             ],
+                 "jobs": [
+                "Chuyên viên thuộc Sở/ Phòng Tài nguyên và Môi trường của các tỉnh/ thành/ huyện.",
+                "Chuyên viên thuộc Sở/ Phòng Nông nghiệp và Phát triển Nông thôn của các tỉnh/ thành/ huyện.",
+                "Cán bộ nghiên cứu và giảng dạy tại các viện, trường có nghiên cứu và giảng dạy về chuyên ngành tài nguyên và môi trường.",
+                "Nhân viên kỹ thuật tại các khu công nghiệp và tiểu thủ công nghiệp.",
+                "Nhân viên kỹ thuật tại các cơ quan tư vấn đánh giá tác động môi trường.",
+                "Cảnh sát môi trường."
+                ],
+                "developAbilities": [
+                "Có khả năng tự học tập để nâng cao kiến thức, rèn luyện kỹ năng chuyên môn, đủ điều kiện về chuyên môn để học tiếp bậc Thạc sĩ ở các ngành đúng và ngành gần như Quản lý Môi trường, Khoa học Môi trường, Kỹ thuật Môi trường, Quản lý đất đai."
+            ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/677-quan-ly-tai-nguyen-va-moi-truong.html"
+            }
+        ]
+    },
+    {   "number":75,
+        "majorCode": "7850102",
+        "majorName": "Kinh tế tài nguyên thiên nhiên",
+        "videoURL": "https://www.youtube.com/watch?v=_Q9nCTuaHd4",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Kinh tế",
+        "collegeImage": "kkt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00","A01","D01","C02"],
+                "quantity": 100
+            }   
+        ],
+        "mainSubjects": ["Toán"],
+        "majorGroup": "nông - lâm - ngư nghiệp",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 18.75         
+            },
+            {
+                "year": 2017,
+                "points": 18.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kinh tế tài nguyên thiên nhiên",
+                "objectives": [
+               "Chương trình đào tạo cử nhân ngành Kinh tế tài nguyên thiên nhiên hướng đến đào tạo nguồn nhân lực có chất lượng trong lĩnh vực kinh tế tài nguyên và môi trường theo định hướng chuyên nghiệp. Sau khi học xong chương trình, người học: có phẩm chất chính trị, tư cách đạo đức, sức khỏe tốt, và có trách nhiệm với xã hội; Có kiến thức căn bản về kinh tế – xã hội, kiến thức chuyên sâu về cơ sở ngành và chuyên ngành; Có khả năng phân tích kinh tế các giá trị tài nguyên thiên nhiên, các dự án về tài nguyên và môi trường, các chính sách môi trường và quản lý tài nguyên ở các cấp khác nhau, các chính sách thích ứng và giảm thiểu biến đổi khí hậu; và Phát triển những kỹ năng cần thiết để tiếp tục tự học, tự nghiên cứu trong lĩnh vực chuyên ngành, và có khả năng thích nghi với sự thay đổi của môi trường làm việc."
+             ],
+                 "jobs": [
+                "Nhân viên/Quản lý: đảm nhiệm công tác tư vấn, quản lý, phân tích các vấn đề về môi trường tại các công ty tư vấn, các doanh nghiệp khai thác và kinh doanh tài nguyên và cải thiện ô nhiễm môi trường, các doanh nghiệp sản xuất hàng hóa, dịch vụ.",
+                "Chuyên viên/Quản lý tại các cơ quan quản lý nhà nước, sở ban ngành có liên quan đến kinh tế tài nguyên, quản lý tài nguyên thiên nhiên, như Sở Tài nguyên và Môi trường, Sở Kế hoạch và Đầu tư, Sở Nông nghiệp và Phát triển nông thôn,...",
+                "Nghiên cứu viên và giảng viên: nghiên cứu và giảng dạy tại các cơ sở giáo dục Cao đẳng, Đại học, Trung học chuyên nghiệp, và các cơ sở nghiên cứu; có thể đảm nhận công việc như tham gia nghiên cứu các vấn đề có liên quan đến kinh tế tài nguyên và kinh tế môi trường.",
+                "Chuyên viên/Quản lý tại các dự án của chính phủ và phi chính phủ về quản lý và bảo vệ tài nguyên thiên nhiên."
+                ],
+                "developAbilities": [
+               
+                 "Có khả năng tự học tập để nâng cao kiến thức, rèn luyện kỹ năng chuyên môn, đủ điều kiện về chuyên môn để học tiếp bậc Thạc sĩ ở các ngành đúng và ngành gần như Quản lý Môi trường, Khoa học Môi trường, Kỹ thuật Môi trường, Quản lý đất đai.",
+                 "Có khả năng học tiếp các chương trình đào tạo bằng 2 cũng như các bậc sau đại học."
+            ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/678-kinh-te-tai-nguyen-thien-nhien.html"
+            }
+        ]
+    },
+    {   "number":76,
+        "majorCode": "7850103",
+        "majorName": "Quản lý đất đai",
+        "videoURL": "https://www.youtube.com/watch?v=LqWzxihmYvs",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Môi trường & TNTN",
+        "collegeImage": "kmt.png",
+        "inputRequest": [
+            {
+                
+                "testMethod": "A",
+                "combinations": ["A00","A01","B00","D07"],
+                "quantity": 140
+            }   
+        ],
+        "mainSubjects": ["Toán"],
+        "majorGroup": "nông - lâm - ngư nghiệp",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.25         
+            },
+            {
+                "year": 2017,
+                "points": 19.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Quản lý đất đai",
+                "objectives": [
+                "Đào tạo kỹ sư quản lý đất đai có phẩm chất chính trị, đạo đức nghề nghiệp và sức khỏe tốt, giao tiếp xã hội tốt, có khả năng quản lý, tổ chức sản xuất và chuyển giao kỹ thuật chuyên ngành Quản lý đất đai. Sau khi tốt nghiệp có thể đáp ứng được các vị trí công việc tại các cơ quan sự nghiệp nhà nước; các trường đại học, cao đẳng,  học viện và viện nghiên cứu; các cơ quan, tổ chức của chính phủ và phi chính phủ trong lĩnh vực Quản lý đất đai."
+                ],
+                 "jobs": [
+                "Có khả năng đảm nhiệm công tác quản lý và điều hành: cán bộ nghiên cứu, cán bộ quản lý, cán bộ kỹ thuật.",
+                "Làm cán bộ công chức, viên chức hay cán bộ kỹ thuật tại các cơ quan hành chính nhà nước từ Trung ương đến cấp huyện, cấp xã về lĩnh vực Quản lý đất đai như: Bộ Tài nguyên - Môi trường, Sở Tài nguyên - Môi trường các tỉnh, Các Trung tâm kỹ thuật tài nguyên, Trung tâm phát triển quỹ đất, văn phòng đăng ký quyền sử dụng đất cấp tỉnh, Phòng Tài nguyên - Môi trường, Văn phòng đăng ký, trung tâm phát triển quỹ đất các quận/huyện, Cán bộ Địa chính xã/phường.",
+                "Chuyên viên cho các UBND các cấp Tỉnh/Thành Phố, Quận/huyện; các Viện nghiên cứu như: Viện nghiên cứu Địa chính, Viện Tài nguyên - Môi trường, Viện Quy hoạch - Thiết kế, Cục đo đạc bản đồ, Cục Quản lý đất đai, Chi cục Quản lý đất đai các tỉnh, Sở Tài chính, Sở Kế hoạch và đầu tư, Sở Khoa học Công nghệ, Sở Nội vụ, Sở Nông nghiệp và PTNT.",
+                "Làm cán bộ công chức, viên chức hay cán bộ kỹ thuật tại các Chi cục, Trung tâm hoặc Văn phòng như: Chi cục quản lý đất đai, Chi cục môi trường, Trung tâm Kỹ thuật Tài nguyên đất và Môi trường; Trung tâm khai thác và kinh doanh bất động sản; các Khu Công nghiệp; Khu Kinh tế...",
+                "Làm tư vấn cho các công ty như: Công ty đo đạc, Công ty môi giới và định giá bất động sản; các dự án liên quan đến đất đai và bất động sản, các đơn vị thẩm định giá (ngân hàng, công ty thẩm định giá…).",
+                " Làm giảng viên, giáo viên hay nghiên cứu viên tại các Viện nghiên cứu thuộc lĩnh vực Quản lý đất đai, Các trường đại học, cao đẳng, trung học chuyên nghiệp, các Cơ sở giáo dục đào tạo có các ngành nghề về nông nghiệp, Hiệp hội, trung tâm dạy nghề."
+                ],
+                "developAbilities": [
+               
+                 "Có khả năng tiếp tục học tập, nghiên cứu ở các trình độ sau đại học: Thạc sĩ, Tiến sĩ ngành Quản lý đất đai, Quản lý tài nguyên, Khoa học đất, Phát triển nông thôn, Quản lý thị trường bất động sản và các ngành gần khác. ",
+                 "Có khả năng tự học nâng cao trình độ để đảm nhận tốt những nhiệm vụ về quản lý và chuyên môn nghiệp vụ."
+            ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/781-quan-ly-dat-dai.html"
+            }
+        ]
+    },
+    {
+        "number": 77,
+        "majorCode": "7310630H",
+        "majorName": "Việt Nam học",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Khoa học Xã hội và Nhân văn",
+        "collegeImage": "kkhxhvnv.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["C00", "D01","D14","D15"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Văn", "Sử", "Địa"],
+        "majorGroup": "Luật - nhân văn",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 19.00
+            },
+            {
+                "year": 2017,
+                "points": 21.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "HDV du lịch",
+                "videoURL": "https://www.youtube.com/watch?v=iHeZ4f5foGs",
+                "objectives": [
+                    "Chương trình đào tạo ngành Việt Nam học - chuyên ngành Hướng dẫn viên du lịch -  đào tạo những cử nhân khoa học có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                    "Trang bị cho người học các kiến thức cơ sở ngành và chuyên ngành du lịch, nắm vững kiến thức chuyên sâu về nghiệp vụ hướng dẫn du lịch; có khả năng giao tiếp bằng tiếng Anh hoặc tiếng Pháp thông thường và chuyên ngành khá tốt",
+                    "Sinh viên tốt nghiệp chuyên ngành Hướng dẫn viên du lịch ngoài việc thích ứng với vị trí hướng dẫn viên còn có thể làm việc ở những lĩnh vực khác liên quan đến du lịch như điều hành, tiếp thị, văn phòng du lịch."
+                ],
+                "jobs": [
+                    "Hướng dẫn viên du lịch tại các công ty du lịch, các trung tâm dịch vụ lữ hành.",
+                    "Thuyết minh viên tại các khu du lịch, bảo tàng, di tích lịch sử-văn hoá, danh lam thắng cảnh,...",
+                    "Làm việc trong các bộ phận nghiên cứu và phát triển du lịch, điều hành, kinh doanh lữ hành, tiếp thị du lịch.",
+                    "Làm việc trong những lĩnh vực nhà hàng, khách sạn, văn phòng du lịch hoặc các lĩnh vực liên quan: tổ chức sự kiện, quảng cáo, tiếp thị,...",
+                    "Làm việc tại các cơ sở nghiên cứu, giảng dạy về du lịch như các viện nghiên cứu, các trường đại học, cao đẳng, trung cấp chuyên nghiệp, dạy nghề du lịch,…"
+                ],
+                "developAbilities": [
+                    "Cử nhân ngành Việt Nam học, chuyên ngành Hướng dẫn viên du lịch có thể học tiếp chương trình đào tạo sau đại học (thạc sĩ, tiến sĩ) theo các chuyên ngành trong lĩnh vực du lịch hoặc các chuyên ngành gần."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/609-viet-nam-hoc.html"
+            }
+        ]
+    },
+    {
+        "number": 78,
+        "majorCode": "7220201H",
+        "majorName": "Ngôn ngữ Anh",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Ngoại ngữ",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["D01", "D14", "D15"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Tiếng Anh"],
+        "majorGroup": "Luật - nhân văn",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 19.00
+            },
+            {
+                "year": 2017,
+                "points": 19.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Ngôn ngữ Anh",
+                "videoURL": "https://www.youtube.com/watch?v=2YFxD1BAl_I",
+                "objectives": [
+                    "Chương trình đào tạo ngành Ngôn ngữ Anh đào tạo cử nhân có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                    "Trang bị cho sinh viên 03 khối kiến thức và kỹ năng chuyên môn: (1) tiếng Anh định hướng nghề nghiệp, (2) văn hóa xã hội và (3) khối kiến thức chuyên môn sâu.",
+                    "Sinh viên tốt nghiệp chuyên ngành Ngôn ngữ Anh có thể thích ứng làm việc tại các đơn vị, cơ quan, dự án của nhà nước và tư nhân trong và ngoài nước thuộc các lĩnh vực: đối ngoại, thương mại (xuất nhập khẩu), du lịch, dịch vụ, truyền thông, báo chí, dịch thuật, biên tập, viện bảo tàng, thư viện, và hành chính sự nghiệp. Ngoài ra, nếu trang bị thêm chứng chỉ nghiệp vụ sư phạm thì sinh viên tốt nghiệp sẽ có khả năng giảng dạy tiếng Anh và nghiên cứu tại các cơ sở đào tạo tiếng Anh như trường trung học và đại học, trung tâm ngoại ngữ và các trường quốc tế."
+                ],
+                "jobs": [
+                    "Làm hướng dẫn viên du lịch, Dịch thuật tiếng Anh, thư tín văn phòng, tiếp tân khách sạn, ... cho các công ty, khách sạn và  các dự  án.",
+                    "Làm các công tác đối ngoại, văn thư cho các cơ quan ngoại vụ (Sở Ngoại vụ, các phòng Đối ngoại...) các tỉnh, thành; các đơn vị, cơ quan nhà nước và tư nhân thuộc các lĩnh vực đối ngoại, thương mại (xuất nhập khẩu) trong và ngoài nước.",
+                    "Làm các công tác hướng dẫn trong viện bảo tàng, thư viện, trung tâm tư vấn du học, xuất nhập cảnh.",
+                    "Làm biên tập viên, phát thanh viên, cộng tác viên cho các cơ quan thông tấn báo chí, các đài phát thanh và truyền hình.",
+                    "Tham gia giảng dạy tiếng Anh ở các trường cao đẳng, đại học và các trung tâm ngoại ngữ (nếu có thêm chứng chỉ Sư phạm)."
+                ],
+                "developAbilities": [
+                    "Có khả năng học tập suốt đời.",
+                    "Học tập nâng cao trình độ ở các bậc cao học các chuyên ngành: Lý luận và Phương pháp dạy học tiếng Anh; ngành Ngôn ngữ học Ứng dụng và các chuyên ngành gần tại các cơ sở đào tạo trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/611-ngon-ngu-anh.html"
+            }
+        ]
+    },
+    {
+        "number": 79,
+        "majorCode": "7340101H",
+        "majorName": "Quản trị kinh doanh",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Kinh tế",
+        "collegeImage": "kkt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01","D01","C02"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Toán", "Tiếng Anh"],
+        "majorGroup": "Kinh doanh",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 17.50
+            },
+            {
+                "year": 2017,
+                "points": 18.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Quản trị kinh doanh",
+                "videoURL": "https://www.youtube.com/watch?v=EcqQAIHQNZg",
+                "objectives": [
+                    "Chương trình đào tạo cử nhân ngành Quản trị kinh doanh được thiết kế nhằm trang bị cho những nhà quản trị tương lai một nền tảng kiến thức vững chắc để có thể điều hành/quản trị các doanh nghiệp. Sinh viên sẽ có được những kỹ năng cần thiết trong việc tích hợp kiến thức nền tảng về quản trị, marketing, kế toán và tài chính để hình thành nên các chiến lược khả thi giúp cho các công ty/doanh nghiệp dễ dàng đạt được những mục tiêu hoạt động trong ngắn hạn, trung hạn và dài hạn. Sau khi hoàn thành chương trình đào tạo cử nhân ngành Quản trị kinh doanh, sinh viên có:",
+                    "Bản lĩnh chính trị vững vàng, hiểu biết các chuẩn mực đạo đức kinh doanh; có trách nhiệm đối với xã hội.",
+                    "Thể lực và tinh thần mạnh mẽ để hoạt động tốt trong môi trường làm việc áp lực",
+                    "Hiểu biết và có khả năng vận dụng các kiến thức đã được trang bị vào việc giải quyết các vấn đề trong quản trị kinh doanh với tư duy chiến lược và sáng tạo",
+                    "Hình thành và phát triển những kỹ năng lãnh đạo, quản trị và điều hành các công ty/doanh nghiệp.",
+                    "Phát triển được kỹ năng làm việc chuyên nghiệp, kỹ năng làm việc nhóm và hình thành kỹ năng tự học, tự nghiên cứu trong lĩnh vực chuyên ngành, và có khả năng thích ứng cao với môi trường làm việc liên tục thay đổi."
+                ],
+                "jobs": [
+                    "Nhân viên/Trưởng, Phó phòng chức năng trong các công ty/doanh nghiệp sản xuất kinh doanh.",
+                    "Tự tạo lập doanh nghiệp hoặc tự tìm kiếm cơ hội kinh doanh riêng cho bản thân.",
+                    "Nghiên cứu viên, giảng viên ngành quản trị kinh doanh tại các viện, trung tâm nghiên cứu, các cơ sở đào tạo hoặc cơ quan hoạch định chính sách kinh doanh."
+                ],
+                "developAbilities": [
+                    "Có khả năng tự học tập, nghiên cứu khoa học độc lập, tiếp tục học tập nâng cao trình độ sau đại học ngành Quản trị kinh doanh và các ngành kinh tế khác tại các cơ sở đào tạo trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/617-quan-tri-kinh-doanh.html"
+            }
+        ]
+    },
+    {
+        "number": 80,
+        "majorCode": "7620114H",
+        "majorName": "Kinh doanh nông nghiệp",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Phát triển Nông thôn",
+        "collegeImage": "kptnt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01","D01","C02"],
+                "quantity": 100
+            }   
+        ],
+        "mainSubjects": ["Toán"],
+        "majorGroup": "Kinh doanh",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.00
+            },
+            {
+                "year": 2017,
+                "points": 14.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kinh doanh nông nghiệp",
+                "videoURL": "https://www.youtube.com/watch?v=F2RrKXrU-TU",
+                "objectives": [
+                    "Đào tạo cử nhân Kinh doanh nông nghiệp có phẩm chất chính trị, đạo đức, có lòng yêu nước, yêu ngành yêu nghề, có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc. Có ý chí lập thân, lập nghiệp, có đạo đức nghề nghiệp với tư duy năng động, sáng tạo. Có tinh thần trách nhiệm, tác phong văn minh, ý thức tổ chức kỷ luật, rèn luyện sức khoẻ để phục vụ ngành nghề.",
+                    "Được trang bị kiến thức cơ bản rộng, có kiến thức chuyên môn sâu, có khả năng tự nghiên cứu, xây dựng, tổ chức và thực hiện phương án kinh doanh nông nghiệp. Người học có khả năng phân tích và hoạch định các chiến lược phát triển thương mại nông nghiệp, có thể tự phân tích và đánh giá được các hoạt động kinh doanh nông nghiệp trong môi trường quốc tế, chủ động và thích ứng tốt trong quá trình hội nhập vào nền kinh tế quốc tế của cả nước nói chung và ở ĐBSCL nói riêng.",
+                    "Có khả năng làm việc tại các cơ quan quản lý nhà nước; cơ quan nghiên cứu khoa học và đào tạo có liên quan đến kinh doanh nông nghiệp; và có khả năng làm việc ở tất cả các đơn vị kinh doanh, các trang trại và các HTX nông nghiệp."
+                ],
+                "jobs": [
+                    "Cử nhân ngành Kinh doanh nông nghiệp có thể làm tốt nhiệm vụ là nhân viên kinh doanh, nhà quản lý ở tất cả các loại hình công ty/doanh nghiệp trong lĩnh vực sản xuất và kinh doanh nông sản, thủy sản, lương thực, thực phẩm; có thể làm công chức, viên chức ở các cơ quan quản lý nhà nước (sở Nông nghiệp, sở Công thương của các tỉnh thành; phòng Nông nghiệp, phòng Kinh tế ở các huyện thị); có thể làm nhà nghiên cứu ở cơ quan nghiên cứu khoa học và có thể làm giảng viên ở các cơ sở đào tạo có liên quan đến kinh doanh nông nghiệp.",
+                    "Cử nhân ngành Kinh doanh nông nghiệp cũng sẽ phát huy tốt vai trò của mình khi công tác tại các xã, phường có thể mạnh về sản xuất và kinh doanh nông nghiệp trong tiến trình hiện đại hóa nông nghiệp nông thôn và hội nhập vào nền kinh tế quốc tế ở nước ta."
+                ],
+                "developAbilities": [
+                    "Cử nhân ngành Kinh doanh nông nghiệp sau khi tốt nghiệp có thể học thêm một bằng đại học khác cùng nhóm ngành hoặc học tiếp cao học (Thạc sĩ) hoặc nghiên cứu sinh (Tiến sĩ) ở các trường đại học trong và ngoài nước. Cử nhân ngành Kinh doanh nông nghiệp sẽ được đào tạo để có kỹ năng học tập suốt đời."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/784-kinh-doanh-nong-nghiep.html"
+            }
+        ]
+    },
+    {
+        "number": 81,
+        "majorCode": "7620115H",
+        "majorName": "Kinh tế nông nghiệp",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Kinh tế",
+        "collegeImage": "kkt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01","D01","C02"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Toán"],
+        "majorGroup": "Kinh doanh",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.50
+            },
+            {
+                "year": 2017,
+                "points": 14.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kinh tế nông nghiệp",
+                "videoURL": "https://www.youtube.com/watch?v=_L_rIlYHopE",
+                "objectives": [
+                    "Chương trình đào tạo cử nhân ngành Kinh tế Nông nghiệp được thiết kế nhằm trang bị cho người học các kiến thức cần thiết phục vụ cho hoạt động nghiên cứu kinh tế và hoạt động kinh doanh hàng hóa, dịch vụ, đặc biệt là các sản phẩm nông nghiệp. Sinh viên còn được trang bị các kỹ năng phân tích kinh tế để giải quyết các vấn đề và tình huống phát sinh trong hoạt động nghiên cứu và kinh doanh để khai thác và sử dụng các nguồn lực trong nông nghiệp hiệu quả, góp phần phát triển kinh tế nông nghiệp, nông thôn. Cụ thể:",
+                    "Phẩm chất chính trị, đạo đức và sức khoẻ tốt, nghiêm túc và có tinh thần trách nhiệm.",
+                    "Kiến thức nền tảng vững chắc về các lĩnh vực KT-CT-XH và môi trường.",
+                    "Hiểu biết sâu về kiến thức cơ sở ngành và chuyên ngành để thực hiện các nghiên cứu kinh tế và giải quyết các vấn đề khó khăn phát sinh trong hoạt động kinh doanh nông nghiệp và nghiên cứu kinh tế nông nghiệp.",
+                    "Kiến thức đủ rộng, khả năng nghiên cứu chuyên sâu và năng lực tự học để tiếp tục nâng cao và mở rộng kiến thức nhằm thích ứng với nhu cầu phát triển kinh tế vùng ĐBSCL."
+                ],
+                "jobs": [
+                    "Nhân viên/ Cán bộ quản lý kinh tế/Chuyên viên nghiên cứu: ở các cơ quan ban ngành các cấp; làm việc trong các tổ chức, các chương trình/dự án kinh tế - xã hội trong khu vực nông nghiệp, nông thôn.",
+                    "Nghiên cứu viên và giảng viên: nghiên cứu và giảng dạy tại các trường Cao đẳng, Đại học, và các cơ sở nghiên cứu; có thể đảm nhận công việc như tham gia nghiên cứu và giảng dạy các học phần liên quan đến phân tích định lượng, kinh tế học và kinh tế học ứng dụng trong nông nghiệp.",
+                    "Nhân viên/ Quản lý trong các tổ chức kinh tế: tại các tổ chức kinh tế nhất là các doanh nghiệp và các tổ chức sản xuất, kinh doanh các mặt hàng nông nghiệp.",
+                    "Chuyên viên tư vấn trong các dự án về nông nghiệp và phát triển nông thôn và xóa đói giảm nghèo.",
+                    "Ngoài ra, Cử nhân ngành kinh tế nông nghiệp có thể tự tổ chức các hoạt động sản xuất kinh doanh nông nghiệp."
+                ],
+                "developAbilities": [
+                    "Hình thành thói quen và khả năng tự học, học suốt đời, có đủ kiến thức và khả năng cập nhật kiến thức để phục vụ cho công việc, học tập và nghiên cứu.",
+                    "Có khả năng học tiếp các chương trình đào tạo bằng 2 cũng như nâng cao trình độ ở các bậc sau đại học."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/668-kinh-te-nong-nghiep.html"
+            }
+        ]
+    },
+    {
+        "number": 82,
+        "majorCode": "7380101H",
+        "majorName": "Luật",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Luật",
+        "collegeImage": "kl.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "C00","D01","D03"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Văn", "Sử"],
+        "majorGroup": "Luật - nhân văn",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 18.75
+            },
+            {
+                "year": 2017,
+                "points": 23.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Luật hành chính",
+                "videoURL": "https://www.youtube.com/watch?v=vxTW3iA1C1I",
+                "objectives": [
+                    "Chương trình đào tạo ngành Luật hành chính trình độ đại học đào tạo cử nhân Luật, chuyên ngành Hành chính, có ý thức trách nhiệm công dân, có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, có tác phong công nghiệp, khả năng làm việc nhóm, khả năng tự học và làm việc độc lập, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                    "Trang bị cho người học nắm vững kiến thức chuyên sâu của chuyên ngành; có khả năng giao tiếp bằng Anh ngữ hoặc Pháp ngữ thông thường và chuyên ngành khá tốt; được trang bị các kiến thức cơ sở ngành và chuyên ngành Luật hành chính, nhất là kiến thức về quản lý hành chính trên các lĩnh vực đất đai và xây dựng.",
+                    "Sinh viên tốt nghiệp chuyên ngành Luật hành chính có thể đáp ứng và thích nghi nhanh với yêu cầu của công việc pháp lý tại các cơ quan quản lý nhà nước, các cơ quan tư pháp, các cơ quan bổ trợ tư pháp, các đơn vị sự nghiệp, các doanh nghiệp và các cơ quan, tổ chức khác."
+                ],
+                "jobs": [
+                    "Sinh viên tốt nghiệp ngành Luật Hành chính của Trường Đại học Cần Thơ có thể đáp ứng và thích nghi nhanh với yêu cầu của vị trí chuyên viên tại các cơ quan quản lý nhà nước như Ủy ban nhân dân các cấp, Sở, Phòng chuyên môn thuộc Ủy ban nhân dân; Thư ký và Thẩm phán tại Tòa án; Kiểm sát viên tại Viện kiểm sát; Công an, luật sư, công chứng viên hoặc chuyên viên tại các ngân hàng và doanh nghiệp."
+                ],
+                "developAbilities": [
+                    "Có thể học tiếp ở trình độ sau đại học (cao học Luật, nghiên cứu sinh Luật) tại các viện, trường đại học trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/626-luat-hanh-chinh.html"
+            }
+        ]
+    },
+    {
+        "number": 83,
+        "majorCode": "7480201H",
+        "majorName": "Công nghệ thông tin",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ Thông tin và Truyền thông",
+        "collegeImage": "kcntt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Toán", "Tiếng Anh"],
+        "majorGroup": "Công nghệ thông tin",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.00
+            },
+            {
+                "year": 2017,
+                "points": 15.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Công nghệ thông tin",
+                "videoURL": "https://www.youtube.com/watch?v=QuAZyjEpj1A&t=2s",
+                "objectives": [
+                    "Cung cấp cho sinh viên kỹ năng và kiến thức để đảm nhận vị trí nghề nghiệp trong lĩnh vực CNTT, thăng tiến đến vị trí lãnh đạo, khả hành nghiên cứu  hoặc tiếp tục học cao hơn trong lĩnh vực này. Các mục tiêu cụ thể bao gồm:",
+                    "Đào tạo kỹ sư CNTT có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                    "Trang bị cho người học kiến thức chuyên sâu và các giải pháp về sản phẩm CNTT đương đại.",
+                    "Trang bị các kiến thức nền tảng cơ bản về cơ sở lý thuyết, toán và khoa học được sử dụng trong lĩnh vực CNTT cho sinh viên.",
+                    "Tạo khả năng giải thích và vận dụng kiến thức nền tảng, các giải pháp và sản phẩm CNTT thích hợp đáp ứng nhu cầu của một tổ chức hay cá nhân.",
+                    "Có khả năng giao tiếp cơ bản bằng tiếng Anh hoặc tiếng Pháp, và đọc hiểu các tài liệu bằng tiếng Anh hoặc tiếng Pháp."
+                ],
+                "jobs": [
+                    "Nhà tư vấn, giám sát, nhà lãnh đạo lĩnh vực công nghệ thông tin cho các tổ chức, doanh nghiệp hay cá nhân.",
+                    "Lập trình viên, kỹ thuật viên, quản trị viên hệ thống công nghệ thông tin cho các tổ chức, doanh nghiệp hay cá nhân.",
+                    "Cán bộ nghiên cứu, phân tích trong lĩnh vực công nghệ thông tin tại các viện nghiên cứu hay các trường đại học.",
+                    "Giảng viên giảng dạy ở các trường đại học, cao đẳng, trung học chuyên nghiệp, trung học phổ thông."
+                ],
+                "developAbilities": [
+                    "Hình thành kỹ năng tự học, thói quen học tập suốt đời, có khả năng cập nhật kiến thức và sự thay đổi của công nghệ thông tin.",
+                    "Khả năng tiếp tục học tập nâng cao trình độ ở các trường đào tạo trong và ngoài nước trong lĩnh vực CNTT."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/643-cong-nghe-thong-tin.html"
+            }
+        ]
+    },
+    {
+        "number": 84,
+        "majorCode": "7580201H",
+        "majorName": "Kỹ thuật xây dựng",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ",
+        "collegeImage": "kcn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A00", "A01"],
+                "quantity": 80
+            }   
+        ],
+        "mainSubjects": ["Toán", "Lý"],
+        "majorGroup": "Kỹ thuật",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.00
+            },
+            {
+                "year": 2017,
+                "points": 15.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật xây dựng",
+                "videoURL": "https://www.youtube.com/watch?v=vIILNxgrsKg",
+                "objectives": [
+                    "Chương trình đào tạo (CTĐT) đáp ứng mục tiêu đào tạo kỹ sư chuyên ngành Xây dựng dân dụng và công nghiệp (XDDD&CN), có phẩm chất chính trị vững vàng, có đạo đức tốt, có ý thức phục vụ nhân dân, có sức khỏe tốt, đáp ứng yêu cầu xây dựng và bảo vệ tổ quốc.",
+                    "CTĐT trang bị cho người học những kiến thức chuyên sâu của chuyên ngành XDDD&CN, có khả năng Khảo sát, Thiết kế, Thi công, Quản lý dự án các công trình XDDD&CN; Có khả năng giao tiếp thông thường, đọc tài liệu chuyên ngành bằng Anh ngữ.",
+                    "CTĐT còn trang bị cho người học những kiến thức cơ bản thuộc chuyên ngành gần, chuyên ngành rộng, như: Qui hoạch, Xây dựng công trình Giao thông, Xây dựng công trình Thủy lợi, kỹ thuật Môi trường."
+                ],
+                "jobs": [
+                    "Sau khi tốt nghiệp, người học có thể đảm nhiệm nhiều vai trò và vị trí khác nhau (cán bộ quản lý hoặc cán bộ kỹ thuật) trong các cơ quan, công ty, xí nghiệp sau đây:",
+                    "Các Sở, Phòng, Ban quản lý về xây dựng cơ bản, như: Sở xây dựng, Ban quản lý dự án công trình xây dựng các cấp, Phòng kinh tế - kỹ thuật - hạ tầng của các Huyện,...",
+                    "Các công ty tư vấn khảo sát, thiết kế, thi công và quản lý dự án xây dựng.",
+                    "Quản lý xây dựng cơ bản ở các cơ quan, xí nghiệp sản xuất.",
+                    "Các trung tâm, phòng thí nghiệm chuyên ngành xây dựng.",
+                    "Các Viện nghiên cứu, trường Đại học, Cao Đẳng và Trung học chuyên nghiệp về lĩnh vực xây dựng.",
+                    "Làm thầu xây dựng tư nhân."
+                ],
+                "developAbilities": [
+                    "Có khả năng học tiếp lên trình độ cao hơn (Thạc sĩ, Tiến sĩ) thuộc chuyên ngành XDDD&CN hoặc các ngành gần khác.",
+                    "Học thêm các khóa bồi dưỡng ngắn hạn (cấp chứng chỉ) phục vụ chuyên ngành như: kỹ sư định giá, giám sát công trình, chỉ huy trưởng công trình, quản lý phòng thí nghiệm chuyên ngành xây dựng, quản lý dự án xây dựng, nghiệp vụ đấu thầu,..."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/777-ky-thuat-xay-dung.html"
+            }
+        ]
+    },
+    {
+        "number": 85,
+        "majorCode": "7620109H",
+        "majorName": "Nông học",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Phát triển Nông thôn",
+        "collegeImage": "kptnt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["B00", "D08", "D07"],
+                "quantity": 100
+            }   
+        ],
+        "mainSubjects": ["Hóa", "Sinh"],
+        "majorGroup": "Kỹ thuật",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.00
+            },
+            {
+                "year": 2017,
+                "points": 15.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật nông nghiệp",
+                "videoURL": "https://www.youtube.com/watch?v=b0JhKyavtig",
+                "objectives": [
+                    "Chương trình đào tạo ngành Nông học (chuyên ngành Kỹ thuật Nông nghiệp) đào tạo kỹ sư Nông học có kiến thức, năng lực và kỹ năng thực hành về các vấn đề kỹ thuật nông nghiệp, nông thôn đáp ứng cho quá trình “Công nghiệp hóa, hiện đại hóa nông nghiệp nông thôn”, có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                    "Trang bị cho người học nắm vững kiến thức chuyên sâu của chuyên ngành Kỹ thuật Nông nghiệp (trồng trọt, chăn nuôi, thủy sản), có kỹ năng thực hành, quản lý và lập dự án, có khả năng tự nghiên cứu trong lĩnh vực nông nghiệp, nông thôn.",
+                    "Sinh viên tốt nghiệp chuyên ngành Kỹ thuật Nông nghiệp có thể làm việc tại các cơ quan thuộc lĩnh vực Nông nghiệp và Phát triển nông thôn, Khuyến nông - Khuyến ngư, Bảo vệ thực vật, Chăn nuôi-Thú y, các doanh nghiệp nông nghiệp; các cở sở đào tạo, nghiên cứu khoa học và dạy nghề."
+                ],
+                "jobs": [
+                    "Sinh viên tốt nghiệp chuyên ngành Kỹ thuật Nông nghiệp có thể đảm nhiệm các vị trí khác nhau từ chuyên viên kỹ thuật, cán bộ quản lý ở các cơ quan trong lĩnh vực Nông nghiệp và Phát triển nông thôn, Khuyến nông - Khuyến ngư, Bảo vệ thực vật, Chăn nuôi-Thú y, các doanh nghiệp nông nghiệp; nghiên cứu và giảng dạy tại các cở sở đào tạo- nghiên cứu: Viện/ Trường các cơ sở dạy nghề."
+                ],
+                "developAbilities": [
+                    "Hình thành thói quen học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về Nông nghiệp.",
+                    "Đáp ứng được với yêu cầu học tập ở các trình độ sau đại học trong lĩnh vực Nông nghiệp."
+                ],
+                "standardOutput": ""
+            }
+        ]
+    },
+    {
+        "number": 86,
+        "majorCode": "7620301H",
+        "majorName": "Nuôi trồng thủy sản",
+        "intendTime": "4",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Thủy sản",
+        "collegeImage": "kts.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["B00", "D08","D07"],
+                "quantity": 60
+            }   
+        ],
+        "mainSubjects": ["Hóa", "Sinh"],
+        "majorGroup": "Nông - lâm - ngư nghiệp",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 14.00
+            },
+            {
+                "year": 2017,
+                "points": 15.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Nuôi trồng thủy sản",
+                "videoURL": "https://www.youtube.com/watch?v=1GtYdGJR0NI",
+                "objectives": [
+                    "Đào tạo kỹ sư Nuôi trồng thủy sản (NTTS) có hệ thống kiến thức khoa học cơ bản, có kiến thức chuyên môn sâu về NTTS và kỹ năng nghiệp vụ thành thạo, có khả năng làm việc độc lập, đảm nhận trực tiếp công tác kỹ thuật và quản lý tại các cơ sở sản xuất, nghiên cứu, đào tạo có liên quan đến thủy sản; có nhận thức chính trị và phẩm chất đạo đức tốt; có sức khỏe; tôn trọng nghề nghiệp; có khả năng tiếp tục học tập ở các bậc học sau đại học nhằm đáp ứng nhu cầu của xã hội trong sự nghiệp phát triển khoa học công nghệ về lĩnh vực NTTS."
+                ],
+                "jobs": [
+                    "Các cơ quan quản lý ngành thủy sản.",
+                    "Các cơ sở đào tạo và nghiên cứu về thủy sản; các dự án thủy sản trong nước và quốc tế.",
+                    "Các doanh nghiệp/cơ sở sản xuất và cung cấp dịch vụ thủy sản.",
+                    "Tự tổ chức sản xuất và kinh doanh thủy sản."
+                ],
+                "developAbilities": [
+                    "Có khả năng tự học tập, nghiên cứu và ứng dụng khoa học công nghệ vào thực tế sản xuất.",
+                    "Có khả năng học tập bậc sau đại học liên quan lĩnh vực thủy sản."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/672-nuoi-trong-thuy-san.html"
+            }
+        ]
+    },
+    {
+        "number": 87,
+        "majorCode": "7420201T",
+        "majorName": "Viện NC&PT Công nghệ Sinh học",
+        "intendTime": "4.5",
+        "title": "Cử nhân",
+        "collegeName": "Viện NC&PT Công nghệ Sinh học",
+        "collegeImage": "vncvptcnsh.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A01", "D08","D07"],
+                "quantity": 40
+            },
+            {
+                "testMethod": "B",
+                "combinations": ["A00", "B00", "A01", "D08","D07"],
+                "quantity": 40
+            } 
+        ],
+        "mainSubjects": ["Sinh", "Tiếng Anh"],
+        "majorGroup": "Khoa học tự nhiên",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.50
+            },
+            {
+                "year": 2017,
+                "points": 17.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Công nghệ sinh học",
+                "videoURL": "https://www.youtube.com/watch?v=OmQdp1RZIVs",
+                "objectives": [
+                    "Trang bị cho người học kiến thức cơ bản và chuyên sâu liên quan Công nghệ Sinh học trong các ngành nông-công nghiệp và cơ quan nhà nước và các ứng xử đạo đức trong việc cải thiện và phát triển nền kinh tế và công nghiệp vùng miền.",
+                    "Cung cấp nguồn nhân lực chất lượng cao về kiến thức lý thuyết và nghiên cứu trong lĩnh vực Công nghệ sinh học; Gắn kết học tập suốt đời để duy trì và tăng cường kỹ năng chuyên môn.",
+                    "Sử dụng tiếng Anh để làm việc, học tập trong các tổ chức Công nghệ Sinh học trong và ngoài nước."
+                ],
+                "jobs": [
+                    "Hoạt động trên các lĩnh vực chuyên môn về CNSH trong các cơ quan như Sở Khoa học-Công nghệ, Tài nguyên-Môi trường, Nông nghiệp và PTNT; Các cơ quan kiểm tra chất lượng và vệ sinh an toàn thực phẩm.",
+                    "Các cơ quan, xí nghiệp chế biến và bảo quản nông-thủy sản, sản xuất thực phẩm và dược phẩm, giống cây trồng và vật nuôi. Các công ty tư vấn đầu tư về công nghệ sinh học..",
+                    "Các doanh nghiệp Công nghệ Sinh học hoặc có liên quan ở trong và ngoài nước.",
+                    "Các trường đại học, cao đẳng, trung học chuyên nghiệp, các viện nghiên cứu và chuyển giao công nghệ thuộc lĩnh vực công nghệ sinh học."
+                ],
+                "developAbilities": [
+                    "Có khả năngg học tập, nghiên cứu ở các trình độ sau đại học, đặc biệt là ngoài nước.",
+                    "Có khả năng tích lũy kinh nghiệm, chủ động nghiên cứu và ứng dụng các tiến bộ khoa học công nghệ sinh học vào sản xuất",
+                    "Có khả năng học tập nâng cao trình độ để đảm nhận các nhiệm vụ về quản lý chuyên môn nghiệp vụ trong lĩnh vực công nghệ sinh học và lĩnh vực có liên quan."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/787-cong-nghe-sinh-hoc-cttt.html"
+            }
+        ]
+    },
+    {
+        "number": 88,
+        "majorCode": "7620301T",
+        "majorName": "Nuôi trồng thủy sản",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Thủy sản",
+        "collegeImage": "kts.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A01", "D08","D07"],
+                "quantity": 40
+            },
+            {
+                "testMethod": "B",
+                "combinations": ["A00", "B00", "A01", "D08","D07"],
+                "quantity": 40
+            }   
+        ],
+        "mainSubjects": ["Sinh", "Tiếng Anh"],
+        "majorGroup": "Nông - lâm - ngư nghiệp",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.50
+            },
+            {
+                "year": 2017,
+                "points": 15.75
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Nuôi trồng thủy sản",
+                "videoURL": "https://www.youtube.com/watch?v=1GtYdGJR0NI",
+                "objectives": [
+                    "Đào tạo kỹ sư Nuôi trồng thủy sản (NTTS) có hệ thống kiến thức khoa học cơ bản, có kiến thức chuyên môn sâu về NTTS và kỹ năng nghiệp vụ thành thạo, có khả năng làm việc độc lập, đảm nhận trực tiếp công tác kỹ thuật và quản lý tại các cơ sở sản xuất, nghiên cứu, đào tạo có liên quan đến thủy sản; có nhận thức chính trị và phẩm chất đạo đức tốt; có sức khỏe; tôn trọng nghề nghiệp; có khả năng tiếp tục học tập ở các bậc học sau đại học nhằm đáp ứng nhu cầu của xã hội trong sự nghiệp phát triển khoa học công nghệ về lĩnh vực NTTS. Sử dụng tiếng Anh để làm việc, học tập trong các tổ chức Nuôi trồng thủy sản trong và ngoài nước."
+                ],
+                "jobs": [
+                    "Các cơ quan quản lý ngành thủy sản.",
+                    "Các cơ sở đào tạo và nghiên cứu về thủy sản; các dự án thủy sản trong nước và quốc tế.",
+                    "Các doanh nghiệp/cơ sở sản xuất và cung cấp dịch vụ thủy sản.",
+                    "Tự tổ chức sản xuất và kinh doanh thủy sản."
+                ],
+                "developAbilities": [
+                    "Có khả năng tự học tập, nghiên cứu và ứng dụng khoa học công nghệ vào thực tế sản xuất.",
+                    "Có khả năng học tập bậc sau đại học liên quan lĩnh vực thủy sản."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/788-nuoi-trong-thuy-san-cttt.html"
+            }
+        ]
+    },
+    {
+        "number": 89,
+        "majorCode": "7510401C",
+        "majorName": "Công nghệ kỹ thuật hóa học (CTCLC)",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ",
+        "collegeImage": "kcn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A01", "D08","D07"],
+                "quantity": 40
+            },
+            {
+                "testMethod": "B",
+                "combinations": ["A00", "B00", "A01", "D08","D07"],
+                "quantity": 40
+            }  
+        ],
+        "mainSubjects": ["Hóa", "Tiếng Anh"],
+        "majorGroup": "Khoa học tự nhiên",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.50
+            },
+            {
+                "year": 2017,
+                "points": 17.50
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Công nghệ kỹ thuật hóa học (CTCLC)",
+                "videoURL": "https://www.youtube.com/watch?v=bDRrfX9JJ5s",
+                "objectives": [
+                    "Đào tạo kỹ sư hóa học chất lượng cao, có kiến thức chuyên môn, kiến thức khoa học kỹ thuật cơ sở vững vàng; sử dụng thuần thục ngoại ngữ; có đạo đức nghề nghiệp, tinh thần trách nhiệm, tính chuyên nghiệp cao; có khả năng giải quyết vấn đề, khả năng làm việc nhóm và kỹ năng giao tiếp tốt.",
+                    "Đào tạo kỹ sư hóa học có đủ trình độ đáp ứng nhu cầu phát triển kinh tế và hội nhập của Đồng bằng Sông Cửu Long nói riêng và của đất nước nói chung trong giai đoạn quốc tế hóa, toàn cầu hóa, thích nghi tốt trong môi trường quốc tế, đa văn hóa, đa quốc gia nhờ vào khả năng giao tiếp và ngoại ngữ lưu loát.",
+                    "Đào tạo kỹ sư có khả năng tự học tập suốt đời, có đủ kiến thức và khả năng tiếp tục theo học các chương trình đào tạo sau đại học chuyên ngành hóa học, dược liệu, vật liệu, công nghệ thực phẩm, kỹ thuật môi trường và năng lượng."
+                ],
+                "jobs": [
+                    "Làm việc ở các sở (Sở khoa học công nghệ, sở tài nguyên môi trường, sở công thương …) các trường đại học, viện nghiên cứu, cao đẳng, trung học chuyên nghiệp; các bệnh viện, các cơ quan công an (phân tích kiểm nghiệm hàng hóa liên quan hóa chất và vật liệu); các công ty (công ty dược, thuốc sát trùng, thuốc thú y, phân bón hóa chất, xi măng, dệt nhuộm, giày, xi mạ, cao su, chế biến sữa, đồ uống, dầu ăn; các nhà máy (hóa chất, đường, nhiệt điện, dầu khí…).",
+                    "Học thạc sĩ, tiến sĩ trong và ngoài nước. Đặc biệt, chương trình có sự tham gia giảng dạy của nhiều giáo sư nước ngoài và có liên kết đào tạo nên khả năng nhận học bổng là rất lớn.",
+                    "Làm việc tại các công ty ngoài nước và công ty đa quốc gia. Đặc biệt, chương trình cũng có liên kết với các tập đoàn lớn nên học viên có khả năng được tuyển dụng làm việc cho các tập đoàn này."
+                ],
+                "developAbilities": [
+                    "Tự học và nghiên cứu suốt đời.",
+                    "Học sau đại học (thạc sĩ, tiến sĩ) trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/645-cong-nghe-ky-thuat-hoa-hoc.html"
+            }
+        ]
+    },
+    {
+        "number": 90,
+        "majorCode": "7540101C",
+        "majorName": "Công nghệ thực phẩm (CTCLC)",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Nông nghiệp",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A01", "D08","D07"],
+                "quantity": 40
+            },
+            {
+                "testMethod": "B",
+                "combinations": ["A00", "B00", "A01", "D08","D07"],
+                "quantity": 40
+            }  
+        ],
+        "mainSubjects": ["Tiếng Anh", "Sinh"],
+        "majorGroup": "Sản xuất và chế biến",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.00
+            },
+            {
+                "year": 2017,
+                "points": 0.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Công nghệ thực phẩm (CTCLC)",
+                "videoURL": "https://www.youtube.com/watch?v=oo3AdE3rntg&t=1s",
+                "objectives": [
+                    "Có kiến thức chuyên môn vững chắc để thích ứng tốt với những công việc khác nhau như nghiên cứu, phát triển, tư vấn, quản lý và sản xuất trong lĩnh vực rộng của ngành công nghệ thực phẩm.",
+                    "Có kỹ năng chuyên nghiệp, lập luận và phân tích tốt, có phẩm chất cá nhân cần thiết, hiểu biết về các vấn đề đương đại để thành công trong nghề nghiệp. Đáp ứng tốt nhu cầu công việc trong giai đoạn công nghiệp 4.0.",
+                    "Có khả năng phát triển năng lực nghiên cứu và kỹ năng xã hội cần thiết để làm việc hiệu quả trong nhóm đa ngành và trong môi trường quốc tế: sử dụng tốt tiếng Anh chuyên ngành và tiếng Anh giao tiếp; có đạo đức nghề nghiệp, tinh thần trách nhiệm, tính chuyên nghiệp cao; có khả năng giải quyết vấn đề, làm việc nhóm và kỹ năng giao tiếp tốt.",
+                    "Có phẩm chất chính trị, ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
+                    "Có thể đảm đương công việc của cán bộ kỹ thuật, quản lý, nghiên cứu trong lĩnh vực chế biến, bảo quản và quản lý chất lượng trong công nghiệp thực phẩm tại cơ sở/xí nghiệp/doanh nghiệp/công ty sản xuất thực phẩm trong và ngoài nước, các cơ quan hành chính quản lý chuyên ngành, Viện nghiên cứu hoặc giảng dạy chuyên ngành thực phẩm tại các trường cao đẳng, đại học. Có khả năng tự làm chủ, phát triển cơ sở, doanh nghiệp sản xuất thực phẩm.",
+                    "Có khả năng tự học tập suốt đời, có đủ kiến thức và khả năng tiếp tục theo học các chương trình đào tạo sau đại học chuyên ngành Công nghệ Thực phẩm và các ngành gần, điển hình như Công nghệ Sau thu hoạch trong và ngoài nước."
+                ],
+                "jobs": [
+                    "Nhân viên/quản lý bộ phận kỹ thuật, điều hành sản xuất, kiểm soát chất lượng thực phẩm, nghiên cứu và phát triển sản phẩm (R&D), quản lý dự án tại các doanh nghiệp, công ty chế biến thực phẩm trong và ngoài nước.",
+                    "Nhân viên/quản lý bộ phận liên quan đến khoa học – công nghệ trong các cơ quan, tổ chức nhà nước.",
+                    "Giảng viên/nghiên cứu viên tham gia giảng dạy/nghiên cứu về lĩnh vực công nghệ thực phẩm ở các trường đại học/cao đẳng, viện nghiên cứu trong nước, ngoài nước.",
+                    "Tự làm chủ, phát triển cơ sở, doanh nghiệp sản xuất thực phẩm.."
+                ],
+                "developAbilities": [
+                    "Có khả năng học tập, nghiên cứu ở các trình độ đào tạo sau đại học, đặc biệt là ngoài nước.",
+                    "Kỹ sư ngành Công nghệ Thực phẩm CLC sẽ được đào tạo để có kỹ năng học tập suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu về công nghệ thực phẩm, sáng tạo trong công việc.",
+                    "Có khả năng tích lũy kinh nghiệm, chủ động nghiên cứu và ứng dụng các tiến bộ khoa học công nghệ thực phẩm vào sản xuất."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/905-cong-nghe-thuc-pham-clc.html"
+            }
+        ]
+    },
+    {
+        "number": 91,
+        "majorCode": "7580201C",
+        "majorName": "Kỹ thuật xây dựng (CTCLC)",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ",
+        "collegeImage": "kcn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A01", "D01","D07"],
+                "quantity": 40
+            },
+            {
+                "testMethod": "B",
+                "combinations": ["A00", "A01", "D01","D07"],
+                "quantity": 40
+            } 
+        ],
+        "mainSubjects": ["Lý", "Tiếng Anh"],
+        "majorGroup": "Kỹ thuật",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 0.00
+            },
+            {
+                "year": 2017,
+                "points": 0.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật xây dựng - CLC",
+                "videoURL": "https://www.youtube.com/watch?v=qn5uICrJqUU",
+                "objectives": [
+                    "Ngành Kỹ thuật xây dựng chất lượng cao đào tạo kỹ sư có khả năng khảo sát, thiết kế, thi công, quản lý dự án các công trình xây dựng dân dụng và công nghiệp (DD&CN).",
+                    "Đào tạo Kỹ sư Kỹ thuật xây dựng có đủ trình độ đáp ứng nhu cầu phát triển kinh tế của đất nước trong giai đoạn công nghiệp hóa, hiện đại hóa; đáp ứng nhu cầu hội nhập của quá trình phát triển kinh tế đất nước; Đào tạo kỹ sư có kiến thức khoa học kỹ thuật cơ sở, và chuyên môn vững vàng, có khả năng giải quyết vấn đề cao; có khả năng làm việc nhóm và kỹ năng giao tiếp truyền thông tốt; sử dụng ngoại ngữ chuyên môn thuần thục; có đạo đức nghề nghiệp và tính chuyên nghiệp cao; Đào tạo kỹ sư có đủ kiến thức và khả năng tiếp tục theo học các chương trình đào tạo sau đại học chuyên ngành Kỹ thuật xây dựng."
+                ],
+                "jobs": [
+                    "Kỹ sư thiết kế, giám sát, thi công, quản lý công trình xây dựng DD&CN.",
+                    "Giảng dạy tại các trường Đại học, Cao Đẳng và Trung học chuyên nghiệp trong và ngoài nước về lĩnh vực xây dựng.",
+                    "Sở, Phòng, Ban quản lý về xây dựng cơ bản, như: Sở xây dựng, - Ban quản lý dự án công trình xây dựng các cấp.",
+                    "Các trường đại học, Cao đẳng, Viện nghiên cứu, Cơ sở đào tạo kỹ thuật trong và ngoài nước.",
+                    "Cán bộ quản lý trong quản lý xây dựng cơ bản tại các cơ quan, xí nghiệp sản xuất trong và ngoài nước.",
+                    "Cán bộ kỹ thuật/cán bộ nghiên cứu/chuyên viên tại các trung tâm, phòng thí nghiệm chuyên ngành xây dựng trong và ngoài nước.",
+                    "Làm thầu xây dựng cho các công trình xây dựng trong nước và quốc tế."
+                ],
+                "developAbilities": [
+                    "Hình thành thói quen học suốt đời, có khả năng cập nhật kiến thức, tiếp tục nghiên cứu và học tập chuyên sâu, tự học và nghiên cứu suốt đời.",
+                    "Học bằng hai các lĩnh vực Kỹ thuật xây dựng công trình thủy, kỹ thuật xây dựng công trình giao thông.",
+                    "Kỹ sư Kỹ thuật xây dựng chất lượng cao sau khi tốt nghiệp có thể học tiếp cao học (Thạc sĩ) hoặc nghiên cứu sinh (Tiến sĩ) ở các trường đại học trong và ngoài nước."
+                ],
+                "standardOutput": ""
+            }
+        ]
+    },
+    {
+        "number": 92,
+        "majorCode": "7520201C",
+        "majorName": "Kỹ thuật điện (CTCLC)",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Khoa Công nghệ",
+        "collegeImage": "kcn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A01", "D01","D07"],
+                "quantity": 40
+            },
+            {
+                "testMethod": "B",
+                "combinations": ["A00", "A01", "D01","D07"],
+                "quantity": 40
+            }  
+        ],
+        "mainSubjects": ["Lý", "Tiếng Anh" ],
+        "majorGroup": "Kỹ thuật",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.50
+            },
+            {
+                "year": 2017,
+                "points": 0.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kỹ thuật điện - CLC",
+                "videoURL": "https://www.youtube.com/watch?v=7I3rj2lmWns",
+                "objectives": [
+                    "CTCLC đào tạo Kỹ sư Kỹ thuật điện có kiến thức chuyên môn, kiến thức cơ sở và phẩm chất chính trị vững vàng; sử dụng thuần thục ngoại ngữ; có đạo đức nghề nghiệp, tinh thần trách nhiệm, tính chuyên nghiệp cao; có khả năng giải quyết vấn đề, khả năng làm việc nhóm và kỹ năng giao tiếp tốt.",
+                    "CTCLC chú trọng đào tạo Kỹ sư Kỹ thuật điện có đủ trình độ đáp ứng nhu cầu phát triển kinh tế và hội nhập của Đồng bằng Sông Cửu Long nói riêng và của đất nước nói chung trong giai đoạn quốc tế hóa, toàn cầu hóa.",
+                    "Kỹ sư Kỹ thuật điện được đào tạo từ CTCLC có khả năng làm việc trong các lĩnh vực như Hệ thống điện, Điện dân dụng và công nghiệp, Kỹ thuật cao áp, Tự động hóa và điều khiển…, thích nghi tốt trong môi trường quốc tế, đa văn hóa, đa quốc gia nhờ vào khả năng giao tiếp và ngoại ngữ lưu loát.",
+                    "Đào tạo kỹ sư có khả năng tự học tập suốt đời, có đủ kiến thức và khả năng tiếp tục theo học các chương trình đào tạo sau đại học chuyên ngành Kỹ thuật điện."
+                ],
+                "jobs": [
+                    "Kỹ sư Kỹ thuật điện được đào tạo từ CTCLC có khả năng làm việc trong các lĩnh vực như Hệ thống điện, Điện dân dụng và công nghiệp, Kỹ  thuật cao áp, Tự động hóa và điều khiển…, đặc biệt là có khả năng thích ứng và làm việc tốt trong môi trường quốc tế, đa văn hóa, đa quốc gia:",
+                    "Quản lý, nhân viên trong các cơ quan quản lý nhà nước về ngành điện: Sở công thương, Sở khoa học công nghệ,...",
+                    "Cán bộ giảng dạy, nghiên cứu viên, kỹ thuật viên trong các trường Đại học, Cao đẳng, Viện nghiên cứu, Cơ sở đào tạo kỹ thuật trong và ngoài nước.",
+                    "Quản lý, nhân viên vận hành, nhân viên bảo trì trong các nhà máy điện, Công ty  điện lực, Công ty xây lắp điện, Công ty truyền tải cao áp, Trạm biến áp, Ban quản lý dự án nhà máy điện, Ban quản lý các khu công nghiệp, Nhà máy sản xuất, Dây chuyền sản xuất, Công ty liên quan đến công nghệ tự động hoá trong các Khu, Cụm Công Nghiệp có vốn đầu tư trong và ngoài nước,...",
+                    "Giám sát, thiết kế, tư vấn kỹ thuật trong các Công ty tư vấn, thiết kế, thi công các công trình điện, Công ty thương mại, dịch vụ về lĩnh vực điện,..."
+                ],
+                "developAbilities": [
+                    "Kỹ sư Kỹ thuật điện CLC sau khi tốt nghiệp có thể học thêm một bằng đại học khác cùng nhóm ngành hoặc học tiếp cao học (Thạc sĩ) hoặc nghiên cứu sinh (Tiến sĩ) ở các trường đại học trong và ngoài nước. Kỹ sư ngành Kỹ thuật điện CLC sẽ được đào tạo để có kỹ năng học tập suốt đời."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/904-ky-thuat-dien-clc.html"
+            }
+        ]
+    },
+    {
+        "number": 93,
+        "majorCode": "7480201C",
+        "majorName": "Công nghệ thông tin (CTCLC)",
+        "intendTime": "4.5",
+        "title": "Kỹ sư",
+        "collegeName": "Công nghệ Thông tin và Truyền thông",
+        "collegeImage": "kcntt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A01", "D01","D07"],
+                "quantity": 40
+            },
+            {
+                "testMethod": "B",
+                "combinations": ["A00", "A01", "D01","D07"],
+                "quantity": 40
+            } 
+        ],
+        "mainSubjects": ["Toán", "Tiếng Anh"],
+        "majorGroup": "Công nghệ thông tin",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 15.00
+            },
+            {
+                "year": 2017,
+                "points": 17.25
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Công nghệ thông tin - CLC",
+                "videoURL": "https://www.youtube.com/watch?v=QuAZyjEpj1A&t=2s",
+                "objectives": [
+                    "Mục tiêu của chương trình đào tạo chất lượng cao ngành Công nghệ thông tin (CNTT) là đào tạo kỹ sư CNTT chất lượng cao, có kiến thức chuyên môn vững chắc, kỹ năng nghề nghiệp thành thạo, thái độ và tác phong làm việc chuyên nghiệp để đảm nhận những vị trí nghề nghiệp khác nhau trong lĩnh vực CNTT. Các mục tiêu cụ thể của chương trình là nhằm trang bị cho người học:",
+                    "Nắm vững kiến thức đại cương, cơ sở ngành, chuyên ngành và chuyên sâu nhằm vận dụng để triển khai các giải pháp và sản phẩm CNTT đương đại, cũng như khả năng thích ứng tốt với những thay đổi không ngừng của công nghệ.",
+                    "Kỹ năng làm việc chuyên nghiệp thích ứng với những vị trí nghề nghiệp hàng đầu trong lĩnh vực CNTT; khả năng làm việc độc lập, tự học tập, tự nghiên cứu để có thể thích ứng với những thay đổi trong môi trường nghề nghiệp hoặc xã hội.",
+                    "Thể hiện đạo đức nghề nghiệp, sự tự tin, lòng nhiệt tình, và sự đam mê trong nghề nghiệp.",
+                    "Khả năng làm việc nhóm, khả năng giao tiếp tốt bằng cả tiếng Việt và tiếng Anh phục vụ cho công việc trong lĩnh vực CNTT, cũng như cuộc sống hàng ngày."
+                ],
+                "jobs": [
+                    "Nhà tư vấn, giám sát, nhà lãnh đạo lĩnh vực công nghệ thông tin cho các tổ chức, doanh nghiệp hay cá nhân.",
+                    "Lập trình viên, kỹ thuật viên, quản trị viên hệ thống công nghệ thông tin cho các tổ chức, doanh nghiệp hay cá nhân.",
+                    "Cán bộ nghiên cứu, phân tích trong lĩnh vực công nghệ thông tin tại các viện nghiên cứu hay các trường đại học.",
+                    "Giảng viên giảng dạy ở các trường đại học, cao đẳng, trung học chuyên nghiệp."
+                ],
+                "developAbilities": [
+                    ""
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/789-cong-nghe-thong-tin-clc.html"
+            }
+        ]
+    },
+    {
+        "number": 94,
+        "majorCode": "7340201C",
+        "majorName": "Tài chính - Ngân hàng - CLC",
+        "intendTime": "4.5",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Kinh tế",
+        "collegeImage": "kkt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A01", "D01","D07"],
+                "quantity": 40
+            },
+            {
+                "testMethod": "B",
+                "combinations": ["A00", "A01", "D01","D07"],
+                "quantity": 40
+            } 
+        ],
+        "mainSubjects": ["Toán", "Tiếng Anh"],
+        "majorGroup": "Kinh doanh",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 0.00
+            },
+            {
+                "year": 2017,
+                "points": 0.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Tài chính - Ngân hàng - CLC",
+                "videoURL": "https://www.youtube.com/watch?v=ln-RpPrUuMY",
+                "objectives": [
+                    "Chương trình cử nhân chất lượng cao (CLC) ngành Tài chính – Ngân hàng (TCNH) đào tạo sinh viên tốt nghiệp có kiến thức chuyên môn trong lĩnh vực tài chính và ngân hàng, kỹ năng sử dụng ngoại ngữ trong công việc và thái độ làm việc đáp ứng được các tiêu chuẩn hiện đại của nhà tuyển dụng trong xu thế hội nhập kinh tế khu vực và quốc tế.",
+                    "Trang bị kiến thức xã hội và chuyên môn trong lĩnh vực tài chính – ngân hàng.",
+                    "Rèn luyện năng lực làm việc cạnh tranh ở các vị trí nghiệp vụ, tổ chức thực hiện và quản lý các hoạt động trong lĩnh vực tài chính ngân hàng.",
+                    "Rèn luyện tác phong làm việc chuyên nghiệp để thích ứng với môi trường hội nhập quốc tế.",
+                    "Đào tạo sinh viên có thái độ cầu thị, có trách nhiệm với bản thân và xã hội, tôn trọng giá trị cá nhân và giá trị tập thể."
+                ],
+                "jobs": [
+                    "Chuyên viên ngân hàng làm việc ở các vị trí giao dịch, kiểm soát, kế toán, chuyên viên tín dụng, chuyên viên thanh toán quốc tế, chuyên viên kinh doanh ngoại hối, chuyên viên tư vấn đầu tư tài chính tại các ngân hàng thương mại và các tổ chức tài chính trung gian trong nước và nước ngoài.",
+                    "Chuyên viên phân tích và tư vấn làm việc tại các tổ chức cung cấp dịch vụ tài chính trong nước và quốc tế.",
+                    "Tự tìm kiếm cơ hội kinh doanh để tạo lập doanh nghiệp cho bản thân trong môi trường hội nhập kinh tế khu vực và thế giới.",
+                    "Nghiên cứu viên và giảng viên làm việc tại các Viện nghiên cứu về kinh tế - xã hội, các Trường Trung học chuyên nghiệp, Cao đẳng, Đại học, và các đơn vị nghiên cứu trong và ngoài nước."
+                ],
+                "developAbilities": [
+                    "Cử nhân CLC ngành TCNH sau khi tốt nghiệp có thể học thêm bằng đại học khác cùng nhóm ngành hoặc học tiếp cao học (Thạc sĩ) hoặc nghiên cứu sinh (Tiến sĩ) ở các trường đại học thuộc nhóm ngành kinh tế.",
+                    "Sinh viên theo học CTĐT CLC ngành TCNH còn có cơ hội học tập ở nước ngoài thông qua chương trình trao đổi sinh viên và chương trình hợp tác với các trường trong mạng lưới các trường đại học AUN và các trường trên thế giới. Cụ thể, chương trình trao đổi sinh viên được Trường tổ chức hằng năm cho sinh viên có nhu cầu đi học tập trao đổi với trường đại học ở Thái Lan, Đài Loan, Philippines, Indonexia, và các trường trong khu vực Asian. Đặc biệt là CTĐT CLC ngành TCNH còn mở ra cho sinh viên hội học tập tại Trường đại học Wollongong, Úc. Sau hai năm theo học CTĐT CLC ngành TCNH tại Trường ĐHCT, nếu sinh viên đủ điều kiện và được chấp nhận bởi Trường ĐH Wollongong sẽ được tham gia chương trình đào tạo ngành TCNH của Trường ĐH Wollongong và sẽ được Trường ĐH Wollongong cấp bằng."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/909-tai-chinh-ngan-hang-clc.html"
+            }
+        ]
+    },
+    {
+        "number": 95,
+        "majorCode": "7340120C",
+        "majorName": "Kinh doanh quốc tế (CTCLC)",
+        "intendTime": "4.5",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Kinh tế",
+        "collegeImage": "kkt.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["A01", "D01","D07"],
+                "quantity": 40
+            },
+            {
+                "testMethod": "B",
+                "combinations": ["A00", "A01", "D01","D07"],
+                "quantity": 40
+            } 
+        ],
+        "mainSubjects": ["Toán", "Tiếng Anh"],
+        "majorGroup": "Kinh doanh",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 17.75
+            },
+            {
+                "year": 2017,
+                "points": 19.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Kinh doanh quốc tế - CLC",
+                "videoURL": "https://www.youtube.com/watch?v=N2ES_Zb-u0g",
+                "objectives": [
+                    "Mục tiêu chung của Chương trình đào tạo cử nhân CLC ngành KDQT là giúp sinh viên sau khi tốt nghiệp có năng lực làm việc tốt, có  kỹ năng tốt, kiến thức chuyên môn sâu, thái độ và tác phong chuyên nghiệp trong công việc để đáp ứng tốt nhu cầu phát triển của xã hội và hội nhập quốc tế.",
+                    "Để đạt mục tiêu trên, Chương trình đào tạo cử nhân CLC ngành KDQT có phẩm chất chính trị, đạo đức, có lòng yêu nước, yêu ngành yêu nghề, có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc;có ý chí lập thân, lập nghiệp, có đạo đức nghề nghiệp với tư duy năng động, sáng tạo;có tinh thần trách nhiệm, tác phong văn minh, chuyên nghiệp, có ý thức tổ chức kỷ luật, rèn luyện sức khoẻ để phục vụ ngành nghề;có trình độ chuyên môn cao để góp phần đào tạo nguồn nhân lực cho địa phương, khu vực ĐBSCL, cả nước và cả thị trường lao động quốc tế.",
+                    "Cử nhân chất lượng cao ngành KDQT trang bị cho sinh viên kiến thức cơ bản, có kiến thức chuyên môn sâu, có khả năng tự nghiên cứu, xây dựng, tổ chức và thực hiện/ tư vấn các phương án chiến lược kinh doanh quốc tế. Ngoài ra, người học có khả năng chủ động và thích ứng tốt trong quá trình hội nhập vào nền kinh tế quốc tế của cả nước nói chung và ở ĐBSCL nói riêng.",
+                    "Cuối cùng, cử nhân CLC ngành KDQT có khả năng làm việc tại các công ty đa quốc gia, công ty xuất nhập khẩu, đơn vị kinh doanh, các công ty khai thác vận tải biển, cảng vụ, hải quản, các ngân hàng, các tổ chức đào tạo trong và ngoài nước, các tổ chức nghiên cứu, các tổ chức chính phủ và phi chính phủ có liên quan đến ngoại giao, giao thương quốc tế."
+                ],
+                "jobs": [
+                    "Sinh viên tốt nghiệp cử nhân CLC ngành KDQT có khả năng làm việc tại các vị trí như: chuyên viên biên soạn hợp đồng, đàm phán trong kinh doanh xuất nhập khẩu, phân tích chiến lược kinh doanh xuất nhập khẩu, logistics, khai thác cảng, phân tích quản lý tài chính quốc tế, quản lý bán hàng, giám sát bán hàng, quản lý dự án đầu tư quốc tế, quản lý kinh doanh, quản lý nhân sự....tại các công ty đa quốc gia, công ty xuất nhập khẩu và kinh doanh, các công ty khai thác vận tải biển, hải quản, các ngân hàng, giảng viên và nhà nghiên cứu tại các tổ chức đào tạo trong và ngoài nước, các tổ chức nghiên cứu, các tổ chức chính phủ và phi chính phủ có liên quan đến ngoại giao, giao thương quốc tế."
+                ],
+                "developAbilities": [
+                    "Cử nhân CLC ngành KDQT sau khi tốt nghiệp có thể học thêm một bằng đại học khác cùng nhóm ngành hoặc học tiếp cao học (Thạc sĩ) hoặc nghiên cứu sinh (Tiến sĩ) ở các trường đại học trong và ngoài nước thuộc nhóm ngành kinh tế. Cụ thể, sinh viên tốt nghiệp ngành KDQT có thể theo học các ngành thạc sĩ Quản lý kinh tế, Kinh tế quốc tế, KDQT, Quản trị kinh doanh, hoặc ngành quản trị trong và ngoài nước.",
+                    "Đặc biệt, sinh viên tốt nghiệp có thể theo học thạc sĩ nghiên cứu (Master by research) thuộc các ngành nhóm ngành kinh tế tại các trường đại học nước ngoài. Đây là cơ hội mở ra rất lớn để sinh viên tiếp tục theo đuổi nghiên cứu sinh tại các trường đại học danh tiếng trên thế giới. Đây cũng là điểm khác biệt giữa CTĐT CLC ngành KDQT và CTĐT đại trà. Bên cạnh đó, học viên có cơ hội theo học nghiên cứu sinh các ngành quản trị, KDQT, kinh tế quốc tế, hoặc các ngành thuộc nhóm ngành kinh tế khác tại các trường đại học trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/790-kinh-doanh-quoc-te-clc.html"
+            }
+        ]
+    },
+    {
+        "number": 96,
+        "majorCode": "7220201C",
+        "majorName": "Ngôn ngữ Anh (CTCLC)",
+        "intendTime": "4",
+        "title": "Cử nhân",
+        "collegeName": "Khoa Ngoại ngữ",
+        "collegeImage": "knn.png",
+        "inputRequest": [
+            {
+                "testMethod": "A",
+                "combinations": ["D01", "D14","D15"],
+                "quantity": 80
+            },
+            {
+                "testMethod": "B",
+                "combinations": ["D01", "D14","D15", "D66"],
+                "quantity": 40
+            }   
+        ],
+        "mainSubjects": ["Tiếng Anh", "Văn"],
+        "majorGroup": "Luật - nhân văn",
+        "seasons": [
+            {
+                "year": 2018,
+                "points": 16.50
+            },
+            {
+                "year": 2017,
+                "points": 0.00
+            }
+        ],
+        "specializations": [
+            {
+                "specializationName": "Ngôn ngữ Anh - CLC",
+                "videoURL": "https://www.youtube.com/watch?v=2YFxD1BAl_I",
+                "objectives": [
+                    "Có kiến thức thực tế vững chắc và kiến thức lý thuyết sâu rộng về ngôn ngữ tiếng Anh và về các lĩnh vực đang có nhu cầu nhân lực cao hiện nay như kinh tế và quản trị; khởi nghiệp và hội nhập; dịch vụ và du lịch.",
+                    "Rèn luyện cho người học tác phong chuyên nghiệp, kỹ năng giao tiếp, kỹ năng học tập suốt đời, khả năng thích ứng và làm việc trong môi trường đa văn hóa và bối cảnh toàn cầu hóa, có đạo đức và trách nhiệm xã hội.",
+                    "Có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc, có thái độ học tập và làm việc nghiêm túc và chuyên nghiệp, có thái độ ứng xử và kế hoạch phát triển bản thân phù hợp với bối cảnh xã hội.",
+                    "Có lợi thế cạnh tranh về việc làm trong các lĩnh vực kinh tế và quản trị, khởi nghiệp và hội nhập, dịch vụ và du lịch."
+                ],
+                "jobs": [
+                    "Điều phối viên dự án trong các tập đoàn đa quốc gia, công ty trong nước và quốc tế, dự án chính phủ và phi chính phủ.",
+                    "Trợ lý giám đốc, thư ký hành chánh, người quản lý bộ phận tiếp thị, bộ phận kinh doanh, bộ phận nhân sự tại công ty tư nhân và nhà nước.",
+                    "Lễ tân tại các khách sạn, hướng dẫn viên tại các công ty du lịch.",
+                    "Thư ký hành chánh trong các cơ quan đối ngoại.",
+                    "Phóng viên cho các cơ quan thông tấn báo chí ở trung ương, khu vực và địa phương.",
+                    "Biên tập viên/trợ lý biên tập cho các nhà xuất bản.",
+                    "Người thuyết minh, hướng dẫn tại các viện bảo tàng.",
+                    "Phiên dịch viên, biên dịch viên tại các công ty dịch thuật.",
+                    "Nghiên cứu viên tại các viện nghiên cứu về ngôn ngữ học, văn hóa và văn chương hoặc tại các trường đại học.",
+                    "Người viết lời quảng cáo cho các sản phẩm, dịch vụ; viết thư ngõ gây quĩ hoặc giới thiệu sản phẩm/dịch vụ cho khu vực công và tư nhân.",
+                    "Tư vấn viên về nghề nghiệp, du học tại các trường đại học; tư vấn về xuất nhập cảnh tại các văn phòng luật sư.",
+                    "Giáo viên giảng dạy tiếng Anh tại các cơ sở giáo dục và trung tâm ngoại ngữ (nếu có chứng chỉ nghiệp vụ sư phạm)."
+                ],
+                "developAbilities": [
+                    "Có khả năng học tập suốt đời.",
+                    "Có kiến thức và kỹ năng học tập và nghiên cứu nâng cao trình độ ở các bậc cao học các chuyên ngành:  Ngôn ngữ học tiếng Anh, Ngôn ngữ học ứng dụng, Lý luận và Phương pháp dạy học tiếng Anh, Giao tiếp đa văn hóa, Hoa kỳ học, Văn chương Anh-Mỹ, Giao tiếp đa văn hóa, Quan hệ quốc tế  tại các cơ sở đào tạo trong và ngoài nước."
+                ],
+                "standardOutput": "https://tuyensinh.ctu.edu.vn/chuan-dau-ra/903-ngon-ngu-anh-clc.html"
             }
         ]
     }
