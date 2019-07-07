@@ -1,10 +1,14 @@
+import 'package:flutter/services.dart' show rootBundle;
+import 'dart:convert';
 import './inputRequest.dart';
 import './seasons.dart';
 import './specializations.dart';
 
-List<Major> majorsList(List<dynamic> json) {
+Future<List<Major>> getMajorsList() async {
+    String jsonString = await rootBundle.loadString('assets/jsons/majors.json');
+    List<dynamic> jsonResponse = json.decode(jsonString);
     List<Major> majors = new List<Major>();
-    majors = json.map((i) => Major.fromJson(i)).toList();
+    majors = jsonResponse.map((i) => Major.fromJson(i)).toList();
     return majors;
 }
 
