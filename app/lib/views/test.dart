@@ -17,12 +17,13 @@ class _TestState extends State<Test> {
           if (snapshot.connectionState == ConnectionState.done) {
             List<Major> majors = snapshot.data;
             return GridView.builder(
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 1),
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
               itemCount: majors.length,
               itemBuilder: (context, index) {
                 return Card(
                   child: Column(
                     children: <Widget>[
+                      Text("$index"),
                       Text(majors[index].majorName),
                       // Text(majors[index].majorCode),
                       // Text(majors[index].intendTime),
@@ -38,9 +39,9 @@ class _TestState extends State<Test> {
                       // Text("${majors[index].seasons[0].points}"),
                       Text("${majors[index].specializations[0].specializationName}"),
                       Text("${majors[index].specializations[0].videoURL}"),
-                      Text("${majors[index].specializations[0].objectives[0]}"),
-                      Text("${majors[index].specializations[0].jobs[0]}"),
-                      Text("${majors[index].specializations[0].developAbilities[0]}"),
+                      // Text("${majors[index].specializations[0].objectives[0]}"),
+                      // Text("${majors[index].specializations[0].jobs[0]}"),
+                      // Text("${majors[index].specializations[0].developAbilities[0]}"),
                       Text("${majors[index].specializations[0].standardOutput}"),
                     ],
                   ),
