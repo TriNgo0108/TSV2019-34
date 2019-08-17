@@ -1,10 +1,9 @@
+import 'package:app/views/widgets/drawer_menu.dart';
+import 'package:app/views/widgets/major_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
-import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import '../models/majors.dart';
-import './widgets/MajorCard.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -16,6 +15,8 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: Text("hello"),),
+      drawer: DrawerMenu(),
       body: SafeArea(
         child: ListView(
           children: <Widget>[

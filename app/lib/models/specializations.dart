@@ -1,12 +1,12 @@
 class Specializations {
   final String specializationName;
-  final String videoURL;
+  final String videoId;
   final List<String> objectives;
   final List<String> jobs;
   final List<String> developAbilities;
   final String standardOutput;
 
-  Specializations({this.specializationName, this.videoURL, this.objectives, this.jobs, this.developAbilities, this.standardOutput});
+  Specializations({this.specializationName, this.videoId, this.objectives, this.jobs, this.developAbilities, this.standardOutput});
 
   factory Specializations.fromJson(Map<String,dynamic> json){
     var list = json["objectives"];
@@ -20,7 +20,7 @@ class Specializations {
 
     return new Specializations(
       specializationName: json["specializationName"],
-      videoURL: json["videoURL"],
+      videoId: json["videoId"],
       objectives: objectivesList,
       jobs: jobsList,
       developAbilities: developAbilitiesList,

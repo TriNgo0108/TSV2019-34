@@ -31,7 +31,7 @@
         "specializations": [
             {
                 "specializationName": "Giáo dục Tiểu học",
-                "videoURL": "https://www.youtube.com/watch?v=foz7NjerUes",
+                "videoId": "foz7NjerUes",
                 "objectives": [
                     "Chương trình đào tạo ngành Giáo dục tiểu học đào tạo giáo viên tiểu học có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái, khoan dung, tận tụy vì sự nghiệp giáo dục; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
                     "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
@@ -81,7 +81,7 @@
         "specializations": [
             {
                 "specializationName": "Giáo dục Công dân",
-                "videoURL": "https://www.youtube.com/watch?v=MOP_vmN9N4A",
+                "videoId": "MOP_vmN9N4A",
                 "objectives": [
                     "Chương trình đào tạo ngành Giáo dục công dân đào tạo cử nhân ngành Giáo dục công dân có phẩm chất chính trị và đạo đức nghề nghiệp; có tinh thần yêu nước, yêu chủ nghĩa xã hội; sống và làm việc theo pháp luật; có kỹ năng sư phạm đáp ứng yêu cầu đổi mới giáo dục phổ thông hiện nay; trang bị cho người học một hệ thống kiến thức giáo dục đại cương, kiến thức cơ sở ngành, kiến thức chuyên sâu chuyên ngành Giáo dục công dân.",
                     "Cử nhân Giáo dục công dân ngoài giảng dạy có thể làm việc ở các tổ chức xã hội – chính trị, các cơ quan nghiên cứu."
@@ -128,7 +128,7 @@
         "specializations": [
             {
                 "specializationName": "Giáo dục Thể chất",
-                "videoURL": "https://www.youtube.com/watch?v=48H_iYdn8nM",
+                "videoId": "48H_iYdn8nM",
                 "objectives": [
                     "Đào tạo giáo viên Giáo dục thể chất có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khỏe, góp phần vào sự nghiệp giáo dục và đào tạo, phát triển toàn diện con người, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                     "Đào tạo giáo viên Giáo dục thể chất có kiến thức và năng lực thực hành nghề nghiệp tương ứng với trình độ đào tạo.",
@@ -177,7 +177,7 @@
         "specializations": [
             {
                 "specializationName": "Sư phạm Toán học",
-                "videoURL": "https://youtu.be/sEcMHnOTdaM",
+                "videoId": "sEcMHnOTdaM",
                 "objectives": [
                    "Chương trình đào tạo ngành Sư phạm Toán học đào tạo sinh viên trở thành giáo viên Toán học có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam,  người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
                    "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
@@ -227,7 +227,7 @@
         "specializations": [
             {
                 "specializationName": "Sư phạm Tin học",
-                "videoURL": "https://www.youtube.com/watch?v=PkemmBPQR5M",
+                "videoId": "PkemmBPQR5M",
                 "objectives": [
                    "Chương trình đào tạo ngành Sư phạm Tin học đào tạo sinh viên trở thành giáo viên Tin học có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
                    "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
@@ -278,7 +278,7 @@
         "specializations": [
             {
                 "specializationName": "Sư phạm Vật lý",
-                "videoURL": "https://www.youtube.com/watch?v=w5cCBD3yvUQ",
+                "videoId": "w5cCBD3yvUQ",
                 "objectives": [
                   "Chương trình đào tạo ngành Sư phạm Vật lý đào tạo sinh viên trở thành giáo viên Vật lý THPT có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
                   "Sinh viên tốt nghiệp có thể làm công tác giảng dạy Vật lý, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
@@ -328,7 +328,7 @@
         "specializations": [
             {
                 "specializationName": "Sư phạm Hóa học",
-                "videoURL": "https://www.youtube.com/watch?v=u4TwgE764cM",
+                "videoId": "u4TwgE764cM",
                 "objectives": [
                   "Chương trình đào tạo ngành Sư phạm Hóa học đào tạo sinh viên trở thành giáo viên chuyên ngành hóa học có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, , tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
                   "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
@@ -378,7 +378,7 @@
         "specializations": [
             {
                 "specializationName": "Sư phạm Sinh học",
-                "videoURL": "https://www.youtube.com/watch?v=bRgqtpTL3_Y",
+                "videoId": "bRgqtpTL3_Y",
                 "objectives": [
                    "Chương trình đào tạo ngành Sư phạm Sinh học đào tạo sinh viên trở thành giáo viên chuyên ngành Sinh học có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
                    "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
@@ -428,7 +428,7 @@
         "specializations": [
             {
                 "specializationName": "Sư phạm Ngữ văn",
-                "videoURL": "https://www.youtube.com/watch?v=mwziOUJhxWI",
+                "videoId": "mwziOUJhxWI",
                 "objectives": [
                   "Chương trình đào tạo ngành Sư phạm Ngữ văn đào tạo sinh viên trở thành giáo viên ngành ngữ văn có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam, người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
                   "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
@@ -478,7 +478,7 @@
         "specializations": [
             {
                 "specializationName": "Sư phạm Lịch sử",
-                "videoURL": "https://www.youtube.com/watch?v=J18qLDVJfRQ",
+                "videoId": "J18qLDVJfRQ",
                 "objectives": [
                     "Chương trình đào tạo ngành Sư phạm Lịch sử đào tạo sinh viên trở thành giáo viên ngành lịch sử có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
                     "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
@@ -529,7 +529,7 @@
         "specializations": [
             {
                 "specializationName": "Sư phạm Địa lý",
-                "videoURL": "https://www.youtube.com/watch?v=fR-692MqsiY",
+                "videoId": "fR-692MqsiY",
                 "objectives": [
                    "Chương trình đào tạo ngành Sư phạm Địa lý đào tạo sinh viên trở thành giáo viên ngành địa lý có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
                    "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu."
@@ -579,7 +579,7 @@
         "specializations": [
             {
                 "specializationName": "Sư phạm tiếng Anh",
-                "videoURL": "https://www.youtube.com/watch?v=J18qLDVJfRQ",
+                "videoId": "J18qLDVJfRQ",
                 "objectives": [
                     "Chương trình đào tạo ngành Sư phạm Tiếng Anh đào tạo sinh viên trở thành giáo viên ngành Tiếng Anh có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
                     "Sinh viên tốt nghiệp có năng lực học tập và nghiên cứu khoa học suốt đời ở các cấp khác nhau trong lĩnh vực chuyên môn và các lĩnh vực có liên quan; có đủ kiến thức để học lên bậc thạc sĩ ngành lý luận và phương pháp dạy học, ngành giáo dục, quản lý giáo dục ở trong và ngoài nước và các ngành khác có liên quan đến chuyên ngành được đào tạo."
@@ -629,7 +629,7 @@
         "specializations": [
             {
                 "specializationName": "Sư phạm tiếng Pháp",
-                "videoURL": "https://www.youtube.com/watch?v=u8pp680yTL8",
+                "videoId": "u8pp680yTL8",
                 "objectives": [
                     "Chương trình đào tạo ngành Sư phạm Tiếng Pháp đào tạo sinh viên trở thành giáo viên ngành tiếng Pháp có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
                     "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu; làm việc trong các ngành nghề sử dụng tiếng Pháp như biên - phiên dịch, du lịch, nhà hàng, khách sạn, ngoại giao, truyền thông."
@@ -680,7 +680,7 @@
         "specializations": [
             {
                 "specializationName": "Hướng dẫn viên du lịch",
-                "videoURL": "https://www.youtube.com/watch?v=iHeZ4f5foGs",
+                "videoId": "iHeZ4f5foGs",
                 "objectives": [
                     "Chương trình đào tạo ngành Việt Nam học - chuyên ngành Hướng dẫn viên du lịch -  đào tạo những cử nhân khoa học có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                     "Trang bị cho người học các kiến thức cơ sở ngành và chuyên ngành du lịch, nắm vững kiến thức chuyên sâu về nghiệp vụ hướng dẫn du lịch; có khả năng giao tiếp bằng tiếng Anh hoặc tiếng Pháp thông thường và chuyên ngành khá tốt.",
@@ -732,7 +732,7 @@
         "specializations": [
             {
                 "specializationName": "Văn học",
-                "videoURL": "https://www.youtube.com/watch?v=hgiHNf7xArg",
+                "videoId": "hgiHNf7xArg",
                 "objectives": [
                     "Có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                     "Có kiến thức chuyên môn thuộc lĩnh vực văn học và ngôn ngữ.",
@@ -785,7 +785,7 @@
         "specializations": [
             {
                 "specializationName": "Ngôn ngữ Anh",
-                "videoURL": "https://www.youtube.com/watch?v=2YFxD1BAl_I",
+                "videoId": "2YFxD1BAl_I",
                 "objectives": [
                    "Chương trình đào tạo ngành Ngôn ngữ Anh đào tạo cử nhân có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                    "Trang bị cho sinh viên 03 khối kiến thức và kỹ năng chuyên môn: (1) tiếng Anh định hướng nghề nghiệp, (2) văn hóa xã hội và (3) khối kiến thức chuyên môn sâu.",
@@ -806,7 +806,7 @@
             },
             {
                 "specializationName": "Phiên dịch-Biên dịch tiếng Anh",
-                "videoURL": "https://www.youtube.com/watch?v=nHzdLlAOsn4",
+                "videoId": "nHzdLlAOsn4",
                 "objectives": [
                   "Chương trình đào tạo ngành Ngôn ngữ Anh – chuyên ngành Biên dịch-Phiên dịch tiếng Anh - đào tạo cử nhân khoa học xã hội nhân văn (Bachelor of Arts) có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc; nắm vững kiến thức và kỹ năng cơ sở ngành và chuyên ngành về phiên dịch và biên dịch Anh-Việt và Việt-Anh; có thái độ làm việc chuyên nghiệp, tự tin, chủ động, sáng tạo và có tinh thần trách nhiệm trong công việc; có kỹ năng học tập suốt đời một cách hiệu quả; bước đầu nghiên cứu khoa học và có khả năng tiếp tục nâng cao trình độ ở bậc Thạc sĩ.",
                   "Sinh viên tốt nghiệp chuyên ngành Biên dịch-Phiên dịch có khả năng vận dụng kiến thức và kỹ năng về ngôn ngữ, văn hóa, xã hội trong công tác biên phiên dịch trong trong môi trường làm việc đa văn hóa. Sinh viên tốt nghiệp có thể thích ứng đảm nhận vị trí phiên dịch viên và biên dịch viên phục vụ nhu cầu dịch thuật của các loại hình tổ chức, đơn vị kinh doanh và cá nhân trong và ngoài nước trong nhiều lĩnh vực như công chứng, tòa án, đối ngoại, thương mại (xuất nhập khẩu), du lịch, dịch vụ, viện bảo tàng, nhà xuất bản, hành chính sự nghiệp"
@@ -857,7 +857,7 @@
         "specializations": [
             {
                 "specializationName": "Ngôn ngữ Pháp",
-                "videoURL": "https://www.youtube.com/watch?v=YoPUdt4zL04",
+                "videoId": "YoPUdt4zL04",
                 "objectives": [
                    "Chương trình đào tạo ngành Ngôn Ngữ Pháp đào tạo trình độ cử nhân chuyên ngành tiếng Pháp nhằm trang bị cho sinh viên có đủ kiến thức và kỹ năng nghề nghiệp đáp ứng được yêu cầu của xã hội trong quá trình hội nhập kinh tế:",
                    "Đủ năng lực về kỹ năng ngôn ngữ để giao tiếp hiệu quả bằng tiếng Pháp trong môi trường đa văn hóa.",
@@ -911,7 +911,7 @@
         "specializations": [
             {
                 "specializationName": "Triết học",
-                "videoURL": "https://www.youtube.com/watch?v=aUlsyNBPZbA",
+                "videoId": "aUlsyNBPZbA",
                 "objectives": [
                     "Đào tạo cử nhân triết học có phẩm chất chính trị tốt, yêu nước, yêu nghề; có đạo đức nghề nghiệp với tư duy năng động, sáng tạo; có tinh  thần trách nhiệm, ý thức tổ chức kỷ luật; có sức khỏe để phục vụ ngành nghề.",
                     "Trang bị cho người học có kiến thức chuyên sâu về triết học giúp sinh viên nắm vững lập trường, quan điểm, phương pháp tư duy khoa học duy vật biện chứng. Trên cơ sở đó, sinh viên vận dụng tốt những kiến thức triết học vào lý giải các vấn đề lý luận và thực tiễn của thời đại, đất nước và của khu vực Đồng bằng sông Cửu Long.",
@@ -960,7 +960,7 @@
         "specializations": [
             {
                 "specializationName": "Chính trị học",
-                "videoURL": "https://www.youtube.com/watch?v=KUnpOCszCMM",
+                "videoId": "KUnpOCszCMM",
                 "objectives": [
                    "Đào tạo cử nhân Chính trị học có phẩm chất chính trị tốt, yêu nước, yêu nghề; có đạo đức nghề nghiệp với tư duy năng động, sáng tạo; có tinh thần trách nhiệm, ý thức tổ chức kỷ luật; có sức khỏe để phục vụ ngành nghề.",
                    "Trang bị cho người học có kiến thức chuyên sâu về chính trị học, nắm vững lập trường, quan điểm, phương pháp tư duy khoa học. Trên cơ sở đó, sinh viên vận dụng tốt những kiến thức chính trị học để lý giải các vấn đề lý luận và thực tiễn của thời đại, đất nước và của khu vực đồng bằng sông Cửu Long.",
@@ -1009,7 +1009,7 @@
         "specializations": [
             {
                 "specializationName": "Xã hội học",
-                "videoURL": "https://www.youtube.com/watch?v=3JowFc1RiEw",
+                "videoId": "3JowFc1RiEw",
                 "objectives": [
                     "Chương trình đào tạo cử nhân ngành Xã hội học có mục tiêu chung là đào tạo nguồn nhân lực có kiến thức rộng về các vấn đề xã hội, có các kĩ năng phân tích sự kiện, hiện tượng xã hội, hành vi con người, có năng lực tư vấn xây dựng các chính sách xã hội đáp ứng các nhu cầu phát triển. Đặc biệt là đào tạo nguồn nhân lực có trình độ chuyên môn sâu về xã hội học cho khu vực Đồng bằng Sông Cửu Long (ĐBSCL)  nói riêng và cả nước nói chung.",
                     "Đồng thời, cử nhân Xã hội học được đào tạo có đầy đủ phẩm chất đạo đức nghề nghiệp, đạo đức cá nhân, đạo đức xã hội với tinh thần trách nhiệm, tác phong văn minh, ý thức tổ chức kỹ luật, rèn luyện sức khoẻ và tư duy năng động, sáng tạo để thực hành nghề trong các cơ quan Nhà nước, doanh nghiệp, tổ chức xã hội, chính trị, và tổ chức có yếu tố nước ngoài góp phần xây dựng khu vực Đồng bằng Sông Cửu Long  nói riêng và cả nước nói chung  ngày càng giàu mạnh, công bằng, dân chủ, hội nhập và văn minh."
@@ -1062,7 +1062,7 @@
         "specializations": [
             {
                 "specializationName": "Thông tin - thư viện",
-                "videoURL": "https://www.youtube.com/watch?v=COw7NVfLUUc",
+                "videoId": "COw7NVfLUUc",
                 "objectives": [
                    "Có phẩm chất chính trị và  đạo đức nghề nghiệp tốt, có bản lĩnh nghề nghiệp, có năng lực giải quyết các công việc thuộc lĩnh vực chuyên môn phục vụ cho sự nghiệp xây dựng đất nước, đáp ứng yêu cầu hội nhập khu vực và quốc tế.",
                    "Có khả năng tự học, tự nghiên cứu, vận dụng kiến thức chuyên môn nghiệp vụ vào thực tiễn một cách chủ động và sáng tạo, biết cách tiếp cận các thành tựu khoa học kỹ thuật mới; có thể học tiếp chương trình đào tạo sau đại học theo chuyên ngành đã đào  tạo hoặc các ngành liên quan.",
@@ -1114,7 +1114,7 @@
         "specializations": [
             {
                 "specializationName": "Quản trị kinh doanh",
-                "videoURL": "https://www.youtube.com/watch?v=EcqQAIHQNZg",
+                "videoId": "EcqQAIHQNZg",
                 "objectives": [
                     "Chương trình đào tạo cử nhân ngành Quản trị kinh doanh được thiết kế nhằm trang bị cho những nhà quản trị tương lai một nền tảng kiến thức vững chắc để có thể điều hành/quản trị các doanh nghiệp. Sinh viên sẽ có được những kỹ năng cần thiết trong việc tích hợp kiến thức nền tảng về quản trị, marketing, kế toán và tài chính để hình thành nên các chiến lược khả thi giúp cho các công ty/doanh nghiệp dễ dàng đạt được những mục tiêu hoạt động trong ngắn hạn, trung hạn và dài hạn. Sau khi hoàn thành chương trình đào tạo cử nhân ngành Quản trị kinh doanh, sinh viên có:",
                     "Bản lĩnh chính trị vững vàng, hiểu biết các chuẩn mực đạo đức kinh doanh; có trách nhiệm đối với xã hội.",
@@ -1167,7 +1167,7 @@
         "specializations": [
             {
                 "specializationName": "Kinh tế",
-                "videoURL": "https://www.youtube.com/watch?v=1qwqcyNBglI",
+                "videoId": "1qwqcyNBglI",
                 "objectives": [
                     "Chương trình đào tạo cử nhân ngành Kinh tế nhằm đào tạo nguồn nhân lực có chất lượng trong lĩnh vực kinh tế học theo định hướng chuyên nghiệp. Sau khi hoàn thành chương trình, sinh viên đạt được: (1) Phẩm chất chính trị, tư cách đạo đức và có trách nhiệm với xã hội; (2) Kiến thức cơ bản về kinh tế – xã hội, kiến thức chuyên sâu về cơ sở ngành và chuyên ngành; (3) Kiến thức trong các lĩnh vực tài chính học, quản lý kinh tế và cách thức sử dụng nguồn tài nguyên ở phạm vi vĩ mô cũng như vi mô; và (4) Khả năng tự học, tự nghiên cứu và tiếp thu các thành tựu khoa học – kỹ thuật mới nhằm tự nâng cao trình độ và thích nghi với sự phát triển của xã hội."
                 ],
@@ -1216,7 +1216,7 @@
         "specializations": [
             {
                 "specializationName": "Quản trị dịch vụ du lịch và lữ hành",
-                "videoURL": "https://www.youtube.com/watch?v=xmjYeO_BRrg",
+                "videoId": "xmjYeO_BRrg",
                 "objectives": [
                     "Chương trình đào tạo cử nhân ngành Quản trị dịch vụ du lịch và lữ hành được xây dựng dựa trên đánh giá nhu cầu đào tạo và điều kiện nguồn lực của cơ sở đào tạo nhằm hướng đến đào tạo nguồn nhân lực có chất lượng trong lĩnh vực quản trị dịch vụ du lịch và lữ hành. Sau khi hoàn thành chương trình này, sinh viên: có phẩm chất chính trị tư tưởng tốt, hiểu biết về pháp luật và các luật về hoạt động kinh tế, có kiến thức cơ bản về kinh tế-xã hội và có khả năng quản lý và tổ chức thực hiện các hoạt động tại các đơn vị kinh doanh thuộc lĩnh vực dịch vụ du lịch và lữ hành cũng như tại các cơ quan quản lý Nhà nước trong lĩnh vực này."
                 ],
@@ -1265,7 +1265,7 @@
         "specializations": [
             {
                 "specializationName": "Marketing",
-                "videoURL": "https://www.youtube.com/watch?v=O9A-IyAN0Us",
+                "videoId": "O9A-IyAN0Us",
                 "objectives": [
                   "Chương trình đào tạo ngành Marketing được xây dựng nhằm phục vụ cho mục tiêu đào tạo cử nhân kinh tế ngành Marketing. Sau khi hoàn thành chương trình này, người học có được phẩm chất chính trị, có lòng yêu nước và yêu ngành nghề. Người học sẽ có khả năng và ý chí lập thân, lập nghiệp, có đạo đức nghề nghiệp với tư duy năng động, sáng tạo trong các hoạt động chuyên môn. Người học sẽ có được tinh thần trách nhiệm, tác phong (nếp sống) văn minh, ý thức tổ chức kỹ luật, rèn luyện sức khoẻ để phục vụ ngành nghề. Ngoài ra, người học sẽ có được năng lực chuyên môn, kiến thức quản lý và thực hiện nghiên cứu, phân tích các hoạt động liên quan đến lĩnh vực marketing tại các doanh nghiệp và địa phương, góp phần đóng góp phát triển địa phương, khu vực Đồng Bằng Sông Cửu Long và cả nước."
                 ],
@@ -1314,7 +1314,7 @@
         "specializations": [
             {
                 "specializationName": "Kinh doanh quốc tế",
-                "videoURL": "https://www.youtube.com/watch?v=0MwuTYEBMvg",
+                "videoId": "0MwuTYEBMvg",
                 "objectives": [
                   "Mục tiêu chung: Đào tạo cử nhân ngành Kinh doanh quốc tế có kiến thức, kỹ năng, và thái độ chuyên nghiệp nhằm đáp ứng cho nhu cầu xã hội nói chung và cho doanh nghiệp nói riêng trong bối cảnh toàn cầu hóa.",
                   "Có lòng yêu nước và yêu nghề. Có ý chí lập thân, lập nghiệp, có đạo đức nghề nghiệp với tư duy năng động, sáng tạo. Có tinh thần trách nhiệm, ý thức tổ chức kỷ luật, lối sống văn minh, và tác phong công nghiệp,  và có ý thức rèn luyện sức khỏe để phục vụ ngành nghề.",
@@ -1370,7 +1370,7 @@
         "specializations": [
             {
                 "specializationName": "Kinh doanh thương mại",
-                "videoURL": "https://www.youtube.com/watch?v=M7gAhwsSLnI",
+                "videoId": "M7gAhwsSLnI",
                 "objectives": [
                   "Chương trình đào tạo cử nhân ngành Kinh doanh thương mại được xây dựng nhằm giúp sinh viên lĩnh hội được nền tảng kiến thức sâu rộng để có đủ năng lực điều hành/quản trị các doanh nghiệp hoạt động trong lĩnh vực thương mại. Sinh viên sẽ có được khả năng tổng hợp các kiến thức về quản trị kinh doanh thương mại để vận hành hiệu quả các doanh nghiệp thương mại trong môi trường toàn cầu hóa. Sau khi hoàn thành chương trình cử nhân Kinh doanh thương mại, sinh viên đạt được:",
                   "Bản lĩnh chính trị vững vàng, hiểu biết các chuẩn mực đạo đức kinh doanh; có trách nhiệm đối với xã hội.",
@@ -1426,7 +1426,7 @@
         "specializations": [
             {
                 "specializationName": "Tài chính - Ngân hàng",
-                "videoURL": "https://www.youtube.com/watch?v=ln-RpPrUuMY",
+                "videoId": "ln-RpPrUuMY",
                 "objectives": [
                    "Chương trình cử nhân Tài chính ngân hàng đào tạo nguồn nhân lực có chất lượng trong lĩnh vực tài chính ngân hàng nhằm đáp ứng nhu cầu của thị trường lao động. Sinh viên sẽ được trang bị những kiến thức chuyên ngành ngân hàng và những kỹ năng cần thiết để làm việc trong môi trường hội nhập kinh tế khu vực và thế giới. Sau khi hoàn thành chương trình cử nhân Tài chính ngân hàng, sinh viên đạt được:",
                    "Phẩm chất chính trị vững vàng, tư cách đạo đức các nhân và có trách nhiệm đối với xã hội.",
@@ -1481,7 +1481,7 @@
         "specializations": [
             {
                 "specializationName": "Kế toán",
-                "videoURL": "https://www.youtube.com/watch?v=iCCg00OPvRk",
+                "videoId": "iCCg00OPvRk",
                 "objectives": [
                    "Chương trình đào tạo cử nhân Kế toán nhằm đào tạo nguồn nhân lực có chất lượng trong lĩnh vực kế toán theo hướng chuyên nghiệp. Sau khi tốt nghiệp, người học có phẩm chất chính trị, tư cách đạo đức, sức khoẻ tốt, và có trách nhiệm với xã hội; có kiến thức cơ bản về kinh tế, chính trị, xã hội; nắm vững kiến thức và kỹ năng chuyên sâu về cơ sở ngành và chuyên ngành; thiết kế và điều hành hệ thống kế toán trong các đơn vị kế toán; có tư duy độc lập; có năng lực nghiên cứu tự bổ sung kiến thức theo yêu cầu công việc và có khả năng thích nghi với sự thay đổi của môi trường làm việc."
                 ],
@@ -1531,7 +1531,7 @@
         "specializations": [
             {
                 "specializationName": "Kiểm toán",
-                "videoURL": "https://www.youtube.com/watch?v=rrvF3HQSLKA",
+                "videoId": "rrvF3HQSLKA",
                 "objectives": [
                    "Chương trình đào tạo cử nhân Kiểm toán nhằm đào tạo nguồn nhân lực có chất lượng trong lĩnh vực kiểm toán theo hướng chuyên nghiệp. Sau khi tốt nghiệp, người học có phẩm chất chính trị, tư cách đạo đức, sức khoẻ tốt, và có trách nhiệm với xã hội; có kiến thức cơ bản về kinh tế, chính trị, xã hội; nắm vững kiến thức và kỹ năng chuyên sâu về cơ sở ngành và chuyên ngành; tổ chức, thiết kế và điều hành công tác kiểm toán tại các đơn vị kiểm toán; có tư duy độc lập; có năng lực nghiên cứu tự bổ sung kiến thức theo yêu cầu công việc và có khả năng thích nghi với sự thay đổi của môi trường làm việc."
                 ],
@@ -1580,7 +1580,7 @@
         "specializations": [
             {
                 "specializationName": "Luật hành chính",
-                "videoURL": "https://www.youtube.com/watch?v=hsFDFIS4S24",
+                "videoId": "hsFDFIS4S24",
                 "objectives": [
                 "Chương trình đào tạo ngành Luật hành chính trình độ đại học đào tạo cử nhân Luật, chuyên ngành Hành chính, có ý thức trách nhiệm công dân, có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, có tác phong công nghiệp, khả năng làm việc nhóm, khả năng tự học và làm việc độc lập, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                 "Trang bị cho người học nắm vững kiến thức chuyên sâu của chuyên ngành; có khả năng giao tiếp bằng Anh ngữ hoặc Pháp ngữ thông thường và chuyên ngành khá tốt; được trang bị các kiến thức cơ sở ngành và chuyên ngành Luật hành chính, nhất là kiến thức về quản lý hành chính trên các lĩnh vực đất đai và xây dựng.",
@@ -1596,7 +1596,7 @@
             },
             {
                 "specializationName": "Luật Thương mại",
-                "videoURL": "https://www.youtube.com/watch?v=oWFPCZQWpF0",
+                "videoId": "oWFPCZQWpF0",
                 "objectives": [
                 "Đào tạo cử nhân Luật Thương mại có phẩm chất chính trị và sức khỏe tốt, có trình độ năng lực chuyên môn pháp lý tốt nhằm đáp ứng nhu cầu phát triển nguồn nhân lực và kinh tế - xã hội của đất nước nói chung và của khu vực đồng bằng sông Cửu Long nói riêng. Đó là những con người có giá trị xã hội cần thiết, có tri thức hiện đại, có phương pháp tự học và tự đổi mới suốt đời.",
                 "Sau khi tốt nghiệp sinh viên có thể làm việc trong các lĩnh vực nghiên cứu, giảng dạy các môn khoa học luật tại các trường đại học, cao đẳng, các trường chuyên nghiệp và dạy nghề, các cơ sở hoạch định chính sách kinh tế, cơ quan nhà nước trong lĩnh vực kinh tế, các doanh nghiệp.",
@@ -1613,7 +1613,7 @@
             },
             {
                 "specializationName": "Luật Tư pháp",
-                "videoURL": "https://www.youtube.com/watch?v=gT1MKRN_0gY",
+                "videoId": "gT1MKRN_0gY",
                 "objectives": [
                 "Chương trình đào tạo ngành Luật tư pháp trình độ đại học đào tạo cử nhân Luật, chuyên ngành Tư pháp, có ý thức trách nhiệm công dân, có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, có tác phong công nghiệp, khả năng làm việc nhóm, khả năng tự học và làm việc độc lập, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                 "Trang bị cho người học nắm vững kiến thức chuyên sâu của chuyên ngành; có khả năng giao tiếp bằng Anh ngữ hoặc Pháp ngữ thông thường và chuyên ngành khá tốt; được trang bị các kiến thức cơ sở ngành và chuyên ngành Luật Tư pháp, nhất là kiến thức về luật hình sự và tố tụng hình sự, luật dân sự và tố tụng dân sự. ",
@@ -1661,7 +1661,7 @@
         "specializations": [
             {
                 "specializationName": "Sinh học",
-                "videoURL": "https://www.youtube.com/watch?v=gwbmvzgm-1M",
+                "videoId": "gwbmvzgm-1M",
                 "objectives": [
                 "Có kiến thức cơ sở và chuyên sâu của chuyên ngành Sinh học, có khả năng nghiên cứu, ứng dụng các thành tựu khoa học về sinh học; có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân; có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                 "Trang bị cho người học các kỹ năng chuyên sâu về lĩnh vực sinh học; có khả năng truy cập các tài liệu trên mạng và đọc hiểu các sách báo chuyên ngành bằng tiếng Anh; có khả năng tự cập nhật các kiến thức chuyên ngành, tự nghiên cứu và áp dụng các kết quả nghiên cứu vào thực tiễn trong nông nghiệp, thủy sản, y học, dược liệu học",
@@ -1685,7 +1685,7 @@
             },
             {
                 "specializationName": "Vi sinh vật học",
-                "videoURL": "https://www.youtube.com/watch?v=EwUSrwgrdpk",
+                "videoId": "EwUSrwgrdpk",
                 "objectives": [
                 "Chương trình đào tạo trình độ cử nhân Sinh học, chuyên ngành Vi sinh vật học cung cấp cho người học môi trường và những hoạt động giáo dục để họ hình thành và phát triển nhân cách, đạo đức, sức khỏe; đào tạo nguồn nhân lực có kiến thức chuyên môn cơ bản và chuyên môn sâu, kỹ năng thực hành thành thạo và có khả năng giải quyết những vấn đề đặt ra trong ngành Vi sinh vật học và ứng dụng trong các lĩnh vực liên quan.",
                 "Người học sau khi tốt nghiệp có thể làm việc ở cơ quan quản lý nhà nước, cơ quan kiểm tra chất lượng, các trường đại học, cao đẳng, xí nghiệp, nhà máy có liên quan đến lĩnh vực vi sinh vật."
@@ -1709,7 +1709,7 @@
         "number":33,
         "majorCode": "7420201",
         "majorName": "Công nghệ sinh học",
-        "videoURL": "https://www.youtube.com/watch?v=aYMvZnGYOTs",
+        "videoId": "aYMvZnGYOTs",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Viện NC&PT Công nghệ Sinh học",
@@ -1759,7 +1759,7 @@
         "number":34,
         "majorCode": "7420203",
         "majorName": "Sinh học ứng dụng",
-        "videoURL": "https://www.youtube.com/watch?v=Snwi9vejCXU",
+        "videoId": "Snwi9vejCXU",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Nông Nghiệp & SHƯD",
@@ -1807,7 +1807,7 @@
         "number":35,
         "majorCode": "7440112",
         "majorName": "Hóa học",
-        "videoURL": "https://www.youtube.com/watch?v=uBs9-IYxrgg",
+        "videoId": "uBs9-IYxrgg",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Khoa Học Tự Nhiên",
@@ -1858,7 +1858,7 @@
         "number":36,
         "majorCode": "7720203",
         "majorName": "Hóa dược",
-        "videoURL": "https://www.youtube.com/watch?v=_FMhSKK6ulw",
+        "videoId": "_FMhSKK6ulw",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Khoa Học Tự Nhiên",
@@ -1908,7 +1908,7 @@
         "number":37,
         "majorCode": "7440301",
         "majorName": "Khoa học môi trường",
-        "videoURL": "https://www.youtube.com/watch?v=Bcl9QDV5qIo",
+        "videoId": "Bcl9QDV5qIo",
         "intendTime": "4",
         "title": "kỹ sư",
         "collegeName": "Khoa Môi trường & TNTN ",
@@ -1961,7 +1961,7 @@
         "number":38,
         "majorCode": "7620103",
         "majorName": "Khoa học đất",
-        "videoURL": "https://www.youtube.com/watch?v=WLwY7V4BSXU",
+        "videoId": "WLwY7V4BSXU",
         "intendTime": "4",
         "title": "kỹ sư",
         "collegeName": "Khoa Nông Nghiệp & SHƯD",
@@ -2019,7 +2019,7 @@
         "number":39,
         "majorCode": "7460112",
         "majorName": "Toán ứng dụng",
-        "videoURL": "https://www.youtube.com/watch?v=OTmKa3Q2DY4",
+        "videoId": "OTmKa3Q2DY4",
         "intendTime": "4",
         "title": "cử nhân",
         "collegeName": "Khoa Khoa học Tự nhiên ",
@@ -2070,7 +2070,7 @@
         "number":40,
         "majorCode": "7480101",
         "majorName": "Khoa học máy tính",
-        "videoURL": "https://www.youtube.com/watch?v=T7HkV19e-TE",
+        "videoId": "T7HkV19e-TE",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Khoa học Tự nhiên ",
@@ -2117,7 +2117,7 @@
         "number":41,
         "majorCode": "7480102",
         "majorName": "Mạng máy tính và truyền thông dữ liệu",
-        "videoURL": "https://www.youtube.com/watch?v=9V1mW4_w-g0",
+        "videoId": "9V1mW4_w-g0",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
@@ -2168,7 +2168,7 @@
         "number":42,
         "majorCode": "7480103",
         "majorName": "Kỹ thuật phần mềm",
-        "videoURL": "https://www.youtube.com/watch?v=fC0rpSVfTL8",
+        "videoId": "fC0rpSVfTL8",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
@@ -2216,7 +2216,7 @@
         "number":43,
         "majorCode": "7480104",
         "majorName": "Hệ thống thông tin",
-        "videoURL": "https://www.youtube.com/watch?v=DWRkcW45UcI",
+        "videoId": "DWRkcW45UcI",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
@@ -2291,7 +2291,7 @@
         "specializations": [
             {
                 "specializationName": "Công nghệ thông tin",
-                "videoURL": "https://www.youtube.com/watch?v=LD7HYVmMLZg",
+                "videoId": "LD7HYVmMLZg",
                 "objectives": [
                     "Cung cấp cho sinh viên kỹ năng và kiến thức để đảm nhận vị trí nghề nghiệp trong lĩnh vực CNTT, thăng tiến đến vị trí lãnh đạo, khả hành nghiên cứu  hoặc tiếp tục học cao hơn trong lĩnh vực này. Các mục tiêu cụ thể bao gồm:",
                     "Đào tạo kỹ sư CNTT có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc;",
@@ -2314,7 +2314,7 @@
             },
             {
                 "specializationName": "Tin học ứng dụng",
-                "videoURL": "https://www.youtube.com/watch?v=iaT9gzXgfuo",
+                "videoId": "iaT9gzXgfuo",
                 "objectives": [
                    "Đào tạo kỹ sư Công nghệ Thông tin chuyên ngành Tin học ứng dụng có năng lực chuyên môn vững vàng; có phẩm chất chính trị, lòng yêu nước, yêu ngành ngề; có đạo đức nghề nghiệp, ý thức tổ chức kỹ luật, tinh thần trách nhiệm, tác phong văn minh để phục vụ ngành nghề và đáp ứng nhu cầu của xã hội.",
                    "Ngoài các kiến thức đại cương về khoa học tự nhiên và khoa học xã hội, người học được trang bị trọn vẹn khối kiến thức cơ sở nền tảng của ngành Công nghệ thông tin. Đặc biệt, chuyên ngành Tin học ứng dụng tập trung phát triển ứng dụng hệ thống thông tin trong lĩnh vực đa ngành. Theo đó, người học có khả năng sử dụng thành thạo các kỹ thuật và công cụ tin học hiện đại để phát triển các phần mềm chuyên nghiệp; có khả năng phân tích, thiết kế, cài đặt và đánh giá hệ thống thông tin; có khả năng xây dựng, phát triển và quản lý các hệ thống hỗ trợ quyết định, đa phương tiện truyền thông, thương mại điện tử và hành chính điện tử; có khả năng khai thác và vận dụng thế mạnh của các nguyên lý tính toán thông minh để phát triển các trình ứng dụng thông minh, nhằm giải quyết các vấn đề then chốt trong thực tiễn. Bên cạnh đó, sinh viên được trải nghiệm thực tế tại công ty có bộ phận tin học; được cung cấp các kiến thức thực tiễn chuyên sâu thông qua các báo cáo của các chuyên gia tin học trong và ngoài nước.",
@@ -2339,7 +2339,7 @@
         "number":45,
         "majorCode": "7510401",
         "majorName": "Công nghệ kỹ thuật hóa học",
-        "videoURL": "https://www.youtube.com/watch?v=-1OYJU2z3oI",
+        "videoId": "-1OYJU2z3oI",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ",
@@ -2392,7 +2392,7 @@
         "number":46,
         "majorCode": "7520309",
         "majorName": "Kỹ thuật vật liệu",
-        "videoURL": "https://www.youtube.com/watch?v=Q0yOWKFphXU",
+        "videoId": "Q0yOWKFphXU",
         "intendTime": "4.5",
         "title": "Cử nhân",
         "collegeName": "Khoa Công nghệ",
@@ -2446,7 +2446,7 @@
         "number":47,
         "majorCode": "7510601",
         "majorName": "Quản lý công nghiệp",
-        "videoURL": "https://www.youtube.com/watch?v=NQIrBO8CJmg",
+        "videoId": "NQIrBO8CJmg",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ",
@@ -2522,7 +2522,7 @@
         "specializations": [
             {
                 "specializationName": "Cơ khí chế tạo máy",
-                "videoURL": "https://www.youtube.com/watch?v=KA2cRSqmVU4",
+                "videoId": "KA2cRSqmVU4",
                 "objectives": [
                     "Trang bị những kiến thức căn bản cơ sở ngành của ngành cơ khí nói chung và chuyên sâu hơn về chuyên ngành Cơ khí Chế tạo máy, cần thiết cho nghề nghiệp và phục vụ cho việc học tập ở bậc cao hơn. Các kiến thức được xây dựng trên nền tảng khoa học, lập luận phân tích chặc chẽ, kích thích khả năng sáng tạo và tự học.",
                     "Cung cấp những kiến thức nền tảng cơ bản, rộng của các chuyên ngành gần như Kỹ thuật Cơ điện tử, Cơ khí Chế biến, Cơ khí giao thông. Do đó, người học có thể áp dụng vào việc giải quyết các vấn đề liên quan, tạo điều kiện cho việc tự nghiên cứu, sáng tạo trong hoạt động nghề nghiệp và khả năng tự học nâng cao.",
@@ -2544,7 +2544,7 @@
             },
             {
                 "specializationName": "Cơ khí chế biến",
-                "videoURL": "https://www.youtube.com/watch?v=T9B67_x8SH0",
+                "videoId": "T9B67_x8SH0",
                 "objectives": [
                     "Trang bị những kiến thức căn bản cơ sở ngành của ngành cơ khí và kiến thức chuyên ngành Cơ khí chế biến, cần thiết cho nghề nghiệp và phục vụ cho việc học tập ở bậc cao hơn. Các kiến thức được xây dựng trên nền tảng khoa học, lập luận phân tích chặc chẽ, kích thích khả năng sáng tạo và tự học của sinh viên.",
                     "Cung cấp những kiến thức nền tảng cơ bản, rộng của các chuyên ngành gần như Cơ khí chế tạo máy, Cơ khí giao thông, Công nghệ sau thu hoạch. Có thể áp dụng vào việc giải quyết các vấn đề liên quan, tạo điều kiện cho việc tự nghiên cứu, sáng tạo trong hoạt động nghề nghiệp và khả năng tự học nâng cao.",
@@ -2568,7 +2568,7 @@
             },
             {
                 "specializationName": "Cơ khí ôtô",
-                "videoURL": "https://www.youtube.com/watch?v=T9B67_x8SH0",
+                "videoId": "T9B67_x8SH0",
                 "objectives": [
                     "Trang bị những kiến thức căn bản cơ sở ngành của ngành cơ khí và chuyên sâu của chuyên ngành Cơ khí ôtô, cần thiết cho nghề nghiệp và phục vụ cho việc học tập ở bậc cao hơn. Các kiến thức được xây dựng trên nền tảng khoa học, lập luận phân tích chặt chẽ, kích thích khả năng sáng tạo và tự học.",
                     "Cung cấp những kiến thức nền tảng cơ bản, rộng của các chuyên ngành gần như Kỹ thuật điều khiển & tự động hóa, Công nghệ chế tạo máy, Cơ khí chế tạo máy, Cơ khí chế biến. Có thể áp dụng vào việc giải quyết các vấn đề liên quan, tạo điều kiện cho việc tự nghiên cứu, sáng tạo trong hoạt động nghề nghiệp và khả năng tự học nâng cao.",
@@ -2595,7 +2595,7 @@
         "number":49,
         "majorCode": "7520114",
         "majorName": "Kỹ thuật cơ điện tử",
-        "videoURL": "https://www.youtube.com/watch?v=os9hkEXlpOs",
+        "videoId": "os9hkEXlpOs",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ",
@@ -2671,7 +2671,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật điện",
-                "videoURL": "https://www.youtube.com/watch?v=GHkeT_kEgPU",
+                "videoId": "GHkeT_kEgPU",
                 "objectives": [
                     "Cung cấp cho sinh viên các kiến thức căn bản chuyên ngành trong lĩnh vực Kỹ thuật điện, điện tử cần thiết cho nghề nghiệp hoặc phục vụ cho việc học ở bậc cao hơn. Kiến thức được xây dựng trên các nguyên lý khoa học, lập luận phân tích chặt chẽ và  kích thích khả năng sáng tạo của sinh viên.",
                     "Cung cấp cho sinh viên các kiến thức nền tảng rộng nhằm phát huy tính sáng tạo trong hoạt động nghề nghiệp, khả năng tự học và tự nghiên cứu của sinh viên. Cung cấp các kỹ năng cơ bản cần thiết để thiết kế và thực hiện các đề án thực tế của ngành Kỹ thuật điện.",
@@ -2724,7 +2724,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật điện tử - viễn thông",
-                "videoURL": "https://www.youtube.com/watch?v=YLleklS4BEA",
+                "videoId": "YLleklS4BEA",
                 "objectives": [
                     "Cung cấp cho sinh viên các kiến thức căn bản chuyên ngành trong lĩnh vực điện tử, viễn thông, cần thiết cho nghề nghiệp hoặc phục vụ cho việc học ở bậc cao hơn. Kiến thức được xây dựng trên các nguyên lý khoa học, lập luận phân tích chặt chẽ và kích thích khả năng sáng tạo của sinh viên.",
                     "Cung cấp các kiến thức nền tảng rộng, có thể áp dụng vào các vấn đề liên quan đến kỹ thuật và điện tử nói chung.., là điều kiện cần thiết để sinh viên phát huy tính sáng tạo trong hoạt động nghề nghiệp, khả năng tự học và tự nghiên cứu.",
@@ -2774,7 +2774,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật máy tính",
-                "videoURL": "https://www.youtube.com/watch?v=OeBDO2JIJD8",
+                "videoId": "OeBDO2JIJD8",
                 "objectives": [
                     "Cung cấp cho sinh viên các kiến thức căn bản chuyên ngành trong lĩnh vực điện tử và máy tính, cần thiết cho nghề nghiệp hoặc phục vụ cho việc học ở bậc cao hơn. Kiến thức được xây dựng trên các nguyên lý khoa học, lập luận phân tích chặt chẽ và kích thích khả năng sáng tạo của sinh viên.",
 					"Cung cấp các kiến thức nền tảng rộng, có thể áp dụng vào các vấn đề liên quan đến điện tử và máy tính nói chung.., là điều kiện cần thiết để sinh viên phát huy tính sáng tạo trong hoạt động nghề nghiệp, khả năng tự học và nghiên cứu.",
@@ -2824,7 +2824,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật điều khiển và tự động hóa",
-                "videoURL": "https://www.youtube.com/watch?v=yajWfBHFMio",
+                "videoId": "yajWfBHFMio",
                 "objectives": [
                     "Có phẩm chất chính trị và đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                     "Có kiến thức tổng hợp về khoa học cơ bản, cơ khí, điện-điện tử, điều khiển tự động và hệ thống tích hợp.",
@@ -2875,7 +2875,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật môi trường",
-                "videoURL": "https://www.youtube.com/watch?v=wasuyghM4k4",
+                "videoId": "wasuyghM4k4",
                 "objectives": [
                     "Có phẩm chất chính trị và đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                     "Có năng lực thực hành nghề nghiệp, vận dụng các kiến thức về kỹ thuật môi trường để đáp ứng các nhu cầu công việc thực tế tại các nhà máy, xí nghiệp, các đơn vị tư vấn thiết kế về các dự án và dịch vụ môi trường, các trường đại học, cao đẳng, viện nghiên cứu và cơ quan quản lý nhà nước.",
@@ -2925,7 +2925,7 @@
         "specializations": [
             {
                 "specializationName": "Vật lý kỹ thuật",
-                "videoURL": "https://www.youtube.com/watch?v=mPI4e8TbU3A",
+                "videoId": "mPI4e8TbU3A",
                 "objectives": [
                     "Chương trình đào tạo ngành Vật lý kỹ thuật trình độ đại học góp phần đào tạo cử nhân Vật lý kỹ thuật có năng lực chuyên môn, phẩm chất chính trị, đạo đức nghề nghiệp với tư duy năng động, sáng tạo, có lòng yêu nước, yêu ngành nghề, ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                     "Trang bị cho người học kiến thức chuyên sâu của ngành đào tạo; khả năng giao tiếp bằng Anh ngữ thông thường và khả năng đọc hiểu tài liệu chuyên ngành.",
@@ -2977,7 +2977,7 @@
         "specializations": [
             {
                 "specializationName": "Công nghệ thực phẩm",
-                "videoURL": "https://www.youtube.com/watch?v=xRmfdr2PcSo",
+                "videoId": "xRmfdr2PcSo",
                 "objectives": [
                     "Có đủ tri thức, năng lực thực hành, tận tuỵ với nghề nghiệp, có khả năng tiếp tục phát triển trong chuyên môn và đóng góp vào sự phát triển bền vững của chế biến, bảo quản và quản lý chất lượng  thực phẩm theo hướng hiện đại, an toàn và  hiệu quả.",
                     "Được trang bị các kiến thức và kỹ năng cần thiết để xác định đúng và giải quyết được yêu cầu cơ bản của nhà máy, xí nghiệp. ",
@@ -3030,7 +3030,7 @@
         "specializations": [
             {
                 "specializationName": "Công nghệ sau thu hoạch",
-                "videoURL": "https://www.youtube.com/watch?v=9Oqy5sj6bXU",
+                "videoId": "9Oqy5sj6bXU",
                 "objectives": [
 				"Có phẩm chất chính trị, đạo đức, có lòng yêu nước, yêu ngành yêu nghề, có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc. Có thái độ lao động nghiêm túc và có đạo đức nghề nghiệp, có sức khoẻ; có khả năng hợp tác và quản lý nguồn lực; khả năng thích ứng với công việc đa dạng ở các cơ quan khoa học, quản lý sản xuất, doanh nghiệp hoặc tự tạo lập công việc sản xuất và dịch vụ trong bảo quản chế biến nông sản. Có trình độ chuyên môn để góp phần đào tạo nguồn nhân lực cho địa phương, khu vực ĐBSCL và cả nước.",
 				"Được trang bị kiến thức cơ bản rộng, có kiến thức chuyên môn sâu, có khả năng tự nghiên cứu, xây dựng, tổ chức và thực hiện công nghệ chế biến và bảo quản nông sản thực phẩm. Người học có khả năng phân tích và đánh giá các hao hụt sau thu hoạch, đưa ra các biện pháp tối ưu giảm tổn thất trong bảo quản nông sản, có khả năng nghiên cứu và phát triển sản phẩm mới từ các nông sản, chế biến ra các sản phẩm đảm bảo chất lượng theo tiêu chuẩn quốc tế, chủ động và thích ứng tốt trong quá trình hội nhập vào nền kinh tế quốc tế của cả nước nói chung và ở ĐBSCL nói riêng.",
@@ -3050,7 +3050,7 @@
         "number":58,
         "majorCode": "7540105",
         "majorName": "Công nghệ chế biến thủy sản",
-        "videoURL": "https://www.youtube.com/watch?v=cVuwCqMSZOc",
+        "videoId": "cVuwCqMSZOc",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Thủy sản",
@@ -3099,7 +3099,7 @@
         "number":59,
         "majorCode": "7580201",
         "majorName": "Kỹ thuật xây dựng",
-        "videoURL": "https://www.youtube.com/watch?v=AqlazoOeDYQ",
+        "videoId": "AqlazoOeDYQ",
         "intendTime": "4,5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ",
@@ -3150,7 +3150,7 @@
     {   "number":60,
         "majorCode": "7580202",
         "majorName": "Kỹ thuật xây dựng công trình thủy",
-        "videoURL": "https://www.youtube.com/watch?v=o3BrY5HzUDI",
+        "videoId": "o3BrY5HzUDI",
         "intendTime": "4,5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ",
@@ -3203,7 +3203,7 @@
         "number":61,
         "majorCode": "7580205",
         "majorName": "Kỹ thuật xây dựng công trình giao thông",
-        "videoURL": "https://www.youtube.com/watch?v=ggwRXrOEGrw",
+        "videoId": "ggwRXrOEGrw",
         "intendTime": "4,5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ",
@@ -3256,7 +3256,7 @@
         "number":62,
         "majorCode": "7580212",
         "majorName": "Kỹ thuật tài nguyên nước",
-        "videoURL": "https://www.youtube.com/watch?v=8z4-mzyTFYE",
+        "videoId": "8z4-mzyTFYE",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Môi trường và Tài nguyên Thiên nhiên",
@@ -3308,7 +3308,7 @@
         "number":63,
         "majorCode": "7620105",
         "majorName": "Chăn nuôi",
-        "videoURL": "https://www.youtube.com/watch?v=tyMTRXPXhO0",
+        "videoId": "tyMTRXPXhO0",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Nông Nghiệp & SHƯD",
@@ -3358,7 +3358,7 @@
         "number":64,
         "majorCode": "7620109",
         "majorName": "Nông học",
-        "videoURL": "https://www.youtube.com/watch?v=8Pao63FwLEQ",
+        "videoId": "8Pao63FwLEQ",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Nông Nghiệp & SHƯD",
@@ -3431,7 +3431,7 @@
         "specializations": [
             {
                 "specializationName": "Khoa học cây trồng",
-                "videoURL": "https://www.youtube.com/watch?v=Uj9qOUaeSLI",
+                "videoId": "Uj9qOUaeSLI",
                 "objectives": [
                     "Chương trình đào tạo ngành Khoa học cây trồng (KHCT) nhằm đào tạo kỹ sư có phẩm chất chính trị, đạo đức và sức khỏe tốt, có năng lực thực hành, tận tụy với nghề nghiệp, có khả năng tiếp tục phát triển trong chuyên môn và ý thức phục vụ nhân dân, đáp ứng nhu cầu phát triển nguồn nhân lực và kinh tế của đất nước.",
                     "Trang bị cho người học các kiến thức cơ bản trong lĩnh vực khoa học XH&NV, có khả năng sử dụng các phần mềm tin học ứng dụng và khả năng giao tiếp bằng Anh ngữ thông thường. Được trang bị những kiến thức cơ bản về sinh học, hóa học và sinh hóa giúp hiểu rõ các nguyên lý của các quá trình sinh học liên quan đến cây trồng.",
@@ -3449,7 +3449,7 @@
             },
             {
                 "specializationName": "Công nghệ giống cây trồng.",
-                "videoURL": "https://www.youtube.com/watch?v=Oit-fcqLTBg",
+                "videoId": "Oit-fcqLTBg",
                 "objectives": [
                     "Chương trình đào tạo trang bị các kiến thức và kỹ năng chuyên sâu về công tác chọn tạo giống cây trồng. Sinh viên tốt nghiệp chuyên ngành Công nghệ giống cây trồng hiểu rõ các nguyên lý của các quá trình sinh học liên quan tới giống cây trồng; có kiến thức cơ bản về sinh học, hóa học, sinh hoá, thống kê sinh học và tin học để hỗ trợ việc học tập; có khả năng chọn tạo và quản lý giống cây trồng; có khả năng tự học và nghiên cứu; có khả năng tham gia, quản lý việc sản xuất và ứng dụng các công nghệ mới trong chọn tạo giống cây trồng; tự tin trong nghề nghiệp nhằm phục vụ cho sản xuất giống nông nghiệp ở ĐBSCL và đủ trình độ để theo học sau đại học trong và ngoài nước."
                 ],
@@ -3464,7 +3464,7 @@
             },
             {
                 "specializationName": "Nông nghiệp công nghệ cao",
-                "videoURL": "https://www.youtube.com/watch?v=Uid9z49MVlo",
+                "videoId": "Uid9z49MVlo",
                 "objectives": [
                     "Chuyên ngành Nông nghiệp công nghệ cao đào tạo kỹ sư có khả năng ứng dụng và vận hành các kỹ thuật và công nghệ cao trong lĩnh vực sản xuất nông nghiệp; có khả năng làm việc tại các cơ quan công lập, doanh nghiệp trong và ngoài nước; có khả năng tự tổ chức và sản xuất kinh doanh trong lĩnh vực nông nghiệp.",
                     "Chuyên ngành Nông nghiệp công nghệ cao trang bị cho người học những kiến thức và kỹ năng chung của người kỹ sư nông nghiệp như kỹ thuật canh tác, quản lý và sử dụng đất, biện pháp phòng trừ bệnh hại cây trồng, kỹ thuật nuôi cấy in vitro và nhân giống cây trồng, quản trị sản xuất nông nghiệp,..; những kiến thức và tay nghề chuyên sâu dành cho người kỹ sư chuyên về nông nghiệp công nghệ cao như công nghệ sinh học, công nghệ vật liệu mới, cơ giới hóa, tự động hóa, công nghệ thông tin, quản trị doanh nghiệp."
@@ -3491,7 +3491,7 @@
         "number":66,
         "majorCode": "7620112",
         "majorName": "Bảo vệ thực vật",
-        "videoURL": "https://www.youtube.com/watch?v=84XhlZiv46E",
+        "videoId": "84XhlZiv46E",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa NN & SHƯD",
@@ -3540,7 +3540,7 @@
         "number":67,
         "majorCode": "7620113",
         "majorName": "Công nghệ rau hoa quả và cảnh quan",
-        "videoURL": "https://www.youtube.com/watch?v=NToc060vo10",
+        "videoId": "NToc060vo10",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa NN & SHƯD",
@@ -3588,7 +3588,7 @@
         "number":68,
         "majorCode": "7620115",
         "majorName": "Kinh tế nông nghiệp",
-        "videoURL": "https://www.youtube.com/watch?v=_L_rIlYHopE",
+        "videoId": "_L_rIlYHopE",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Kinh tế",
@@ -3640,7 +3640,7 @@
         "number":69,
         "majorCode": "7620116",
         "majorName": "Phát triển nông thôn",
-        "videoURL": "https://www.youtube.com/watch?v=WzVxYT_rWFY",
+        "videoId": "WzVxYT_rWFY",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Viện Nghiên cứu phát triển ĐBSCL",
@@ -3687,7 +3687,7 @@
         "number":70,
         "majorCode": "7620301",
         "majorName": "Nuôi trồng thủy sản",
-        "videoURL": "https://www.youtube.com/watch?v=S0YovhsYZcU",
+        "videoId": "S0YovhsYZcU",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Thủy sản",
@@ -3735,7 +3735,7 @@
         "number":71,
         "majorCode": "7620302",
         "majorName": "Bệnh học thủy sản",
-        "videoURL": "https://www.youtube.com/watch?v=8xym2NsQJa4",
+        "videoId": "8xym2NsQJa4",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Thủy sản",
@@ -3784,7 +3784,7 @@
         "number":72,
         "majorCode": "7620305",
         "majorName": "Quản lý thủy sản",
-        "videoURL": "https://www.youtube.com/watch?v=pfStVcC9upE",
+        "videoId": "pfStVcC9upE",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Thủy sản",
@@ -3857,7 +3857,7 @@
         "specializations": [
             {
                 "specializationName": "Thú y",
-                "videoURL": "https://www.youtube.com/watch?v=7D7P_7Mtm4U",
+                "videoId": "7D7P_7Mtm4U",
                 "objectives": [
                 "Chương trình đào tạo ngành Thú y nhằm đào tạo Bác sỹ Thú y có phẩm chất chính trị, đạo đúc tốt, đáp ứng nhu cầu của xã hội trong sự nghiệp phát triển khoa học kỹ thuật về lĩnh vực chuyên ngành Thú y; cung cấp nguồn nhân lực có trình độ chuyên môn cao, kỹ năng tay nghề thành thạo, và có sức khoẻ tốt, tôn trọng nghề nghiệp; có khả năng tiếp tục học tập, tham gia học tập ở các bậc học cao hơn trong và ngoài nước.",
                 "Sinh viên tốt nghiệp ngành Thú y có đủ năng lực đảm nhiệm công tác quản lý và điều hành: cán bộ nghiên cứu, cán bộ quản lý, cán bộ kỹ thuật tại các cơ quan, doanh nghiệp, xí nghiệp... các Cục, viện, trung tâm nghiên cứu, khuyến nông, các chương trình dự án phát triển thuộc lĩnh vực Thú y, các cơ quan hành chính sự nghiệp từ cấp xã, phường trở lên, các cơ sở giáo dục, đào tạo: trung tâm dạy nghề, trường trung học chuyên nghiệp, Cao đẳng, Đại học có liên quan đến ngành Thú y. Có thể tham gia quản lý sản xuất liên quan ứng dụng các công nghệ mới và thích hợp trong phát triển gia súc gia cầm."
@@ -3876,7 +3876,7 @@
             },
             {
                 "specializationName": "Dược Thú y",
-                "videoURL": "https://www.youtube.com/watch?v=6y2d4Az1UUk",
+                "videoId": "6y2d4Az1UUk",
                 "objectives": [
                 " Chương trình đào tạo ngành Thú y chuyên ngành Dược Thú y nhằm đào tạo Bác sỹ Thú y chuyên ngành Dược Thú y có phẩm chất chính trị, đạo đức tốt, đáp ứng nhu cầu của xã hội trong sự nghiệp phát triển khoa học kỹ thuật về lĩnh vực chuyên ngành Thú y; cung cấp nguồn nhân lực có trình độ chuyên môn cao, kỹ năng tay nghề thành thạo; có sức khoẻ tốt, tôn trọng nghề nghiệp; có khả năng tiếp tục học tập, tham gia học tập ở các bậc học cao hơn trong và ngoài nước.",
                 "Sinh viên tốt nghiệp có đủ năng lực để đảm nhiệm công tác quản lý và điều hành: cán bộ nghiên cứu, cán bộ quản lý, cán bộ kỹ thuật tại các cơ quan, doanh nghiệp, xí nghiệp..., các Cục, viện, trung tâm nghiên cứu, khuyến nông, các chương trình dự án phát triển thuộc lĩnh vực Thú y, các cơ quan hành chính sự nghiệp từ cấp xã, phường trở lên, các cơ sở giáo dục, đào tạo: trung tâm dạy nghề, trường trung học chuyên nghiệp, Cao đẳng, Đại học có liên quan đến ngành Thú y. Có thể tham gia quản lý sản xuất liên quan ứng dụng các công nghệ mới và thích hợp trong phát triển gia súc gia cầm."
@@ -3898,7 +3898,7 @@
     {   "number":74,
         "majorCode": "7850101",
         "majorName": "Quản lý tài nguyên và môi trường",
-        "videoURL": "https://www.youtube.com/watch?v=c4CNjcf-X_s",
+        "videoId": "c4CNjcf-X_s",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Môi trường & TNTN",
@@ -3951,7 +3951,7 @@
     {   "number":75,
         "majorCode": "7850102",
         "majorName": "Kinh tế tài nguyên thiên nhiên",
-        "videoURL": "https://www.youtube.com/watch?v=_Q9nCTuaHd4",
+        "videoId": "_Q9nCTuaHd4",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Kinh tế",
@@ -3999,7 +3999,7 @@
     {   "number":76,
         "majorCode": "7850103",
         "majorName": "Quản lý đất đai",
-        "videoURL": "https://www.youtube.com/watch?v=LqWzxihmYvs",
+        "videoId": "LqWzxihmYvs",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Môi trường & TNTN",
@@ -4077,7 +4077,7 @@
         "specializations": [
             {
                 "specializationName": "HDV du lịch",
-                "videoURL": "https://www.youtube.com/watch?v=iHeZ4f5foGs",
+                "videoId": "iHeZ4f5foGs",
                 "objectives": [
                     "Chương trình đào tạo ngành Việt Nam học - chuyên ngành Hướng dẫn viên du lịch -  đào tạo những cử nhân khoa học có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                     "Trang bị cho người học các kiến thức cơ sở ngành và chuyên ngành du lịch, nắm vững kiến thức chuyên sâu về nghiệp vụ hướng dẫn du lịch; có khả năng giao tiếp bằng tiếng Anh hoặc tiếng Pháp thông thường và chuyên ngành khá tốt",
@@ -4127,7 +4127,7 @@
         "specializations": [
             {
                 "specializationName": "Ngôn ngữ Anh",
-                "videoURL": "https://www.youtube.com/watch?v=2YFxD1BAl_I",
+                "videoId": "2YFxD1BAl_I",
                 "objectives": [
                     "Chương trình đào tạo ngành Ngôn ngữ Anh đào tạo cử nhân có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                     "Trang bị cho sinh viên 03 khối kiến thức và kỹ năng chuyên môn: (1) tiếng Anh định hướng nghề nghiệp, (2) văn hóa xã hội và (3) khối kiến thức chuyên môn sâu.",
@@ -4178,7 +4178,7 @@
         "specializations": [
             {
                 "specializationName": "Quản trị kinh doanh",
-                "videoURL": "https://www.youtube.com/watch?v=EcqQAIHQNZg",
+                "videoId": "EcqQAIHQNZg",
                 "objectives": [
                     "Chương trình đào tạo cử nhân ngành Quản trị kinh doanh được thiết kế nhằm trang bị cho những nhà quản trị tương lai một nền tảng kiến thức vững chắc để có thể điều hành/quản trị các doanh nghiệp. Sinh viên sẽ có được những kỹ năng cần thiết trong việc tích hợp kiến thức nền tảng về quản trị, marketing, kế toán và tài chính để hình thành nên các chiến lược khả thi giúp cho các công ty/doanh nghiệp dễ dàng đạt được những mục tiêu hoạt động trong ngắn hạn, trung hạn và dài hạn. Sau khi hoàn thành chương trình đào tạo cử nhân ngành Quản trị kinh doanh, sinh viên có:",
                     "Bản lĩnh chính trị vững vàng, hiểu biết các chuẩn mực đạo đức kinh doanh; có trách nhiệm đối với xã hội.",
@@ -4229,7 +4229,7 @@
         "specializations": [
             {
                 "specializationName": "Kinh doanh nông nghiệp",
-                "videoURL": "https://www.youtube.com/watch?v=F2RrKXrU-TU",
+                "videoId": "F2RrKXrU-TU",
                 "objectives": [
                     "Đào tạo cử nhân Kinh doanh nông nghiệp có phẩm chất chính trị, đạo đức, có lòng yêu nước, yêu ngành yêu nghề, có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc. Có ý chí lập thân, lập nghiệp, có đạo đức nghề nghiệp với tư duy năng động, sáng tạo. Có tinh thần trách nhiệm, tác phong văn minh, ý thức tổ chức kỷ luật, rèn luyện sức khoẻ để phục vụ ngành nghề.",
                     "Được trang bị kiến thức cơ bản rộng, có kiến thức chuyên môn sâu, có khả năng tự nghiên cứu, xây dựng, tổ chức và thực hiện phương án kinh doanh nông nghiệp. Người học có khả năng phân tích và hoạch định các chiến lược phát triển thương mại nông nghiệp, có thể tự phân tích và đánh giá được các hoạt động kinh doanh nông nghiệp trong môi trường quốc tế, chủ động và thích ứng tốt trong quá trình hội nhập vào nền kinh tế quốc tế của cả nước nói chung và ở ĐBSCL nói riêng.",
@@ -4276,7 +4276,7 @@
         "specializations": [
             {
                 "specializationName": "Kinh tế nông nghiệp",
-                "videoURL": "https://www.youtube.com/watch?v=_L_rIlYHopE",
+                "videoId": "_L_rIlYHopE",
                 "objectives": [
                     "Chương trình đào tạo cử nhân ngành Kinh tế Nông nghiệp được thiết kế nhằm trang bị cho người học các kiến thức cần thiết phục vụ cho hoạt động nghiên cứu kinh tế và hoạt động kinh doanh hàng hóa, dịch vụ, đặc biệt là các sản phẩm nông nghiệp. Sinh viên còn được trang bị các kỹ năng phân tích kinh tế để giải quyết các vấn đề và tình huống phát sinh trong hoạt động nghiên cứu và kinh doanh để khai thác và sử dụng các nguồn lực trong nông nghiệp hiệu quả, góp phần phát triển kinh tế nông nghiệp, nông thôn. Cụ thể:",
                     "Phẩm chất chính trị, đạo đức và sức khoẻ tốt, nghiêm túc và có tinh thần trách nhiệm.",
@@ -4329,7 +4329,7 @@
         "specializations": [
             {
                 "specializationName": "Luật hành chính",
-                "videoURL": "https://www.youtube.com/watch?v=vxTW3iA1C1I",
+                "videoId": "vxTW3iA1C1I",
                 "objectives": [
                     "Chương trình đào tạo ngành Luật hành chính trình độ đại học đào tạo cử nhân Luật, chuyên ngành Hành chính, có ý thức trách nhiệm công dân, có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, có tác phong công nghiệp, khả năng làm việc nhóm, khả năng tự học và làm việc độc lập, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                     "Trang bị cho người học nắm vững kiến thức chuyên sâu của chuyên ngành; có khả năng giao tiếp bằng Anh ngữ hoặc Pháp ngữ thông thường và chuyên ngành khá tốt; được trang bị các kiến thức cơ sở ngành và chuyên ngành Luật hành chính, nhất là kiến thức về quản lý hành chính trên các lĩnh vực đất đai và xây dựng.",
@@ -4375,7 +4375,7 @@
         "specializations": [
             {
                 "specializationName": "Công nghệ thông tin",
-                "videoURL": "https://www.youtube.com/watch?v=QuAZyjEpj1A&t=2s",
+                "videoId": "QuAZyjEpj1A&t=2s",
                 "objectives": [
                     "Cung cấp cho sinh viên kỹ năng và kiến thức để đảm nhận vị trí nghề nghiệp trong lĩnh vực CNTT, thăng tiến đến vị trí lãnh đạo, khả hành nghiên cứu  hoặc tiếp tục học cao hơn trong lĩnh vực này. Các mục tiêu cụ thể bao gồm:",
                     "Đào tạo kỹ sư CNTT có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
@@ -4428,7 +4428,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật xây dựng",
-                "videoURL": "https://www.youtube.com/watch?v=vIILNxgrsKg",
+                "videoId": "vIILNxgrsKg",
                 "objectives": [
                     "Chương trình đào tạo (CTĐT) đáp ứng mục tiêu đào tạo kỹ sư chuyên ngành Xây dựng dân dụng và công nghiệp (XDDD&CN), có phẩm chất chính trị vững vàng, có đạo đức tốt, có ý thức phục vụ nhân dân, có sức khỏe tốt, đáp ứng yêu cầu xây dựng và bảo vệ tổ quốc.",
                     "CTĐT trang bị cho người học những kiến thức chuyên sâu của chuyên ngành XDDD&CN, có khả năng Khảo sát, Thiết kế, Thi công, Quản lý dự án các công trình XDDD&CN; Có khả năng giao tiếp thông thường, đọc tài liệu chuyên ngành bằng Anh ngữ.",
@@ -4481,7 +4481,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật nông nghiệp",
-                "videoURL": "https://www.youtube.com/watch?v=b0JhKyavtig",
+                "videoId": "b0JhKyavtig",
                 "objectives": [
                     "Chương trình đào tạo ngành Nông học (chuyên ngành Kỹ thuật Nông nghiệp) đào tạo kỹ sư Nông học có kiến thức, năng lực và kỹ năng thực hành về các vấn đề kỹ thuật nông nghiệp, nông thôn đáp ứng cho quá trình “Công nghiệp hóa, hiện đại hóa nông nghiệp nông thôn”, có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                     "Trang bị cho người học nắm vững kiến thức chuyên sâu của chuyên ngành Kỹ thuật Nông nghiệp (trồng trọt, chăn nuôi, thủy sản), có kỹ năng thực hành, quản lý và lập dự án, có khả năng tự nghiên cứu trong lĩnh vực nông nghiệp, nông thôn.",
@@ -4528,7 +4528,7 @@
         "specializations": [
             {
                 "specializationName": "Nuôi trồng thủy sản",
-                "videoURL": "https://www.youtube.com/watch?v=1GtYdGJR0NI",
+                "videoId": "1GtYdGJR0NI",
                 "objectives": [
                     "Đào tạo kỹ sư Nuôi trồng thủy sản (NTTS) có hệ thống kiến thức khoa học cơ bản, có kiến thức chuyên môn sâu về NTTS và kỹ năng nghiệp vụ thành thạo, có khả năng làm việc độc lập, đảm nhận trực tiếp công tác kỹ thuật và quản lý tại các cơ sở sản xuất, nghiên cứu, đào tạo có liên quan đến thủy sản; có nhận thức chính trị và phẩm chất đạo đức tốt; có sức khỏe; tôn trọng nghề nghiệp; có khả năng tiếp tục học tập ở các bậc học sau đại học nhằm đáp ứng nhu cầu của xã hội trong sự nghiệp phát triển khoa học công nghệ về lĩnh vực NTTS."
                 ],
@@ -4581,7 +4581,7 @@
         "specializations": [
             {
                 "specializationName": "Công nghệ sinh học",
-                "videoURL": "https://www.youtube.com/watch?v=OmQdp1RZIVs",
+                "videoId": "OmQdp1RZIVs",
                 "objectives": [
                     "Trang bị cho người học kiến thức cơ bản và chuyên sâu liên quan Công nghệ Sinh học trong các ngành nông-công nghiệp và cơ quan nhà nước và các ứng xử đạo đức trong việc cải thiện và phát triển nền kinh tế và công nghiệp vùng miền.",
                     "Cung cấp nguồn nhân lực chất lượng cao về kiến thức lý thuyết và nghiên cứu trong lĩnh vực Công nghệ sinh học; Gắn kết học tập suốt đời để duy trì và tăng cường kỹ năng chuyên môn.",
@@ -4637,7 +4637,7 @@
         "specializations": [
             {
                 "specializationName": "Nuôi trồng thủy sản",
-                "videoURL": "https://www.youtube.com/watch?v=1GtYdGJR0NI",
+                "videoId": "1GtYdGJR0NI",
                 "objectives": [
                     "Đào tạo kỹ sư Nuôi trồng thủy sản (NTTS) có hệ thống kiến thức khoa học cơ bản, có kiến thức chuyên môn sâu về NTTS và kỹ năng nghiệp vụ thành thạo, có khả năng làm việc độc lập, đảm nhận trực tiếp công tác kỹ thuật và quản lý tại các cơ sở sản xuất, nghiên cứu, đào tạo có liên quan đến thủy sản; có nhận thức chính trị và phẩm chất đạo đức tốt; có sức khỏe; tôn trọng nghề nghiệp; có khả năng tiếp tục học tập ở các bậc học sau đại học nhằm đáp ứng nhu cầu của xã hội trong sự nghiệp phát triển khoa học công nghệ về lĩnh vực NTTS. Sử dụng tiếng Anh để làm việc, học tập trong các tổ chức Nuôi trồng thủy sản trong và ngoài nước."
                 ],
@@ -4690,7 +4690,7 @@
         "specializations": [
             {
                 "specializationName": "Công nghệ kỹ thuật hóa học (CTCLC)",
-                "videoURL": "https://www.youtube.com/watch?v=bDRrfX9JJ5s",
+                "videoId": "bDRrfX9JJ5s",
                 "objectives": [
                     "Đào tạo kỹ sư hóa học chất lượng cao, có kiến thức chuyên môn, kiến thức khoa học kỹ thuật cơ sở vững vàng; sử dụng thuần thục ngoại ngữ; có đạo đức nghề nghiệp, tinh thần trách nhiệm, tính chuyên nghiệp cao; có khả năng giải quyết vấn đề, khả năng làm việc nhóm và kỹ năng giao tiếp tốt.",
                     "Đào tạo kỹ sư hóa học có đủ trình độ đáp ứng nhu cầu phát triển kinh tế và hội nhập của Đồng bằng Sông Cửu Long nói riêng và của đất nước nói chung trong giai đoạn quốc tế hóa, toàn cầu hóa, thích nghi tốt trong môi trường quốc tế, đa văn hóa, đa quốc gia nhờ vào khả năng giao tiếp và ngoại ngữ lưu loát.",
@@ -4744,7 +4744,7 @@
         "specializations": [
             {
                 "specializationName": "Công nghệ thực phẩm (CTCLC)",
-                "videoURL": "https://www.youtube.com/watch?v=oo3AdE3rntg&t=1s",
+                "videoId": "oo3AdE3rntg&t=1s",
                 "objectives": [
                     "Có kiến thức chuyên môn vững chắc để thích ứng tốt với những công việc khác nhau như nghiên cứu, phát triển, tư vấn, quản lý và sản xuất trong lĩnh vực rộng của ngành công nghệ thực phẩm.",
                     "Có kỹ năng chuyên nghiệp, lập luận và phân tích tốt, có phẩm chất cá nhân cần thiết, hiểu biết về các vấn đề đương đại để thành công trong nghề nghiệp. Đáp ứng tốt nhu cầu công việc trong giai đoạn công nghiệp 4.0.",
@@ -4803,7 +4803,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật xây dựng - CLC",
-                "videoURL": "https://www.youtube.com/watch?v=qn5uICrJqUU",
+                "videoId": "qn5uICrJqUU",
                 "objectives": [
                     "Ngành Kỹ thuật xây dựng chất lượng cao đào tạo kỹ sư có khả năng khảo sát, thiết kế, thi công, quản lý dự án các công trình xây dựng dân dụng và công nghiệp (DD&CN).",
                     "Đào tạo Kỹ sư Kỹ thuật xây dựng có đủ trình độ đáp ứng nhu cầu phát triển kinh tế của đất nước trong giai đoạn công nghiệp hóa, hiện đại hóa; đáp ứng nhu cầu hội nhập của quá trình phát triển kinh tế đất nước; Đào tạo kỹ sư có kiến thức khoa học kỹ thuật cơ sở, và chuyên môn vững vàng, có khả năng giải quyết vấn đề cao; có khả năng làm việc nhóm và kỹ năng giao tiếp truyền thông tốt; sử dụng ngoại ngữ chuyên môn thuần thục; có đạo đức nghề nghiệp và tính chuyên nghiệp cao; Đào tạo kỹ sư có đủ kiến thức và khả năng tiếp tục theo học các chương trình đào tạo sau đại học chuyên ngành Kỹ thuật xây dựng."
@@ -4861,7 +4861,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật điện - CLC",
-                "videoURL": "https://www.youtube.com/watch?v=7I3rj2lmWns",
+                "videoId": "7I3rj2lmWns",
                 "objectives": [
                     "CTCLC đào tạo Kỹ sư Kỹ thuật điện có kiến thức chuyên môn, kiến thức cơ sở và phẩm chất chính trị vững vàng; sử dụng thuần thục ngoại ngữ; có đạo đức nghề nghiệp, tinh thần trách nhiệm, tính chuyên nghiệp cao; có khả năng giải quyết vấn đề, khả năng làm việc nhóm và kỹ năng giao tiếp tốt.",
                     "CTCLC chú trọng đào tạo Kỹ sư Kỹ thuật điện có đủ trình độ đáp ứng nhu cầu phát triển kinh tế và hội nhập của Đồng bằng Sông Cửu Long nói riêng và của đất nước nói chung trong giai đoạn quốc tế hóa, toàn cầu hóa.",
@@ -4917,7 +4917,7 @@
         "specializations": [
             {
                 "specializationName": "Công nghệ thông tin - CLC",
-                "videoURL": "https://www.youtube.com/watch?v=QuAZyjEpj1A&t=2s",
+                "videoId": "QuAZyjEpj1A&t=2s",
                 "objectives": [
                     "Mục tiêu của chương trình đào tạo chất lượng cao ngành Công nghệ thông tin (CNTT) là đào tạo kỹ sư CNTT chất lượng cao, có kiến thức chuyên môn vững chắc, kỹ năng nghề nghiệp thành thạo, thái độ và tác phong làm việc chuyên nghiệp để đảm nhận những vị trí nghề nghiệp khác nhau trong lĩnh vực CNTT. Các mục tiêu cụ thể của chương trình là nhằm trang bị cho người học:",
                     "Nắm vững kiến thức đại cương, cơ sở ngành, chuyên ngành và chuyên sâu nhằm vận dụng để triển khai các giải pháp và sản phẩm CNTT đương đại, cũng như khả năng thích ứng tốt với những thay đổi không ngừng của công nghệ.",
@@ -4973,7 +4973,7 @@
         "specializations": [
             {
                 "specializationName": "Tài chính - Ngân hàng - CLC",
-                "videoURL": "https://www.youtube.com/watch?v=ln-RpPrUuMY",
+                "videoId": "ln-RpPrUuMY",
                 "objectives": [
                     "Chương trình cử nhân chất lượng cao (CLC) ngành Tài chính – Ngân hàng (TCNH) đào tạo sinh viên tốt nghiệp có kiến thức chuyên môn trong lĩnh vực tài chính và ngân hàng, kỹ năng sử dụng ngoại ngữ trong công việc và thái độ làm việc đáp ứng được các tiêu chuẩn hiện đại của nhà tuyển dụng trong xu thế hội nhập kinh tế khu vực và quốc tế.",
                     "Trang bị kiến thức xã hội và chuyên môn trong lĩnh vực tài chính – ngân hàng.",
@@ -5030,7 +5030,7 @@
         "specializations": [
             {
                 "specializationName": "Kinh doanh quốc tế - CLC",
-                "videoURL": "https://www.youtube.com/watch?v=N2ES_Zb-u0g",
+                "videoId": "N2ES_Zb-u0g",
                 "objectives": [
                     "Mục tiêu chung của Chương trình đào tạo cử nhân CLC ngành KDQT là giúp sinh viên sau khi tốt nghiệp có năng lực làm việc tốt, có  kỹ năng tốt, kiến thức chuyên môn sâu, thái độ và tác phong chuyên nghiệp trong công việc để đáp ứng tốt nhu cầu phát triển của xã hội và hội nhập quốc tế.",
                     "Để đạt mục tiêu trên, Chương trình đào tạo cử nhân CLC ngành KDQT có phẩm chất chính trị, đạo đức, có lòng yêu nước, yêu ngành yêu nghề, có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc;có ý chí lập thân, lập nghiệp, có đạo đức nghề nghiệp với tư duy năng động, sáng tạo;có tinh thần trách nhiệm, tác phong văn minh, chuyên nghiệp, có ý thức tổ chức kỷ luật, rèn luyện sức khoẻ để phục vụ ngành nghề;có trình độ chuyên môn cao để góp phần đào tạo nguồn nhân lực cho địa phương, khu vực ĐBSCL, cả nước và cả thị trường lao động quốc tế.",
@@ -5083,7 +5083,7 @@
         "specializations": [
             {
                 "specializationName": "Ngôn ngữ Anh - CLC",
-                "videoURL": "https://www.youtube.com/watch?v=2YFxD1BAl_I",
+                "videoId": "2YFxD1BAl_I",
                 "objectives": [
                     "Có kiến thức thực tế vững chắc và kiến thức lý thuyết sâu rộng về ngôn ngữ tiếng Anh và về các lĩnh vực đang có nhu cầu nhân lực cao hiện nay như kinh tế và quản trị; khởi nghiệp và hội nhập; dịch vụ và du lịch.",
                     "Rèn luyện cho người học tác phong chuyên nghiệp, kỹ năng giao tiếp, kỹ năng học tập suốt đời, khả năng thích ứng và làm việc trong môi trường đa văn hóa và bối cảnh toàn cầu hóa, có đạo đức và trách nhiệm xã hội.",
