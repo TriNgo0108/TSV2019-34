@@ -13,6 +13,7 @@ Future<List<Major>> getMajorsList() async {
 }
 
 class Major {
+  final int score;
   final String majorCode;
   final String majorName;
   final String intendTime;
@@ -25,7 +26,7 @@ class Major {
   final List<Seasons> seasons;
   final List<Specializations> specializations;
 
-  Major({this.majorCode, this.majorName, this.intendTime, this.title, this.collegeName, this.collegeImage, this.inputRequest, this.mainSubjects, this.majorGroup, this.seasons, this.specializations});
+  Major({this.score, this.majorCode, this.majorName, this.intendTime, this.title, this.collegeName, this.collegeImage, this.inputRequest, this.mainSubjects, this.majorGroup, this.seasons, this.specializations});
 
   factory Major.fromJson(Map<String,dynamic> json){
     var list = json["inputRequest"] as List;                                     // tao list specialized
@@ -44,6 +45,7 @@ class Major {
     specializationsList = list.map((i) => Specializations.fromJson(i)).toList(); 
 
     return new Major(
+      score: 0,
       majorCode: json["majorCode"],
       majorName: json["majorName"],
       intendTime: json["intendTime"],

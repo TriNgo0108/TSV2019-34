@@ -1,3 +1,4 @@
+import 'package:app/models/majors.dart';
 import 'package:app/views/widgets/drawer_menu.dart';
 import 'package:app/views/widgets/major_card.dart';
 import 'package:flutter/material.dart';
@@ -18,59 +19,24 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(title: Text("hello"),),
       drawer: DrawerMenu(),
       body: SafeArea(
-        child: ListView(
-          children: <Widget>[
-            Container(
-              height: 320,
-              child: Card(
-                margin: EdgeInsets.fromLTRB(0, 12.0, 0, 12.0),
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Container(
-                        margin: EdgeInsets.fromLTRB(8.0, 4.0, 8.0, 4.0),
-                        child: Text("Có vẻ phù hợp với bạn...",
-                            style: TextStyle(fontWeight: FontWeight.w600, fontSize: 18.0, color: Theme.of(context).primaryColor, fontStyle: FontStyle.italic),)),
-                    Expanded(
-                      child: ListView.builder(
-                        itemCount: 10,
-                        scrollDirection: Axis.horizontal,
-                        itemBuilder: (context, index) {
-                          return MajorCard();
-                        },
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-            Container(
-              height: 320,
-              child: Card(
-                margin: EdgeInsets.fromLTRB(0, 12.0, 0, 12.0),
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Container(
-                        margin: EdgeInsets.fromLTRB(8.0, 4.0, 8.0, 4.0),
-                        child: Text("Có thể bạn sẽ thích...",
-                            style: TextStyle(fontWeight: FontWeight.w600, fontSize: 18.0, color: Theme.of(context).primaryColor, fontStyle: FontStyle.italic),)),
-                    Expanded(
-                      child: ListView.builder(
-                        itemCount: 10,
-                        scrollDirection: Axis.horizontal,
-                        itemBuilder: (context, index) {
-                          return MajorCard();
-                        },
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          ],
+        child: FutureBuilder(
+          future: getMajorsList(),
+          builder: (context, AsyncSnapshot snapshot) {
+            switch (snapshot.connectionState) {
+              case ConnectionState.waiting:
+                return CircularProgressIndicator();
+                break;
+              case ConnectionState.done:
+                List<Major> majors = snapshot.data;
+                return ListView.builder(
+                  itemCount: majors.length,
+                  itemBuilder: (context, index) => MajorCard(major: majors[index])
+                );
+                break;
+              default:
+                return CircularProgressIndicator();
+            };
+          },
         ),
       ),
     );
