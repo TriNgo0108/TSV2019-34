@@ -40,6 +40,7 @@ class _MajorCardState extends State<MajorCard> {
                           flags: YoutubePlayerFlags(
                               autoPlay: false,
                               hideControls: true,
+                              mute: true,
                               showVideoProgressIndicator: true,
                               hideFullScreenButton: true)),
                     )
