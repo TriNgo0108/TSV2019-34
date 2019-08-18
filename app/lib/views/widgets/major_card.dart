@@ -1,4 +1,5 @@
 import 'package:app/models/majors.dart';
+import 'package:app/views/major_detail.dart';
 import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
@@ -19,7 +20,13 @@ class _MajorCardState extends State<MajorCard> {
     } else if (widget.major.specializations[0].videoId.length != 11) {
       print(">>> Invalid Video ID: " + widget.major.specializations[0].videoId);
     }
-    return Container(
+    return GestureDetector(
+      onTap: () {
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => MajorDetail(major: widget.major)));
+          },
       child: Column(
         children: <Widget>[
           widget.major.specializations[0].videoId != null
@@ -27,14 +34,14 @@ class _MajorCardState extends State<MajorCard> {
                   ? Hero(
                       tag: widget.major.specializations[0].videoId,
                       child: YoutubePlayer(
-                        key: new GlobalKey(),
-                        context: context,
-                        videoId: widget.major.specializations[0].videoId,
-                        flags: YoutubePlayerFlags(
-                          autoPlay: false,
-                          showVideoProgressIndicator: true,
-                        ),
-                      ),
+                          key: new GlobalKey(),
+                          context: context,
+                          videoId: widget.major.specializations[0].videoId,
+                          flags: YoutubePlayerFlags(
+                              autoPlay: false,
+                              hideControls: true,
+                              showVideoProgressIndicator: true,
+                              hideFullScreenButton: true)),
                     )
                   : Text("Video Id Invalid")
               : Text("Video not found"),

@@ -9,7 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^0.1.2
-  youtube_player_flutter: ^3.0.0+1
+  youtube_player_flutter: ^4.1.0
   font_awesome_flutter: ^8.5.0
   toast: ^0.1.5
   url_launcher: ^5.1.2
