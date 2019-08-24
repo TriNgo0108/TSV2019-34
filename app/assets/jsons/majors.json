@@ -311,7 +311,7 @@
                 "quantity": 40
             }   
         ],
-        "mainSubjects": ["THóa"],
+        "mainSubjects": ["Hóa"],
         "majorGroup": "Sư phạm",
         "seasons": [
             {
@@ -632,7 +632,7 @@
                 "videoId": "u8pp680yTL8",
                 "objectives": [
                     "Chương trình đào tạo ngành Sư phạm Tiếng Pháp đào tạo sinh viên trở thành giáo viên ngành tiếng Pháp có kiến thức và kỹ năng sư phạm tốt, đáp ứng nhu cầu đổi mới căn bản và toàn diện giáo dục Việt Nam; người công dân tốt, người giáo viên trung thực và sáng tạo, nhân ái và khoan dung, tận tuỵ vì sự nghiệp giáo dục thế hệ tương lai; sống gương mẫu, có ý thức trách nhiệm cao với bản thân, gia đình, Tổ quốc và cộng đồng quốc tế; có bản lĩnh vững vàng trong một thế giới thay đổi từng ngày.",
-                    "Sinh viên tốt nghiệp có thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu; làm việc trong các ngành nghề sử dụng tiếng Pháp như biên - phiên dịch, du lịch, nhà hàng, khách sạn, ngoại giao, truyền thông."
+                    "Sinh viên tốt nghiệp c6ó thể làm làm công tác giảng dạy, nghiên cứu và quản lý tại các trường học, các phòng giáo dục, các cơ sở giáo dục, các trung tâm, viện nghiên cứu; làm việc trong các ngành nghề sử dụng tiếng Pháp như biên - phiên dịch, du lịch, nhà hàng, khách sạn, ngoại giao, truyền thông."
                 ],
                 "jobs": [
                     "Có thể làm công tác giảng dạy tại các trường tiểu học, các trường trung học, các trường trung học chuyên nghiệp và dạy nghề, các trường cao đẳng và đại học.",
@@ -1709,7 +1709,6 @@
         "number":33,
         "majorCode": "7420201",
         "majorName": "Công nghệ sinh học",
-        "videoId": "aYMvZnGYOTs",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Viện NC&PT Công nghệ Sinh học",
@@ -1736,6 +1735,7 @@
         "specializations": [
             {
                 "specializationName": "Công nghệ sinh học",
+                "videoId": "aYMvZnGYOTs",
                 "objectives": [
                  "Chương trình đào tạo trình độ cử nhân Công nghệ sinh học cung cấp cho người học môi trường và những hoạt động giáo dục để họ hình thành và phát triển nhân cách, đạo đức, sức khỏe, có kiến thức chuyên môn cơ bản và chuyên môn sâu, kỹ năng thực hành thành thạo và có khả năng giải quyết những vấn đề đặt ra trong ngành Công nghệ sinh học và ứng dụng trong các lĩnh vực liên quan.",
                  "Người học sau khi tốt nghiệp có thể làm việc ở cơ quan quản lý nhà nước, cơ quan kiểm tra chất lượng, các trường đại học, cao đẳng, xí nghiệp, nhà máy có liên quan đến lĩnh vực CNSH."
@@ -1759,7 +1759,6 @@
         "number":34,
         "majorCode": "7420203",
         "majorName": "Sinh học ứng dụng",
-        "videoId": "Snwi9vejCXU",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Nông Nghiệp & SHƯD",
@@ -1786,6 +1785,7 @@
         "specializations": [
             {
                 "specializationName": "Sinh học ứng dụng",
+                "videoId": "Snwi9vejCXU",
                 "objectives": [
                  "Chương trình đào tạo ngành Sinh học ứng dụng trình độ đại học nhằm đào tạo kỹ sư có phẩm chất chính trị, đạo đức và sức khỏe tốt, có năng lực thực hành, tận tụy với nghề nghiệp, có khả năng tiếp tục phát triển trong chuyên môn và ý thức phục vụ nhân dân, đáp ứng nhu cầu phát triển nguồn nhân lực và kinh tế của đất nước.",
                  "Trang bị các kiến thức cơ bản trong lĩnh vực khoa học xã hội và nhân văn, có khả năng sử dụng các phần mềm tin học ứng dụng và khả năng giao tiếp bằng Anh ngữ thông thường. Người học được trang bị những kiến thức cơ bản về sinh học, hóa học và sinh hóa giúp hiểu rõ các nguyên lý của các quá trình sinh học liên quan đến cây trồng.",
@@ -1807,7 +1807,6 @@
         "number":35,
         "majorCode": "7440112",
         "majorName": "Hóa học",
-        "videoId": "uBs9-IYxrgg",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Khoa Học Tự Nhiên",
@@ -1834,6 +1833,7 @@
         "specializations": [
             {
                 "specializationName": "Hóa học",
+                "videoId": "uBs9-IYxrgg",
                 "objectives": [
                 "Có lòng yêu nước, yêu chủ nghĩa xã hội, có ý chí lập thân, lập nghiệp, có đạo đức nghề nghiệp, có tư duy năng động sáng tạo, có tinh thần trách nhiệm, có ý thức kỷ luật tốt, tác phong sinh hoạt văn minh, có ý thức rèn luyện sức khỏe.",
                 "Có kiến thức nền tảng cả về lý thuyết và thực hành hóa học, có khả năng tự học, tự nghiên cứu để tiếp tục nâng cao và mở rộng kiến thức nhằm thích nghi với sự phát triển của xã hội.",
@@ -1858,7 +1858,6 @@
         "number":36,
         "majorCode": "7720203",
         "majorName": "Hóa dược",
-        "videoId": "_FMhSKK6ulw",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Khoa Học Tự Nhiên",
@@ -1885,6 +1884,7 @@
         "specializations": [
             {
                 "specializationName": "Hóa dược",
+                "videoId": "_FMhSKK6ulw",
                 "objectives": [
                 "Chương trình đào tạo Cử Nhân Hóa Dược nhằm mục tiêu đào tạo Cử Nhân Hóa dược chuyên nghiên cứu các vấn đề về thiết kế, tổng hợp dược. Sinh viên tốt nghiệp chương trình Cử Nhân Hóa Dược sẽ có đủ kiến thức và kỹ năng thực hành cơ bản để có thể làm việc trong các ngành công nghiệp dược phẩm hoặc có thể học văn bằng 2 Dược sĩ.",
                 "Chương trình đào tạo được xây dựng nhằm cung cấp cho người học những kiến thức cơ bản về dược lý học và cách tác động của thuốc trong cơ thể; Quá trình phát hiện, sàng lọc, tổng hợp dược phẩm; Các phương pháp tách chiết và cô lập các hợp chất tự nhiên có hoạt tính sinh học. Bên cạnh đó chương trình cũng cung cấp cho sinh viên những kiến thức nền tảng thuộc lĩnh vực Hóa Vô cơ, Hóa lý, Hóa Phân tích, Sinh học và Sinh hóa. "
@@ -1908,7 +1908,6 @@
         "number":37,
         "majorCode": "7440301",
         "majorName": "Khoa học môi trường",
-        "videoId": "Bcl9QDV5qIo",
         "intendTime": "4",
         "title": "kỹ sư",
         "collegeName": "Khoa Môi trường & TNTN ",
@@ -1935,6 +1934,7 @@
         "specializations": [
             {
                 "specializationName": "Khoa học môi trường",
+                "videoId": "Bcl9QDV5qIo",
                 "objectives": [
                 "Chương trình đào tạo chuyên ngành Khoa học Môi trường trình độ đại học đào tạo Kỹ sư Khoa học Môi trường có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc",
                 " Trang bị cho người học nắm vững kiến thức cơ sở ngành, kiến thức chuyên ngành Khoa học Môi trường",
@@ -1961,7 +1961,6 @@
         "number":38,
         "majorCode": "7620103",
         "majorName": "Khoa học đất",
-        "videoId": "WLwY7V4BSXU",
         "intendTime": "4",
         "title": "kỹ sư",
         "collegeName": "Khoa Nông Nghiệp & SHƯD",
@@ -1988,6 +1987,7 @@
         "specializations": [
             {
                 "specializationName": "Quản lý đất và CN phân bón",
+                "videoId": "WLwY7V4BSXU",
                 "objectives": [
                 "Chuyên ngành Quản lý đất và công nghệ phân bón trình độ đại học đào tạo kỹ sư Khoa học đất, chuyên ngành Quản lý đất và công nghệ phân bón có kiến thức chuyên môn toàn diện, có khả năng làm việc độc lập, sáng tạo, có năng lực cạnh tranh cao trên thị trường lao động, có tinh thần trách nhiệm cao trong giải quyết những vấn đề khoa học và kỹ thuật liên quan đến lĩnh vực quản lý đất và công nghệ phân bón phục vụ cho phát triển nông nghiệp bền vững thích ứng với biến đổi khí hậu.",
                 "Sau khi ra trường, kỹ sư chuyên ngành Quản lý đất và công nghệ phân bón sẽ có kiến thức chuyên môn vững chắc về lĩnh vực quản lý đất, công nghệ phân bón, quản lý quy trình sản xuất phân bón, nông nghiệp và môi trường nhằm đáp ứng nhu cầu công việc có tính cạnh tranh cao như nghiên cứu, phát triển, tư vấn, quản lý và sản xuất nông nghiệp, phục vụ phát triển nông nghiệp bền vững, nông nghiệp hữu cơ và nông nghiệp công nghệ cao. Có kỹ năng chuyên nghiệp, khoa học, năng lực nghiên cứu và kỹ năng giao tiếp xã hội cần thiết đáp ứng nhu cầu công việc có tính cạnh tranh cao trong nước và quốc tế, có khả năng lập luận, tư duy phân tích và giải quyết vấn đề. Đồng thời, kỹ sư có đủ khả năng ứng dụng công nghệ thông tin trong công tác đánh giá, quản lý đất; áp dụng công nghệ tiên tiến trong sản xuất, sử dụng phân bón phục vụ cho việc canh tác cây trồng có hiệu quả."
@@ -2019,7 +2019,6 @@
         "number":39,
         "majorCode": "7460112",
         "majorName": "Toán ứng dụng",
-        "videoId": "OTmKa3Q2DY4",
         "intendTime": "4",
         "title": "cử nhân",
         "collegeName": "Khoa Khoa học Tự nhiên ",
@@ -2046,6 +2045,7 @@
         "specializations": [
             {
                 "specializationName": "Toán ứng dụng",
+                "videoId": "OTmKa3Q2DY4",
                 "objectives": [
                 "Đào tạo Cử nhânToán ứng dụng có kiến thức chuyên môn vững vàng, có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ tổ quốc.",
                 "Trang bị cho người học kiến thức cơ sở và kiến thức chuyên sâu về Toán ứng dụng, đặc biệt là Toán Thống kê. Khả năng giao tiếp thông thường bằng ngoại ngữ.",
@@ -2070,7 +2070,6 @@
         "number":40,
         "majorCode": "7480101",
         "majorName": "Khoa học máy tính",
-        "videoId": "T7HkV19e-TE",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Khoa học Tự nhiên ",
@@ -2097,6 +2096,7 @@
         "specializations": [
             {
                 "specializationName": "Khoa học máy tính",
+                "videoId": "T7HkV19e-TE",
                 "objectives": [
                 "Đào tạo kỹ sư khoa học máy tính có kiến thức tổng quát về khoa học máy tính và kỹ năng vận dụng chúng vào các vấn đề thực tiễn. Sinh viên sau khi ra trường sẽ có kiến thức vững chắc về một trong các hướng chuyên ngành: Hệ thống thông minh, Máy học & khai khoáng dữ liệu,  Đồ hoạ & thị giác máy tính, An toàn & bảo mật thông tin và Mô phỏng & đánh giá hệ thống. Sinh viên có khả năng tư duy phát triển từ lý thuyết đến việc xây dựng hệ thống thông minh, có khả năng ứng dụng các kết quả nghiên cứu vào thực tiễn cũng như khả năng tham gia vào các dự án nghiên cứu và phát triển trong lĩnh vực khoa học máy tính."
                 ],
@@ -2117,7 +2117,6 @@
         "number":41,
         "majorCode": "7480102",
         "majorName": "Mạng máy tính và truyền thông dữ liệu",
-        "videoId": "9V1mW4_w-g0",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
@@ -2144,6 +2143,7 @@
         "specializations": [
             {
                 "specializationName": "Mạng máy tính và truyền thông dữ liệu",
+                "videoId": "9V1mW4_w-g0",
                 "objectives": [
                 "Chương trình đào tạo trình độ đại học ngành Mạng máy tính và Truyền thông dữ liệu đào tạo kỹ sư Truyền thông và mạng máy tính có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                 "Trang bị cho người học nắm vững kiến thức chuyên sâu của chuyên ngành; có khả năng giao tiếp bằng Anh ngữ thông thường và chuyên ngành; được trang bị các kiến thức cơ sở ngành Mạng máy tính và Truyền thông dữ liệu.",
@@ -2168,7 +2168,6 @@
         "number":42,
         "majorCode": "7480103",
         "majorName": "Kỹ thuật phần mềm",
-        "videoId": "fC0rpSVfTL8",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
@@ -2195,6 +2194,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật phần mềm",
+                "videoId": "fC0rpSVfTL8",
                 "objectives": [
                 "Đào tạo kỹ sư ngành Kỹ thuật phần mềm có kiến thức, kỹ năng về kỹ thuật phần mềm đủ để xây dựng mô hình và áp dụng các nguyên tắc của công nghệ phần mềm vào thực tiễn cũng như tự học nhằm thích ứng các yêu cầu về nghiên cứu phát triển và ứng dụng công nghệ thông tin của xã hội. Người tốt nghiệp sẽ có khả năng làm việc trong lĩnh vực phần mềm trong và ngoài nước."
                 ],
@@ -2216,7 +2216,6 @@
         "number":43,
         "majorCode": "7480104",
         "majorName": "Hệ thống thông tin",
-        "videoId": "DWRkcW45UcI",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
@@ -2243,6 +2242,7 @@
         "specializations": [
             {
                 "specializationName": "Hệ thống thông tin",
+                "videoId": "DWRkcW45UcI",
                 "objectives": [
                 "Đào tạo kỹ sư có phẩm chất đạo đức, tư duy, kiến thức chuyên môn cần thiết về CNTT và các lĩnh vực liên quan như kinh tế, quản lý để thành công trong vị trí chuyên gia về Hệ thống thông tin ở các cơ quan, tổ chức thuộc hoạt động trong các môi trường khác nhau như giáo dục, hành chính sự nghiệp, doanh nghiệp."
                 ],
@@ -2339,7 +2339,6 @@
         "number":45,
         "majorCode": "7510401",
         "majorName": "Công nghệ kỹ thuật hóa học",
-        "videoId": "-1OYJU2z3oI",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ",
@@ -2366,6 +2365,7 @@
         "specializations": [
             {
                 "specializationName": "Công nghệ kỹ thuật hóa học",
+                "videoId": "-1OYJU2z3oI",
                 "objectives": [
                 "Tính toán, thiết kế, chế tạo, vận hành, sửa chữa và bảo trì các thiết bị công nghệ hoá học. Thiết bị công nghệ hóa học thuộc các quá trình cơ bản của công nghệ hóa học: cơ học lưu chất và vật liệu rời, truyền nhiệt, truyền khối, kỹ thuật phản ứng.",
                 "Hiểu và ứng dụng các vấn đề về công nghệ hóa học, hóa học vào các lĩnh vực chuyên ngành hẹp như vật liệu polymer & composite; công nghệ trích ly, chiết tách chất; hoá hương liệu mỹ phẩm; kỹ thuật nhuộm in; chất kích thích và bảo vệ thực vật; kỹ thuật gốm sứ và vật liệu ceramic; công nghệ điện hoá và chống ăn mòn kim loại; phân tích hóa học; kỹ thuật môi trường ...",
@@ -2392,7 +2392,6 @@
         "number":46,
         "majorCode": "7520309",
         "majorName": "Kỹ thuật vật liệu",
-        "videoId": "Q0yOWKFphXU",
         "intendTime": "4.5",
         "title": "Cử nhân",
         "collegeName": "Khoa Công nghệ",
@@ -2419,6 +2418,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật vật liệu",
+                "videoId": "Q0yOWKFphXU",
                 "objectives": [
                "Đào tạo kỹ sư ngành Kỹ thuật vật liệu (KTVL) có năng lực chuyên môn, phẩm chất chính trị, có lòng yêu nước, yêu ngành nghề. Có ý chí lập thân, lập nghiệp, có đạo đức nghề nghiệp với tư duy năng động, sáng tạo. Có tinh thần trách nhiệm, tác phong văn minh, ý thức tổ chức kỹ luật, rèn luyện sức khoẻ để phục vụ ngành nghề. Có trình độ chuyên môn để góp phần đào tạo nguồn nhân lực cho địa phương, khu vực ĐBSCL và cả nước.",
                "Kỹ sư Kỹ thuật vật liệu được trang bị kiến thức cơ bản rộng, có kiến thức chuyên  sâu về tính toán, có khả năng tự nghiên cứu, xây dựng, tổ chức và thiết kế, chế tạo, vận hành, sửa chữa và bảo trì các thiết bị KTVL trong các nhà máy liên quan. Có kiến thức nền tảng và triển khai ứng dụng trong các lĩnh vực như vật liệu Kim loại - Hợp kim, Silicate - Ceramic, và Polymer – Composite. Ngoài ra, còn có các vật liệu tiên tiến như vật liệu bán dẫn, vật liệu siêu dẫn, vật liệu y sinh, vật liệu nano…từ đó có thể nắm bắt được mối quan hệ giữa cấu trúc và tính chất của vật liệu. Đây là nền tảng khoa học mà người kỹ sư KTVL cần có. Có khả năng quản lý kỹ thuật, quản lý chất lượng tại các cơ sở sản xuất, các nhà máy, công ty hoạt động liên quan đến vấn đề KTVL.",
@@ -2446,7 +2446,6 @@
         "number":47,
         "majorCode": "7510601",
         "majorName": "Quản lý công nghiệp",
-        "videoId": "NQIrBO8CJmg",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ",
@@ -2473,6 +2472,7 @@
         "specializations": [
             {
                 "specializationName": "Quản lý công nghiệp",
+                "videoId": "NQIrBO8CJmg",
                 "objectives": [
                 "Cung cấp cho sinh viên các kiến thức tổng hợp về khoa học cơ bản, kỹ thuật, kinh tế và tối ưu hóa mô hình sản xuất và dịch vụ, là điều kiện cần thiết để sinh viên phát huy tính sáng tạo trong hoạt động nghề nghiệp, khả năng tự học và tự nghiên cứu.",
                 "Phát triển các kỹ năng giúp cho sinh viên có khả năng: giao tiếp, làm việc trong nhóm, kỹ năng giải quyết vấn đề, rèn luyện thái độ chuyên nghiệp và đạo đức nghề nghiệp; sẵn sàng làm việc trong môi trường hiện đại, phức tạp và học tập suốt đời.",
@@ -2595,7 +2595,6 @@
         "number":49,
         "majorCode": "7520114",
         "majorName": "Kỹ thuật cơ điện tử",
-        "videoId": "os9hkEXlpOs",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ",
@@ -2622,6 +2621,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật cơ điện tử",
+                "videoId": "os9hkEXlpOs",
                 "objectives": [
                    "Có phẩm chất chính trị và đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
                    "Vận dụng các kiến thức về cơ khí, điện tử, điều khiển, lập trình và các kỹ năng để giải quyết các vấn đề trong lĩnh vực cơ điện tử.",
@@ -3050,7 +3050,6 @@
         "number":58,
         "majorCode": "7540105",
         "majorName": "Công nghệ chế biến thủy sản",
-        "videoId": "cVuwCqMSZOc",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Thủy sản",
@@ -3077,6 +3076,7 @@
         "specializations": [
             {
                 "specializationName": "Công nghệ chế biến thủy sản",
+                "videoId": "cVuwCqMSZOc",
                 "objectives": [
                 "Chương trình đào tạo ngành Công nghệ chế biến thủy sản đào tạo nguồn nhân lực kỹ thuật chuyên ngành Công nghệ chế biến thủy sản có trình độ đại học có phẩm chất chính trị, có đạo đức nghề nghiệp, có sức khoẻ tốt, có kiến thức cơ bản vững vàng, kiến thức chuyên môn và kỹ năng thực tiễn về kỹ thuật phân tích, bảo quản và chế biến thủy sản.",
                 "Sinh viên tốt nghiệp ngành Công nghệ Chế biến Thủy sản có thể đảm nhận việc giám sát, điều hành, quản lý trong các cơ quan quản lý về chế biến thủy sản, cơ sở đào tạo và nghiên cứu về chế biến thủy sản; các dự án chế biến thủy sản trong nước và quốc tế; các doanh nghiệp/cơ sở chế biến thủy sản; tự tổ chức sản xuất và kinh doanh chế biến thủy sản."
@@ -3099,7 +3099,6 @@
         "number":59,
         "majorCode": "7580201",
         "majorName": "Kỹ thuật xây dựng",
-        "videoId": "AqlazoOeDYQ",
         "intendTime": "4,5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ",
@@ -3126,6 +3125,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật xây dựng",
+                "videoId": "AqlazoOeDYQ",
                 "objectives": [
 				"Chương trình đào tạo (CTĐT) đáp ứng mục tiêu đào tạo kỹ sư chuyên ngành Xây dựng dân dụng và công nghiệp (XDDD&CN), có phẩm chất chính trị vững vàng, có đạo đức tốt, có ý thức phục vụ nhân dân, có sức khỏe tốt, đáp ứng yêu cầu xây dựng và bảo vệ tổ quốc.",
                 "CTĐT trang bị cho người học những kiến thức chuyên sâu của chuyên ngành XDDD&CN, có khả năng Khảo sát, Thiết kế, Thi công, Quản lý dự án các công trình XDDD&CN; Có khả năng giao tiếp thông thường, đọc tài liệu chuyên ngành bằng Anh ngữ.",
@@ -3150,7 +3150,6 @@
     {   "number":60,
         "majorCode": "7580202",
         "majorName": "Kỹ thuật xây dựng công trình thủy",
-        "videoId": "o3BrY5HzUDI",
         "intendTime": "4,5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ",
@@ -3177,6 +3176,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật xây dựng công trình thủy",
+                "videoId": "o3BrY5HzUDI",
                 "objectives": [
 				"Trang bị cho người học kiến thức chuyên môn của ngành KTXDCTT, có khả năng khảo sát, thiết kế, thi công, quản lý và vận hành các công trình thủy lợi",
                 "Cung cấp cho người học những kiến thức cơ bản thuộc chuyên ngành gần, chuyên ngành rộng, như: Qui hoạch, Kỹ thuật xây dựng công trình giao thông, Xây dựng công trình dân dụng và công nghiệp, Kỹ thuật môi trường;",
@@ -3203,7 +3203,6 @@
         "number":61,
         "majorCode": "7580205",
         "majorName": "Kỹ thuật xây dựng công trình giao thông",
-        "videoId": "ggwRXrOEGrw",
         "intendTime": "4,5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ",
@@ -3230,6 +3229,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật xây dựng công trình giao thông",
+                "videoId": "ggwRXrOEGrw",
                 "objectives": [
 				"Trang bị cho người học kiến thức chuyên môn của ngành KTXDCTT, có khả năng khảo sát, thiết kế, thi công, quản lý và vận hành các công trình thủy lợi",
                 "Cung cấp cho người học những kiến thức cơ bản thuộc chuyên ngành gần, chuyên ngành rộng, như: Qui hoạch, Kỹ thuật xây dựng công trình giao thông, Xây dựng công trình dân dụng và công nghiệp, Kỹ thuật môi trường;",
@@ -3256,7 +3256,6 @@
         "number":62,
         "majorCode": "7580212",
         "majorName": "Kỹ thuật tài nguyên nước",
-        "videoId": "8z4-mzyTFYE",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Môi trường và Tài nguyên Thiên nhiên",
@@ -3283,6 +3282,7 @@
         "specializations": [
             {
                 "specializationName": "Kỹ thuật tài nguyên nước",
+                "videoId": "8z4-mzyTFYE",
                 "objectives": [
                 "Đánh giá hiện trạng và dự báo sự thay đổi của nguồn tài nguyên nước mặt và nước dưới đất phục vụ cho công tác quản lý và qui hoạch sử dụng hợp lý nguồn tài nguyên thiên nhiên dưới tác động của sự phát triển của điều kiện kinh tế - xã hội ở ĐBSCL cũng như dưới tác động của biến đổi khí hậu.",
                 "Thực hiện công tác quan trắc và đánh giá chất lượng nước cũng như đánh giá tác động môi trường liên quan đến nguồn tài nguyên nước.",
@@ -3308,7 +3308,6 @@
         "number":63,
         "majorCode": "7620105",
         "majorName": "Chăn nuôi",
-        "videoId": "tyMTRXPXhO0",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Nông Nghiệp & SHƯD",
@@ -3335,6 +3334,7 @@
         "specializations": [
             {
                 "specializationName": "Chăn nuôi",
+                "videoId": "tyMTRXPXhO0",
                 "objectives": [
                 "Chương trình đạo tạo ngành Chăn nuôi chuyên ngành Chăn nuôi - Thú y đào tạo kỹ sư Chăn nuôi - Thú y có phẩm chất chính trị, đạo đức và sức khoẻ tốt; có trình độ năng lực đáp ứng nhu cầu nguồn nhân lực và phát triển kinh tế đất nước; có kiến thức và kỹ năng của hai ngành Chăn nuôi và Thú y",
                 "Chương trình đào tạo giúp cho sinh viên hiểu rõ các nguyên lý của quá trình sinh học liên quan đến nuôi dưỡng và bảo vệ vật nuôi; có kiến thức cơ bản về khoa học tự nhiên và xã hội; có khả năng tổ chức và công tác trong lĩnh vực chăn nuôi và thú y; có khả năng tự học, nghiên cứu và nâng cao trình độ; tham gia quản lý sản xuất các lĩnh vực có liên quan; biết ứng dụng các công nghệ mới trong phát triển chăn nuôi trong và ngoài nước.",
@@ -3358,7 +3358,6 @@
         "number":64,
         "majorCode": "7620109",
         "majorName": "Nông học",
-        "videoId": "8Pao63FwLEQ",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Nông Nghiệp & SHƯD",
@@ -3385,6 +3384,7 @@
         "specializations": [
             {
                 "specializationName": "Chăn nuôi",
+                "videoId": "8Pao63FwLEQ",
                 "objectives": [
                 "Chương trình đào tạo ngành Nông học đào tạo đội ngũ kỹ sư Nông học có kiến thức về ba chuyên ngành cây trồng, vật nuôi và thủy sản, có phẩm chất chính trị, đạo đức và sức khoẻ tốt; có trình độ năng lực đáp ứng nhu cầu phát triển nguồn nhân lực và kinh tế của đất nước và vùng Đồng bằng sông Cửu Long.",
                 "Trang bị cho sinh viên các nguyên lý của các quá trình sinh học liên quan tới cây trồng, vật nuôi và thủy sản; kiến thức cơ bản về sinh học, hóa học, sinh hoá, thống kê sinh học và tin học; khả năng tổ chức, thực hành và huấn luyện các kỹ thuật canh tác cây trồng, nuôi trồng thủy sản cũng như các kỹ thuật căn bản về chăn nuôi thú y; kỹ năng dụng các công nghệ mới trong sản xuất cây trồng, vật nuôi và thủy sản.",
@@ -3491,7 +3491,6 @@
         "number":66,
         "majorCode": "7620112",
         "majorName": "Bảo vệ thực vật",
-        "videoId": "84XhlZiv46E",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa NN & SHƯD",
@@ -3518,6 +3517,7 @@
         "specializations": [
             {
                 "specializationName": "Bảo vệ thực vật",
+                "videoId": "84XhlZiv46E",
                 "objectives": [
                 "Chương trình đào tạo ngành Bảo vệ thực vật (BVTV) có mục tiêu đào tạo kỹ sư có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ đáp ứng yêu cầu xây dựng và bảo vệ tổ quốc; đào tạo người học có năng lực chuyên môn cao cả lý thuyết và thực hành, tận tụy với nghề nghiệp, có khả năng đáp ứng được nhu cầu nhân lực cho đất nước và đóng góp vào sự phát triển bền vững của sản xuất nông nghiệp theo hướng hiện đại, an toàn và  hiệu quả.",
                 "Sinh viên tốt nghiệp có đủ năng lực làm việc tại các cơ quan hành chính, quản lý chuyên ngành Kiểm dịch và BVTV, các Viện nghiên cứu thuộc lĩnh vực BVTV, Môi trường, nông nghiệp, các đơn vị sản xuất, kinh doanh; làm công tác giảng dạy và nghiên cứu khoa học chuyên ngành BVTV trong các trường Trung cấp, Cao đẳng và Đại học."
@@ -3540,7 +3540,6 @@
         "number":67,
         "majorCode": "7620113",
         "majorName": "Công nghệ rau hoa quả và cảnh quan",
-        "videoId": "NToc060vo10",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa NN & SHƯD",
@@ -3567,6 +3566,7 @@
         "specializations": [
             {
                 "specializationName": "Công nghệ rau hoa quả và cảnh quan",
+                "videoId": "NToc060vo10",
                 "objectives": [
                 "Chương trình đào tạo ngành Rau hoa quả và cảnh quan đào tạo những kỹ sư có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khỏe, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc; có kiến thức về kỹ thuật quản lý rau hoa quả, bảo dưỡng hoa viên, cây cảnh, cảnh quan môi trường và thực hành thiết kế, thi công các công trình cảnh quan…",
                 "Sinh viên tốt nghiệp ngành Rau hoa quả và cảnh quan có đủ năng lực để làm việc tại các công ty sản xuất giống cây trồng, dịch vụ khoa học nông nghiệp; các Viện, Trường có liên quan đến lĩnh vực rau hoa quả và cảnh quan; thành lập trang trại hoặc mở công ty kinh doanh rau hoa quả và cây cảnh."
@@ -3588,7 +3588,6 @@
         "number":68,
         "majorCode": "7620115",
         "majorName": "Kinh tế nông nghiệp",
-        "videoId": "_L_rIlYHopE",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Kinh tế",
@@ -3615,6 +3614,7 @@
         "specializations": [
             {
                 "specializationName": "Kinh tế nông nghiệp",
+                "videoId": "_L_rIlYHopE",
                 "objectives": [
                 "Phẩm chất chính trị, đạo đức và sức khoẻ tốt, nghiêm túc và có tinh thần trách nhiệm",
                 "Kiến thức nền tảng vững chắc về các lĩnh vực KT-CT-XH và môi trường.",
@@ -3640,7 +3640,6 @@
         "number":69,
         "majorCode": "7620116",
         "majorName": "Phát triển nông thôn",
-        "videoId": "WzVxYT_rWFY",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Viện Nghiên cứu phát triển ĐBSCL",
@@ -3667,6 +3666,7 @@
         "specializations": [
             {
                 "specializationName": "Kinh tế nông nghiệp",
+                "videoId": "WzVxYT_rWFY",
                 "objectives": [
                 "Chương trình đào tạo ngành Phát triển nông thôn (PTNT) đào tạo kỹ sư PTNT nhằm đáp ứng nhu cầu phát triển nguồn nhân lực trong lĩnh vực phát triển nông thôn cả về nghiên cứu, quản lý và chuyển giao khoa học kỹ thuật, góp phần phát triển nông nghiệp và nông thôn bền vững.",
                 "Chương trình đào tạo trang bị cho người học kiến thức cơ bản về nguyên lý phát triển nông thôn; kiến thức chuyên sâu, kỹ năng và ứng dụng trong tổ chức sản xuất, quản lý, kinh doanh trong nông nghiệp và nông thôn.",
@@ -3687,7 +3687,6 @@
         "number":70,
         "majorCode": "7620301",
         "majorName": "Nuôi trồng thủy sản",
-        "videoId": "S0YovhsYZcU",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Thủy sản",
@@ -3714,6 +3713,7 @@
         "specializations": [
             {
                 "specializationName": "Nuôi trồng thủy sản",
+                "videoId": "S0YovhsYZcU",
                 "objectives": [
                 "Đào tạo kỹ sư Nuôi trồng thủy sản (NTTS) có hệ thống kiến thức khoa học cơ bản, có kiến thức chuyên môn sâu về NTTS và kỹ năng nghiệp vụ thành thạo, có khả năng làm việc độc lập, đảm nhận trực tiếp công tác kỹ thuật và quản lý tại các cơ sở sản xuất, nghiên cứu, đào tạo có liên quan đến thủy sản; có nhận thức chính trị và phẩm chất đạo đức tốt; có sức khỏe; tôn trọng nghề nghiệp; có khả năng tiếp tục học tập ở các bậc học sau đại học nhằm đáp ứng nhu cầu của xã hội trong sự nghiệp phát triển khoa học công nghệ về lĩnh vực NTTS."
                 ],
@@ -3735,7 +3735,6 @@
         "number":71,
         "majorCode": "7620302",
         "majorName": "Bệnh học thủy sản",
-        "videoId": "8xym2NsQJa4",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Thủy sản",
@@ -3762,6 +3761,7 @@
         "specializations": [
             {
                 "specializationName": "Bệnh học thủy sản",
+                "videoId": "8xym2NsQJa4",
                 "objectives": [
                 "Đào tạo Kỹ sư chuyên ngành bệnh học thủy có kiến thức cơ bản về nuôi trồng thuỷ sản, kiến thức chuyên môn và kỹ năng thực tiễn về quản lý dịch bệnh thủy sản phục vụ cho nuôi trồng thủy sản bền vững; có khả năng làm việc độc lập và kỹ năng làm việc tập thể trong nghiên cứu khoa học và thực tiễn liên quan đến thuỷ sản; có nhận thức chính trị và phẩm chất đạo đức tốt; có sức khỏe; tôn trọng nghề nghiệp; và có khả năng tiếp tục học tập ở các bậc học sau đại học nhằm đáp ứng nhu cầu của xã hội trong sự nghiệp phát triển khoa học công nghệ về lĩnh vực bệnh thủy sản."
                 ],
@@ -3784,7 +3784,6 @@
         "number":72,
         "majorCode": "7620305",
         "majorName": "Quản lý thủy sản",
-        "videoId": "pfStVcC9upE",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Thủy sản",
@@ -3811,6 +3810,7 @@
         "specializations": [
             {
                 "specializationName": "Quản lý thủy sản",
+                "videoId": "pfStVcC9upE",
                 "objectives": [
                 "Đào tạo kỹ sư Quản lý thủy sản có hệ thống kiến thức khoa học cơ bản, có kiến thức chuyên môn sâu về Quản lý thủy sản và kỹ năng nghiệp vụ thành thạo, có khả năng làm việc độc lập, đảm nhận trực tiếp công tác kỹ thuật và quản lý tại các cơ sở dịch vụ, nghiên cứu, đào tạo có liên quan đến thủy sản; có nhận thức chính trị và phẩm chất đạo đức tốt; có sức khỏe; tôn trọng nghề nghiệp; có khả năng tiếp tục học tập ở các bậc học sau đại học nhằm đáp ứng nhu cầu của xã hội trong sự nghiệp phát triển khoa học công nghệ về lĩnh vực thủy sản."
                 ],
@@ -3898,7 +3898,6 @@
     {   "number":74,
         "majorCode": "7850101",
         "majorName": "Quản lý tài nguyên và môi trường",
-        "videoId": "c4CNjcf-X_s",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Môi trường & TNTN",
@@ -3925,6 +3924,7 @@
         "specializations": [
             {
                 "specializationName": "Quản lý tài nguyên và môi trường",
+                "videoId": "c4CNjcf-X_s",
                 "objectives": [
                 "Xây dựng và thực hiện dự án bảo tồn đa dạng sinh học",                
                 "Đánh giá chất lượng môi trường",
@@ -3951,7 +3951,6 @@
     {   "number":75,
         "majorCode": "7850102",
         "majorName": "Kinh tế tài nguyên thiên nhiên",
-        "videoId": "_Q9nCTuaHd4",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Kinh tế",
@@ -3978,6 +3977,7 @@
         "specializations": [
             {
                 "specializationName": "Kinh tế tài nguyên thiên nhiên",
+                "videoId": "_Q9nCTuaHd4",
                 "objectives": [
                "Chương trình đào tạo cử nhân ngành Kinh tế tài nguyên thiên nhiên hướng đến đào tạo nguồn nhân lực có chất lượng trong lĩnh vực kinh tế tài nguyên và môi trường theo định hướng chuyên nghiệp. Sau khi học xong chương trình, người học: có phẩm chất chính trị, tư cách đạo đức, sức khỏe tốt, và có trách nhiệm với xã hội; Có kiến thức căn bản về kinh tế – xã hội, kiến thức chuyên sâu về cơ sở ngành và chuyên ngành; Có khả năng phân tích kinh tế các giá trị tài nguyên thiên nhiên, các dự án về tài nguyên và môi trường, các chính sách môi trường và quản lý tài nguyên ở các cấp khác nhau, các chính sách thích ứng và giảm thiểu biến đổi khí hậu; và Phát triển những kỹ năng cần thiết để tiếp tục tự học, tự nghiên cứu trong lĩnh vực chuyên ngành, và có khả năng thích nghi với sự thay đổi của môi trường làm việc."
              ],
@@ -3999,7 +3999,6 @@
     {   "number":76,
         "majorCode": "7850103",
         "majorName": "Quản lý đất đai",
-        "videoId": "LqWzxihmYvs",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Môi trường & TNTN",
@@ -4027,6 +4026,7 @@
         "specializations": [
             {
                 "specializationName": "Quản lý đất đai",
+                "videoId": "LqWzxihmYvs",
                 "objectives": [
                 "Đào tạo kỹ sư quản lý đất đai có phẩm chất chính trị, đạo đức nghề nghiệp và sức khỏe tốt, giao tiếp xã hội tốt, có khả năng quản lý, tổ chức sản xuất và chuyển giao kỹ thuật chuyên ngành Quản lý đất đai. Sau khi tốt nghiệp có thể đáp ứng được các vị trí công việc tại các cơ quan sự nghiệp nhà nước; các trường đại học, cao đẳng,  học viện và viện nghiên cứu; các cơ quan, tổ chức của chính phủ và phi chính phủ trong lĩnh vực Quản lý đất đai."
                 ],
