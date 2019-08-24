@@ -33,16 +33,13 @@ class _MajorCardState extends State<MajorCard> {
               ? widget.major.specializations[0].videoId.length == 11
                   ? Hero(
                       tag: widget.major.specializations[0].videoId,
-                      child: YoutubePlayer(
-                          key: new GlobalKey(),
-                          context: context,
-                          videoId: widget.major.specializations[0].videoId,
-                          flags: YoutubePlayerFlags(
-                              autoPlay: false,
-                              hideControls: true,
-                              mute: true,
-                              showVideoProgressIndicator: true,
-                              hideFullScreenButton: true)),
+                      child: AspectRatio(
+                        aspectRatio: 16 / 9,
+                        child: FittedBox(
+                          fit: BoxFit.fitWidth,
+                          child: Image.network("https://img.youtube.com/vi/${widget.major.specializations[0].videoId}/hqdefault.jpg"),
+                        )
+                      )
                     )
                   : Text("Video Id Invalid")
               : Text("Video not found"),

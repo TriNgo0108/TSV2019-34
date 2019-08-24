@@ -26,6 +26,7 @@ class _MajorDetailState extends State<MajorDetail> {
               key: new GlobalKey(),
               context: context,
               videoId: widget.major.specializations[0].videoId,
+              thumbnailUrl: "https://img.youtube.com/vi/${widget.major.specializations[0].videoId}/hqdefault.jpg",
               flags: YoutubePlayerFlags(
                 autoPlay: true,
                 showVideoProgressIndicator: true,
