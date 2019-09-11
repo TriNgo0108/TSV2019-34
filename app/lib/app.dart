@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
         '/': (context) => MyHomePage(),
         '/welcome': (context) => Welcome(),
       },
-      // initialRoute: '/welcome',
+      initialRoute: '/welcome',
     );
   }
 }
