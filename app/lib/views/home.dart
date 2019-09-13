@@ -4,6 +4,7 @@ import 'package:app/views/widgets/fab.dart';
 import 'package:app/views/widgets/major_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -14,8 +15,12 @@ class _MyHomePageState extends State<MyHomePage> {
   
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text("Trang chủ"),),
+    return  Scaffold(
+      appBar: AppBar(title: Text("Trang chủ"),actions: <Widget>[
+        IconButton(icon: Icon(FontAwesomeIcons.robot) , onPressed: (){
+          Navigator.pushNamed(context, '/chatbot');
+        })
+      ],),
       drawer: DrawerMenu(),
       floatingActionButton: Fab(),
       body: SafeArea(

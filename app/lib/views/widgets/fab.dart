@@ -4,14 +4,11 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class Fab extends StatefulWidget {
-
-
   @override
   _FabState createState() => _FabState();
 }
 
-class _FabState extends State<Fab>
-    with SingleTickerProviderStateMixin {
+class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
   void _launchURL(String url, BuildContext context) async {
     if (await canLaunch(url)) {
       Navigator.pushNamed(context, '/${url}');
@@ -77,6 +74,7 @@ class _FabState extends State<Fab>
     }
     isOpened = !isOpened;
   }
+
 // tạo child floating action button sử dụng web view
   Widget webView(
     String name,
@@ -97,17 +95,13 @@ class _FabState extends State<Fab>
                 name,
                 style: TextStyle(
                   fontSize: 24,
-                  color: Colors.white,
                 ),
                 textAlign: TextAlign.center,
               ),
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-                  color: Colors.blue.shade300,
-                  boxShadow: [
-                    BoxShadow(
-                        offset: Offset(0, 1), blurRadius: 4, color: Colors.grey)
-                  ]),
+                border: Border.all()
+                  ),
             ),
             opacity: _animateIcon,
           ),
@@ -126,6 +120,7 @@ class _FabState extends State<Fab>
       ),
     );
   }
+
 // tạo child floating action button sử dụng ứng dụng hệ thống
   Widget application(
     String name,
@@ -144,16 +139,13 @@ class _FabState extends State<Fab>
               height: 30,
               child: Text(
                 name,
-                style: TextStyle(fontSize: 24, color: Colors.white),
+                style: TextStyle(fontSize: 24, ),
                 textAlign: TextAlign.center,
               ),
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-                  color: Colors.blue.shade300,
-                  boxShadow: [
-                    BoxShadow(
-                        offset: Offset(0, 1), blurRadius: 4, color: Colors.grey)
-                  ]),
+                border: Border.all()
+                 ),
             ),
             opacity: _animateIcon,
           ),
@@ -172,6 +164,7 @@ class _FabState extends State<Fab>
       ),
     );
   }
+
 // tạo floating action button gốc
   Widget toggle() {
     return Container(
@@ -193,9 +186,9 @@ class _FabState extends State<Fab>
       ),
     );
   }
-
-  Widget appearButton(Widget child(String titleName, String url, IconData icon), String titleName,
-      String url, icon, index) {
+// floating action button với hiệu ứng transform
+  Widget appearButton(Widget child(String titleName, String url, IconData icon),
+      String titleName, String url, icon, index) {
     return Transform(
       transform: Matrix4.translationValues(
         0.0,
@@ -208,41 +201,47 @@ class _FabState extends State<Fab>
 
   @override
   Widget build(BuildContext context) {
-    final height = MediaQuery.of(context).size.height;
-    final width = MediaQuery.of(context).size.width;
     return Stack(
         alignment: Alignment.bottomLeft,
         fit: StackFit.expand,
         overflow: Overflow.visible,
         children: <Widget>[
-          isOpened ?Positioned(
-            right: -16.0,
-            left: -16,
-            top: -10,
-            bottom: -16,
-            child: FadeTransition(
-              opacity: _animateIcon,
-              child: Container(
-                color: Colors.grey.withOpacity(0.8),
-                height: height,
-                width: width,
-                child: Image.asset('assets/images/Agate.jpg'),
-              ),
-            ),
-          ): SizedBox(),
+          isOpened
+              ? Positioned(
+                  right: -16.0,
+                  left: -16,
+                  top: -10,
+                  bottom: -16,
+                  child: FadeTransition(
+                    opacity: _animateIcon,
+                    child: Container(
+                      color: Colors.white,
+                      child: Opacity(
+                        child: FittedBox(
+                          child: Image.asset(
+                            'assets/images/Agate.jpg',
+                          ),
+                          fit: BoxFit.fill,
+                        ),
+                        opacity: 0.5,
+                      ),
+                    ),
+                  ),
+                )
+              : SizedBox(),
           Column(
               mainAxisAlignment: MainAxisAlignment.end,
               crossAxisAlignment: CrossAxisAlignment.end,
               children: <Widget>[
-                appearButton(application, 'Điện thoại',"tel:02923872728" ,
+                appearButton(application, 'Điện thoại', "tel:02923872728",
                     Icons.phone, 6),
-                appearButton(webView, 'Thông tin tuyển sinh' ,'https://tuyensinh.ctu.edu.vn',
-                    Icons.language, 5),
-                appearButton(webView, 'Tân sinh viên' ,"http://tansinhvien.ctu.edu.vn",
-                    Icons.language, 4),
-                appearButton(application, 'Email' ,"mailto:tuyensinh@ctu.edu.vn",
-                    Icons.email, 3),
-                appearButton(application, 'Messenger',"http://m.me/ctu.tvts" ,
+                appearButton(webView, 'Thông tin tuyển sinh',
+                    'https://tuyensinh.ctu.edu.vn', Icons.language, 5),
+                appearButton(webView, 'Tân sinh viên',
+                    "http://tansinhvien.ctu.edu.vn", Icons.language, 4),
+                appearButton(application, 'Email',
+                    "mailto:tuyensinh@ctu.edu.vn", Icons.email, 3),
+                appearButton(application, 'Messenger', "http://m.me/ctu.tvts",
                     FontAwesomeIcons.facebookMessenger, 2),
                 appearButton(webView, 'Facebook', 'https://fb.me/ctu.tvts',
                     FontAwesomeIcons.facebook, 1),

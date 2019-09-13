@@ -1,3 +1,4 @@
+import 'package:app/views/widgets/chatBot.dart';
 import 'package:flutter/material.dart';
 import './views/home.dart';
 import './views/welcome.dart';
@@ -25,8 +26,9 @@ class _MyAppState extends State<MyApp> {
         '/https://fb.me/ctu.tvts': (context)=>WebViewContainer(url: "https://fb.me/ctu.tvts",title: 'Đại học Cần Thơ',),
         '/https://tuyensinh.ctu.edu.vn': (context)=>WebViewContainer(url: "https://tuyensinh.ctu.edu.vn",title: 'Thông tin tuyển sinh',),
         '/http://tansinhvien.ctu.edu.vn': (context)=>WebViewContainer(url: 'http://tansinhvien.ctu.edu.vn',title: 'Tân sinh viên',),
+        '/chatbot':(context)=>BotDialogFlow(title: 'Tư vấn cùng Kelly',)
       },
-      //initialRoute: '/welcome',
+      initialRoute: '/welcome',
     );
   }
 }
