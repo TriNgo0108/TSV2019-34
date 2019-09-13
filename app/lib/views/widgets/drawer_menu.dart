@@ -7,7 +7,7 @@ class DrawerMenu extends StatelessWidget {
 
   void _launchURL(String url, BuildContext context) async {
     if (await canLaunch(url)) {
-      await launch(url);
+      Navigator.pushNamed(context, '/${url}');
     } else {
        Toast.show('Không thể truy cập $url', context, duration: Toast.LENGTH_LONG);
     }
@@ -31,28 +31,28 @@ class DrawerMenu extends StatelessWidget {
                       icon: Icon(Icons.call),
                       color: Colors.white,
                       onPressed: () => {
-                        _launchURL("tel:02923872728", context)
+                        launch("tel:02923872728")
                       },
                     ),
                     IconButton(
                       icon: Icon(Icons.mail),
                       color: Colors.white,
                       onPressed: () => {
-                        _launchURL("mailto:tuyensinh@ctu.edu.vn", context)
+                        launch("mailto:tuyensinh@ctu.edu.vn")
                       },
                     ),
                     IconButton(
                       icon: Icon(FontAwesomeIcons.facebookMessenger),
                       color: Colors.white,
                       onPressed: () => {
-                        _launchURL("http://m.me/ctu.tvts", context)
+                        launch("http://m.me/ctu.tvts")
                       },
                     ),
                     IconButton(
                       icon: Icon(FontAwesomeIcons.viber),
                       color: Colors.white,
                       onPressed: () => {
-                        _launchURL("http://zalo.me/0886889922", context)
+                        launch("http://zalo.me/0886889922")
                       },
                     ),
                 ],)

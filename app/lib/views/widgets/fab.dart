@@ -4,11 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class Fab extends StatefulWidget {
-  final Function() onPressed;
-  final String tooltip;
-  final IconData icon;
 
-  Fab({this.onPressed, this.tooltip, this.icon});
 
   @override
   _FabState createState() => _FabState();
@@ -219,7 +215,7 @@ class _FabState extends State<Fab>
         fit: StackFit.expand,
         overflow: Overflow.visible,
         children: <Widget>[
-          Positioned(
+          isOpened ?Positioned(
             right: -16.0,
             left: -16,
             top: -10,
@@ -230,10 +226,10 @@ class _FabState extends State<Fab>
                 color: Colors.grey.withOpacity(0.8),
                 height: height,
                 width: width,
-                child: Image.asset('images/dhct.png'),
+                child: Image.asset('assets/images/Agate.jpg'),
               ),
             ),
-          ),
+          ): SizedBox(),
           Column(
               mainAxisAlignment: MainAxisAlignment.end,
               crossAxisAlignment: CrossAxisAlignment.end,

@@ -1,5 +1,6 @@
 import 'package:app/models/majors.dart';
 import 'package:app/views/widgets/drawer_menu.dart';
+import 'package:app/views/widgets/fab.dart';
 import 'package:app/views/widgets/major_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -16,6 +17,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(title: Text("Trang chủ"),),
       drawer: DrawerMenu(),
+      floatingActionButton: Fab(),
       body: SafeArea(
         child: FutureBuilder(
           future: getMajorsList(),
