@@ -15,6 +15,7 @@ dependencies:
   url_launcher: ^5.1.2
   webview_flutter: ^0.3.14
   flutter_dialogflow: ^0.1.2
+  connectivity: ^0.4.4
   
 dev_dependencies:
   flutter_test:

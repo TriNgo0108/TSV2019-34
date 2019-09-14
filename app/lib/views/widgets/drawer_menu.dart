@@ -89,7 +89,7 @@ class DrawerMenu extends StatelessWidget {
             leading: Icon(Icons.location_on),
             title: Text("Khu II, Đường 3 tháng 2"),
             subtitle: Text("Q. Ninh Kiều, TP. Cần Thơ."),
-            onTap: () => { _launchURL("https://goo.gl/maps/LcoVLjBFxPUtzAYh9", context) },
+            onTap: () => { launch("https://goo.gl/maps/LcoVLjBFxPUtzAYh9") },
           ),
         ],
       ),

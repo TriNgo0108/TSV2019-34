@@ -100,7 +100,7 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
               ),
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-                border: Border.all()
+                border: Border.all(width: 0.8)
                   ),
             ),
             opacity: _animateIcon,
@@ -135,7 +135,7 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
           FadeTransition(
             child: Container(
               padding: EdgeInsets.only(left: 10),
-              width: 175,
+              width: 250,
               height: 30,
               child: Text(
                 name,
@@ -144,7 +144,7 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
               ),
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-                border: Border.all()
+                border: Border.all(width: 0.8)
                  ),
             ),
             opacity: _animateIcon,
