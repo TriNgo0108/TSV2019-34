@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
         '/http://tansinhvien.ctu.edu.vn': (context)=>WebViewContainer(url: 'http://tansinhvien.ctu.edu.vn',title: 'Tân sinh viên',),
         '/chatbot':(context)=>BotDialogFlow(title: 'Tư vấn cùng Kelly',)
       },
-      initialRoute: '/welcome',
+      //initialRoute: '/welcome',
     );
   }
 }

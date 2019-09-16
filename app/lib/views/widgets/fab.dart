@@ -216,18 +216,32 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
                     opacity: _animateIcon,
                     child: Container(
                       color: Colors.white,
-                      child: Opacity(
                         child: FittedBox(
                           child: Image.asset(
-                            'assets/images/Agate.jpg',
+                            'assets/images/Agate.png',
                           ),
                           fit: BoxFit.fill,
                         ),
-                        opacity: 0.5,
-                      ),
                     ),
                   ),
                 )
+              : SizedBox(),
+          isOpened
+              ? Positioned(
+            right: -16.0,
+            left: -16,
+            top: -10,
+            bottom: -16,
+            child: FadeTransition(
+              opacity: _animateIcon,
+              child: Opacity(
+                child: Container(
+                  color: Colors.white,
+                ),
+                opacity: 0.9,
+              ),
+            ),
+          )
               : SizedBox(),
           Column(
               mainAxisAlignment: MainAxisAlignment.end,
