@@ -25,6 +25,7 @@ class CollegeDetailPage extends StatelessWidget {
                       titlePadding: EdgeInsets.fromLTRB(70, 5, 0, 5),
                       title: Row(
                         children: <Widget>[
+                          // logo của khoa
                           CircleAvatar(
                             backgroundImage: AssetImage(college.logoPath),
                             backgroundColor: Colors.transparent,
@@ -34,6 +35,7 @@ class CollegeDetailPage extends StatelessWidget {
                           ),
                           Hero(
                             tag: "name-${college.name}",
+                            // nếu tên của khoa lớn hơn 15 kí tự thì sẽ dùng tên viết tắt của khoa
                             child: Text(
                                 college.name.length > 15
                                     ? college.shortName

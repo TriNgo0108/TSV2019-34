@@ -29,6 +29,7 @@ class _CollegeWidgetState extends State<CollegeWidget> {
                   builder: (context) => CollegeDetailPage(
                         college: widget.college,
                       )));
+          // chuyển đến trang giới thiệu khoa
         },
         child: AnimatedBuilder(
           animation: widget.pageController,
@@ -58,6 +59,7 @@ class _CollegeWidgetState extends State<CollegeWidget> {
                           )
                         ]
                       ),
+                      // bo cong hình nền của widget
                       child: ClipRRect(
                         borderRadius: new BorderRadius.circular(8.0),
                         child: Image.asset(
