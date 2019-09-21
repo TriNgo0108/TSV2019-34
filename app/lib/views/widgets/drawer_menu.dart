@@ -7,7 +7,7 @@ class DrawerMenu extends StatelessWidget {
 
   void _launchURL(String url, BuildContext context) async {
     if (await canLaunch(url)) {
-      await launch(url);
+      Navigator.pushNamed(context, '/${url}');
     } else {
        Toast.show('Không thể truy cập $url', context, duration: Toast.LENGTH_LONG);
     }
@@ -31,28 +31,28 @@ class DrawerMenu extends StatelessWidget {
                       icon: Icon(Icons.call),
                       color: Colors.white,
                       onPressed: () => {
-                        _launchURL("tel:02923872728", context)
+                        launch("tel:02923872728")
                       },
                     ),
                     IconButton(
                       icon: Icon(Icons.mail),
                       color: Colors.white,
                       onPressed: () => {
-                        _launchURL("mailto:tuyensinh@ctu.edu.vn", context)
+                        launch("mailto:tuyensinh@ctu.edu.vn")
                       },
                     ),
                     IconButton(
                       icon: Icon(FontAwesomeIcons.facebookMessenger),
                       color: Colors.white,
                       onPressed: () => {
-                        _launchURL("http://m.me/ctu.tvts", context)
+                        launch("http://m.me/ctu.tvts")
                       },
                     ),
                     IconButton(
                       icon: Icon(FontAwesomeIcons.viber),
                       color: Colors.white,
                       onPressed: () => {
-                        _launchURL("http://zalo.me/0886889922", context)
+                        launch("http://zalo.me/0886889922")
                       },
                     ),
                 ],)
@@ -65,19 +65,13 @@ class DrawerMenu extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.info),
             title: Text("Giới thiệu"),
+            onTap: ()=>{Navigator.pushNamed(context, '/introduce')},
           ),
           Divider(),
           ListTile(
-            leading: Icon(Icons.language),
-            title: Text("Thông tin tuyển sinh"),
-            subtitle: Text("https://tuyensinh.ctu.edu.vn"),
-            onTap: () => { _launchURL("https://tuyensinh.ctu.edu.vn", context) },
-          ),
-          ListTile(
-            leading: Icon(Icons.language),
-            title: Text("Tân sinh viên"),
-            subtitle: Text("http://tansinhvien.ctu.edu.vn"),
-            onTap: () => { _launchURL("https://tuyensinh.ctu.edu.vn", context) },
+            leading: Icon(FontAwesomeIcons.school),
+            title: Hero(child: Text('Thông tin các khoa'),tag: 'thong_tin_khoa',),
+            onTap: ()=>{Navigator.pushNamed(context, '/college_info')},
           ),
           ListTile(
             leading: Icon(FontAwesomeIcons.facebook),
@@ -89,7 +83,7 @@ class DrawerMenu extends StatelessWidget {
             leading: Icon(Icons.location_on),
             title: Text("Khu II, Đường 3 tháng 2"),
             subtitle: Text("Q. Ninh Kiều, TP. Cần Thơ."),
-            onTap: () => { _launchURL("https://goo.gl/maps/LcoVLjBFxPUtzAYh9", context) },
+            onTap: () => { launch("https://goo.gl/maps/LcoVLjBFxPUtzAYh9") },
           ),
         ],
       ),
