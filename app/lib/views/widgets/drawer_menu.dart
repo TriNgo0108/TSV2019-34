@@ -65,19 +65,13 @@ class DrawerMenu extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.info),
             title: Text("Giới thiệu"),
+            onTap: ()=>{Navigator.pushNamed(context, '/introduce')},
           ),
           Divider(),
           ListTile(
-            leading: Icon(Icons.language),
-            title: Text("Thông tin tuyển sinh"),
-            subtitle: Text("https://tuyensinh.ctu.edu.vn"),
-            onTap: () => { _launchURL("https://tuyensinh.ctu.edu.vn", context) },
-          ),
-          ListTile(
-            leading: Icon(Icons.language),
-            title: Text("Tân sinh viên"),
-            subtitle: Text("http://tansinhvien.ctu.edu.vn"),
-            onTap: () => { _launchURL("https://tuyensinh.ctu.edu.vn", context) },
+            leading: Icon(FontAwesomeIcons.school),
+            title: Hero(child: Text('Thông tin các khoa'),tag: 'thong_tin_khoa',),
+            onTap: ()=>{Navigator.pushNamed(context, '/college_info')},
           ),
           ListTile(
             leading: Icon(FontAwesomeIcons.facebook),
