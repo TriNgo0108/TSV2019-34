@@ -88,20 +88,16 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
         children: <Widget>[
           FadeTransition(
             child: Container(
-              padding: EdgeInsets.only(left: 10),
-              width: 250,
-              height: 30,
+              width: 200,
+              height: 40,
               child: Text(
                 name,
                 style: TextStyle(
-                  fontSize: 24,
+                  fontSize: 20,
                 ),
                 textAlign: TextAlign.center,
               ),
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                border: Border.all(width: 0.8)
-                  ),
+
             ),
             opacity: _animateIcon,
           ),
@@ -135,17 +131,14 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
           FadeTransition(
             child: Container(
               padding: EdgeInsets.only(left: 10),
-              width: 250,
-              height: 30,
+              width: 200,
+              height: 40,
               child: Text(
                 name,
-                style: TextStyle(fontSize: 24, ),
+                style: TextStyle(fontSize: 20, ),
                 textAlign: TextAlign.center,
               ),
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                border: Border.all(width: 0.8)
-                 ),
+
             ),
             opacity: _animateIcon,
           ),
