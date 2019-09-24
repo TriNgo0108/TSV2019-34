@@ -23,6 +23,7 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
   Animation<Color> _buttonColor;
   Animation<double> _animateIcon;
   Animation<double> _translateButton;
+  Animation<double> _toggleButton;
   Curve _curve = Curves.easeOut;
   double _fabHeight = 56.0;
 
@@ -57,6 +58,8 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
         curve: _curve,
       ),
     ));
+    _toggleButton = Tween<double>(begin: 0, end: 45).animate(CurvedAnimation(
+        parent: _animationController, curve: Interval(0, 1, curve: _curve)));
     super.initState();
   }
 
@@ -97,7 +100,6 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
                 ),
                 textAlign: TextAlign.center,
               ),
-
             ),
             opacity: _animateIcon,
           ),
@@ -135,10 +137,11 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
               height: 40,
               child: Text(
                 name,
-                style: TextStyle(fontSize: 20, ),
+                style: TextStyle(
+                  fontSize: 20,
+                ),
                 textAlign: TextAlign.center,
               ),
-
             ),
             opacity: _animateIcon,
           ),
@@ -166,19 +169,19 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: <Widget>[
           FloatingActionButton(
-            heroTag: "toggle",
-            backgroundColor: _buttonColor.value,
-            onPressed: animate,
-            tooltip: 'Toggle',
-            child: AnimatedIcon(
-              icon: AnimatedIcons.menu_close,
-              progress: _animateIcon,
-            ),
-          ),
+              heroTag: "toggle",
+              backgroundColor: _buttonColor.value,
+              onPressed: animate,
+              tooltip: 'Toggle',
+              child: Transform.rotate(
+                angle: _toggleButton.value,
+                child: Icon(Icons.add),
+              )),
         ],
       ),
     );
   }
+
 // floating action button với hiệu ứng transform
   Widget appearButton(Widget child(String titleName, String url, IconData icon),
       String titleName, String url, icon, index) {
@@ -209,32 +212,32 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
                     opacity: _animateIcon,
                     child: Container(
                       color: Colors.white,
-                        child: FittedBox(
-                          child: Image.asset(
-                            'assets/images/Agate.png',
-                          ),
-                          fit: BoxFit.fill,
+                      child: FittedBox(
+                        child: Image.asset(
+                          'assets/images/Agate.png',
                         ),
+                        fit: BoxFit.fill,
+                      ),
                     ),
                   ),
                 )
               : SizedBox(),
           isOpened
               ? Positioned(
-            right: -16.0,
-            left: -16,
-            top: -10,
-            bottom: -16,
-            child: FadeTransition(
-              opacity: _animateIcon,
-              child: Opacity(
-                child: Container(
-                  color: Colors.white,
-                ),
-                opacity: 0.9,
-              ),
-            ),
-          )
+                  right: -16.0,
+                  left: -16,
+                  top: -10,
+                  bottom: -16,
+                  child: FadeTransition(
+                    opacity: _animateIcon,
+                    child: Opacity(
+                      child: Container(
+                        color: Colors.white,
+                      ),
+                      opacity: 0.9,
+                    ),
+                  ),
+                )
               : SizedBox(),
           Column(
               mainAxisAlignment: MainAxisAlignment.end,
