@@ -1,3 +1,6 @@
+import 'dart:async';
+
+import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dialogflow/dialogflow_v2.dart';
 import 'package:flutter_dialogflow/v2/auth_google.dart';
@@ -12,8 +15,30 @@ class BotDialogFlow extends StatefulWidget {
 }
 
 class _BotDialogFlow extends State<BotDialogFlow> {
+  Connectivity connectivity;
+  static bool _haveConnect=false;
+  StreamSubscription<ConnectivityResult> subscription;
+  @override
+  void initState() {
+    // TODO: implement initState
+    connectivity = new Connectivity();
+    subscription =
+        connectivity.onConnectivityChanged.listen((ConnectivityResult result) {
+          print(result.toString());
+          if (result == ConnectivityResult.wifi ||
+              result == ConnectivityResult.mobile) {
+            _haveConnect=true;
+          }
+          else _haveConnect=false;
+          setState(() {
+            _haveConnect;
+          });
+        });
+    super.initState();
+  }
   final List<ChatMessage> _messages = <ChatMessage>[];
   final TextEditingController _textController = new TextEditingController();
+
 
   Widget _buildTextComposer() {
     return new IconTheme(
@@ -43,6 +68,8 @@ class _BotDialogFlow extends State<BotDialogFlow> {
   }
 
   void Response(query) async {
+    ChatMessage message;
+    if (_haveConnect){
     _textController.clear();
     AuthGoogle authGoogle =
     await AuthGoogle(fileJson: "assets/jsons/credentials.json")
@@ -50,12 +77,19 @@ class _BotDialogFlow extends State<BotDialogFlow> {
     Dialogflow dialogflow =
     Dialogflow(authGoogle: authGoogle, language: Language.english);
     AIResponse response = await dialogflow.detectIntent(query);
-    ChatMessage message = new ChatMessage(
+    message = new ChatMessage(
       text: response.getMessage() ??
           new CardDialogflow(response.getListMessage()[0],).title,
       name: "Kelly",
       type: false,
     );
+  }
+    else{
+      message=ChatMessage(text: 'Kelly cần mạng để hoạt động',
+        name: "Kelly",
+        type: false,
+      );
+    }
     setState(() {
       _messages.insert(0, message);
     });
