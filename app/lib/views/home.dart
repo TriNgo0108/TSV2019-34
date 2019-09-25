@@ -16,7 +16,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   Connectivity connectivity;
-  static bool _haveConnect=false;
+  bool _haveConnect=false;
   StreamSubscription<ConnectivityResult> subscription;
   @override
   void initState() {

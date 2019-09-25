@@ -15,24 +15,23 @@ class BotDialogFlow extends StatefulWidget {
 }
 
 class _BotDialogFlow extends State<BotDialogFlow> {
-  Connectivity connectivity;
-  static bool _haveConnect=false;
+  final connectivity = new Connectivity();
+  bool _haveConnect=false;
   StreamSubscription<ConnectivityResult> subscription;
   @override
   void initState() {
     // TODO: implement initState
-    connectivity = new Connectivity();
+    connectivity.checkConnectivity().then((ConnectivityResult value){
+      print(value);
+      if (value != ConnectivityResult.none) _haveConnect=true;
+    });
     subscription =
         connectivity.onConnectivityChanged.listen((ConnectivityResult result) {
-          print(result.toString());
           if (result == ConnectivityResult.wifi ||
               result == ConnectivityResult.mobile) {
             _haveConnect=true;
           }
           else _haveConnect=false;
-          setState(() {
-            _haveConnect;
-          });
         });
     super.initState();
   }
