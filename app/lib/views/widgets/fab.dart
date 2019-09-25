@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:toast/toast.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'dart:math' as Math;
 
 class Fab extends StatefulWidget {
   @override
@@ -58,7 +59,7 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
         curve: _curve,
       ),
     ));
-    _toggleButton = Tween<double>(begin: 0, end: 45).animate(CurvedAnimation(
+    _toggleButton = Tween<double>(begin: 0, end: Math.pi /4).animate(CurvedAnimation(
         parent: _animationController, curve: Interval(0, 1, curve: _curve)));
     super.initState();
   }
