@@ -75,9 +75,7 @@ class _CollegeWidgetState extends State<CollegeWidget> {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: Hero(
-                          tag: "name-${widget.college.name}",
+                      padding: EdgeInsets.fromLTRB(16, 0 , 16, 20),
                           child: Material(
                             elevation: 4,
                             shadowColor: Colors.grey.shade400,
@@ -91,7 +89,7 @@ class _CollegeWidgetState extends State<CollegeWidget> {
                                 textAlign: TextAlign.center,
                               ),
                             ),
-                          )),
+                          ),
                     ),
                   ],
                 ),

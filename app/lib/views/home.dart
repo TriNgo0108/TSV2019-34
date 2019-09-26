@@ -15,21 +15,35 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  var _connectionStatus = 'Unknown';
   Connectivity connectivity;
+  bool _haveConnect=false;
   StreamSubscription<ConnectivityResult> subscription;
   @override
   void initState() {
     // TODO: implement initState
     connectivity = new Connectivity();
+    subscription =
+        connectivity.onConnectivityChanged.listen((ConnectivityResult result) {
+          print(result.toString());
+          if (result == ConnectivityResult.wifi ||
+              result == ConnectivityResult.mobile) {
+            _haveConnect=true;
+          }
+          else _haveConnect=false;
+          setState(() {
+            _haveConnect;
+          });
+        });
     super.initState();
   }
+
   @override
   void dispose() {
     // TODO: implement dispose
     subscription.cancel();
     super.dispose();
   }
+
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
@@ -41,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
       drawer: DrawerMenu(),
       floatingActionButton: Fab(),
       body: SafeArea(
-        child: FutureBuilder(
+        child: ! _haveConnect ? Center(child: Text('Cần mạng di động hoặc wifi để hoạt động'),) : FutureBuilder(
           future: getMajorsList(),
           builder: (context, AsyncSnapshot snapshot) {
             switch (snapshot.connectionState) {

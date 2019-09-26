@@ -27,7 +27,9 @@ class TopBar extends StatelessWidget implements PreferredSizeWidget {
                 tag: 'topBarBtn',
                 child: Card(
                   elevation: 10,
-                  shape: RoundedRectangleBorder(),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.only(bottomRight: Radius.circular(20))
+                  ),
                   child: MaterialButton(
                     height: 70,
                     minWidth: 70,

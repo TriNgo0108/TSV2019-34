@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:toast/toast.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'dart:math' as Math;
 
 class Fab extends StatefulWidget {
   @override
@@ -23,6 +24,7 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
   Animation<Color> _buttonColor;
   Animation<double> _animateIcon;
   Animation<double> _translateButton;
+  Animation<double> _toggleButton;
   Curve _curve = Curves.easeOut;
   double _fabHeight = 56.0;
 
@@ -57,6 +59,8 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
         curve: _curve,
       ),
     ));
+    _toggleButton = Tween<double>(begin: 0, end: Math.pi /4).animate(CurvedAnimation(
+        parent: _animationController, curve: Interval(0, 1, curve: _curve)));
     super.initState();
   }
 
@@ -88,20 +92,15 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
         children: <Widget>[
           FadeTransition(
             child: Container(
-              padding: EdgeInsets.only(left: 10),
-              width: 250,
-              height: 30,
+              width: 200,
+              height: 40,
               child: Text(
                 name,
                 style: TextStyle(
-                  fontSize: 24,
+                  fontSize: 20,
                 ),
                 textAlign: TextAlign.center,
               ),
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                border: Border.all(width: 0.8)
-                  ),
             ),
             opacity: _animateIcon,
           ),
@@ -135,17 +134,15 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
           FadeTransition(
             child: Container(
               padding: EdgeInsets.only(left: 10),
-              width: 250,
-              height: 30,
+              width: 200,
+              height: 40,
               child: Text(
                 name,
-                style: TextStyle(fontSize: 24, ),
+                style: TextStyle(
+                  fontSize: 20,
+                ),
                 textAlign: TextAlign.center,
               ),
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                border: Border.all(width: 0.8)
-                 ),
             ),
             opacity: _animateIcon,
           ),
@@ -173,19 +170,19 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: <Widget>[
           FloatingActionButton(
-            heroTag: "toggle",
-            backgroundColor: _buttonColor.value,
-            onPressed: animate,
-            tooltip: 'Toggle',
-            child: AnimatedIcon(
-              icon: AnimatedIcons.menu_close,
-              progress: _animateIcon,
-            ),
-          ),
+              heroTag: "toggle",
+              backgroundColor: _buttonColor.value,
+              onPressed: animate,
+              tooltip: 'Toggle',
+              child: Transform.rotate(
+                angle: _toggleButton.value,
+                child: Icon(Icons.add),
+              )),
         ],
       ),
     );
   }
+
 // floating action button với hiệu ứng transform
   Widget appearButton(Widget child(String titleName, String url, IconData icon),
       String titleName, String url, icon, index) {
@@ -216,32 +213,32 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
                     opacity: _animateIcon,
                     child: Container(
                       color: Colors.white,
-                        child: FittedBox(
-                          child: Image.asset(
-                            'assets/images/Agate.png',
-                          ),
-                          fit: BoxFit.fill,
+                      child: FittedBox(
+                        child: Image.asset(
+                          'assets/images/Agate.png',
                         ),
+                        fit: BoxFit.fill,
+                      ),
                     ),
                   ),
                 )
               : SizedBox(),
           isOpened
               ? Positioned(
-            right: -16.0,
-            left: -16,
-            top: -10,
-            bottom: -16,
-            child: FadeTransition(
-              opacity: _animateIcon,
-              child: Opacity(
-                child: Container(
-                  color: Colors.white,
-                ),
-                opacity: 0.9,
-              ),
-            ),
-          )
+                  right: -16.0,
+                  left: -16,
+                  top: -10,
+                  bottom: -16,
+                  child: FadeTransition(
+                    opacity: _animateIcon,
+                    child: Opacity(
+                      child: Container(
+                        color: Colors.white,
+                      ),
+                      opacity: 0.9,
+                    ),
+                  ),
+                )
               : SizedBox(),
           Column(
               mainAxisAlignment: MainAxisAlignment.end,
