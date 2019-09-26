@@ -244,7 +244,7 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
               mainAxisAlignment: MainAxisAlignment.end,
               crossAxisAlignment: CrossAxisAlignment.end,
               children: <Widget>[
-                appearButton(webView, 'Tại sao chọn ĐH Cần Thơ',
+                appearButton(webView, 'Lý do chọn ĐH Cần Thơ',
                     'https://tuyensinh.ctu.edu.vn/gioi-thieu/839-ly-do-de-hoc-tai-truong-dhct.html', Icons.star, 3),
                 appearButton(webView, 'Thông tin tuyển sinh',
                     'https://tuyensinh.ctu.edu.vn', Icons.person_add, 2),

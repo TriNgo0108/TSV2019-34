@@ -1,4 +1,3 @@
-import 'package:app/models/majors.dart';
 import 'package:app/providers/specialization.dart';
 import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
@@ -17,7 +16,7 @@ class _MajorDetailState extends State<MajorDetail> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.major.name),
+        title: Text("Thông tin ngành học"),
       ),
       body: Column(
         children: <Widget>[
@@ -69,8 +68,8 @@ Widget heading(String text) {
     child: Text(
       text, 
       style: TextStyle(
-          color: Colors.blue,
-          fontSize: 16
+          fontWeight: FontWeight.bold,
+          fontSize: 18
         )
       ),
   );
