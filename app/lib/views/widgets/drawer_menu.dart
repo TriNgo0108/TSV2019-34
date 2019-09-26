@@ -1,17 +1,9 @@
+import 'package:app/views/web_view.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:toast/toast.dart';
 
 class DrawerMenu extends StatelessWidget {
-
-  void _launchURL(String url, BuildContext context) async {
-    if (await canLaunch(url)) {
-      Navigator.pushNamed(context, '/${url}');
-    } else {
-       Toast.show('Không thể truy cập $url', context, duration: Toast.LENGTH_LONG);
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -47,14 +39,7 @@ class DrawerMenu extends StatelessWidget {
                       onPressed: () => {
                         launch("http://m.me/ctu.tvts")
                       },
-                    ),
-                    IconButton(
-                      icon: Icon(FontAwesomeIcons.viber),
-                      color: Colors.white,
-                      onPressed: () => {
-                        launch("http://zalo.me/0886889922")
-                      },
-                    ),
+                    )
                 ],)
               ],
             ),
@@ -65,7 +50,7 @@ class DrawerMenu extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.info),
             title: Text("Giới thiệu"),
-            onTap: ()=>{Navigator.pushNamed(context, '/introduce')},
+            onTap: () => { Navigator.pushNamed(context, '/web', arguments: WebViewArgs("https://tuyensinh.ctu.edu.vn/gioi-thieu/839-ly-do-de-hoc-tai-truong-dhct.html", "Lý do chọn trường ĐHCT")) },
           ),
           Divider(),
           ListTile(
@@ -77,7 +62,7 @@ class DrawerMenu extends StatelessWidget {
             leading: Icon(FontAwesomeIcons.facebook),
             title: Text("Facebook"),
             subtitle: Text("@ctu.tvts"),
-            onTap: () => { _launchURL("https://fb.me/ctu.tvts", context) },
+            onTap: () => { launch("https://fb.me/ctu.tvts") },
           ),
           ListTile(
             leading: Icon(Icons.location_on),

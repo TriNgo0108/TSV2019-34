@@ -1,7 +1,7 @@
 import 'package:app/models/college.dart';
 import 'package:app/models/majors.dart';
 import 'package:app/views/widgets/major_card.dart';
-import 'package:app/views/widgets/web_view_Container.dart';
+import 'package:app/views/web_view.dart';
 import 'package:flutter/material.dart';
 
 class CollegeDetailPage extends StatelessWidget {
@@ -64,9 +64,9 @@ class CollegeDetailPage extends StatelessWidget {
                           color: Colors.white,
                         ),
                         onPressed: ()=> {
-                          Navigator.push(context, MaterialPageRoute(
-                            builder: (context)=>WebViewContainer(url: college.web,title: college.name,)
-                          ))
+                          // Navigator.push(context, MaterialPageRoute(
+                          //   builder: (context) => WebViewContainer()
+                          // ))
                         }
                     )
                   ],
