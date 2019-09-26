@@ -34,12 +34,12 @@ class CollegeDetailPage extends StatelessWidget {
                             width: 5,
                           ),
                           Hero(
-                            tag: "name-${college.name}",
+                            tag: "name-${college.fullName}",
                             // nếu tên của khoa lớn hơn 15 kí tự thì sẽ dùng tên viết tắt của khoa
                             child: Text(
-                                college.name.length > 15
+                                college.fullName.length > 15
                                     ? college.shortName
-                                    : college.name,
+                                    : college.fullName,
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 16.0,
@@ -82,7 +82,7 @@ class CollegeDetailPage extends StatelessWidget {
               children: <Widget>[
                 Padding(
                   padding: const EdgeInsets.only(top: 20,right: 10),
-                  child: Text('${college.name.length>15 ? college.shortName : college.name} có ${college.numberOfMajor} ngành đào tạo bậc đại học',style: TextStyle(
+                  child: Text('${college.fullName.length>15 ? college.shortName : college.fullName}',style: TextStyle(
                     fontSize: 16,fontWeight: FontWeight.bold,
                   ),
                   ),

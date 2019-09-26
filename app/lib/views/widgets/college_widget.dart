@@ -81,7 +81,7 @@ class _CollegeWidgetState extends State<CollegeWidget> {
                             shadowColor: Colors.grey.shade400,
                             child: Container(
                               child: Text(
-                                widget.college.name,
+                                widget.college.fullName,
                                 style: TextStyle(
                                   fontSize: 28 * value,
                                   fontWeight: FontWeight.bold,

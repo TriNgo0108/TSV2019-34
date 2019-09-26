@@ -55,7 +55,7 @@
         "majorName": "Giáo dục Công dân",
         "intendTime": "4",
         "title": "Cử nhân",
-        "collegeName": "Khoa khoa học Chính trị",
+        "collegeName": "Khoa Khoa học Chính trị",
         "collegeImage": "kkhct.png",
         "inputRequest": [
             {
@@ -885,7 +885,7 @@
         "majorName": "Triết học",
         "intendTime": "4",
         "title": "Cử nhân",
-        "collegeName": "Khoa Khoa học chính trị",
+        "collegeName": "Khoa Khoa học Chính trị",
         "collegeImage": "kkhct.png",
         "inputRequest": [
             {
@@ -934,7 +934,7 @@
         "majorName": "Chính trị học",
         "intendTime": "4",
         "title": "Cử nhân",
-        "collegeName": "Khoa Khoa học chính trị",
+        "collegeName": "Khoa Khoa học Chính trị",
         "collegeImage": "kkhct.png",
         "inputRequest": [
             {
@@ -1637,7 +1637,7 @@
         "majorName": "Sinh học",
         "intendTime": "4",
         "title": "Cử nhân",
-        "collegeName": "Khoa Khoa học tự nhiên",
+        "collegeName": "Khoa Khoa học Tự nhiên",
         "collegeImage": "kkhtm.png",
         "inputRequest": [
             {
@@ -1761,7 +1761,7 @@
         "majorName": "Sinh học ứng dụng",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -1809,7 +1809,7 @@
         "majorName": "Hóa học",
         "intendTime": "4",
         "title": "Cử nhân",
-        "collegeName": "Khoa Khoa Học Tự Nhiên",
+        "collegeName": "Khoa Khoa học Tự nhiên",
         "collegeImage": "kkhtn.png",
         "inputRequest": [
             {
@@ -1860,7 +1860,7 @@
         "majorName": "Hóa dược",
         "intendTime": "4",
         "title": "Cử nhân",
-        "collegeName": "Khoa Khoa Học Tự Nhiên",
+        "collegeName": "Khoa Khoa học Tự nhiên",
         "collegeImage": "kkhtn.png",
         "inputRequest": [
             {
@@ -1910,7 +1910,7 @@
         "majorName": "Khoa học môi trường",
         "intendTime": "4",
         "title": "kỹ sư",
-        "collegeName": "Khoa Môi trường & TNTN ",
+        "collegeName": "Khoa Môi trường & TNTN",
         "collegeImage": "kmt.png",
         "inputRequest": [
             {
@@ -1963,7 +1963,7 @@
         "majorName": "Khoa học đất",
         "intendTime": "4",
         "title": "kỹ sư",
-        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -2021,7 +2021,7 @@
         "majorName": "Toán ứng dụng",
         "intendTime": "4",
         "title": "cử nhân",
-        "collegeName": "Khoa Khoa học Tự nhiên ",
+        "collegeName": "Khoa Khoa học Tự nhiên",
         "collegeImage": "khtn.png",
         "inputRequest": [
             {
@@ -2072,7 +2072,7 @@
         "majorName": "Khoa học máy tính",
         "intendTime": "4.5",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Khoa học Tự nhiên ",
+        "collegeName": "Khoa Khoa học Tự nhiên",
         "collegeImage": "khtn.png",
         "inputRequest": [
             {
@@ -2498,7 +2498,7 @@
         "majorName": "Kỹ thuật cơ khí",
         "intendTime": "4.5",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -2953,7 +2953,7 @@
         "majorName": "Công nghệ thực phẩm",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông nghiệp và SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -3006,7 +3006,7 @@
         "majorName": "Công nghệ sau thu hoạch",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông nghiệp và SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -3258,7 +3258,7 @@
         "majorName": "Kỹ thuật tài nguyên nước",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Môi trường và Tài nguyên Thiên nhiên",
+        "collegeName": "Khoa Môi trường & TNTN",
         "collegeImage": "kmt.png",
         "inputRequest": [
             {
@@ -3310,7 +3310,7 @@
         "majorName": "Chăn nuôi",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -3360,7 +3360,7 @@
         "majorName": "Nông học",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -3407,7 +3407,7 @@
         "majorName": "Khoa học cây trồng",
         "intendTime": "4.5",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -3493,7 +3493,7 @@
         "majorName": "Bảo vệ thực vật",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa NN & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -3542,7 +3542,7 @@
         "majorName": "Công nghệ rau hoa quả và cảnh quan",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa NN & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -3833,7 +3833,7 @@
         "majorName": "Thú y",
         "intendTime": "5",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -4351,7 +4351,7 @@
         "majorName": "Công nghệ thông tin",
         "intendTime": "4.5",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Công nghệ Thông tin và Truyền thông",
+        "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
         "collegeImage": "kcntt.png",
         "inputRequest": [
             {
@@ -4888,7 +4888,7 @@
         "majorName": "Công nghệ thông tin (CTCLC)",
         "intendTime": "4.5",
         "title": "Kỹ sư",
-        "collegeName": "Công nghệ Thông tin và Truyền thông",
+        "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
         "collegeImage": "kcntt.png",
         "inputRequest": [
             {

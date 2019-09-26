@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import './widgets/question.dart';
 
-class Welcome extends StatefulWidget {
+class Poll extends StatefulWidget {
   @override
-  _WelcomeState createState() => _WelcomeState();
+  _PollState createState() => _PollState();
 }
 
-class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
+class _PollState extends State<Poll> with SingleTickerProviderStateMixin {
   TabController _tabController;
   bool _isFirstPage = true;
   bool _isLastPage = false;
@@ -26,7 +26,7 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
     },
     {
       "question": "Chọn 2 môn mà bạn giỏi nhất?",
-      "answers": ["Toán", "Lý", "Hóa", "Văn", "Anh Văn"]
+      "answers": ["Toán", "Lý", "Hóa", "Sinh", "Anh Văn", "Văn"]
     },
     {
       "question": "Bạn thích nhóm ngành nào?",

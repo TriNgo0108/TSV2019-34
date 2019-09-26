@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:app/providers/specialization.dart';
 import 'package:app/views/major_detail.dart';
 import 'package:flutter/material.dart';
@@ -31,7 +33,7 @@ class MajorCard extends StatelessWidget {
                         aspectRatio: 16 / 9,
                         child: FittedBox(
                           fit: BoxFit.fitWidth,
-                          child: Image.network("https://img.youtube.com/vi/${major.videoId}/hqdefault.jpg"),
+                          child: Image.file(File(major.imgPath)),
                         )
                       )
                     )

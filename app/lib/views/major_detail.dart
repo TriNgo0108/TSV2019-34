@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:app/providers/specialization.dart';
 import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
@@ -12,6 +14,8 @@ class MajorDetail extends StatefulWidget {
 }
 
 class _MajorDetailState extends State<MajorDetail> {
+  bool isLoading = true;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,15 +26,34 @@ class _MajorDetailState extends State<MajorDetail> {
         children: <Widget>[
           widget.major.videoId != null ? Hero(
             tag: widget.major.videoId,
-            child: YoutubePlayer(
-              key: new GlobalKey(),
-              context: context,
-              videoId: widget.major.videoId,
-              thumbnailUrl: "https://img.youtube.com/vi/${widget.major.videoId}/hqdefault.jpg",
-              flags: YoutubePlayerFlags(
-                autoPlay: false,
-                showVideoProgressIndicator: true,
-              ),
+            child: Stack(
+              children: <Widget>[  
+                YoutubePlayer(
+                  key: new GlobalKey(),
+                  context: context,
+                  videoId: widget.major.videoId,
+                  thumbnailUrl: "https://img.youtube.com/vi/${widget.major.videoId}/hqdefault.jpg",
+                  flags: YoutubePlayerFlags(
+                    autoPlay: false,
+                    showVideoProgressIndicator: true,
+                  ),
+                  onPlayerInitialized: (controller) {
+                    controller.addListener(() {
+                      if (controller.value.isLoaded && isLoading)
+                        setState(() {
+                          isLoading = false;
+                        });
+                    });
+                  },
+                ),
+                isLoading ? AspectRatio(
+                  aspectRatio: 16 / 9,
+                  child: FittedBox(
+                    fit: BoxFit.fitWidth,
+                    child: Image.file(File(widget.major.imgPath))
+                  )
+                ) : Container()
+              ]
             ),
           ) : Text("Video not found"),
           Expanded(

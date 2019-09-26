@@ -4,7 +4,7 @@ import 'package:app/views/widgets/chatBot.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import './views/home.dart';
-import './views/welcome.dart';
+import './views/poll.dart';
 import 'theme.dart';
 import 'views/web_view.dart';
 
@@ -21,12 +21,12 @@ class _MyAppState extends State<MyApp> {
       child: MaterialApp(
         title: 'Tuyển Sinh CTU',
         theme: appTheme,
-        initialRoute: '/welcome',
+        initialRoute: '/poll',
         routes: {
           '/':              (context) => MyHomePage(),
-          '/welcome':       (context) => Welcome(),
+          '/poll':          (context) => Poll(),
           '/web':           (context) => WebViewContainer(),
-          '/chatbot':       (context) => BotDialogFlow(title: 'Tư vấn cùng Kelly',),
+          '/chatbot':       (context) => BotDialogFlow(),
           '/college_info':  (context) => CollegeInfo()
         },
       ),

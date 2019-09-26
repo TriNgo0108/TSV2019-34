@@ -48,9 +48,9 @@ class _CollegeInfoState extends State<CollegeInfo> {
               controller: _pageController,
               // tạo ra các college_widget widget
               children: <Widget>[
-                for (var i = 0; i < collegeList.length; i++)
+                for (var i = 0; i < colleges.length; i++)
                   CollegeWidget(
-                      college: collegeList[i],
+                      college: colleges[i],
                       pageController: _pageController,
                       currentPage: i)
               ],
