@@ -102,7 +102,8 @@ class CollegeDetailPage extends StatelessWidget {
                             padding: const EdgeInsets.fromLTRB(16, 30, 16, 16),
                             child: ListView.builder(
                                 itemCount: majors.length,
-                                itemBuilder: (context, index) => MajorCard(major: majors[index])
+                                itemBuilder: (context, index) => Text("major")
+                                //MajorCard(major: majors[index])
                             ),
                           );
                         }

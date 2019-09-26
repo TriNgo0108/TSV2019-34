@@ -1,10 +1,11 @@
 import 'package:app/models/majors.dart';
+import 'package:app/providers/specialization.dart';
 import 'package:app/views/major_detail.dart';
 import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class MajorCard extends StatefulWidget {
-  final Major major;
+  final Specialization major;
 
   MajorCard({Key key, @required this.major}) : super(key: key);
 
@@ -15,10 +16,10 @@ class MajorCard extends StatefulWidget {
 class _MajorCardState extends State<MajorCard> {
   @override
   Widget build(BuildContext context) {
-    if (widget.major.specializations[0].videoId == null) {
+    if (widget.major.videoId == null) {
       print(">>> Video not found");
-    } else if (widget.major.specializations[0].videoId.length != 11) {
-      print(">>> Invalid Video ID: " + widget.major.specializations[0].videoId);
+    } else if (widget.major.videoId.length != 11) {
+      print(">>> Invalid Video ID: " + widget.major.videoId);
     }
     return GestureDetector(
       onTap: () {
@@ -29,15 +30,15 @@ class _MajorCardState extends State<MajorCard> {
           },
       child: Column(
         children: <Widget>[
-          widget.major.specializations[0].videoId != null
-              ? widget.major.specializations[0].videoId.length == 11
+          widget.major.videoId != null
+              ? widget.major.videoId.length == 11
                   ? Hero(
-                      tag: widget.major.specializations[0].videoId,
+                      tag: widget.major.videoId,
                       child: AspectRatio(
                         aspectRatio: 16 / 9,
                         child: FittedBox(
                           fit: BoxFit.fitWidth,
-                          child: Image.network("https://img.youtube.com/vi/${widget.major.specializations[0].videoId}/hqdefault.jpg"),
+                          child: Image.network("https://img.youtube.com/vi/${widget.major.videoId}/hqdefault.jpg"),
                         )
                       )
                     )
@@ -45,7 +46,7 @@ class _MajorCardState extends State<MajorCard> {
               : Text("Video not found"),
           ListTile(
             title: Text(
-              widget.major.majorName.toUpperCase(),
+              widget.major.name.toUpperCase(),
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(fontWeight: FontWeight.w600),
