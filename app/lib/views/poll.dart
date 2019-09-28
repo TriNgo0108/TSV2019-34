@@ -16,12 +16,25 @@ class _PollState extends State<Poll> with SingleTickerProviderStateMixin {
     {
       "question": "Bạn dự định thi khối nào?",
       "answers": [
-        "A (Toán, Lý, Hóa)",
-        "A1 (Toán, Lý, AV)",
-        "A1 (Toán, Lý, AV)",
-        "A1 (Toán, Lý, AV)",
-        "A1 (Toán, Lý, AV)",
-        "A1 (Toán, Lý, AV)"
+        "A00 (Toán, Lý, Hóa)",
+        "A01 (Toán, Lý, AV)",
+        "A02 (Toán, Lý, Sinh)",
+        "B00 (Toán, Hóa, Sinh)",
+        "C00 (Văn, Sử, Địa)",
+        "C01 (Toán, Văn, Lý)",
+        "C02 (Toán, Văn, Hóa)",
+        "C19 (Văn, Sử, Giáo dục công dân)",
+        "D01 (Toán, Văn, Tiếng Anh)",
+        "D03 (Toán, Văn, Tiếng Pháp)",
+        "D07 (Toán, Hóa, Tiếng Anh)",
+        "D08 (Toán, Sinh, Tiếng Anh)",
+        "D14 (Văn, Sử, Tiếng Anh)",
+        "D15 (Văn, Địa, Tiếng Anh)",
+        "D24 (Toán, Hóa, Tiếng Pháp)",
+        "D29 (Toán, Lý, Tiếng Pháp)",
+        "D66 (Văn, GDCD, Tiếng Anh)",
+        "T00 (Toán, Sinh, Năng khiếu TDTT)",
+        "T01 (Toán, Hóa, Năng khiếu TDTT)"
       ]
     },
     {
