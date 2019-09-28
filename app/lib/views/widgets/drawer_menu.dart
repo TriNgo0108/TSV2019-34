@@ -48,7 +48,7 @@ class DrawerMenu extends StatelessWidget {
             ),
           ),
           ListTile(
-            leading: Icon(FontAwesomeIcons.school),
+            leading: Icon(Icons.business),
             title: Hero(child: Text('Danh sách khoa, viện'),tag: 'thong_tin_khoa',),
             onTap: ()=>{Navigator.pushNamed(context, '/college_info')},
           ),
