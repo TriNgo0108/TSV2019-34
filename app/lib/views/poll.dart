@@ -46,16 +46,15 @@ class _PollState extends State<Poll> with SingleTickerProviderStateMixin {
     {
       "question": "Bạn thích nhóm ngành nào?",
       "answers": [
-        "Nông - lâm - ngư nghiệp",
-        "Sư phạm",
         "Công nghệ thông tin",
         "Khoa học tự nhiên",
+        "Nông - Lâm - Ngư nghiệp",
         "Kinh doanh",
+        "Kỹ thuật",
         "Luật - nhân văn",
+        "Sư phạm",
         "Sản xuất và chế biến",
-        "Nghệ thuật - thẩm mỹ",
-        "Báo chí - khoa học xã hội",
-        "Kiến trúc và xây dựng"
+        "Kiến trúc và xây dựng",
       ]
     }
   ];

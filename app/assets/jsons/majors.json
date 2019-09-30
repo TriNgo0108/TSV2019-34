@@ -1566,7 +1566,7 @@
             }   
         ],
         "mainSubjects": ["Toán", "Ngữ văn"],
-        "majorGroup": "Nhóm ngành luật - nhân văn",
+        "majorGroup": "Luật - nhân văn",
         "seasons": [
             {
                 "year": 2018,
@@ -1647,7 +1647,7 @@
             }   
         ],
         "mainSubjects": ["Hóa", "Sinh"],
-        "majorGroup": " Nhóm ngành khoa học tự nhiên",
+        "majorGroup": "Khoa học tự nhiên",
         "seasons": [
             {
                 "year": 2018,
@@ -1842,7 +1842,7 @@
                 "jobs": [
                 "Cán bộ nghiên cứu trong các Viện, Trung tâm nghiên cứu, cơ sở có ứng dụng Hóa học.",
                 "Kiểm nghiệm viên, kỹ thuật viên trong các trung tâm phân tích, chi cục tiêu chuẩn đo lường chất lượng.",
-                "Nghiên cứu viên, kiểm nghiệm viên trong các Sở Khoa học và Công nghệ, sở Môi trường và Tài nguyên, các Công ty, xí nghiệp, nhà máy sản xuất và chế biến thuốc bảo vệ thực vật, phân bón, thuốc thú y, thuốc thủy sản, phẩm nhuộm, giày da, …",
+                "Nghiên cứu viên, kiểm nghiệm viên trong các Sở Khoa học và Công nghệ, sở Môi trường và Tài nguyên, các Công ty, xí nghiệp, nhà máy Sản xuất và chế biến thuốc bảo vệ thực vật, phân bón, thuốc thú y, thuốc thủy sản, phẩm nhuộm, giày da, …",
                 "Nhân viên kinh doanh hóa chất và thiết bị hóa học trong các Công ty mua bán và kinh doanh hóa chất và thiết bị hóa học.",
                 "Giảng viên, giáo viên giảng dạy các môn Hóa học trong các trường đại học, trường cao đẳng, trung học phổ thông (cần tích lũy thêm các học phần nghiệp vụ sư phạm)."
                 ],
@@ -1893,7 +1893,7 @@
                 "Cán bộ nghiên cứu trong các viện và trung tâm nghiên cứu, các phòng thí nghiệm trong và ngoài nước về lĩnh vực hóa dược.",
                 "Kiểm nghiệm viên mỹ phẩm, dược phẩm trong các trung tâm phân tích kiểm nghiệm mỹ phẩm, dược phẩm.",
                 "Nhân viên kinh doanh hóa chất và thiết bị hóa học trong công ty mua bán và kinh doanh hóa chất và thiết bị hóa học",
-                "Cán bộ quản lý sản xuất và kinh doanh hóa chất cho ngành dược trong các công ty, xí nghiệp dược phẩm; Các công ty, xí nghiệp, nhà máy sản xuất và chế biến thuốc thú y, thuốc thủy sản,…",
+                "Cán bộ quản lý sản xuất và kinh doanh hóa chất cho ngành dược trong các công ty, xí nghiệp dược phẩm; Các công ty, xí nghiệp, nhà máy Sản xuất và chế biến thuốc thú y, thuốc thủy sản,…",
                 "Giảng viên giảng dạy các môn liên quan đến Hóa học và Hóa Dược trong các Viện và trường đại học, trường cao đẳng (cần tích lũy thêm các học phần nghiệp vụ sư phạm)."
                 ],
                 "developAbilities": [
@@ -2072,8 +2072,8 @@
         "majorName": "Khoa học máy tính",
         "intendTime": "4.5",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Khoa học Tự nhiên",
-        "collegeImage": "khtn.png",
+        "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
+        "collegeImage": "kcntt.png",
         "inputRequest": [
             {
                 "testMethod": "A",
@@ -2082,7 +2082,7 @@
             }   
         ],
         "mainSubjects": ["Toán"],
-        "majorGroup": "công nghệ - thông tin",
+        "majorGroup": "Công nghệ thông tin",
         "seasons": [
             {
                 "year": 2018,
@@ -2129,7 +2129,7 @@
             }   
         ],
         "mainSubjects": ["Toán"],
-        "majorGroup": "công nghệ - thông tin",
+        "majorGroup": "Công nghệ thông tin",
         "seasons": [
             {
                 "year": 2018,
@@ -2180,7 +2180,7 @@
             }   
         ],
         "mainSubjects": ["Toán"],
-        "majorGroup": "công nghệ - thông tin",
+        "majorGroup": "Công nghệ thông tin",
         "seasons": [
             {
                 "year": 2018,
@@ -2228,7 +2228,7 @@
             }   
         ],
         "mainSubjects": ["Toán"],
-        "majorGroup": "công nghệ - thông tin",
+        "majorGroup": "Công nghệ thông tin",
         "seasons": [
             {
                 "year": 2018,
@@ -2508,7 +2508,7 @@
             }   
         ],
         "mainSubjects": ["Hóa", "Sinh"],
-        "majorGroup": " Nhóm ngành khoa học tự nhiên",
+        "majorGroup": "Khoa học tự nhiên",
         "seasons": [
             {
                 "year": 2018,
@@ -3062,7 +3062,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "sản xuất và chế biến",
+        "majorGroup": "Sản xuất và chế biến",
         "seasons": [
             {
                 "year": 2018,
@@ -3111,7 +3111,7 @@
             }   
         ],
         "mainSubjects": ["Toán","Lý"],
-        "majorGroup": "kiến trúc và xây dựng",
+        "majorGroup": "Kiến trúc và xây dựng",
         "seasons": [
             {
                 "year": 2018,
@@ -3162,7 +3162,7 @@
             }   
         ],
         "mainSubjects": ["Toán","Lý"],
-        "majorGroup": "kiến trúc và xây dựng",
+        "majorGroup": "Kiến trúc và xây dựng",
         "seasons": [
             {
                 "year": 2018,
@@ -3215,7 +3215,7 @@
             }   
         ],
         "mainSubjects": ["Toán","Lý"],
-        "majorGroup": "kiến trúc và xây dựng",
+        "majorGroup": "Kiến trúc và xây dựng",
         "seasons": [
             {
                 "year": 2018,
@@ -3320,7 +3320,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3370,7 +3370,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3417,7 +3417,7 @@
             }   
         ],
         "mainSubjects": ["Hóa", "Sinh"],
-        "majorGroup": " Nhóm ngành khoa học tự nhiên",
+        "majorGroup": "Khoa học tự nhiên",
         "seasons": [
             {
                 "year": 2018,
@@ -3503,7 +3503,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3552,7 +3552,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3600,7 +3600,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Toán"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3652,7 +3652,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Toán"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3699,7 +3699,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3747,7 +3747,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3796,7 +3796,7 @@
             }   
         ],
         "mainSubjects": ["Toán","Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3843,7 +3843,7 @@
             }   
         ],
         "mainSubjects": ["Hóa", "Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3910,7 +3910,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3963,7 +3963,7 @@
             }   
         ],
         "mainSubjects": ["Toán"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -4012,7 +4012,7 @@
             }   
         ],
         "mainSubjects": ["Toán"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -4514,7 +4514,7 @@
             }   
         ],
         "mainSubjects": ["Hóa", "Sinh"],
-        "majorGroup": "Nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -4623,7 +4623,7 @@
             }   
         ],
         "mainSubjects": ["Sinh", "Tiếng Anh"],
-        "majorGroup": "Nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
