@@ -17,6 +17,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     var specList = Provider.of<SpeList>(context);
+    var sp = specList.getTopScore();
     return  Scaffold(
       appBar: AppBar(title: Text("Trang chủ"),actions: <Widget>[
         IconButton(icon: Icon(FontAwesomeIcons.robot) , onPressed: (){
@@ -26,18 +27,9 @@ class _MyHomePageState extends State<MyHomePage> {
       drawer: DrawerMenu(),
       floatingActionButton: Fab(),
       body: SafeArea(
-        child: FutureBuilder(
-          future: specList.loadData(),
-          builder: (context, snapshot) {
-            List<Specialization> sp = snapshot.data;
-            if (snapshot.connectionState != ConnectionState.done) {
-              return CircularProgressIndicator();
-            }
-            return ListView.builder(
-              itemCount: sp.length,
-              itemBuilder: (context, index) => MajorCard(major: sp[index])
-            );
-          },
+        child: ListView.builder(
+          itemCount: sp.length,
+          itemBuilder: (context, index) => MajorCard(major: sp[index])
         )
       ),
     );

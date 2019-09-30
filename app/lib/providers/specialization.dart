@@ -47,9 +47,39 @@ class Specialization {
 
 class SpeList with ChangeNotifier {
   List<Specialization> _list;
+  List<Specialization> _top;
+  List<String> _userCombines;
+  List<String> _userSubjects;
+  List<String> _userMajorGroups;
 
   SpeList() {
     this._list = [];
+    this._top = [];
+    this._userCombines = [];
+    this._userSubjects = [];
+    this._userMajorGroups = [];
+  }
+
+  List<Specialization> getAll() {
+    return _list;
+  }
+
+  List<Specialization> getTopScore() {
+    return _top;
+  }
+
+  void updateUserCombines(List<String> combinations) {
+    this._userCombines = combinations;
+    notifyListeners();
+  }
+
+  void updateUserSubjects(List<String> subjects) {
+    this._userSubjects = subjects;
+    notifyListeners();
+  }
+  void updateUserMajorGroups(List<String> majorGroups) {
+    this._userMajorGroups = majorGroups;
+    notifyListeners();
   }
 
   Future<String> get _localPath async {
@@ -57,7 +87,7 @@ class SpeList with ChangeNotifier {
     return directory.path;
   }
 
-  Future<List<Specialization>> loadData() async {
+  Future loadData() async {
     if (_list.length > 0) return _list;
 
     String localPath = await _localPath;
@@ -79,7 +109,27 @@ class SpeList with ChangeNotifier {
           img.writeAsBytesSync(response.bodyBytes);
         }
 
+        int score = 0;
+        _userCombines.forEach((combine) {
+          if (major.inputRequest[0].combinations.contains(combine.split(' ')[0])) {
+            score += 100;
+          }
+        });
+
+        _userMajorGroups.forEach((majorGroup) {
+          if (major.majorGroup.contains(majorGroup)) {
+            score += 100;
+          }
+        });
+
+        _userSubjects.forEach((subject) {
+          if (major.mainSubjects.contains(subject)) {
+            score += 10;
+          }
+        });
+
         _list.add(Specialization(
+          score: score,
           name: spec.specializationName,
           college: major.collegeName,
           majorGroup: major.majorGroup,
@@ -104,7 +154,10 @@ class SpeList with ChangeNotifier {
       }
     }
 
-    return _list;
+    _top = _list.toList();
+    _top.removeWhere((element) => element.score == 0);
+    _top.sort((a,b) => -a.score.compareTo(b.score));
+    notifyListeners();
   }
 
 }

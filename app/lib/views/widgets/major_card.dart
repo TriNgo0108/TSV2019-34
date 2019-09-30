@@ -40,6 +40,7 @@ class MajorCard extends StatelessWidget {
                   : Text("Video Id Invalid")
               : Text("Video not found"),
           ListTile(
+            leading: Text("${major.score}"),
             title: Text(
               major.name.toUpperCase(),
               maxLines: 1,

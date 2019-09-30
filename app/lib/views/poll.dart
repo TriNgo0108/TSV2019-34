@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import './widgets/question.dart';
+import '../providers/specialization.dart';
 
 class Poll extends StatefulWidget {
   @override
@@ -12,7 +14,7 @@ class _PollState extends State<Poll> with SingleTickerProviderStateMixin {
   bool _isFirstPage = true;
   bool _isLastPage = false;
 
-  List<dynamic> _questions = [
+  List<Map<String,dynamic>> _questions = [
     {
       "question": "Bạn dự định thi khối nào?",
       "answers": [
@@ -23,7 +25,7 @@ class _PollState extends State<Poll> with SingleTickerProviderStateMixin {
         "C00 (Văn, Sử, Địa)",
         "C01 (Toán, Văn, Lý)",
         "C02 (Toán, Văn, Hóa)",
-        "C19 (Văn, Sử, Giáo dục công dân)",
+        "C19 (Văn, Sử, GDCD)",
         "D01 (Toán, Văn, Tiếng Anh)",
         "D03 (Toán, Văn, Tiếng Pháp)",
         "D07 (Toán, Hóa, Tiếng Anh)",
@@ -32,9 +34,9 @@ class _PollState extends State<Poll> with SingleTickerProviderStateMixin {
         "D15 (Văn, Địa, Tiếng Anh)",
         "D24 (Toán, Hóa, Tiếng Pháp)",
         "D29 (Toán, Lý, Tiếng Pháp)",
-        "D66 (Văn, Giáo dục công dân, Tiếng Anh)",
-        "T00 (Toán, Sinh, Năng khiếu TDTT)",
-        "T01 (Toán, Hóa, Năng khiếu TDTT)"
+        "D66 (Văn, GDCD, Tiếng Anh)",
+        "T00 (Toán, Sinh, Năng khiếu)",
+        "T01 (Toán, Hóa, Năng khiếu)"
       ]
     },
     {
@@ -95,6 +97,8 @@ class _PollState extends State<Poll> with SingleTickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
+    var specList = Provider.of<SpeList>(context);
+
     return Scaffold(
       body: Stack(children: [
         TabBarView(
@@ -106,11 +110,25 @@ class _PollState extends State<Poll> with SingleTickerProviderStateMixin {
                     question: _questions[index]["question"],
                     answers: _questions[index]["answers"],
                     onComplete: (selected) {
-                      print(selected);
-                      if (_isLastPage) 
+                      print(selected.toString());
+                      switch (index) {
+                        case 0:
+                          specList.updateUserCombines(selected);
+                          break;
+                        case 1:
+                          specList.updateUserSubjects(selected);
+                          break;
+                        case 2:
+                          specList.updateUserMajorGroups(selected);
+                          break;
+                        default:
+                      }
+                      if (_isLastPage) {
+                        specList.loadData();
                         Navigator.pop(context);
-                      else
+                      } else {
                         _nextPage(1);
+                      }
                     },
                   ),
             )),
@@ -168,7 +186,13 @@ class _PollState extends State<Poll> with SingleTickerProviderStateMixin {
                       fontSize: 12.0,
                       fontWeight: FontWeight.w400,
                       fontStyle: FontStyle.italic)),
-              onPressed: () => _isLastPage ? Navigator.pop(context) : _nextPage(1),
+              onPressed: () {
+                if (_isLastPage) { 
+                  specList.loadData();
+                  Navigator.pop(context);
+                } else {
+                  _nextPage(1);
+                }}
             ),
           ),
         )
