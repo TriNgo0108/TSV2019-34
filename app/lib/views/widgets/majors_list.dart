@@ -6,8 +6,9 @@ import 'package:flutter/rendering.dart';
 class MajorList extends StatelessWidget {
   final String title;
   final List<Specialization> majors;
+  final bool isLoading;
 
-  const MajorList({Key key, this.title, this.majors}) : super(key: key);
+  const MajorList({Key key, this.title, this.majors, this.isLoading}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +21,7 @@ class MajorList extends StatelessWidget {
         ),
         ConstrainedBox(
           constraints: BoxConstraints.expand(height: 260),
-          child: ListView(
+          child: isLoading ? LinearProgressIndicator() : ListView(
             scrollDirection: Axis.horizontal,
             children: List<Widget>.generate(majors.length, (index) => Container(
               width: 300,
