@@ -1,7 +1,7 @@
 import 'package:app/models/college.dart';
 import 'package:app/models/majors.dart';
 import 'package:app/views/widgets/major_card.dart';
-import 'package:app/views/widgets/web_view_Container.dart';
+import 'package:app/views/web_view.dart';
 import 'package:flutter/material.dart';
 
 class CollegeDetailPage extends StatelessWidget {
@@ -34,12 +34,12 @@ class CollegeDetailPage extends StatelessWidget {
                             width: 5,
                           ),
                           Hero(
-                            tag: "name-${college.name}",
+                            tag: "name-${college.fullName}",
                             // nếu tên của khoa lớn hơn 15 kí tự thì sẽ dùng tên viết tắt của khoa
                             child: Text(
-                                college.name.length > 15
+                                college.fullName.length > 15
                                     ? college.shortName
-                                    : college.name,
+                                    : college.fullName,
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 16.0,
@@ -64,9 +64,9 @@ class CollegeDetailPage extends StatelessWidget {
                           color: Colors.white,
                         ),
                         onPressed: ()=> {
-                          Navigator.push(context, MaterialPageRoute(
-                            builder: (context)=>WebViewContainer(url: college.web,title: college.name,)
-                          ))
+                          // Navigator.push(context, MaterialPageRoute(
+                          //   builder: (context) => WebViewContainer()
+                          // ))
                         }
                     )
                   ],
@@ -82,7 +82,7 @@ class CollegeDetailPage extends StatelessWidget {
               children: <Widget>[
                 Padding(
                   padding: const EdgeInsets.only(top: 20,right: 10),
-                  child: Text('${college.name.length>15 ? college.shortName : college.name} có ${college.numberOfMajor} ngành đào tạo bậc đại học',style: TextStyle(
+                  child: Text('${college.fullName.length>15 ? college.shortName : college.fullName}',style: TextStyle(
                     fontSize: 16,fontWeight: FontWeight.bold,
                   ),
                   ),
@@ -102,7 +102,8 @@ class CollegeDetailPage extends StatelessWidget {
                             padding: const EdgeInsets.fromLTRB(16, 30, 16, 16),
                             child: ListView.builder(
                                 itemCount: majors.length,
-                                itemBuilder: (context, index) => MajorCard(major: majors[index])
+                                itemBuilder: (context, index) => Text("major")
+                                //MajorCard(major: majors[index])
                             ),
                           );
                         }

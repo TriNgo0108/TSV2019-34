@@ -1,76 +1,85 @@
-import 'package:app/models/majors.dart';
+import 'dart:io';
+import 'dart:math';
+
+import 'package:app/providers/specialization.dart';
 import 'package:app/views/major_detail.dart';
 import 'package:flutter/material.dart';
-import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-class MajorCard extends StatefulWidget {
-  final Major major;
+class MajorCard extends StatelessWidget {
+  final Specialization major;
 
   MajorCard({Key key, @required this.major}) : super(key: key);
 
   @override
-  _MajorCardState createState() => _MajorCardState();
-}
-
-class _MajorCardState extends State<MajorCard> {
-  @override
   Widget build(BuildContext context) {
-    if (widget.major.specializations[0].videoId == null) {
-      print(">>> Video not found");
-    } else if (widget.major.specializations[0].videoId.length != 11) {
-      print(">>> Invalid Video ID: " + widget.major.specializations[0].videoId);
-    }
+    var bgColor = Color.fromRGBO(Random().nextInt(128), Random().nextInt(128),Random().nextInt(128), 0.8);
+    
     return GestureDetector(
       onTap: () {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => MajorDetail(major: widget.major)));
+                    builder: (context) => MajorDetail(major: major)));
           },
-      child: Column(
-        children: <Widget>[
-          widget.major.specializations[0].videoId != null
-              ? widget.major.specializations[0].videoId.length == 11
-                  ? Hero(
-                      tag: widget.major.specializations[0].videoId,
-                      child: AspectRatio(
-                        aspectRatio: 16 / 9,
-                        child: FittedBox(
-                          fit: BoxFit.fitWidth,
-                          child: Image.network("https://img.youtube.com/vi/${widget.major.specializations[0].videoId}/hqdefault.jpg"),
-                        )
-                      )
+      child: Container(
+        color: bgColor,
+        child: Column(
+          children: <Widget>[
+            Stack(
+              children: <Widget>[
+                Hero(
+                  tag: major.videoId,
+                  child: AspectRatio(
+                    aspectRatio: 16 / 9,
+                    child: FittedBox(
+                      fit: BoxFit.fitWidth,
+                      child: Image.file(File(major.imgPath)),
                     )
-                  : Text("Video Id Invalid")
-              : Text("Video not found"),
-          ListTile(
-            title: Text(
-              widget.major.majorName.toUpperCase(),
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: TextStyle(fontWeight: FontWeight.w600),
+                  )
+                ),
+                Positioned(
+                  top: 8,
+                  left: 0,
+                  child: Container(
+                    child: Text(major.college, style: TextStyle(color: Colors.white, fontSize: 14),),
+                    decoration: BoxDecoration(
+                      color: bgColor,
+                      borderRadius: BorderRadius.only(bottomRight: Radius.circular(10), topRight: Radius.circular(10))
+                    ),
+                    padding: EdgeInsets.fromLTRB(8,3,8,3),
+                  ),
+                )
+              ]
             ),
-            subtitle:
-                Text(widget.major.inputRequest[0].combinations.toString()),
-            trailing: Container(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: <Widget>[
-                  Container(
-                      padding: EdgeInsets.only(bottom: 3.0),
-                      margin: EdgeInsets.only(bottom: 3.0),
-                      child: Text(widget.major.seasons[0].points.toString(),
-                          maxLines: 1),
-                      decoration: BoxDecoration(
-                        border: Border(bottom: BorderSide(color: Colors.black)),
-                      )),
-                  Text(widget.major.seasons[0].year.toString(), maxLines: 1)
-                ],
+            ListTile(
+              title: Text(
+                major.name.toUpperCase(),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: TextStyle(fontWeight: FontWeight.w600, color: Colors.white),
               ),
-            ),
-          )
-        ],
+              subtitle:
+                  Text(major.inputRequest[0].combinations.join(', '), style: TextStyle(color: Colors.white), ),
+              trailing: Container(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                    Container(
+                        padding: EdgeInsets.only(bottom: 3.0),
+                        margin: EdgeInsets.only(bottom: 3.0),
+                        child: Text(major.seasons[0].points.toString(),
+                            maxLines: 1, style: TextStyle(color: Colors.white),),
+                        decoration: BoxDecoration(
+                          border: Border(bottom: BorderSide(color: Colors.white)),
+                        )),
+                    Text(major.seasons[0].year.toString(), maxLines: 1, style: TextStyle(color: Colors.white))
+                  ],
+                ),
+              ),
+            )
+          ],
+        ),
       ),
     );
   }

@@ -1,5 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 class Question extends StatefulWidget {
   final String question;
@@ -16,14 +17,12 @@ class Question extends StatefulWidget {
 }
 
 class _QuestionState extends State<Question> {
-  List<bool> selected = List();
+  List<String> selected = [];
   Color primaryColor;
 
   @override
   void initState() {
     super.initState();
-    selected.length = widget.answers.length;
-    selected.fillRange(0, widget.answers.length, false);
     primaryColor = Color.fromRGBO(Random().nextInt(128), Random().nextInt(128),Random().nextInt(128), 0.9);
   }
 
@@ -34,56 +33,51 @@ class _QuestionState extends State<Question> {
       child: SafeArea(
         child: Column(
           children: <Widget>[
-            SizedBox(
-              height: 62.0,
-            ),
+            SizedBox(height: 62.0),
             Text(
               widget.question,
               style: TextStyle(color: Colors.white),
             ),
-            Container(
-              height: 280.0,
-              margin: EdgeInsets.all(18.0),
-              padding: EdgeInsets.fromLTRB(24.0, 0, 24.0, 0),
-              child: ListView.builder(
-                  itemCount: widget.answers.length,
-                  itemBuilder: (context, index) => FlatButton(
-                        color: Colors.white70,
-                        shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(50.0)),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          children: <Widget>[
-                            selected[index]
-                ? Icon(
-                    Icons.check_box,
-                    color: primaryColor,
-                  )
-                : Icon(
-                    Icons.check_box_outline_blank,
-                    color: primaryColor,
-                  ),
-                            SizedBox(
-              width: 20.0,
-                            ),
-                            Text(
-              widget.answers[index],
-              style: TextStyle(color: primaryColor),
-                            ),
-                          ],
-                        ),
-                        onPressed: () => {
-              setState(() => {selected[index] = !selected[index]})
-                            },
+            Expanded(
+              child: Container(
+                margin: EdgeInsets.all(18.0),
+                padding: EdgeInsets.fromLTRB(24.0, 0, 24.0, 0),
+                child: ListView(
+                  physics: BouncingScrollPhysics(),
+                  children: List<Widget>.generate(widget.answers.length, (index) => FlatButton(
+                      color: Colors.white70,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50.0)),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: <Widget>[
+                          selected.contains(widget.answers[index])
+                            ? Icon(Icons.check_box, color: primaryColor)
+                            : Icon(Icons.check_box_outline_blank, color: primaryColor),
+                          SizedBox(width: 18.0),
+                          Text(widget.answers[index], style: TextStyle(color: primaryColor)),
+                        ],
                       ),
+                      onPressed: () => {
+                        setState(() {
+                          if (selected.contains(widget.answers[index])) {
+                            selected.remove(widget.answers[index]);
+                          } else {
+                            selected.add(widget.answers[index]);
+                          }
+                        })
+                      }
+                    )
+                  )
                 ),
+              ),
             ),
             RaisedButton(
               shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(50.0)),
               child: Text('OK', style: TextStyle(color: primaryColor)),
-              onPressed: () => {widget.onComplete(selected)},
-            )
+              onPressed: () => selected.length > 0 ? widget.onComplete(selected) : null,
+            ),
+            SizedBox(height: 62.0)
           ],
         ),
       ),

@@ -1,46 +1,60 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import './widgets/question.dart';
+import '../providers/specialization.dart';
 
-class Welcome extends StatefulWidget {
+class Poll extends StatefulWidget {
   @override
-  _WelcomeState createState() => _WelcomeState();
+  _PollState createState() => _PollState();
 }
 
-class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
+class _PollState extends State<Poll> with SingleTickerProviderStateMixin {
   TabController _tabController;
   bool _isFirstPage = true;
   bool _isLastPage = false;
 
-  List<dynamic> _questions = [
+  List<Map<String,dynamic>> _questions = [
     {
       "question": "Bạn dự định thi khối nào?",
       "answers": [
-        "A (Toán, Lý, Hóa)",
-        "A1 (Toán, Lý, AV)",
-        "A1 (Toán, Lý, AV)",
-        "A1 (Toán, Lý, AV)",
-        "A1 (Toán, Lý, AV)",
-        "A1 (Toán, Lý, AV)"
+        "A00 (Toán, Lý, Hóa)",
+        "A01 (Toán, Lý, Tiếng Anh)",
+        "A02 (Toán, Lý, Sinh)",
+        "B00 (Toán, Hóa, Sinh)",
+        "C00 (Văn, Sử, Địa)",
+        "C01 (Toán, Văn, Lý)",
+        "C02 (Toán, Văn, Hóa)",
+        "C19 (Văn, Sử, GDCD)",
+        "D01 (Toán, Văn, Tiếng Anh)",
+        "D03 (Toán, Văn, Tiếng Pháp)",
+        "D07 (Toán, Hóa, Tiếng Anh)",
+        "D08 (Toán, Sinh, Tiếng Anh)",
+        "D14 (Văn, Sử, Tiếng Anh)",
+        "D15 (Văn, Địa, Tiếng Anh)",
+        "D24 (Toán, Hóa, Tiếng Pháp)",
+        "D29 (Toán, Lý, Tiếng Pháp)",
+        "D66 (Văn, GDCD, Tiếng Anh)",
+        "T00 (Toán, Sinh, Năng khiếu)",
+        "T01 (Toán, Hóa, Năng khiếu)"
       ]
     },
     {
       "question": "Chọn 2 môn mà bạn giỏi nhất?",
-      "answers": ["Toán", "Lý", "Hóa", "Văn", "Anh Văn"]
+      "answers": ["Toán", "Lý", "Hóa", "Sinh", "Văn",  "Sử", "Địa", "Tiếng Anh", "Tiếng Pháp", "Năng khiếu TDTT", "Giáo dục công dân"]
     },
     {
       "question": "Bạn thích nhóm ngành nào?",
       "answers": [
-        "Nông - lâm - ngư nghiệp",
-        "Sư phạm",
         "Công nghệ thông tin",
         "Khoa học tự nhiên",
+        "Nông - Lâm - Ngư nghiệp",
         "Kinh doanh",
+        "Kỹ thuật",
         "Luật - nhân văn",
+        "Sư phạm",
         "Sản xuất và chế biến",
-        "Nghệ thuật - thẩm mỹ",
-        "Báo chí - khoa học xã hội",
-        "Kiến trúc và xây dựng"
+        "Kiến trúc và xây dựng",
       ]
     }
   ];
@@ -82,6 +96,8 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
+    var specList = Provider.of<SpeList>(context);
+
     return Scaffold(
       body: Stack(children: [
         TabBarView(
@@ -93,11 +109,25 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
                     question: _questions[index]["question"],
                     answers: _questions[index]["answers"],
                     onComplete: (selected) {
-                      print(selected);
-                      if (_isLastPage) 
+                      print(selected.toString());
+                      switch (index) {
+                        case 0:
+                          specList.updateUserCombines(selected);
+                          break;
+                        case 1:
+                          specList.updateUserSubjects(selected);
+                          break;
+                        case 2:
+                          specList.updateUserMajorGroups(selected);
+                          break;
+                        default:
+                      }
+                      if (_isLastPage) {
+                        specList.loadData();
                         Navigator.pop(context);
-                      else
+                      } else {
                         _nextPage(1);
+                      }
                     },
                   ),
             )),
@@ -143,20 +173,6 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
                     ),
                     onPressed: () => _nextPage(-1),
                   ),
-          ),
-        ),
-        SafeArea(
-          child: Align(
-            alignment: Alignment.topRight,
-            child: FlatButton(
-              child: Text('Bỏ qua',
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 12.0,
-                      fontWeight: FontWeight.w400,
-                      fontStyle: FontStyle.italic)),
-              onPressed: () => _isLastPage ? Navigator.pop(context) : _nextPage(1),
-            ),
           ),
         )
       ]),

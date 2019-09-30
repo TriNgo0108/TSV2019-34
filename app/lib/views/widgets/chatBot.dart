@@ -6,9 +6,7 @@ import 'package:flutter_dialogflow/dialogflow_v2.dart';
 import 'package:flutter_dialogflow/v2/auth_google.dart';
 
 class BotDialogFlow extends StatefulWidget {
-  BotDialogFlow({Key key, this.title}) : super(key: key);
-
-  final String title;
+  BotDialogFlow({Key key}) : super(key: key);
 
   @override
   _BotDialogFlow createState() => new _BotDialogFlow();
@@ -112,7 +110,7 @@ class _BotDialogFlow extends State<BotDialogFlow> {
     return new Scaffold(
       appBar: new AppBar(
         centerTitle: true,
-        title: new Text(widget.title),
+        title: new Text("Chatbot"),
       ),
       body: new Column(children: <Widget>[
         new Flexible(

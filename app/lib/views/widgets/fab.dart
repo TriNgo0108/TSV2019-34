@@ -1,7 +1,5 @@
+import 'package:app/views/web_view.dart';
 import 'package:flutter/material.dart';
-import 'package:toast/toast.dart';
-import 'package:url_launcher/url_launcher.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'dart:math' as Math;
 
 class Fab extends StatefulWidget {
@@ -11,12 +9,7 @@ class Fab extends StatefulWidget {
 
 class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
   void _launchURL(String url, BuildContext context) async {
-    if (await canLaunch(url)) {
-      Navigator.pushNamed(context, '/${url}');
-    } else {
-      Toast.show('Không thể truy cập $url', context,
-          duration: Toast.LENGTH_LONG);
-    }
+    Navigator.pushNamed(context, '/web', arguments: WebViewArgs(url, url));
   }
 
   bool isOpened = false;
@@ -80,11 +73,7 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
   }
 
 // tạo child floating action button sử dụng web view
-  Widget webView(
-    String name,
-    String url,
-    IconData icon,
-  ) {
+  Widget webView(String name, String url, IconData icon) {
     return Container(
       child: Row(
         mainAxisAlignment: MainAxisAlignment.end,
@@ -92,21 +81,19 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
         children: <Widget>[
           FadeTransition(
             child: Container(
-              width: 200,
+              width: 260,
               height: 40,
               child: Text(
                 name,
                 style: TextStyle(
                   fontSize: 20,
                 ),
-                textAlign: TextAlign.center,
+                textAlign: TextAlign.right,
               ),
             ),
             opacity: _animateIcon,
           ),
-          SizedBox(
-            width: 10,
-          ),
+          SizedBox(width: 10),
           FloatingActionButton(
             heroTag: name,
             onPressed: () {
@@ -120,49 +107,6 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
     );
   }
 
-// tạo child floating action button sử dụng ứng dụng hệ thống
-  Widget application(
-    String name,
-    String url,
-    IconData icon,
-  ) {
-    return Container(
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.end,
-        crossAxisAlignment: CrossAxisAlignment.end,
-        children: <Widget>[
-          FadeTransition(
-            child: Container(
-              padding: EdgeInsets.only(left: 10),
-              width: 200,
-              height: 40,
-              child: Text(
-                name,
-                style: TextStyle(
-                  fontSize: 20,
-                ),
-                textAlign: TextAlign.center,
-              ),
-            ),
-            opacity: _animateIcon,
-          ),
-          SizedBox(
-            width: 10,
-          ),
-          FloatingActionButton(
-            heroTag: name,
-            onPressed: () {
-              print('onButton');
-              launch(url);
-            },
-            child: Icon(icon),
-          ),
-        ],
-      ),
-    );
-  }
-
-// tạo floating action button gốc
   Widget toggle() {
     return Container(
       child: Row(
@@ -183,7 +127,6 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
     );
   }
 
-// floating action button với hiệu ứng transform
   Widget appearButton(Widget child(String titleName, String url, IconData icon),
       String titleName, String url, icon, index) {
     return Transform(
@@ -205,24 +148,23 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
         children: <Widget>[
           isOpened
               ? Positioned(
-                  right: -16.0,
-                  left: -16,
-                  top: -10,
-                  bottom: -16,
-                  child: FadeTransition(
-                    opacity: _animateIcon,
-                    child: Container(
-                      color: Colors.white,
-                      child: FittedBox(
-                        child: Image.asset(
-                          'assets/images/Agate.png',
-                        ),
-                        fit: BoxFit.fill,
+                right: -16.0,
+                left: -16,
+                top: -10,
+                bottom: -16,
+                child: FadeTransition(
+                  opacity: _animateIcon,
+                  child: Container(
+                    color: Colors.white,
+                    child: FittedBox(
+                      child: Image.asset(
+                        'assets/images/Agate.png',
                       ),
+                      fit: BoxFit.cover,
                     ),
                   ),
-                )
-              : SizedBox(),
+                ),
+              ) : SizedBox(),
           isOpened
               ? Positioned(
                   right: -16.0,
@@ -244,18 +186,16 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
               mainAxisAlignment: MainAxisAlignment.end,
               crossAxisAlignment: CrossAxisAlignment.end,
               children: <Widget>[
-                appearButton(application, 'Điện thoại', "tel:02923872728",
-                    Icons.phone, 6),
-                appearButton(webView, 'Thông tin tuyển sinh',
-                    'https://tuyensinh.ctu.edu.vn', Icons.language, 5),
+                appearButton(webView, 'Lý do chọn ĐH Cần Thơ',
+                    'https://tuyensinh.ctu.edu.vn/gioi-thieu/839-ly-do-de-hoc-tai-truong-dhct.html', Icons.help, 5),
+                appearButton(webView, 'Đại học chính quy',
+                    'https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy.html', Icons.location_city, 4),
+                appearButton(webView, 'Vừa làm vừa học',
+                    "https://ctc.ctu.edu.vn/", Icons.business_center, 3),
                 appearButton(webView, 'Tân sinh viên',
-                    "http://tansinhvien.ctu.edu.vn", Icons.language, 4),
-                appearButton(application, 'Email',
-                    "mailto:tuyensinh@ctu.edu.vn", Icons.email, 3),
-                appearButton(application, 'Messenger', "http://m.me/ctu.tvts",
-                    FontAwesomeIcons.facebookMessenger, 2),
-                appearButton(webView, 'Facebook', 'https://fb.me/ctu.tvts',
-                    FontAwesomeIcons.facebook, 1),
+                    "http://tansinhvien.ctu.edu.vn", Icons.person_pin, 2),
+                appearButton(webView, 'Sau đại học',
+                    "https://gs.ctu.edu.vn", Icons.school, 1),
                 toggle()
               ])
         ]);

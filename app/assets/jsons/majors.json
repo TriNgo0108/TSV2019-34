@@ -55,7 +55,7 @@
         "majorName": "Giáo dục Công dân",
         "intendTime": "4",
         "title": "Cử nhân",
-        "collegeName": "Khoa khoa học Chính trị",
+        "collegeName": "Khoa Khoa học Chính trị",
         "collegeImage": "kkhct.png",
         "inputRequest": [
             {
@@ -885,7 +885,7 @@
         "majorName": "Triết học",
         "intendTime": "4",
         "title": "Cử nhân",
-        "collegeName": "Khoa Khoa học chính trị",
+        "collegeName": "Khoa Khoa học Chính trị",
         "collegeImage": "kkhct.png",
         "inputRequest": [
             {
@@ -934,7 +934,7 @@
         "majorName": "Chính trị học",
         "intendTime": "4",
         "title": "Cử nhân",
-        "collegeName": "Khoa Khoa học chính trị",
+        "collegeName": "Khoa Khoa học Chính trị",
         "collegeImage": "kkhct.png",
         "inputRequest": [
             {
@@ -1566,7 +1566,7 @@
             }   
         ],
         "mainSubjects": ["Toán", "Ngữ văn"],
-        "majorGroup": "Nhóm ngành luật - nhân văn",
+        "majorGroup": "Luật - nhân văn",
         "seasons": [
             {
                 "year": 2018,
@@ -1637,7 +1637,7 @@
         "majorName": "Sinh học",
         "intendTime": "4",
         "title": "Cử nhân",
-        "collegeName": "Khoa Khoa học tự nhiên",
+        "collegeName": "Khoa Khoa học Tự nhiên",
         "collegeImage": "kkhtm.png",
         "inputRequest": [
             {
@@ -1647,7 +1647,7 @@
             }   
         ],
         "mainSubjects": ["Hóa", "Sinh"],
-        "majorGroup": " Nhóm ngành khoa học tự nhiên",
+        "majorGroup": "Khoa học tự nhiên",
         "seasons": [
             {
                 "year": 2018,
@@ -1761,7 +1761,7 @@
         "majorName": "Sinh học ứng dụng",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -1809,7 +1809,7 @@
         "majorName": "Hóa học",
         "intendTime": "4",
         "title": "Cử nhân",
-        "collegeName": "Khoa Khoa Học Tự Nhiên",
+        "collegeName": "Khoa Khoa học Tự nhiên",
         "collegeImage": "kkhtn.png",
         "inputRequest": [
             {
@@ -1842,7 +1842,7 @@
                 "jobs": [
                 "Cán bộ nghiên cứu trong các Viện, Trung tâm nghiên cứu, cơ sở có ứng dụng Hóa học.",
                 "Kiểm nghiệm viên, kỹ thuật viên trong các trung tâm phân tích, chi cục tiêu chuẩn đo lường chất lượng.",
-                "Nghiên cứu viên, kiểm nghiệm viên trong các Sở Khoa học và Công nghệ, sở Môi trường và Tài nguyên, các Công ty, xí nghiệp, nhà máy sản xuất và chế biến thuốc bảo vệ thực vật, phân bón, thuốc thú y, thuốc thủy sản, phẩm nhuộm, giày da, …",
+                "Nghiên cứu viên, kiểm nghiệm viên trong các Sở Khoa học và Công nghệ, sở Môi trường và Tài nguyên, các Công ty, xí nghiệp, nhà máy Sản xuất và chế biến thuốc bảo vệ thực vật, phân bón, thuốc thú y, thuốc thủy sản, phẩm nhuộm, giày da, …",
                 "Nhân viên kinh doanh hóa chất và thiết bị hóa học trong các Công ty mua bán và kinh doanh hóa chất và thiết bị hóa học.",
                 "Giảng viên, giáo viên giảng dạy các môn Hóa học trong các trường đại học, trường cao đẳng, trung học phổ thông (cần tích lũy thêm các học phần nghiệp vụ sư phạm)."
                 ],
@@ -1860,7 +1860,7 @@
         "majorName": "Hóa dược",
         "intendTime": "4",
         "title": "Cử nhân",
-        "collegeName": "Khoa Khoa Học Tự Nhiên",
+        "collegeName": "Khoa Khoa học Tự nhiên",
         "collegeImage": "kkhtn.png",
         "inputRequest": [
             {
@@ -1893,7 +1893,7 @@
                 "Cán bộ nghiên cứu trong các viện và trung tâm nghiên cứu, các phòng thí nghiệm trong và ngoài nước về lĩnh vực hóa dược.",
                 "Kiểm nghiệm viên mỹ phẩm, dược phẩm trong các trung tâm phân tích kiểm nghiệm mỹ phẩm, dược phẩm.",
                 "Nhân viên kinh doanh hóa chất và thiết bị hóa học trong công ty mua bán và kinh doanh hóa chất và thiết bị hóa học",
-                "Cán bộ quản lý sản xuất và kinh doanh hóa chất cho ngành dược trong các công ty, xí nghiệp dược phẩm; Các công ty, xí nghiệp, nhà máy sản xuất và chế biến thuốc thú y, thuốc thủy sản,…",
+                "Cán bộ quản lý sản xuất và kinh doanh hóa chất cho ngành dược trong các công ty, xí nghiệp dược phẩm; Các công ty, xí nghiệp, nhà máy Sản xuất và chế biến thuốc thú y, thuốc thủy sản,…",
                 "Giảng viên giảng dạy các môn liên quan đến Hóa học và Hóa Dược trong các Viện và trường đại học, trường cao đẳng (cần tích lũy thêm các học phần nghiệp vụ sư phạm)."
                 ],
                 "developAbilities": [
@@ -1910,7 +1910,7 @@
         "majorName": "Khoa học môi trường",
         "intendTime": "4",
         "title": "kỹ sư",
-        "collegeName": "Khoa Môi trường & TNTN ",
+        "collegeName": "Khoa Môi trường & TNTN",
         "collegeImage": "kmt.png",
         "inputRequest": [
             {
@@ -1963,7 +1963,7 @@
         "majorName": "Khoa học đất",
         "intendTime": "4",
         "title": "kỹ sư",
-        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -2021,7 +2021,7 @@
         "majorName": "Toán ứng dụng",
         "intendTime": "4",
         "title": "cử nhân",
-        "collegeName": "Khoa Khoa học Tự nhiên ",
+        "collegeName": "Khoa Khoa học Tự nhiên",
         "collegeImage": "khtn.png",
         "inputRequest": [
             {
@@ -2072,8 +2072,8 @@
         "majorName": "Khoa học máy tính",
         "intendTime": "4.5",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Khoa học Tự nhiên ",
-        "collegeImage": "khtn.png",
+        "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
+        "collegeImage": "kcntt.png",
         "inputRequest": [
             {
                 "testMethod": "A",
@@ -2082,7 +2082,7 @@
             }   
         ],
         "mainSubjects": ["Toán"],
-        "majorGroup": "công nghệ - thông tin",
+        "majorGroup": "Công nghệ thông tin",
         "seasons": [
             {
                 "year": 2018,
@@ -2129,7 +2129,7 @@
             }   
         ],
         "mainSubjects": ["Toán"],
-        "majorGroup": "công nghệ - thông tin",
+        "majorGroup": "Công nghệ thông tin",
         "seasons": [
             {
                 "year": 2018,
@@ -2180,7 +2180,7 @@
             }   
         ],
         "mainSubjects": ["Toán"],
-        "majorGroup": "công nghệ - thông tin",
+        "majorGroup": "Công nghệ thông tin",
         "seasons": [
             {
                 "year": 2018,
@@ -2228,7 +2228,7 @@
             }   
         ],
         "mainSubjects": ["Toán"],
-        "majorGroup": "công nghệ - thông tin",
+        "majorGroup": "Công nghệ thông tin",
         "seasons": [
             {
                 "year": 2018,
@@ -2498,7 +2498,7 @@
         "majorName": "Kỹ thuật cơ khí",
         "intendTime": "4.5",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -2508,7 +2508,7 @@
             }   
         ],
         "mainSubjects": ["Hóa", "Sinh"],
-        "majorGroup": " Nhóm ngành khoa học tự nhiên",
+        "majorGroup": "Khoa học tự nhiên",
         "seasons": [
             {
                 "year": 2018,
@@ -2953,7 +2953,7 @@
         "majorName": "Công nghệ thực phẩm",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông nghiệp và SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -3006,7 +3006,7 @@
         "majorName": "Công nghệ sau thu hoạch",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông nghiệp và SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -3062,7 +3062,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "sản xuất và chế biến",
+        "majorGroup": "Sản xuất và chế biến",
         "seasons": [
             {
                 "year": 2018,
@@ -3111,7 +3111,7 @@
             }   
         ],
         "mainSubjects": ["Toán","Lý"],
-        "majorGroup": "kiến trúc và xây dựng",
+        "majorGroup": "Kiến trúc và xây dựng",
         "seasons": [
             {
                 "year": 2018,
@@ -3162,7 +3162,7 @@
             }   
         ],
         "mainSubjects": ["Toán","Lý"],
-        "majorGroup": "kiến trúc và xây dựng",
+        "majorGroup": "Kiến trúc và xây dựng",
         "seasons": [
             {
                 "year": 2018,
@@ -3215,7 +3215,7 @@
             }   
         ],
         "mainSubjects": ["Toán","Lý"],
-        "majorGroup": "kiến trúc và xây dựng",
+        "majorGroup": "Kiến trúc và xây dựng",
         "seasons": [
             {
                 "year": 2018,
@@ -3258,7 +3258,7 @@
         "majorName": "Kỹ thuật tài nguyên nước",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Môi trường và Tài nguyên Thiên nhiên",
+        "collegeName": "Khoa Môi trường & TNTN",
         "collegeImage": "kmt.png",
         "inputRequest": [
             {
@@ -3310,7 +3310,7 @@
         "majorName": "Chăn nuôi",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -3320,7 +3320,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3360,7 +3360,7 @@
         "majorName": "Nông học",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -3370,7 +3370,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3407,7 +3407,7 @@
         "majorName": "Khoa học cây trồng",
         "intendTime": "4.5",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -3417,7 +3417,7 @@
             }   
         ],
         "mainSubjects": ["Hóa", "Sinh"],
-        "majorGroup": " Nhóm ngành khoa học tự nhiên",
+        "majorGroup": "Khoa học tự nhiên",
         "seasons": [
             {
                 "year": 2018,
@@ -3493,7 +3493,7 @@
         "majorName": "Bảo vệ thực vật",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa NN & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -3503,7 +3503,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3542,7 +3542,7 @@
         "majorName": "Công nghệ rau hoa quả và cảnh quan",
         "intendTime": "4",
         "title": "Kỹ sư",
-        "collegeName": "Khoa NN & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -3552,7 +3552,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3600,7 +3600,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Toán"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3652,7 +3652,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Toán"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3699,7 +3699,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3747,7 +3747,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3796,7 +3796,7 @@
             }   
         ],
         "mainSubjects": ["Toán","Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3833,7 +3833,7 @@
         "majorName": "Thú y",
         "intendTime": "5",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Nông Nghiệp & SHƯD",
+        "collegeName": "Khoa Nông nghiệp",
         "collegeImage": "knn.png",
         "inputRequest": [
             {
@@ -3843,7 +3843,7 @@
             }   
         ],
         "mainSubjects": ["Hóa", "Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3910,7 +3910,7 @@
             }   
         ],
         "mainSubjects": ["Hóa","Sinh"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -3963,7 +3963,7 @@
             }   
         ],
         "mainSubjects": ["Toán"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -4012,7 +4012,7 @@
             }   
         ],
         "mainSubjects": ["Toán"],
-        "majorGroup": "nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -4050,7 +4050,7 @@
     {
         "number": 77,
         "majorCode": "7310630H",
-        "majorName": "Việt Nam học",
+        "majorName": "Việt Nam học (Khu Hòa An)",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Khoa học Xã hội và Nhân văn",
@@ -4076,7 +4076,7 @@
         ],
         "specializations": [
             {
-                "specializationName": "HDV du lịch",
+                "specializationName": "HDV Du lịch",
                 "videoId": "iHeZ4f5foGs",
                 "objectives": [
                     "Chương trình đào tạo ngành Việt Nam học - chuyên ngành Hướng dẫn viên du lịch -  đào tạo những cử nhân khoa học có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
@@ -4100,7 +4100,7 @@
     {
         "number": 78,
         "majorCode": "7220201H",
-        "majorName": "Ngôn ngữ Anh",
+        "majorName": "Ngôn ngữ Anh (Khu Hòa An)",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Ngoại ngữ",
@@ -4151,7 +4151,7 @@
     {
         "number": 79,
         "majorCode": "7340101H",
-        "majorName": "Quản trị kinh doanh",
+        "majorName": "Quản trị kinh doanh (Khu Hòa An)",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Kinh tế",
@@ -4202,7 +4202,7 @@
     {
         "number": 80,
         "majorCode": "7620114H",
-        "majorName": "Kinh doanh nông nghiệp",
+        "majorName": "Kinh doanh nông nghiệp (Khu Hòa An)",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Phát triển Nông thôn",
@@ -4249,7 +4249,7 @@
     {
         "number": 81,
         "majorCode": "7620115H",
-        "majorName": "Kinh tế nông nghiệp",
+        "majorName": "Kinh tế nông nghiệp (Khu Hòa An)",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Kinh tế",
@@ -4302,7 +4302,7 @@
     {
         "number": 82,
         "majorCode": "7380101H",
-        "majorName": "Luật",
+        "majorName": "Luật (Khu Hòa An)",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Luật",
@@ -4348,10 +4348,10 @@
     {
         "number": 83,
         "majorCode": "7480201H",
-        "majorName": "Công nghệ thông tin",
+        "majorName": "Công nghệ thông tin (Khu Hòa An)",
         "intendTime": "4.5",
         "title": "Kỹ sư",
-        "collegeName": "Khoa Công nghệ Thông tin và Truyền thông",
+        "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
         "collegeImage": "kcntt.png",
         "inputRequest": [
             {
@@ -4401,7 +4401,7 @@
     {
         "number": 84,
         "majorCode": "7580201H",
-        "majorName": "Kỹ thuật xây dựng",
+        "majorName": "Kỹ thuật xây dựng (Khu Hòa An)",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ",
@@ -4454,7 +4454,7 @@
     {
         "number": 85,
         "majorCode": "7620109H",
-        "majorName": "Nông học",
+        "majorName": "Nông học (Khu Hòa An)",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Phát triển Nông thôn",
@@ -4501,7 +4501,7 @@
     {
         "number": 86,
         "majorCode": "7620301H",
-        "majorName": "Nuôi trồng thủy sản",
+        "majorName": "Nuôi trồng thủy sản (Khu Hòa An)",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Thủy sản",
@@ -4514,7 +4514,7 @@
             }   
         ],
         "mainSubjects": ["Hóa", "Sinh"],
-        "majorGroup": "Nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -4549,7 +4549,7 @@
     {
         "number": 87,
         "majorCode": "7420201T",
-        "majorName": "Viện NC&PT Công nghệ Sinh học",
+        "majorName": "Công nghệ Sinh học (Tiên Tiến)",
         "intendTime": "4.5",
         "title": "Cử nhân",
         "collegeName": "Viện NC&PT Công nghệ Sinh học",
@@ -4605,7 +4605,7 @@
     {
         "number": 88,
         "majorCode": "7620301T",
-        "majorName": "Nuôi trồng thủy sản",
+        "majorName": "Nuôi trồng thủy sản (Tiên Tiến)",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Thủy sản",
@@ -4623,7 +4623,7 @@
             }   
         ],
         "mainSubjects": ["Sinh", "Tiếng Anh"],
-        "majorGroup": "Nông - lâm - ngư nghiệp",
+        "majorGroup": "Nông - Lâm - Ngư nghiệp",
         "seasons": [
             {
                 "year": 2018,
@@ -4888,7 +4888,7 @@
         "majorName": "Công nghệ thông tin (CTCLC)",
         "intendTime": "4.5",
         "title": "Kỹ sư",
-        "collegeName": "Công nghệ Thông tin và Truyền thông",
+        "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
         "collegeImage": "kcntt.png",
         "inputRequest": [
             {
