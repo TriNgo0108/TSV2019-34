@@ -112,18 +112,18 @@ class SpeList with ChangeNotifier {
         int score = 0;
         _userCombines.forEach((combine) {
           if (major.inputRequest[0].combinations.contains(combine.split(' ')[0])) {
-            score += 100;
+            score += 10;
           }
         });
 
         _userMajorGroups.forEach((majorGroup) {
-          if (major.majorGroup.contains(majorGroup)) {
+          if (score > 0 && major.majorGroup.contains(majorGroup)) {
             score += 100;
           }
         });
 
         _userSubjects.forEach((subject) {
-          if (major.mainSubjects.contains(subject)) {
+          if (score > 0 && major.mainSubjects.contains(subject)) {
             score += 10;
           }
         });

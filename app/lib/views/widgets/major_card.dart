@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math';
 
 import 'package:app/providers/specialization.dart';
 import 'package:app/views/major_detail.dart';
@@ -11,11 +12,7 @@ class MajorCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (major.videoId == null) {
-      print(">>> Video not found");
-    } else if (major.videoId.length != 11) {
-      print(">>> Invalid Video ID: " + major.videoId);
-    }
+    
     return GestureDetector(
       onTap: () {
             Navigator.push(
@@ -25,22 +22,33 @@ class MajorCard extends StatelessWidget {
           },
       child: Column(
         children: <Widget>[
-          major.videoId != null
-              ? major.videoId.length == 11
-                  ? Hero(
-                      tag: major.videoId,
-                      child: AspectRatio(
-                        aspectRatio: 16 / 9,
-                        child: FittedBox(
-                          fit: BoxFit.fitWidth,
-                          child: Image.file(File(major.imgPath)),
-                        )
-                      )
-                    )
-                  : Text("Video Id Invalid")
-              : Text("Video not found"),
+          Stack(
+            children: <Widget>[
+              Hero(
+                tag: major.videoId,
+                child: AspectRatio(
+                  aspectRatio: 16 / 9,
+                  child: FittedBox(
+                    fit: BoxFit.fitWidth,
+                    child: Image.file(File(major.imgPath)),
+                  )
+                )
+              ),
+              Positioned(
+                top: 8,
+                left: 0,
+                child: Container(
+                  child: Text(major.college, style: TextStyle(color: Colors.white, fontSize: 14),),
+                  decoration: BoxDecoration(
+                    color: Color.fromRGBO(Random().nextInt(128), Random().nextInt(128),Random().nextInt(128), 0.8),
+                    borderRadius: BorderRadius.only(bottomRight: Radius.circular(10), topRight: Radius.circular(10))
+                  ),
+                  padding: EdgeInsets.fromLTRB(8,3,8,3),
+                ),
+              )
+            ]
+          ),
           ListTile(
-            leading: Text("${major.score}"),
             title: Text(
               major.name.toUpperCase(),
               maxLines: 1,
