@@ -43,6 +43,7 @@ class _QuestionState extends State<Question> {
                 margin: EdgeInsets.all(18.0),
                 padding: EdgeInsets.fromLTRB(24.0, 0, 24.0, 0),
                 child: ListView(
+                  physics: BouncingScrollPhysics(),
                   children: List<Widget>.generate(widget.answers.length, (index) => FlatButton(
                       color: Colors.white70,
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50.0)),
@@ -74,7 +75,7 @@ class _QuestionState extends State<Question> {
               shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(50.0)),
               child: Text('OK', style: TextStyle(color: primaryColor)),
-              onPressed: () => {widget.onComplete(selected)},
+              onPressed: () => selected.length > 0 ? widget.onComplete(selected) : null,
             ),
             SizedBox(height: 62.0)
           ],

@@ -14,6 +14,7 @@ class Specialization {
   String videoId;
   String imgPath;
   String name;
+  String code;
   List<String> mainSubjects;
   List<String> common;
   List<String> objective;
@@ -37,7 +38,8 @@ class Specialization {
     this.seasons,
     this.developAbilities,
     this.standardOutput,
-    this.name
+    this.name,
+    this.code
   });
 
   increaseScore(int n) {
@@ -48,24 +50,38 @@ class Specialization {
 class SpeList with ChangeNotifier {
   List<Specialization> _list;
   List<Specialization> _top;
+  List<Specialization> _h;
+  List<Specialization> _tc;
   List<String> _userCombines;
   List<String> _userSubjects;
   List<String> _userMajorGroups;
+  bool isLoading;
 
   SpeList() {
     this._list = [];
     this._top = [];
+    this._h = [];
+    this._tc = [];
     this._userCombines = [];
     this._userSubjects = [];
     this._userMajorGroups = [];
+    this.isLoading = false;
   }
 
   List<Specialization> getAll() {
     return _list;
   }
 
-  List<Specialization> getTopScore() {
+  List<Specialization> getTop() {
     return _top;
+  }
+
+  List<Specialization> getHoaAn() {
+    return _h;
+  }
+
+  List<Specialization> getTTCLC() {
+    return _tc;
   }
 
   void updateUserCombines(List<String> combinations) {
@@ -77,8 +93,14 @@ class SpeList with ChangeNotifier {
     this._userSubjects = subjects;
     notifyListeners();
   }
+
   void updateUserMajorGroups(List<String> majorGroups) {
     this._userMajorGroups = majorGroups;
+    notifyListeners();
+  }
+
+  void setLoading(bool value) {
+    this.isLoading = value;
     notifyListeners();
   }
 
@@ -88,6 +110,7 @@ class SpeList with ChangeNotifier {
   }
 
   Future loadData() async {
+    setLoading(true);
     if (_list.length > 0) return _list;
 
     String localPath = await _localPath;
@@ -118,13 +141,13 @@ class SpeList with ChangeNotifier {
 
         _userMajorGroups.forEach((majorGroup) {
           if (score > 0 && major.majorGroup.contains(majorGroup)) {
-            score += 100;
+            score += 1000;
           }
         });
 
         _userSubjects.forEach((subject) {
           if (score > 0 && major.mainSubjects.contains(subject)) {
-            score += 10;
+            score += 100;
           }
         });
 
@@ -136,8 +159,10 @@ class SpeList with ChangeNotifier {
           videoId: spec.videoId,
           imgPath: dir.path + "/${spec.videoId}.jpg",
           mainSubjects: major.mainSubjects,
+          code: major.majorCode,
           common: <String>[
             "Mã Ngành: ${major.majorCode}",
+            "Tên Ngành: ${major.majorName}",
             "Tổ hợp xét tuyển: ${major.inputRequest[0].combinations.join(', ')}",
             "Điển chuẩn năm ${major.seasons[0].year}: ${major.seasons[0].points}",
             "Thời gian đào tạo: ${major.intendTime} năm",
@@ -155,8 +180,18 @@ class SpeList with ChangeNotifier {
     }
 
     _top = _list.toList();
-    _top.removeWhere((element) => element.score == 0);
+    _top.removeWhere((element) => element.score < 100);
     _top.sort((a,b) => -a.score.compareTo(b.score));
+
+    _h = _list.toList();
+    _h.retainWhere((e) => e.code.endsWith("H"));
+    _h.sort((a,b) => -a.score.compareTo(b.score));
+
+    _tc = _list.toList();
+    _tc.retainWhere((e) => e.code.endsWith("T") || e.code.endsWith("C"));
+    _tc.sort((a,b) => -a.score.compareTo(b.score));
+
+    setLoading(false);
     notifyListeners();
   }
 

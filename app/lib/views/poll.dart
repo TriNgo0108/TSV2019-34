@@ -174,26 +174,6 @@ class _PollState extends State<Poll> with SingleTickerProviderStateMixin {
                     onPressed: () => _nextPage(-1),
                   ),
           ),
-        ),
-        SafeArea(
-          child: Align(
-            alignment: Alignment.topRight,
-            child: FlatButton(
-              child: Text('Bỏ qua',
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 12.0,
-                      fontWeight: FontWeight.w400,
-                      fontStyle: FontStyle.italic)),
-              onPressed: () {
-                if (_isLastPage) { 
-                  specList.loadData();
-                  Navigator.pop(context);
-                } else {
-                  _nextPage(1);
-                }}
-            ),
-          ),
         )
       ]),
     );

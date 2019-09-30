@@ -4050,7 +4050,7 @@
     {
         "number": 77,
         "majorCode": "7310630H",
-        "majorName": "Việt Nam học",
+        "majorName": "Việt Nam học (Khu Hòa An)",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Khoa học Xã hội và Nhân văn",
@@ -4076,7 +4076,7 @@
         ],
         "specializations": [
             {
-                "specializationName": "HDV du lịch",
+                "specializationName": "HDV Du lịch",
                 "videoId": "iHeZ4f5foGs",
                 "objectives": [
                     "Chương trình đào tạo ngành Việt Nam học - chuyên ngành Hướng dẫn viên du lịch -  đào tạo những cử nhân khoa học có phẩm chất chính trị, đạo đức, có ý thức phục vụ nhân dân, có sức khoẻ, đáp ứng yêu cầu xây dựng và bảo vệ Tổ quốc.",
@@ -4100,7 +4100,7 @@
     {
         "number": 78,
         "majorCode": "7220201H",
-        "majorName": "Ngôn ngữ Anh",
+        "majorName": "Ngôn ngữ Anh (Khu Hòa An)",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Ngoại ngữ",
@@ -4151,7 +4151,7 @@
     {
         "number": 79,
         "majorCode": "7340101H",
-        "majorName": "Quản trị kinh doanh",
+        "majorName": "Quản trị kinh doanh (Khu Hòa An)",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Kinh tế",
@@ -4202,7 +4202,7 @@
     {
         "number": 80,
         "majorCode": "7620114H",
-        "majorName": "Kinh doanh nông nghiệp",
+        "majorName": "Kinh doanh nông nghiệp (Khu Hòa An)",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Phát triển Nông thôn",
@@ -4249,7 +4249,7 @@
     {
         "number": 81,
         "majorCode": "7620115H",
-        "majorName": "Kinh tế nông nghiệp",
+        "majorName": "Kinh tế nông nghiệp (Khu Hòa An)",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Kinh tế",
@@ -4302,7 +4302,7 @@
     {
         "number": 82,
         "majorCode": "7380101H",
-        "majorName": "Luật",
+        "majorName": "Luật (Khu Hòa An)",
         "intendTime": "4",
         "title": "Cử nhân",
         "collegeName": "Khoa Luật",
@@ -4348,7 +4348,7 @@
     {
         "number": 83,
         "majorCode": "7480201H",
-        "majorName": "Công nghệ thông tin",
+        "majorName": "Công nghệ thông tin (Khu Hòa An)",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ Thông tin & Truyền thông",
@@ -4401,7 +4401,7 @@
     {
         "number": 84,
         "majorCode": "7580201H",
-        "majorName": "Kỹ thuật xây dựng",
+        "majorName": "Kỹ thuật xây dựng (Khu Hòa An)",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Công nghệ",
@@ -4454,7 +4454,7 @@
     {
         "number": 85,
         "majorCode": "7620109H",
-        "majorName": "Nông học",
+        "majorName": "Nông học (Khu Hòa An)",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Phát triển Nông thôn",
@@ -4501,7 +4501,7 @@
     {
         "number": 86,
         "majorCode": "7620301H",
-        "majorName": "Nuôi trồng thủy sản",
+        "majorName": "Nuôi trồng thủy sản (Khu Hòa An)",
         "intendTime": "4",
         "title": "Kỹ sư",
         "collegeName": "Khoa Thủy sản",
@@ -4549,7 +4549,7 @@
     {
         "number": 87,
         "majorCode": "7420201T",
-        "majorName": "Viện NC&PT Công nghệ Sinh học",
+        "majorName": "Công nghệ Sinh học (Tiên Tiến)",
         "intendTime": "4.5",
         "title": "Cử nhân",
         "collegeName": "Viện NC&PT Công nghệ Sinh học",
@@ -4605,7 +4605,7 @@
     {
         "number": 88,
         "majorCode": "7620301T",
-        "majorName": "Nuôi trồng thủy sản",
+        "majorName": "Nuôi trồng thủy sản (Tiên Tiến)",
         "intendTime": "4.5",
         "title": "Kỹ sư",
         "collegeName": "Khoa Thủy sản",
