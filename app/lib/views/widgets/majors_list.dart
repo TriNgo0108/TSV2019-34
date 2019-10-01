@@ -7,8 +7,9 @@ class MajorList extends StatelessWidget {
   final String title;
   final List<Specialization> majors;
   final bool isLoading;
+  final String heroTag;
 
-  const MajorList({Key key, this.title, this.majors, this.isLoading}) : super(key: key);
+  const MajorList({Key key, this.title, this.majors, this.isLoading = false, this.heroTag}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +27,7 @@ class MajorList extends StatelessWidget {
             children: List<Widget>.generate(majors.length, (index) => Container(
               width: 300,
               child: Card(
-                child: MajorCard(major: majors[index]),
+                child: MajorCard(major: majors[index], heroTag: this.heroTag),
                 clipBehavior: Clip.hardEdge,
                 margin: EdgeInsets.all(8),
               ),

@@ -48,16 +48,19 @@ class _MyHomePageState extends State<MyHomePage> {
               title: "Có Thể Bạn Thích",
               majors: specList.getTop(),
               isLoading: specList.isLoading,
+              heroTag: "0",
             ),
             MajorList(
               title: "Các ngành Tiên tiến, Chất lượng cao",
               majors: specList.getTTCLC(),
               isLoading: specList.isLoading,
+              heroTag: "1",
             ),
             MajorList(
               title: "Đào tạo tại khu Hòa An (Hậu Giang)",
               majors: specList.getHoaAn(),
               isLoading: specList.isLoading,
+              heroTag: "2",
             ),
           ],
         )

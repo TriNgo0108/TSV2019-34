@@ -64,10 +64,8 @@ class _WebViewContainerState extends State<WebViewContainer> {
 }
 
 class WebViewArgs {
-  final String title;
   final String url;
-
-  WebViewArgs(this.url, this.title);
+  WebViewArgs(this.url);
 }
 
 class Menu extends StatelessWidget {

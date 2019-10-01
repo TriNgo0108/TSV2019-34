@@ -9,7 +9,7 @@ class Fab extends StatefulWidget {
 
 class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
   void _launchURL(String url, BuildContext context) async {
-    Navigator.pushNamed(context, '/web', arguments: WebViewArgs(url, url));
+    Navigator.pushNamed(context, '/web', arguments: WebViewArgs(url));
   }
 
   bool isOpened = false;

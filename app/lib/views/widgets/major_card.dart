@@ -1,14 +1,13 @@
-import 'dart:io';
 import 'dart:math';
-
 import 'package:app/providers/specialization.dart';
 import 'package:app/views/major_detail.dart';
 import 'package:flutter/material.dart';
 
 class MajorCard extends StatelessWidget {
   final Specialization major;
+  final String heroTag;
 
-  MajorCard({Key key, @required this.major}) : super(key: key);
+  MajorCard({Key key, @required this.major, this.heroTag}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +18,7 @@ class MajorCard extends StatelessWidget {
         Navigator.push(
             context,
             MaterialPageRoute(
-                builder: (context) => MajorDetail(major: major)));
+                builder: (context) => MajorDetail(major: major, heroTag: heroTag)));
       },
       child: Container(
         color: bgColor,
@@ -28,7 +27,7 @@ class MajorCard extends StatelessWidget {
             Stack(
               children: <Widget>[
                 Hero(
-                  tag: major.videoId,
+                  tag: major.videoId + heroTag + major.name,
                   child: AspectRatio(
                     aspectRatio: 16 / 9,
                     child: FittedBox(

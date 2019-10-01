@@ -78,7 +78,7 @@ class SpeList with ChangeNotifier {
 
   List<Specialization> getTop() {
     _top = _list.toList();
-    _top.removeWhere((element) => element.score < 100);
+    _top.removeWhere((element) => element.score < 10);
     _top.sort((a,b) => -a.score.compareTo(b.score));
     return _top;
   }
@@ -95,6 +95,13 @@ class SpeList with ChangeNotifier {
     _tc.retainWhere((e) => e.code.endsWith("T") || e.code.endsWith("C"));
     _tc.sort((a,b) => -a.score.compareTo(b.score));
     return _tc;
+  }
+
+  List<Specialization> getMajorsInCollege(college, currentMajor) {
+    var _m = _list.toList();
+    _m.retainWhere((e) => e.college == college && e.name != currentMajor);
+    _m.sort((a,b) => -a.score.compareTo(b.score));
+    return _m;
   }
 
   void updateUserCombines(List<String> combinations) {
@@ -126,11 +133,6 @@ class SpeList with ChangeNotifier {
     if (this.loaded == this.total) setLoading(false);
   }
 
-  Future<String> get _localPath async {
-    final directory = await getApplicationDocumentsDirectory();
-    return directory.path;
-  }
-
   Future loadData() async {
     setLoading(true);
 
@@ -142,9 +144,11 @@ class SpeList with ChangeNotifier {
 
         int score = 0;
         _userCombines.forEach((combine) {
-          if (major.inputRequest[0].combinations.contains(combine.split(' ')[0])) {
-            score += 10;
-          }
+          major.inputRequest.forEach((req) {
+            if (req.combinations.contains(combine.split(' ')[0])) {
+              score += 10;
+            }
+          });
         });
 
         _userMajorGroups.forEach((majorGroup) {
