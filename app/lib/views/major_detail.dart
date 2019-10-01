@@ -50,7 +50,7 @@ class _MajorDetailState extends State<MajorDetail> {
                   aspectRatio: 16 / 9,
                   child: FittedBox(
                     fit: BoxFit.fitWidth,
-                    child: Image.file(File(widget.major.imgPath))
+                    child: Image.asset(widget.major.imgPath)
                   )
                 ) : Container()
               ]

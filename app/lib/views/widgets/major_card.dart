@@ -16,11 +16,11 @@ class MajorCard extends StatelessWidget {
     
     return GestureDetector(
       onTap: () {
-            Navigator.push(
-                context,
-                MaterialPageRoute(
-                    builder: (context) => MajorDetail(major: major)));
-          },
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => MajorDetail(major: major)));
+      },
       child: Container(
         color: bgColor,
         child: Column(
@@ -33,7 +33,7 @@ class MajorCard extends StatelessWidget {
                     aspectRatio: 16 / 9,
                     child: FittedBox(
                       fit: BoxFit.fitWidth,
-                      child: Image.file(File(major.imgPath)),
+                      child: Image.asset(major.imgPath),
                     )
                   )
                 ),

@@ -133,22 +133,12 @@ class SpeList with ChangeNotifier {
 
   Future loadData() async {
     setLoading(true);
-    String localPath = await _localPath;
-    Directory dir = new Directory(localPath + '/majorImg');
-    if (!dir.existsSync()) await dir.create();
 
     List<Major> majors = await getMajorsList();
 
     majors.forEach((major) {
       increaseTotal(major.specializations.length);
       major.specializations.forEach((spec) async {
-
-        File img = new File(dir.path + "/${spec.videoId}.jpg");
-
-        if (!img.existsSync()) {
-          var response = await get("https://img.youtube.com/vi/${spec.videoId}/hqdefault.jpg");
-          img.writeAsBytesSync(response.bodyBytes);
-        }
 
         int score = 0;
         _userCombines.forEach((combine) {
@@ -175,7 +165,7 @@ class SpeList with ChangeNotifier {
           college: major.collegeName,
           majorGroup: major.majorGroup,
           videoId: spec.videoId,
-          imgPath: dir.path + "/${spec.videoId}.jpg",
+          imgPath: "assets/images/majors/${spec.videoId}.jpg",
           mainSubjects: major.mainSubjects,
           code: major.majorCode,
           common: <String>[
