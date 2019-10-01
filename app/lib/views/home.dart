@@ -96,15 +96,17 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
+                  SizedBox(width: 16),
                   Expanded(
                     child: InkWell(
-                      onTap: () {_controller.animateTo(0);},
+                      onTap: () {_controller.animateTo(0); setState(() {});},
                       child: Container(
                         padding: EdgeInsets.all(6),
                         child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
-                            Icon(Icons.home),
-                            Text("Trang chủ")
+                            Icon(Icons.home, color: _controller.index == 0 ? Colors.blue : Colors.grey,),
+                            _controller.index == 0 ? Text("Trang chủ", style: TextStyle(color: Colors.blue)) : Container()
                           ],
                         ),
                       ),
@@ -112,13 +114,14 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
                   ),
                   Expanded(
                     child: InkWell(
-                      onTap: () {_controller.animateTo(1);},
+                      onTap: () {_controller.animateTo(1); setState(() {});},
                       child: Container(
                         padding: EdgeInsets.all(6),
                         child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
-                            Icon(Icons.business),
-                            Text("Khoa, Viện")
+                            Icon(Icons.view_carousel, color: _controller.index == 1 ? Colors.blue : Colors.grey,),
+                            _controller.index == 1 ? Text("Khoa, Viện", style: TextStyle(color: Colors.blue)) : Container()
                           ],
                         ),
                       ),
