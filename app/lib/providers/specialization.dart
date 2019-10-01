@@ -97,9 +97,9 @@ class SpeList with ChangeNotifier {
     return _tc;
   }
 
-  List<Specialization> getMajorsInCollege(college, currentMajor) {
+  List<Specialization> getMajorsInCollege(college, currentMajor, code) {
     var _m = _list.toList();
-    _m.retainWhere((e) => e.college == college && e.name != currentMajor);
+    _m.retainWhere((e) => e.college == college && (e.name != currentMajor || e.code != code));
     _m.sort((a,b) => -a.score.compareTo(b.score));
     return _m;
   }

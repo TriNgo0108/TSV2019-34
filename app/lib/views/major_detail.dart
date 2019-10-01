@@ -85,7 +85,7 @@ class _MajorDetailState extends State<MajorDetail> {
                 ),
                 MajorList(
                   title: "Các ngành liên quan",
-                  majors: speList.getMajorsInCollege(widget.major.college, widget.major.name),
+                  majors: speList.getMajorsInCollege(widget.major.college, widget.major.name, widget.major.code),
                   heroTag: widget.heroTag + widget.major.videoId,
                 )
               ],

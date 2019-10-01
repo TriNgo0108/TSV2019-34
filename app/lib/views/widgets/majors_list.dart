@@ -27,7 +27,7 @@ class MajorList extends StatelessWidget {
             children: List<Widget>.generate(majors.length, (index) => Container(
               width: 300,
               child: Card(
-                child: MajorCard(major: majors[index], heroTag: this.heroTag),
+                child: MajorCard(major: majors[index], heroTag: "$heroTag$index"),
                 clipBehavior: Clip.hardEdge,
                 margin: EdgeInsets.all(8),
               ),
