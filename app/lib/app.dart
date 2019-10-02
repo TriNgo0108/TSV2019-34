@@ -1,5 +1,5 @@
 import 'package:app/providers/specialization.dart';
-import 'package:app/views/college_info.dart';
+import 'package:app/views/colleges_list.dart';
 import 'package:app/views/widgets/chatBot.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
           '/poll':          (context) => Poll(),
           '/web':           (context) => WebViewContainer(),
           '/chatbot':       (context) => BotDialogFlow(),
-          '/college_info':  (context) => CollegeInfo()
+          '/college_info':  (context) => CollegesList()
         },
       ),
     );

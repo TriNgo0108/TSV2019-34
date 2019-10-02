@@ -6,8 +6,10 @@ import 'package:flutter/rendering.dart';
 class MajorList extends StatelessWidget {
   final String title;
   final List<Specialization> majors;
+  final bool isLoading;
+  final String heroTag;
 
-  const MajorList({Key key, this.title, this.majors}) : super(key: key);
+  const MajorList({Key key, this.title, this.majors, this.isLoading = false, this.heroTag}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,22 +17,24 @@ class MajorList extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Container(
-          margin: EdgeInsets.fromLTRB(8,10,8,3),
+          margin: EdgeInsets.fromLTRB(16,10,8,3),
           child: Text(title, style: Theme.of(context).textTheme.title)
         ),
-        ConstrainedBox(
+        Container(
           constraints: BoxConstraints.expand(height: 260),
-          child: ListView(
-            scrollDirection: Axis.horizontal,
-            children: List<Widget>.generate(majors.length, (index) => Container(
-              width: 300,
-              child: Card(
-                child: MajorCard(major: majors[index]),
-                clipBehavior: Clip.hardEdge,
-                margin: EdgeInsets.all(8),
+          child: isLoading 
+            ? LinearProgressIndicator() 
+            : ListView(
+                scrollDirection: Axis.horizontal,
+                children: List<Widget>.generate(majors.length, (index) => Container(
+                  width: 300,
+                  child: Card(
+                    child: MajorCard(major: majors[index], heroTag: "$heroTag$index"),
+                    clipBehavior: Clip.hardEdge,
+                    margin: EdgeInsets.all(8),
+                  ),
+                )),
               ),
-            )),
-          ),
         ),
       ],
     );

@@ -1,16 +1,15 @@
 
 import 'package:app/models/college.dart';
-import 'package:app/views/college_detail_page.dart';
+import 'package:app/views/college_detail.dart';
 import 'package:flutter/material.dart';
 
 class CollegeWidget extends StatefulWidget {
   final College college;
   final PageController pageController;
-  final int currentPage;
+  final double currentPage;
+  final int index;
 
-  const CollegeWidget(
-      {Key key, this.college, this.pageController, this.currentPage})
-      : super(key: key);
+  const CollegeWidget({Key key, this.college, this.pageController, this.currentPage, this.index}) : super(key: key);
 
   @override
   _CollegeWidgetState createState() => _CollegeWidgetState();
@@ -19,78 +18,50 @@ class CollegeWidget extends StatefulWidget {
 class _CollegeWidgetState extends State<CollegeWidget> {
   @override
   Widget build(BuildContext context) {
-    final screenHeight = MediaQuery.of(context).size.height;
 
     return InkWell(
-      // trượt thì sẽ sang widget khác, nhấn vào sẽ vào onTap
         onTap: () {
           Navigator.push(
               context,
               MaterialPageRoute(
-                  builder: (context) => CollegeDetailPage(
-                        college: widget.college,
-                      )));
-          // chuyển đến trang giới thiệu khoa
+                builder: (context) => CollegeDetail(college: widget.college)
+              )
+          );
         },
         child: AnimatedBuilder(
-          // hiệu ứng với pageController nếu widget được chọn
           animation: widget.pageController,
           builder: (context, child) {
-            double value = 1;
-            if (widget.pageController.position.haveDimensions) {
-              value = widget.pageController.page - widget.currentPage;
-              value = (1 - (value.abs() * 0.6)).clamp(0.0, 1.0);
-            }
-            return Padding(
-              padding: EdgeInsets.only(left: 16, right: 16, bottom: 16),
+            double value = widget.currentPage - widget.index;
+            value = (1 - (value.abs() * 0.6)).clamp(0.0, 1.0);
+
+            return Container(
+              margin: EdgeInsets.fromLTRB(16*(1/value), 8, 16*(1/value), 8),
               child: Card(
-                borderOnForeground: true,
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10)),
+                clipBehavior: Clip.hardEdge,
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                 elevation: 2,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                child: Stack(
+                  fit: StackFit.expand,
                   children: <Widget>[
                     Hero(
                       tag: "background-${widget.college.imagePath}",
-                      child: Container(
-                        decoration: BoxDecoration(
-                          boxShadow: [
-                            BoxShadow(
-                            color: Colors.grey.shade100,
-                            offset: Offset(20.0, 10.0)
-                            )
-                          ]
-                        ),
-                        // bo cong hình nền của widget
-                        child: ClipRRect(
-                          borderRadius: new BorderRadius.circular(8.0),
-                          child: Image.asset(
-                            widget.college.imagePath,
-                            height: screenHeight * 0.55 * value,
-                            fit: BoxFit.cover,
-                          ),
-                        ),
+                      child: Image.asset(
+                        widget.college.imagePath,
+                        fit: BoxFit.fitHeight,
                       ),
                     ),
-                    Padding(
-                      padding: EdgeInsets.fromLTRB(16, 0 , 16, 20),
-                          child: Material(
-                            elevation: 4,
-                            shadowColor: Colors.grey.shade400,
-                            child: Container(
-                              child: Text(
-                                widget.college.fullName,
-                                style: TextStyle(
-                                  fontSize: 28 * value,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                                textAlign: TextAlign.center,
-                              ),
-                            ),
-                          ),
-                    ),
+                    Positioned(
+                      bottom: 0,
+                      left: 0,
+                      right: 0,
+                      child: Container(
+                        color: Colors.black45,
+                        padding: EdgeInsets.all(12),
+                        child: Text(widget.college.fullName,
+                          textAlign: TextAlign.center,
+                          style: TextStyle(color: Colors.white, fontSize: 18*value)),
+                      ),
+                    )
                   ],
                 ),
               ),

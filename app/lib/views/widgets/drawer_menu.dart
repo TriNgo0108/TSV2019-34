@@ -1,4 +1,3 @@
-import 'package:app/views/web_view.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -46,11 +45,6 @@ class DrawerMenu extends StatelessWidget {
             decoration: BoxDecoration(
               color: Colors.blueGrey
             ),
-          ),
-          ListTile(
-            leading: Icon(Icons.business),
-            title: Hero(child: Text('Danh sách khoa, viện'),tag: 'thong_tin_khoa',),
-            onTap: ()=>{Navigator.pushNamed(context, '/college_info')},
           ),
           ListTile(
             leading: Icon(FontAwesomeIcons.facebook),

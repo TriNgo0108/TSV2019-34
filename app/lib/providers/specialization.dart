@@ -56,6 +56,8 @@ class SpeList with ChangeNotifier {
   List<String> _userSubjects;
   List<String> _userMajorGroups;
   bool isLoading;
+  int total;
+  int loaded;
 
   SpeList() {
     this._list = [];
@@ -66,6 +68,8 @@ class SpeList with ChangeNotifier {
     this._userSubjects = [];
     this._userMajorGroups = [];
     this.isLoading = false;
+    this.total = 0;
+    this.loaded = 0;
   }
 
   List<Specialization> getAll() {
@@ -73,15 +77,31 @@ class SpeList with ChangeNotifier {
   }
 
   List<Specialization> getTop() {
+    _top = _list.toList();
+    _top.removeWhere((element) => element.score < 10);
+    _top.sort((a,b) => -a.score.compareTo(b.score));
     return _top;
   }
 
   List<Specialization> getHoaAn() {
+    _h = _list.toList();
+    _h.retainWhere((e) => e.code.endsWith("H"));
+    _h.sort((a,b) => -a.score.compareTo(b.score));
     return _h;
   }
 
   List<Specialization> getTTCLC() {
+    _tc = _list.toList();
+    _tc.retainWhere((e) => e.code.endsWith("T") || e.code.endsWith("C"));
+    _tc.sort((a,b) => -a.score.compareTo(b.score));
     return _tc;
+  }
+
+  List<Specialization> getMajorsInCollege(college, currentMajor, code) {
+    var _m = _list.toList();
+    _m.retainWhere((e) => e.college == college && (e.name != currentMajor || e.code != code));
+    _m.sort((a,b) => -a.score.compareTo(b.score));
+    return _m;
   }
 
   void updateUserCombines(List<String> combinations) {
@@ -104,39 +124,31 @@ class SpeList with ChangeNotifier {
     notifyListeners();
   }
 
-  Future<String> get _localPath async {
-    final directory = await getApplicationDocumentsDirectory();
-    return directory.path;
+  void increaseTotal(int value) {
+    this.total += value;
+  }
+
+  void increaseLoaded(int value) {
+    this.loaded += value;
+    if (this.loaded == this.total) setLoading(false);
   }
 
   Future loadData() async {
     setLoading(true);
-    if (_list.length > 0) return _list;
-
-    String localPath = await _localPath;
-    Directory dir = new Directory(localPath + '/majorImg');
-    print(">>> Data path: " + localPath);
-    
-    if (!dir.existsSync()) await dir.create();
 
     List<Major> majors = await getMajorsList();
 
-    for (var i = 0; i < majors.length; i++) {
-      Major major = majors[i];
-      for (var i = 0; i < major.specializations.length; i++) {
-        Specializations spec = major.specializations[i];
-        File img = new File(dir.path + "/${spec.videoId}.jpg");
-
-        if (!img.existsSync()) {
-          var response = await get("https://img.youtube.com/vi/${spec.videoId}/hqdefault.jpg");
-          img.writeAsBytesSync(response.bodyBytes);
-        }
+    majors.forEach((major) {
+      increaseTotal(major.specializations.length);
+      major.specializations.forEach((spec) async {
 
         int score = 0;
         _userCombines.forEach((combine) {
-          if (major.inputRequest[0].combinations.contains(combine.split(' ')[0])) {
-            score += 10;
-          }
+          major.inputRequest.forEach((req) {
+            if (req.combinations.contains(combine.split(' ')[0])) {
+              score += 10;
+            }
+          });
         });
 
         _userMajorGroups.forEach((majorGroup) {
@@ -157,7 +169,7 @@ class SpeList with ChangeNotifier {
           college: major.collegeName,
           majorGroup: major.majorGroup,
           videoId: spec.videoId,
-          imgPath: dir.path + "/${spec.videoId}.jpg",
+          imgPath: "assets/images/majors/${spec.videoId}.jpg",
           mainSubjects: major.mainSubjects,
           code: major.majorCode,
           common: <String>[
@@ -176,23 +188,11 @@ class SpeList with ChangeNotifier {
           developAbilities: spec.developAbilities,
           standardOutput: spec.standardOutput
         ));
-      }
-    }
 
-    _top = _list.toList();
-    _top.removeWhere((element) => element.score < 100);
-    _top.sort((a,b) => -a.score.compareTo(b.score));
+        increaseLoaded(1);
 
-    _h = _list.toList();
-    _h.retainWhere((e) => e.code.endsWith("H"));
-    _h.sort((a,b) => -a.score.compareTo(b.score));
-
-    _tc = _list.toList();
-    _tc.retainWhere((e) => e.code.endsWith("T") || e.code.endsWith("C"));
-    _tc.sort((a,b) => -a.score.compareTo(b.score));
-
-    setLoading(false);
-    notifyListeners();
+      });
+    });
   }
 
 }

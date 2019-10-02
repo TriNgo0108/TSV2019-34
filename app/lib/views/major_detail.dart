@@ -1,13 +1,16 @@
-import 'dart:io';
-
+import 'package:app/views/widgets/majors_list.dart';
+import 'package:provider/provider.dart';
+import '../providers/specialization.dart';
+import './web_view.dart';
 import 'package:app/providers/specialization.dart';
 import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class MajorDetail extends StatefulWidget {
   final Specialization major;
+  final String heroTag;
 
-  MajorDetail({Key key, this.major}) : super(key: key);
+  MajorDetail({Key key, this.major, this.heroTag}) : super(key: key);
 
   @override
   _MajorDetailState createState() => _MajorDetailState();
@@ -18,14 +21,16 @@ class _MajorDetailState extends State<MajorDetail> {
 
   @override
   Widget build(BuildContext context) {
+    var speList = Provider.of<SpeList>(context);
+
     return Scaffold(
       appBar: AppBar(
-        title: Text("Thông tin ngành học"),
+        title: Text(widget.major.name),
       ),
       body: Column(
         children: <Widget>[
-          widget.major.videoId != null ? Hero(
-            tag: widget.major.videoId,
+          Hero(
+            tag: widget.major.videoId + widget.heroTag  + widget.major.name,
             child: Stack(
               children: <Widget>[  
                 YoutubePlayer(
@@ -50,14 +55,15 @@ class _MajorDetailState extends State<MajorDetail> {
                   aspectRatio: 16 / 9,
                   child: FittedBox(
                     fit: BoxFit.fitWidth,
-                    child: Image.file(File(widget.major.imgPath))
+                    child: Image.asset(widget.major.imgPath)
                   )
                 ) : Container()
               ]
             ),
-          ) : Text("Video not found"),
+          ),
           Expanded(
             child: ListView(
+              physics: BouncingScrollPhysics(),
               children: <Widget>[
                 title(widget.major.name),
                 Container(
@@ -70,6 +76,18 @@ class _MajorDetailState extends State<MajorDetail> {
                 collapseContent("Mục tiêu đào tạo", widget.major.objective),
                 collapseContent("Vị trí việc làm", widget.major.job),
                 collapseContent("Khả năng học tập, nâng cao trình độ sau khi ra trường", widget.major.developAbilities),
+                ListTile(
+                  title: heading("Chuẩn đầu ra"),
+                  trailing: Icon(Icons.open_in_new),
+                  onTap: () {
+                    Navigator.of(context).pushNamed("/web", arguments: WebViewArgs(widget.major.standardOutput));
+                  },
+                ),
+                MajorList(
+                  title: "Các ngành liên quan",
+                  majors: speList.getMajorsInCollege(widget.major.college, widget.major.name, widget.major.code),
+                  heroTag: widget.heroTag + widget.major.videoId,
+                )
               ],
             ),
           )

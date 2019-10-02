@@ -1,61 +1,60 @@
-import 'dart:async';
-
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dialogflow/dialogflow_v2.dart';
 import 'package:flutter_dialogflow/v2/auth_google.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class BotDialogFlow extends StatefulWidget {
   BotDialogFlow({Key key}) : super(key: key);
 
   @override
-  _BotDialogFlow createState() => new _BotDialogFlow();
+  _BotDialogFlow createState() => _BotDialogFlow();
 }
 
 class _BotDialogFlow extends State<BotDialogFlow> {
-  final connectivity = new Connectivity();
-  bool _haveConnect=false;
-  StreamSubscription<ConnectivityResult> subscription;
+  final connectivity = Connectivity();
+  bool _haveConnect = false;
+
   @override
   void initState() {
-    // TODO: implement initState
-    connectivity.checkConnectivity().then((ConnectivityResult value){
-      print(value);
-      if (value != ConnectivityResult.none) _haveConnect=true;
-    });
-    subscription =
-        connectivity.onConnectivityChanged.listen((ConnectivityResult result) {
-          if (result == ConnectivityResult.wifi ||
-              result == ConnectivityResult.mobile) {
-            _haveConnect=true;
-          }
-          else _haveConnect=false;
-        });
     super.initState();
+    connectivity.checkConnectivity().then((ConnectivityResult value){
+      if (value != ConnectivityResult.none) _haveConnect=true;
+      _response("Hi");
+    });
+    connectivity.onConnectivityChanged.listen((ConnectivityResult result) {
+      if (result == ConnectivityResult.wifi ||
+          result == ConnectivityResult.mobile) {
+        _haveConnect=true;
+      } else {
+        _haveConnect=false;
+      }
+    });
   }
-  final List<ChatMessage> _messages = <ChatMessage>[];
-  final TextEditingController _textController = new TextEditingController();
 
+  final List<ChatMessage> _messages = <ChatMessage>[];
+  final TextEditingController _textController = TextEditingController();
 
   Widget _buildTextComposer() {
-    return new IconTheme(
-      data: new IconThemeData(color: Theme.of(context).accentColor),
-      child: new Container(
-        margin: const EdgeInsets.symmetric(horizontal: 8.0),
-        child: new Row(
+    return IconTheme(
+      data: IconThemeData(color: Theme.of(context).accentColor),
+      child: Container(
+        margin: EdgeInsets.symmetric(horizontal: 8.0),
+        child: Row(
           children: <Widget>[
-            new Flexible(
-              child: new TextField(
+            Flexible(
+              child: TextField(
                 controller: _textController,
                 onSubmitted: _handleSubmitted,
                 decoration:
-                new InputDecoration.collapsed(hintText: "Send a message"),
+                InputDecoration.collapsed(hintText: "Nhập lời nhắn tại đây..."),
               ),
             ),
-            new Container(
-              margin: new EdgeInsets.symmetric(horizontal: 4.0),
-              child: new IconButton(
-                  icon: new Icon(Icons.send),
+            Container(
+              margin: EdgeInsets.symmetric(horizontal: 4.0),
+              child: IconButton(
+                  icon: Icon(Icons.send, color: Colors.deepOrange,),
                   onPressed: () => _handleSubmitted(_textController.text)),
             ),
           ],
@@ -64,26 +63,21 @@ class _BotDialogFlow extends State<BotDialogFlow> {
     );
   }
 
-  void Response(query) async {
+  void _response(query) async {
     ChatMessage message;
-    if (_haveConnect){
-    _textController.clear();
-    AuthGoogle authGoogle =
-    await AuthGoogle(fileJson: "assets/jsons/credentials.json")
-        .build();
-    Dialogflow dialogflow =
-    Dialogflow(authGoogle: authGoogle, language: Language.english);
-    AIResponse response = await dialogflow.detectIntent(query);
-    message = new ChatMessage(
-      text: response.getMessage() ??
-          new CardDialogflow(response.getListMessage()[0],).title,
-      name: "Kelly",
-      type: false,
-    );
-  }
-    else{
-      message=ChatMessage(text: 'Kelly cần mạng để hoạt động',
-        name: "Kelly",
+    if (_haveConnect) {
+      _textController.clear();
+      AuthGoogle authGoogle = await AuthGoogle(fileJson: "assets/jsons/credentials.json").build();
+      Dialogflow dialogflow = Dialogflow(authGoogle: authGoogle, language: Language.english);
+      AIResponse response = await dialogflow.detectIntent(query);
+      message = ChatMessage(
+        text: response.getMessage() ?? CardDialogflow(response.getListMessage()[0],).title,
+        name: "Chatbot",
+        type: false,
+      );
+    } else {
+      message = ChatMessage(text: 'Chatbot cần kết nối mạng để hoạt động, vui lòng kiểm tra Wifi hoặc mạng di động.',
+        name: "Chatbot",
         type: false,
       );
     }
@@ -93,36 +87,55 @@ class _BotDialogFlow extends State<BotDialogFlow> {
   }
 
   void _handleSubmitted(String text) {
+    String msg = text.trim();
+    if (msg == "") return;
     _textController.clear();
-    ChatMessage message = new ChatMessage(
-      text: text,
-      name: "Thí Sinh",
+    ChatMessage message = ChatMessage(
+      text: msg,
+      name: "Người dùng",
       type: true,
     );
     setState(() {
       _messages.insert(0, message);
     });
-    Response(text);
+    _response(text);
   }
 
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
-        centerTitle: true,
-        title: new Text("Chatbot"),
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.orange,
+        title: Text("Tư vấn tự động"),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.call),
+            color: Colors.white,
+            onPressed: () => {
+              launch("tel:02923872728")
+            },
+          ),
+          IconButton(
+            icon: Icon(FontAwesomeIcons.facebookMessenger),
+            color: Colors.white,
+            onPressed: () => {
+              launch("http://m.me/ctu.tvts")
+            },
+          )
+        ],
       ),
-      body: new Column(children: <Widget>[
-        new Flexible(
-            child: new ListView.builder(
-              padding: new EdgeInsets.all(8.0),
-              reverse: true,
-              itemBuilder: (_, int index) => _messages[index],
-              itemCount: _messages.length,
-            )),
-        new Divider(height: 1.0),
-        new Container(
-          decoration: new BoxDecoration(color: Theme.of(context).cardColor),
+      body: Column(children: <Widget>[
+        Expanded(
+          child: ListView.builder(
+            physics: BouncingScrollPhysics(),
+            padding: EdgeInsets.all(8.0),
+            reverse: true,
+            itemBuilder: (_, int index) => _messages[index],
+            itemCount: _messages.length,
+          )),
+        Divider(height: 1.0),
+        Container(
+          decoration: BoxDecoration(color: Theme.of(context).cardColor),
           child: _buildTextComposer(),
         ),
       ]),
@@ -137,61 +150,67 @@ class ChatMessage extends StatelessWidget {
   final String name;
   final bool type;
 
-  List<Widget> otherMessage(context) {
-    return <Widget>[
-      new Container(
-        margin: const EdgeInsets.only(right: 16.0),
-        child: new CircleAvatar(child: Image.asset('assets/images/placeholder.png')),
-      ),
-      new Expanded(
-        child: new Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            new Text(this.name,
-                style: new TextStyle(fontWeight: FontWeight.bold)),
-            new Container(
-              margin: const EdgeInsets.only(top: 5.0),
-              child: new Text(text),
+  Widget botMessage(context) {
+    return Row(
+        children: <Widget>[
+          Container(
+            margin: EdgeInsets.only(right: 12.0),
+            child: CircleAvatar(child: Image.asset('assets/images/placeholder.png')),
+          ),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Container(
+                  child: Text(text, style: TextStyle(color: Colors.white, fontSize: 16),),
+                  padding: EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 6
+                        ),
+                  decoration: BoxDecoration(
+                    color: Colors.green,
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                ),
+              ],
             ),
-          ],
-        ),
-      ),
-    ];
+          ),
+          SizedBox(width: 32,)
+        ],
+      );
   }
 
-  List<Widget> myMessage(context) {
-    return <Widget>[
-      new Expanded(
-        child: new Column(
-          crossAxisAlignment: CrossAxisAlignment.end,
-          children: <Widget>[
-            new Text(this.name, style: Theme.of(context).textTheme.subhead),
-            new Container(
-              margin: const EdgeInsets.only(top: 5.0),
-              child: new Text(text),
+  Widget userMessage(context) {
+    return Row(
+        children: <Widget>[
+          SizedBox(width: 32),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: <Widget>[
+                Container(
+                  child: Text(text, textAlign: TextAlign.right, style: TextStyle(fontSize: 16)),
+                  padding: EdgeInsets.symmetric(
+                    horizontal: 8,
+                    vertical: 6
+                  ),
+                  decoration: BoxDecoration(
+                    border: Border.all(),
+                    borderRadius: BorderRadius.circular(8)
+                  ),
+                ),
+              ],
             ),
-          ],
-        ),
-      ),
-      new Container(
-        margin: const EdgeInsets.only(left: 16.0),
-        child: new CircleAvatar(
-            child: new Text(
-              this.name[0],
-              style: new TextStyle(fontWeight: FontWeight.bold),
-            )),
-      ),
-    ];
+          )
+        ],
+      );
   }
 
   @override
   Widget build(BuildContext context) {
-    return new Container(
-      margin: const EdgeInsets.symmetric(vertical: 10.0),
-      child: new Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: this.type ? myMessage(context) : otherMessage(context),
-      ),
+    return Container(
+      margin: EdgeInsets.symmetric(vertical: 8.0),
+      child: this.type ? userMessage(context) : botMessage(context),
     );
   }
 }
