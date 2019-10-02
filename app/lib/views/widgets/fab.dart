@@ -149,7 +149,7 @@ class _FabState extends State<Fab> with SingleTickerProviderStateMixin {
             ) : SizedBox(),
         Positioned(
           right: 16,
-          bottom: 24,
+          bottom: 34,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.end,
             crossAxisAlignment: CrossAxisAlignment.end,

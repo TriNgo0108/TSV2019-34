@@ -91,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
             notchMargin: 6,
             shape: CircularNotchedRectangle(),
             child: Container(
-              height: 52,
+              height: 62,
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
