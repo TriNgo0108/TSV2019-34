@@ -91,7 +91,7 @@ class CollegeDetail extends StatelessWidget {
                                   children: <Widget>[
                                     Text(majors[index].name.toUpperCase(), style: TextStyle(height: 1.2, fontSize: 16, fontWeight: FontWeight.bold), overflow: TextOverflow.ellipsis, maxLines: 2, softWrap: true,),
                                     Text("Mã ngành: ${majors[index].code}", style: TextStyle(height: 1.2)),
-                                    Text(majors[index].inputRequest[0].combinations.join(', '), style: TextStyle(height: 1.2)),
+                                    Text("Khối thi: " + majors[index].inputRequest[0].combinations.join(', '), style: TextStyle(height: 1.2)),
                                     Text("Điểm chuẩn ${majors[index].seasons[0].year}: ${majors[index].seasons[0].points}", style: TextStyle(height: 1.2))
                                   ],
                                 ),
