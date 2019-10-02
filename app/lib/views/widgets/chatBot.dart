@@ -9,11 +9,11 @@ class BotDialogFlow extends StatefulWidget {
   BotDialogFlow({Key key}) : super(key: key);
 
   @override
-  _BotDialogFlow createState() => new _BotDialogFlow();
+  _BotDialogFlow createState() => _BotDialogFlow();
 }
 
 class _BotDialogFlow extends State<BotDialogFlow> {
-  final connectivity = new Connectivity();
+  final connectivity = Connectivity();
   bool _haveConnect = false;
 
   @override
@@ -21,6 +21,7 @@ class _BotDialogFlow extends State<BotDialogFlow> {
     super.initState();
     connectivity.checkConnectivity().then((ConnectivityResult value){
       if (value != ConnectivityResult.none) _haveConnect=true;
+      _response("Hi");
     });
     connectivity.onConnectivityChanged.listen((ConnectivityResult result) {
       if (result == ConnectivityResult.wifi ||
@@ -33,27 +34,27 @@ class _BotDialogFlow extends State<BotDialogFlow> {
   }
 
   final List<ChatMessage> _messages = <ChatMessage>[];
-  final TextEditingController _textController = new TextEditingController();
+  final TextEditingController _textController = TextEditingController();
 
   Widget _buildTextComposer() {
-    return new IconTheme(
-      data: new IconThemeData(color: Theme.of(context).accentColor),
-      child: new Container(
-        margin: const EdgeInsets.symmetric(horizontal: 8.0),
-        child: new Row(
+    return IconTheme(
+      data: IconThemeData(color: Theme.of(context).accentColor),
+      child: Container(
+        margin: EdgeInsets.symmetric(horizontal: 8.0),
+        child: Row(
           children: <Widget>[
-            new Flexible(
-              child: new TextField(
+            Flexible(
+              child: TextField(
                 controller: _textController,
                 onSubmitted: _handleSubmitted,
                 decoration:
-                new InputDecoration.collapsed(hintText: "Nhập lời nhắn tại đây..."),
+                InputDecoration.collapsed(hintText: "Nhập lời nhắn tại đây..."),
               ),
             ),
-            new Container(
-              margin: new EdgeInsets.symmetric(horizontal: 4.0),
-              child: new IconButton(
-                  icon: new Icon(Icons.send),
+            Container(
+              margin: EdgeInsets.symmetric(horizontal: 4.0),
+              child: IconButton(
+                  icon: Icon(Icons.send, color: Colors.deepOrange,),
                   onPressed: () => _handleSubmitted(_textController.text)),
             ),
           ],
@@ -69,8 +70,8 @@ class _BotDialogFlow extends State<BotDialogFlow> {
       AuthGoogle authGoogle = await AuthGoogle(fileJson: "assets/jsons/credentials.json").build();
       Dialogflow dialogflow = Dialogflow(authGoogle: authGoogle, language: Language.english);
       AIResponse response = await dialogflow.detectIntent(query);
-      message = new ChatMessage(
-        text: response.getMessage() ?? new CardDialogflow(response.getListMessage()[0],).title,
+      message = ChatMessage(
+        text: response.getMessage() ?? CardDialogflow(response.getListMessage()[0],).title,
         name: "Chatbot",
         type: false,
       );
@@ -89,7 +90,7 @@ class _BotDialogFlow extends State<BotDialogFlow> {
     String msg = text.trim();
     if (msg == "") return;
     _textController.clear();
-    ChatMessage message = new ChatMessage(
+    ChatMessage message = ChatMessage(
       text: msg,
       name: "Người dùng",
       type: true,
@@ -104,6 +105,7 @@ class _BotDialogFlow extends State<BotDialogFlow> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.orange,
         title: Text("Tư vấn tự động"),
         actions: <Widget>[
           IconButton(
@@ -160,15 +162,14 @@ class ChatMessage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Container(
-                  child: Text(text, style: TextStyle(color: Colors.white),),
+                  child: Text(text, style: TextStyle(color: Colors.white, fontSize: 16),),
                   padding: EdgeInsets.symmetric(
                           horizontal: 8,
                           vertical: 6
                         ),
                   decoration: BoxDecoration(
-                    color: Colors.blue,
-                    border: Border.all(color: Colors.blueAccent),
-                    borderRadius: BorderRadius.circular(8)
+                    color: Colors.green,
+                    borderRadius: BorderRadius.circular(8),
                   ),
                 ),
               ],
@@ -188,7 +189,7 @@ class ChatMessage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.end,
               children: <Widget>[
                 Container(
-                  child: Text(text, textAlign: TextAlign.right),
+                  child: Text(text, textAlign: TextAlign.right, style: TextStyle(fontSize: 16)),
                   padding: EdgeInsets.symmetric(
                     horizontal: 8,
                     vertical: 6
@@ -207,8 +208,8 @@ class ChatMessage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return new Container(
-      margin: const EdgeInsets.symmetric(vertical: 16.0),
+    return Container(
+      margin: EdgeInsets.symmetric(vertical: 8.0),
       child: this.type ? userMessage(context) : botMessage(context),
     );
   }
