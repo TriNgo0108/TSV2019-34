@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
             title: Text("Trang chủ"),
             actions: <Widget>[
               IconButton(
-                icon: Icon(FontAwesomeIcons.robot), 
+                icon: Icon(Icons.chat), 
                 onPressed: () {
                   Navigator.pushNamed(context, '/chatbot');
                 })
