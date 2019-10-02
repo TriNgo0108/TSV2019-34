@@ -17,22 +17,24 @@ class MajorList extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Container(
-          margin: EdgeInsets.fromLTRB(8,10,8,3),
+          margin: EdgeInsets.fromLTRB(16,10,8,3),
           child: Text(title, style: Theme.of(context).textTheme.title)
         ),
-        ConstrainedBox(
+        Container(
           constraints: BoxConstraints.expand(height: 260),
-          child: isLoading ? LinearProgressIndicator() : ListView(
-            scrollDirection: Axis.horizontal,
-            children: List<Widget>.generate(majors.length, (index) => Container(
-              width: 300,
-              child: Card(
-                child: MajorCard(major: majors[index], heroTag: "$heroTag$index"),
-                clipBehavior: Clip.hardEdge,
-                margin: EdgeInsets.all(8),
+          child: isLoading 
+            ? LinearProgressIndicator() 
+            : ListView(
+                scrollDirection: Axis.horizontal,
+                children: List<Widget>.generate(majors.length, (index) => Container(
+                  width: 300,
+                  child: Card(
+                    child: MajorCard(major: majors[index], heroTag: "$heroTag$index"),
+                    clipBehavior: Clip.hardEdge,
+                    margin: EdgeInsets.all(8),
+                  ),
+                )),
               ),
-            )),
-          ),
         ),
       ],
     );

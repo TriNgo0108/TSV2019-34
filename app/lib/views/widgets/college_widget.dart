@@ -6,11 +6,10 @@ import 'package:flutter/material.dart';
 class CollegeWidget extends StatefulWidget {
   final College college;
   final PageController pageController;
-  final int currentPage;
+  final double currentPage;
+  final int index;
 
-  const CollegeWidget(
-      {Key key, this.college, this.pageController, this.currentPage})
-      : super(key: key);
+  const CollegeWidget({Key key, this.college, this.pageController, this.currentPage, this.index}) : super(key: key);
 
   @override
   _CollegeWidgetState createState() => _CollegeWidgetState();
@@ -32,11 +31,9 @@ class _CollegeWidgetState extends State<CollegeWidget> {
         child: AnimatedBuilder(
           animation: widget.pageController,
           builder: (context, child) {
-            double value = 1;
-            if (widget.pageController.position.haveDimensions) {
-              value = widget.pageController.page - widget.currentPage;
-              value = (1 - (value.abs() * 0.6)).clamp(0.0, 1.0);
-            }
+            double value = widget.currentPage - widget.index;
+            value = (1 - (value.abs() * 0.6)).clamp(0.0, 1.0);
+
             return Container(
               margin: EdgeInsets.fromLTRB(16*(1/value), 8, 16*(1/value), 8),
               child: Card(

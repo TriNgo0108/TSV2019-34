@@ -11,17 +11,19 @@ class CollegesList extends StatefulWidget {
 class _CollegesListState extends State<CollegesList> with SingleTickerProviderStateMixin{
   PageController _pageController;
   PageController _indicatorCtrl;
-  var _animationCtrl;
-  var animation;
+  double _currentPage = 999;
+  double initPage = 999;
 
   @override
   void initState() {
     super.initState();
-    _pageController = PageController(viewportFraction: 0.5, initialPage: 999, keepPage: false);
-    _indicatorCtrl = PageController(viewportFraction: 0.1, initialPage: 999, keepPage: false);
-    _animationCtrl = AnimationController(duration: Duration(milliseconds: 1500), vsync: this);
-    animation = Tween<double>(begin: 0.0, end: 1.0).animate(_animationCtrl)
-        ..addListener((){setState(() {});});
+    _pageController = PageController(viewportFraction: 0.5, initialPage: initPage.toInt(), keepPage: false);
+    _indicatorCtrl = PageController(viewportFraction: 0.1, initialPage: initPage.toInt(), keepPage: false);
+    _pageController.addListener(() {
+      setState(() {
+        _currentPage = _pageController.page;
+      });
+    });
   }
 
   @override
@@ -39,11 +41,8 @@ class _CollegesListState extends State<CollegesList> with SingleTickerProviderSt
             itemBuilder: (_, i) => AnimatedBuilder(
               animation: _pageController,
               builder: (context, child) {
-                double value = 1;
-                if (_indicatorCtrl.position.haveDimensions) {
-                  value = _indicatorCtrl.page - i;
-                  value = (1 - (value.abs() * 0.16)).clamp(0.0, 1.0);
-                }
+                double value = _currentPage - i;
+                value = (1 - (value.abs() * 0.16)).clamp(0.0, 1.0);
                 
                 return Stack(
                   children: <Widget>[
@@ -97,10 +96,10 @@ class _CollegesListState extends State<CollegesList> with SingleTickerProviderSt
                     itemBuilder: (_, i) => CollegeWidget(
                         college: colleges[i%colleges.length],
                         pageController: _pageController,
-                        currentPage: i
+                        index: i,
+                        currentPage: _currentPage
                     ),
                     onPageChanged: (index) {
-                      _animationCtrl.reverse();
                       _indicatorCtrl.animateToPage(index, duration: Duration(milliseconds: 500), curve: Curves.linear);
                     },
                   ),
